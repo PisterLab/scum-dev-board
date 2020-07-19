@@ -1,0 +1,38 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A 11000 8500
+encoding utf-8
+Sheet 1 1
+Title "SCuM PCB1"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Logic_LevelTranslator:SN74AVC4T245PW U?
+U 1 1 5F13ADFA
+P 4550 3900
+F 0 "U?" H 4550 3211 50  0000 C CNN
+F 1 "SN74AVC4T245PW" H 4550 3120 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 4550 3800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 4500 3650 50  0001 C CNN
+	1    4550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logic_LevelTranslator:SN74AVC4T245PW U?
+U 1 1 5F13BCF6
+P 7200 3850
+F 0 "U?" H 7200 3161 50  0000 C CNN
+F 1 "SN74AVC4T245PW" H 7200 3070 50  0000 C CNN
+F 2 "Package_SO:TSSOP-16_4.4x5mm_P0.65mm" H 7200 3750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/sn74avc4t245.pdf" H 7150 3600 50  0001 C CNN
+	1    7200 3850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

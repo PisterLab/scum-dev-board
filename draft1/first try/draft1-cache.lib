@@ -1,4 +1,40 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# SamacSys_Parts_74AVC4TD245PW,118
+#
+DEF SamacSys_Parts_74AVC4TD245PW,118 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "SamacSys_Parts_74AVC4TD245PW,118" 1150 200 50 H V L CNN
+F2 "SOP65P640X110-16N" 1150 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74AVC4TD245PW.pdf" 1150 0 50 H I L CNN
+F4 "74AVC4TD245PW - 4-bit dual supply translating transceiver with configurable voltage translation;3-state@en-us" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "Nexperia" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74AVC4TD245PW,118" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "74AVC4TD245PW,118" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/74avc4td245pw118/nexperia" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "771-74AVC4TD245PW118" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Nexperia/74AVC4TD245PW118?qs=vbj%2FKoHZRAgBf2UMQ6EFpA%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -800 200 -800 200 100 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 10 1300 -600 200 L 50 50 0 0 P
+X ~ 11 1300 -500 200 L 50 50 0 0 P
+X ~ 12 1300 -400 200 L 50 50 0 0 P
+X ~ 13 1300 -300 200 L 50 50 0 0 P
+X ~ 14 1300 -200 200 L 50 50 0 0 P
+X ~ 15 1300 -100 200 L 50 50 0 0 P
+X ~ 16 1300 0 200 L 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+X ~ 4 0 -300 200 R 50 50 0 0 P
+X ~ 5 0 -400 200 R 50 50 0 0 P
+X ~ 6 0 -500 200 R 50 50 0 0 P
+X ~ 7 0 -600 200 R 50 50 0 0 P
+X ~ 8 0 -700 200 R 50 50 0 0 P
+X ~ 9 1300 -700 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 #End Library
