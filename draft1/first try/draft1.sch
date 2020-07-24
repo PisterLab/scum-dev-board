@@ -356,6 +356,12 @@ F 3 "" H 3000 1900 50  0001 C CNN
 	1    3000 1900
 	-1   0    0    1   
 $EndComp
-Text GLabel 5800 4300 0    50   Input ~ 0
+Text GLabel 5800 4300 0    50   BiDi ~ 0
 LF_CLK_EXT_IN
+Text GLabel 5800 4400 0    50   BiDi ~ 0
+HARD_RESET
+Text GLabel 5800 4500 0    50   BiDi ~ 0
+ASC_PHI1
+Text GLabel 5800 4600 0    50   BiDi ~ 0
+ASC_PHI2
 $EndSCHEMATC
