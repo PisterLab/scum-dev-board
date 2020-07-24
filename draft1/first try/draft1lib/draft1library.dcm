@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +UART33
+D Power symbol creates a global label with name "+VBAT"
+K power-flag battery
+$ENDCMP
+#
 $CMP +VBAT
 D Power symbol creates a global label with name "+VBAT"
 K power-flag battery
