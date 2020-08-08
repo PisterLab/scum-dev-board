@@ -10,4 +10,9 @@ D Power symbol creates a global label with name "+VBAT"
 K power-flag battery
 $ENDCMP
 #
+$CMP +VDDIO
+D Power symbol creates a global label with name "+VDDIO"
+K power-flag battery
+$ENDCMP
+#
 #End Doc Library
