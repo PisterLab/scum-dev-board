@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 2
 Title "SCuM PCB1"
 Date ""
 Rev ""
@@ -505,10 +505,201 @@ U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
 $EndSheet
+NoConn ~ -2350 6950
+Wire Wire Line
+	-550 7350 -950 7350
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A824C
+P -250 7350
+AR Path="/5F3B307E/5F3A824C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A824C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -250 7100 50  0001 C CNN
+F 1 "GND" V -245 7222 50  0000 R CNN
+F 2 "" H -250 7350 50  0001 C CNN
+F 3 "" H -250 7350 50  0001 C CNN
+	1    -250 7350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3A8252
+P -400 7350
+AR Path="/5F3B307E/5F3A8252" Ref="C?"  Part="1" 
+AR Path="/5F3A8252" Ref="C?"  Part="1" 
+F 0 "C?" V -148 7350 50  0000 C CNN
+F 1 "0.1uF" V -239 7350 50  0000 C CNN
+F 2 "" H -362 7200 50  0001 C CNN
+F 3 "~" H -400 7350 50  0001 C CNN
+	1    -400 7350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-1400 6000 -1250 6000
+Connection ~ -1400 6000
+Wire Wire Line
+	-1400 6000 -1400 5900
+Wire Wire Line
+	-1550 6000 -1400 6000
+NoConn ~ -2350 6850
+NoConn ~ -2350 7150
+NoConn ~ -2350 7050
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A825F
+P -2350 7350
+AR Path="/5F3B307E/5F3A825F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A825F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2350 7100 50  0001 C CNN
+F 1 "GND" V -2345 7222 50  0000 R CNN
+F 2 "" H -2350 7350 50  0001 C CNN
+F 3 "" H -2350 7350 50  0001 C CNN
+	1    -2350 7350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A8265
+P -1650 8050
+AR Path="/5F3B307E/5F3A8265" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A8265" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1650 7800 50  0001 C CNN
+F 1 "GND" H -1645 7877 50  0000 C CNN
+F 2 "" H -1650 8050 50  0001 C CNN
+F 3 "" H -1650 8050 50  0001 C CNN
+	1    -1650 8050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A826B
+P -950 6000
+AR Path="/5F3B307E/5F3A826B" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A826B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -950 5750 50  0001 C CNN
+F 1 "GND" V -945 5872 50  0000 R CNN
+F 2 "" H -950 6000 50  0001 C CNN
+F 3 "" H -950 6000 50  0001 C CNN
+	1    -950 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3A8271
+P -1100 6000
+AR Path="/5F3B307E/5F3A8271" Ref="C?"  Part="1" 
+AR Path="/5F3A8271" Ref="C?"  Part="1" 
+F 0 "C?" V -848 6000 50  0000 C CNN
+F 1 "0.1uF" V -939 6000 50  0000 C CNN
+F 2 "" H -1062 5850 50  0001 C CNN
+F 3 "~" H -1100 6000 50  0001 C CNN
+	1    -1100 6000
+	0    -1   -1   0   
+$EndComp
+Connection ~ -1750 6250
+Wire Wire Line
+	-1750 6250 -1750 6050
+$Comp
+L draft1library:+UART33 #PWR?
+U 1 1 5F3A8279
+P -1400 5900
+AR Path="/5F3B307E/5F3A8279" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A8279" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1400 5750 50  0001 C CNN
+F 1 "+UART33" H -1385 6073 50  0000 C CNN
+F 2 "" H -1400 5900 50  0001 C CNN
+F 3 "" H -1400 5900 50  0001 C CNN
+	1    -1400 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-1550 6000 -1550 6250
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A8280
+P -2050 6250
+AR Path="/5F3B307E/5F3A8280" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A8280" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2050 6000 50  0001 C CNN
+F 1 "GND" V -2045 6122 50  0000 R CNN
+F 2 "" H -2050 6250 50  0001 C CNN
+F 3 "" H -2050 6250 50  0001 C CNN
+	1    -2050 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F3A8286
+P -1900 6250
+AR Path="/5F3B307E/5F3A8286" Ref="C?"  Part="1" 
+AR Path="/5F3A8286" Ref="C?"  Part="1" 
+F 0 "C?" V -2152 6250 50  0000 C CNN
+F 1 "0.1uF" V -2061 6250 50  0000 C CNN
+F 2 "" H -1862 6100 50  0001 C CNN
+F 3 "~" H -1900 6250 50  0001 C CNN
+	1    -1900 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F3A828C
+P -1750 6050
+AR Path="/5F3B307E/5F3A828C" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A828C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1750 5900 50  0001 C CNN
+F 1 "+VDDIO" H -1735 6223 50  0000 C CNN
+F 2 "" H -1750 6050 50  0001 C CNN
+F 3 "" H -1750 6050 50  0001 C CNN
+	1    -1750 6050
+	1    0    0    -1  
+$EndComp
+NoConn ~ -950 7150
+NoConn ~ -950 6850
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F3A8294
+P -950 7450
+AR Path="/5F3B307E/5F3A8294" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A8294" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -950 7300 50  0001 C CNN
+F 1 "+VDDIO" V -935 7578 50  0000 L CNN
+F 2 "" H -950 7450 50  0001 C CNN
+F 3 "" H -950 7450 50  0001 C CNN
+	1    -950 7450
+	0    1    1    0   
+$EndComp
+$Comp
+L Sensor_Motion:MPU-9250 U9AB?
+U 1 1 5F3A829A
+P -1650 7150
+AR Path="/5F3B307E/5F3A829A" Ref="U9AB?"  Part="1" 
+AR Path="/5F3A829A" Ref="U9AB?"  Part="1" 
+F 0 "U9AB?" H -1300 6250 50  0000 C CNN
+F 1 "MPU-9250" H -1250 6350 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H -1650 6150 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H -1650 7000 50  0001 C CNN
+	1    -1650 7150
+	1    0    0    -1  
+$EndComp
+NoConn ~ -3050 5850
+NoConn ~ -3050 5950
+$Comp
+L Sensor_Motion:ICM-20948 U?
+U 1 1 5F3A82A2
+P -3550 5950
+AR Path="/5F3B307E/5F3A82A2" Ref="U?"  Part="1" 
+AR Path="/5F3A82A2" Ref="U?"  Part="1" 
+F 0 "U?" H -3550 5161 50  0000 C CNN
+F 1 "ICM-20948" H -3550 5070 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H -3550 4950 50  0001 C CNN
+F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf" H -3550 5800 50  0001 C CNN
+	1    -3550 5950
+	1    0    0    -1  
+$EndComp
 $Sheet
-S 7750 4400 2450 2100
-U 5F3B307E
-F0 "U_top_sheet" 50
-F1 "top_sheet.sch" 50
+S 7900 5200 1100 1000
+U 5F3B0B28
+F0 "U_scan_chain_boot" 50
+F1 "scan_chain_boot.sch" 50
 $EndSheet
 $EndSCHEMATC
