@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "SCuM PCB1"
 Date ""
 Rev ""
@@ -504,5 +504,11 @@ S 0    10000 11050 7250
 U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
+$EndSheet
+$Sheet
+S -150 19700 11350 9250
+U 5F3B307E
+F0 "Sheet5F3B307D" 50
+F1 "file5F3B307D.sch" 50
 $EndSheet
 $EndSCHEMATC
