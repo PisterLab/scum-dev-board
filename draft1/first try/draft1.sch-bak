@@ -282,4 +282,42 @@ F 3 "" H 3050 5700 50  0001 C CNN
 	1    3050 5700
 	0    -1   -1   0   
 $EndComp
+Text Label 4000 5300 2    50   ~ 0
+GPIO10
+Text Label 4000 5400 2    50   ~ 0
+GPI12
+Text Label 4000 5500 2    50   ~ 0
+GPIO14
+Text Label 4000 5600 2    50   ~ 0
+GPIO15
+$Comp
+L power:GND #PWR?
+U 1 1 5F3EC8B2
+P 4000 5700
+F 0 "#PWR?" H 4000 5450 50  0001 C CNN
+F 1 "GND" V 4005 5572 50  0000 R CNN
+F 2 "" H 4000 5700 50  0001 C CNN
+F 3 "" H 4000 5700 50  0001 C CNN
+	1    4000 5700
+	0    1    1    0   
+$EndComp
+Text Label 4850 5300 0    50   ~ 0
+GPIO9
+Text Label 4850 5600 0    50   ~ 0
+GPIO0
+Text Label 4850 5500 0    50   ~ 0
+GPIO13
+Text Label 4850 5400 0    50   ~ 0
+GPIO11
+$Comp
+L power:GND #PWR?
+U 1 1 5F3ED1BB
+P 4850 5700
+F 0 "#PWR?" H 4850 5450 50  0001 C CNN
+F 1 "GND" V 4855 5572 50  0000 R CNN
+F 2 "" H 4850 5700 50  0001 C CNN
+F 3 "" H 4850 5700 50  0001 C CNN
+	1    4850 5700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
