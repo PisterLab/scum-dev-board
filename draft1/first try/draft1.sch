@@ -500,13 +500,13 @@ F 3 "~" H 1050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 0    10000 11050 7250
+S 4600 5550 1100 1850
 U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
 $EndSheet
 $Sheet
-S -150 19700 11350 9250
+S 7750 4400 2450 2100
 U 5F3B307E
 F0 "U_top_sheet" 50
 F1 "top_sheet.sch" 50
