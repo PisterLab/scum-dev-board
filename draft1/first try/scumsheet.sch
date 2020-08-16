@@ -684,4 +684,80 @@ Wire Wire Line
 	10550 1700 10550 950 
 Text Label 10550 950  3    50   ~ 0
 VDDD_AO_DISABLE
+$Comp
+L SamacSys_Parts:ADT7302ARMZ IC?
+U 1 1 5F38CA2F
+P 9350 5550
+F 0 "IC?" H 9900 5815 50  0000 C CNN
+F 1 "ADT7302ARMZ" H 9900 5724 50  0000 C CNN
+F 2 "SOP65P490X110-8N" H 10300 5650 50  0001 L CNN
+F 3 "" H 10300 5550 50  0001 L CNN
+F 4 "Digital Temperature Sensor" H 10300 5450 50  0001 L CNN "Description"
+F 5 "" H 10300 5350 50  0001 L CNN "Height"
+F 6 "Analog Devices" H 10300 5250 50  0001 L CNN "Manufacturer_Name"
+F 7 "ADT7302ARMZ" H 10300 5150 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "ADT7302ARMZ" H 10300 5050 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/adt7302armz/analog-devices" H 10300 4950 50  0001 L CNN "Arrow Price/Stock"
+F 10 "584-ADT7302ARMZ" H 10300 4850 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADT7302ARMZ?qs=WIvQP4zGanhRdU0rZVc2KQ%3D%3D" H 10300 4750 50  0001 L CNN "Mouser Price/Stock"
+	1    9350 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5650 8800 5650
+Wire Wire Line
+	9350 5750 8800 5750
+Wire Wire Line
+	9350 5850 8800 5850
+$Comp
+L Device:C C23
+U 1 1 5F391C6F
+P 10450 6150
+F 0 "C23" H 10565 6196 50  0000 L CNN
+F 1 "NP" H 10565 6105 50  0000 L CNN
+F 2 "" H 10488 6000 50  0001 C CNN
+F 3 "~" H 10450 6150 50  0001 C CNN
+	1    10450 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F394492
+P 10450 6300
+F 0 "#PWR?" H 10450 6050 50  0001 C CNN
+F 1 "GND" H 10455 6127 50  0000 C CNN
+F 2 "" H 10450 6300 50  0001 C CNN
+F 3 "" H 10450 6300 50  0001 C CNN
+	1    10450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F394FE1
+P 10600 5850
+F 0 "#PWR?" H 10600 5700 50  0001 C CNN
+F 1 "+VDDIO" V 10615 5978 50  0000 L CNN
+F 2 "" H 10600 5850 50  0001 C CNN
+F 3 "" H 10600 5850 50  0001 C CNN
+	1    10600 5850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10600 5850 10450 5850
+Wire Wire Line
+	10450 5850 10450 6000
+Connection ~ 10450 5850
+Wire Wire Line
+	10450 5750 10850 5750
+Wire Wire Line
+	10450 5650 10850 5650
+NoConn ~ 10450 5550
+Text Label 8800 5850 0    50   ~ 0
+GP4
+Text Label 10850 5750 0    50   ~ 0
+GP5
+Text Label 8800 5650 0    50   ~ 0
+GP6
+Text Label 8800 5750 0    50   ~ 0
+GP7
 $EndSCHEMATC

@@ -139,6 +139,33 @@ X ~ 9 1300 -700 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_ADT7302ARMZ
+#
+DEF SamacSys_Parts_ADT7302ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "SamacSys_Parts_ADT7302ARMZ" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Digital Temperature Sensor" 950 -100 50 H I L CNN "Description"
+F5 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F6 "ADT7302ARMZ" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "ADT7302ARMZ" 950 -500 50 H I L CNN "Arrow Part Number"
+F8 "https://www.arrow.com/en/products/adt7302armz/analog-devices" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F9 "584-ADT7302ARMZ" 950 -700 50 H I L CNN "Mouser Part Number"
+F10 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADT7302ARMZ?qs=WIvQP4zGanhRdU0rZVc2KQ%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X NC 1 0 0 200 R 50 50 0 0 N
+X DOUT 2 0 -100 200 R 50 50 0 0 P
+X CS~ 3 0 -200 200 R 50 50 0 0 P
+X SCLK 4 0 -300 200 R 50 50 0 0 P
+X VDD 5 1100 -300 200 L 50 50 0 0 P
+X DIN 6 1100 -200 200 L 50 50 0 0 P
+X GND 7 1100 -100 200 L 50 50 0 0 P
+X NC_2 8 1100 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # draft1library_+UART33
 #
 DEF draft1library_+UART33 #PWR 0 0 Y Y 1 F P
