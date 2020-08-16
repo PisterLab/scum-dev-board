@@ -871,6 +871,4 @@ F 3 "" H 10850 5650 50  0001 C CNN
 	1    10850 5650
 	0    -1   -1   0   
 $EndComp
-Text HLabel 900  4100 1    50   BiDi ~ 0
-idk_hierarch
 $EndSCHEMATC
