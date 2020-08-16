@@ -491,7 +491,7 @@ Text HLabel 7050 6050 3    50   Input ~ 0
 Text HLabel 8000 4800 2    50   BiDi ~ 0
 LF_CLK_EXT_IN
 Text HLabel 8000 4200 2    50   BiDi ~ 0
-HARD_RESETT
+HARD_RESET
 $Comp
 L draft1library:+VBAT #PWR?
 U 1 1 5F406DAE
@@ -529,7 +529,7 @@ ASC_LOAD
 Text HLabel 8000 3150 2    50   BiDi ~ 0
 ASC_IN
 Text HLabel 8000 3000 2    50   BiDi ~ 0
-ASC_EXT_override
+ASC_EXT_OVERRIDE
 $Comp
 L Device:C C20
 U 1 1 5F40AC2A

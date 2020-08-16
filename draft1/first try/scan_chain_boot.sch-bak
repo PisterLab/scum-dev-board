@@ -346,21 +346,21 @@ Text Label 9600 3150 2    50   ~ 0
 ASC_PHI2_33
 Wire Wire Line
 	9850 3150 9600 3150
-Text GLabel 6450 4700 0    50   BiDi ~ 0
+Text HLabel 6450 4700 0    50   BiDi ~ 0
 LF_CLK_EXT_IN
-Text GLabel 6450 4800 0    50   BiDi ~ 0
+Text HLabel 6450 4800 0    50   BiDi ~ 0
 HARD_RESET
-Text GLabel 6450 4900 0    50   BiDi ~ 0
+Text HLabel 6450 4900 0    50   BiDi ~ 0
 ASC_PHI1
-Text GLabel 6450 5000 0    50   BiDi ~ 0
+Text HLabel 6450 5000 0    50   BiDi ~ 0
 ASC_PHI2
-Text GLabel 2500 4750 0    50   BiDi ~ 0
+Text HLabel 2500 4750 0    50   BiDi ~ 0
 ASC_OUT
-Text GLabel 2500 4850 0    50   BiDi ~ 0
+Text HLabel 2500 4850 0    50   BiDi ~ 0
 ASC_LOAD
-Text GLabel 2500 4950 0    50   BiDi ~ 0
+Text HLabel 2500 4950 0    50   BiDi ~ 0
 ASC_IN
-Text GLabel 2500 5050 0    50   BiDi ~ 0
+Text HLabel 2500 5050 0    50   BiDi ~ 0
 ASC_EXT_OVERRIDE
 Wire Wire Line
 	9850 2350 9600 2350
@@ -383,11 +383,11 @@ F 3 "" H 9600 2750 50  0001 C CNN
 	1    9600 2750
 	0    1    1    0   
 $EndComp
-Text GLabel 9600 2550 0    50   BiDi ~ 0
+Text HLabel 9600 2550 0    50   BiDi ~ 0
 3WB_DATA
-Text GLabel 9600 2450 0    50   BiDi ~ 0
+Text HLabel 9600 2450 0    50   BiDi ~ 0
 3WB_ENB
-Text GLabel 9600 2350 0    50   BiDi ~ 0
+Text HLabel 9600 2350 0    50   BiDi ~ 0
 3WB_CLK
 $Comp
 L Device:R_US R?
