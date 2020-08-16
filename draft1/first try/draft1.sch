@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 4550 5950 1100 1850
+S 8550 1500 1100 1850
 U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
@@ -211,9 +211,113 @@ F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 2450 6700 1100 1000
+S 6750 2200 1100 1000
 U 5F3B0B28
 F0 "U_scan_chain_boot" 50
 F1 "scan_chain_boot.sch" 50
 $EndSheet
+$Sheet
+S 8350 4550 1300 1150
+U 5F3E80E4
+F0 "U_uart" 50
+F1 "uart.sch" 50
+$EndSheet
+$Comp
+L draft1library:fpga_header_1 JA1
+U 1 1 5F3E8685
+P 2650 5550
+F 0 "JA1" H 2625 6065 50  0000 C CNN
+F 1 "fpga_header_1" H 2625 5974 50  0000 C CNN
+F 2 "" H 2450 5900 50  0001 C CNN
+F 3 "" H 2450 5900 50  0001 C CNN
+	1    2650 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:fpga_header_1 JB1
+U 1 1 5F3E8E41
+P 4450 5550
+F 0 "JB1" H 4425 6065 50  0000 C CNN
+F 1 "fpga_header_1" H 4425 5974 50  0000 C CNN
+F 2 "" H 4250 5900 50  0001 C CNN
+F 3 "" H 4250 5900 50  0001 C CNN
+	1    4450 5550
+	1    0    0    -1  
+$EndComp
+Text Label 2200 5300 2    50   ~ 0
+GPIO2
+Text Label 3050 5300 0    50   ~ 0
+GPIO1
+Text Label 2200 5400 2    50   ~ 0
+GPIO4
+Text Label 2200 5500 2    50   ~ 0
+GPIO6
+Text Label 2200 5600 2    50   ~ 0
+GPIO8
+$Comp
+L power:GND #PWR?
+U 1 1 5F3E9FD6
+P 2200 5700
+F 0 "#PWR?" H 2200 5450 50  0001 C CNN
+F 1 "GND" V 2205 5572 50  0000 R CNN
+F 2 "" H 2200 5700 50  0001 C CNN
+F 3 "" H 2200 5700 50  0001 C CNN
+	1    2200 5700
+	0    1    1    0   
+$EndComp
+Text Label 3050 5600 0    50   ~ 0
+GPIO7
+Text Label 3050 5500 0    50   ~ 0
+GPIO5
+Text Label 3050 5400 0    50   ~ 0
+GPIO3
+$Comp
+L power:GND #PWR?
+U 1 1 5F3EB8F1
+P 3050 5700
+F 0 "#PWR?" H 3050 5450 50  0001 C CNN
+F 1 "GND" V 3055 5572 50  0000 R CNN
+F 2 "" H 3050 5700 50  0001 C CNN
+F 3 "" H 3050 5700 50  0001 C CNN
+	1    3050 5700
+	0    -1   -1   0   
+$EndComp
+Text Label 4000 5300 2    50   ~ 0
+GPIO10
+Text Label 4000 5400 2    50   ~ 0
+GPI12
+Text Label 4000 5500 2    50   ~ 0
+GPIO14
+Text Label 4000 5600 2    50   ~ 0
+GPIO15
+$Comp
+L power:GND #PWR?
+U 1 1 5F3EC8B2
+P 4000 5700
+F 0 "#PWR?" H 4000 5450 50  0001 C CNN
+F 1 "GND" V 4005 5572 50  0000 R CNN
+F 2 "" H 4000 5700 50  0001 C CNN
+F 3 "" H 4000 5700 50  0001 C CNN
+	1    4000 5700
+	0    1    1    0   
+$EndComp
+Text Label 4850 5300 0    50   ~ 0
+GPIO9
+Text Label 4850 5600 0    50   ~ 0
+GPIO0
+Text Label 4850 5500 0    50   ~ 0
+GPIO13
+Text Label 4850 5400 0    50   ~ 0
+GPIO11
+$Comp
+L power:GND #PWR?
+U 1 1 5F3ED1BB
+P 4850 5700
+F 0 "#PWR?" H 4850 5450 50  0001 C CNN
+F 1 "GND" V 4855 5572 50  0000 R CNN
+F 2 "" H 4850 5700 50  0001 C CNN
+F 3 "" H 4850 5700 50  0001 C CNN
+	1    4850 5700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
