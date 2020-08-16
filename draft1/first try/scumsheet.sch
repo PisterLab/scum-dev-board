@@ -440,33 +440,33 @@ $EndComp
 Text GLabel 3700 6050 3    50   BiDi ~ 0
 GPIO0
 Text GLabel 3850 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO1
 Text GLabel 4000 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO2
 Text GLabel 4150 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO3
 Text GLabel 4300 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO4
 Text GLabel 4450 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO5
 Text GLabel 4600 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO6
 Text GLabel 4750 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO7
 Text GLabel 5050 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO8
 Text GLabel 5200 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO9
 Text GLabel 5350 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO10
 Text GLabel 5500 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO11
 Text GLabel 5650 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO12
 Text GLabel 5800 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO13
 Text GLabel 5950 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO14
 Text GLabel 6100 6050 3    50   BiDi ~ 0
-GPIO0
+GPIO15
 $EndSCHEMATC
