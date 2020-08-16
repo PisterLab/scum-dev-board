@@ -520,7 +520,7 @@ F 3 "" H 8000 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 4050 9250 4050
-Text Label 9250 4050 0    50   ~ 0
+Text Label 9250 4050 2    50   ~ 0
 BOOT_SOURCE_SEL
 Text GLabel 8000 3600 2    50   BiDi ~ 0
 ASC_PHI1
@@ -560,7 +560,7 @@ Text Label 8050 2700 0    50   ~ 0
 AUX_LDO_OUTPUT
 Wire Wire Line
 	8000 2550 8700 2550
-Text Label 8700 2550 0    50   ~ 0
+Text Label 8700 2550 2    50   ~ 0
 VDDD_DISABLE
 $Comp
 L Device:C C18
@@ -754,10 +754,121 @@ Wire Wire Line
 NoConn ~ 10450 5550
 Text Label 8800 5850 0    50   ~ 0
 GP4
-Text Label 10850 5750 0    50   ~ 0
+Text Label 10850 5750 2    50   ~ 0
 GP5
 Text Label 8800 5650 0    50   ~ 0
 GP6
 Text Label 8800 5750 0    50   ~ 0
 GP7
+$Comp
+L draft1library:+VDDAO #PWR?
+U 1 1 5F3A3049
+P 4550 1150
+F 0 "#PWR?" H 4550 1000 50  0001 C CNN
+F 1 "+VDDAO" H 4565 1323 50  0000 C CNN
+F 2 "" H 4550 1150 50  0001 C CNN
+F 3 "" H 4550 1150 50  0001 C CNN
+	1    4550 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A4A87
+P 3550 700
+F 0 "#PWR?" H 3550 450 50  0001 C CNN
+F 1 "GND" V 3555 572 50  0000 R CNN
+F 2 "" H 3550 700 50  0001 C CNN
+F 3 "" H 3550 700 50  0001 C CNN
+	1    3550 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5F3A5D08
+P 3700 700
+F 0 "C13" H 3815 746 50  0000 L CNN
+F 1 "NP" H 3815 655 50  0000 L CNN
+F 2 "" H 3738 550 50  0001 C CNN
+F 3 "~" H 3700 700 50  0001 C CNN
+	1    3700 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L draft1library:+VDDD #PWR?
+U 1 1 5F3A7150
+P 4100 700
+F 0 "#PWR?" H 4100 550 50  0001 C CNN
+F 1 "+VDDD" H 4115 873 50  0000 C CNN
+F 2 "" H 4100 700 50  0001 C CNN
+F 3 "" H 4100 700 50  0001 C CNN
+	1    4100 700 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 1150 4850 700 
+Wire Wire Line
+	4850 700  4100 700 
+Wire Wire Line
+	3850 700  4100 700 
+Connection ~ 4100 700 
+$Comp
+L draft1library:+VDDD #PWR?
+U 1 1 5F3A8DE4
+P 6000 700
+F 0 "#PWR?" H 6000 550 50  0001 C CNN
+F 1 "+VDDD" V 6015 828 50  0000 L CNN
+F 2 "" H 6000 700 50  0001 C CNN
+F 3 "" H 6000 700 50  0001 C CNN
+	1    6000 700 
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_US R12
+U 1 1 5F3A9D0E
+P 5650 700
+F 0 "R12" H 5718 746 50  0000 L CNN
+F 1 "R_US" H 5718 655 50  0000 L CNN
+F 2 "" V 5690 690 50  0001 C CNN
+F 3 "~" H 5650 700 50  0001 C CNN
+	1    5650 700 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6000 700  5800 700 
+Wire Wire Line
+	5500 700  5000 700 
+Wire Wire Line
+	5000 700  5000 1150
+Text Notes 9650 4950 0    50   ~ 0
+put a thing here
+Wire Wire Line
+	10350 4900 10850 4900
+Wire Wire Line
+	10300 5050 10550 5050
+Wire Wire Line
+	10550 5050 10550 5150
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F3AF896
+P 10550 5150
+F 0 "#PWR?" H 10550 5000 50  0001 C CNN
+F 1 "+VBAT" H 10565 5323 50  0000 C CNN
+F 2 "" H 10550 5150 50  0001 C CNN
+F 3 "" H 10550 5150 50  0001 C CNN
+	1    10550 5150
+	-1   0    0    1   
+$EndComp
+Text Label 10350 4900 0    50   ~ 0
+BOOT_SOURCE_SEL
+$Comp
+L power:GND #PWR?
+U 1 1 5F3B118E
+P 10850 5650
+F 0 "#PWR?" H 10850 5400 50  0001 C CNN
+F 1 "GND" V 10855 5522 50  0000 R CNN
+F 2 "" H 10850 5650 50  0001 C CNN
+F 3 "" H 10850 5650 50  0001 C CNN
+	1    10850 5650
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
