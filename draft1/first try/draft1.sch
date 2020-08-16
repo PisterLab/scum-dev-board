@@ -488,23 +488,6 @@ F 3 "" H 1650 1850 50  0001 C CNN
 	1    1650 1850
 	-1   0    0    1   
 $EndComp
-$Sheet
-S 12300 0    12650 8500
-U 5F1F2002
-F0 "scumpadsheet" 50
-F1 "scumpadsheet.sch" 50
-$EndSheet
-$Comp
-L draft1library:SCUM_PAD P?
-U 1 1 5F2FDF4D
-P 18650 3750
-F 0 "P?" H 22178 3513 50  0000 L CNN
-F 1 "SCUM_PAD" H 22178 3422 50  0000 L CNN
-F 2 "" H 18650 3750 50  0001 C CNN
-F 3 "" H 18650 3750 50  0001 C CNN
-	1    18650 3750
-	1    0    0    -1  
-$EndComp
 $Comp
 L draft1library:+VBAT #PWR?
 U 1 1 5F2FF5C2
@@ -587,4 +570,10 @@ F 3 "" H 17800 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	17800 7050 17800 7350
+$Sheet
+S 12300 0    12650 8500
+U 5F1F2002
+F0 "scumpadsheet" 50
+F1 "scumpadsheet.sch" 50
+$EndSheet
 $EndSCHEMATC
