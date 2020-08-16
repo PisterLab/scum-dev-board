@@ -469,4 +469,91 @@ Text GLabel 5950 6050 3    50   BiDi ~ 0
 GPIO14
 Text GLabel 6100 6050 3    50   BiDi ~ 0
 GPIO15
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F404D67
+P 4900 6050
+F 0 "#PWR?" H 4900 5900 50  0001 C CNN
+F 1 "+VDDIO" H 4915 6223 50  0000 C CNN
+F 2 "" H 4900 6050 50  0001 C CNN
+F 3 "" H 4900 6050 50  0001 C CNN
+	1    4900 6050
+	-1   0    0    1   
+$EndComp
+Text GLabel 6450 6050 3    50   Output ~ 0
+RsTx
+Text GLabel 6600 6050 3    50   Input ~ 0
+RsRx
+Text GLabel 6750 6050 3    50   Input ~ 0
+3WB_CLK
+Text GLabel 6900 6050 3    50   Input ~ 0
+3WB_ENB
+Text GLabel 7050 6050 3    50   Input ~ 0
+3WB_DATA
+Text GLabel 8000 4800 2    50   BiDi ~ 0
+LF_CLK_EXT_IN
+Text GLabel 8000 4200 2    50   BiDi ~ 0
+HARD_RESETT
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F406DAE
+P 8000 4350
+F 0 "#PWR?" H 8000 4200 50  0001 C CNN
+F 1 "+VBAT" V 8015 4478 50  0000 L CNN
+F 2 "" H 8000 4350 50  0001 C CNN
+F 3 "" H 8000 4350 50  0001 C CNN
+	1    8000 4350
+	0    1    1    0   
+$EndComp
+Text GLabel 8000 3750 2    50   BiDi ~ 0
+ASC_PHI2
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F407E52
+P 8000 3900
+F 0 "#PWR?" H 8000 3750 50  0001 C CNN
+F 1 "+VBAT" V 8015 4028 50  0000 L CNN
+F 2 "" H 8000 3900 50  0001 C CNN
+F 3 "" H 8000 3900 50  0001 C CNN
+	1    8000 3900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 4050 9250 4050
+Text Label 9250 4050 0    50   ~ 0
+BOOT_SOURCE_SEL
+Text GLabel 8000 3600 2    50   BiDi ~ 0
+ASC_PHI1
+Text GLabel 8000 3450 2    50   BiDi ~ 0
+ASC_OUT
+Text GLabel 8000 3300 2    50   BiDi ~ 0
+ASC_LOAD
+Text GLabel 8000 3150 2    50   BiDi ~ 0
+ASC_IN
+Text GLabel 8000 3000 2    50   BiDi ~ 0
+ASC_EXT_override
+$Comp
+L Device:C C20
+U 1 1 5F40AC2A
+P 8850 2700
+F 0 "C20" H 8965 2746 50  0000 L CNN
+F 1 "NP" H 8965 2655 50  0000 L CNN
+F 2 "" H 8888 2550 50  0001 C CNN
+F 3 "~" H 8850 2700 50  0001 C CNN
+	1    8850 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 2700 8700 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5F40CD8D
+P 9000 2700
+F 0 "#PWR?" H 9000 2450 50  0001 C CNN
+F 1 "GND" V 9005 2572 50  0000 R CNN
+F 2 "" H 9000 2700 50  0001 C CNN
+F 3 "" H 9000 2700 50  0001 C CNN
+	1    9000 2700
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
