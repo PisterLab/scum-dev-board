@@ -576,4 +576,22 @@ U 5F1F2002
 F0 "scumpadsheet" 50
 F1 "scumpadsheet.sch" 50
 $EndSheet
+$Comp
+L draft1library:scum3 U8?
+U 1 1 5F3B381A
+P 19400 3150
+F 0 "U8?" H 23044 2971 50  0000 L CNN
+F 1 "scum3" H 23044 2880 50  0000 L CNN
+F 2 "" H 19400 3150 50  0001 C CNN
+F 3 "" H 19400 3150 50  0001 C CNN
+	1    19400 3150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 15700 1450
+NoConn ~ 15700 1600
+NoConn ~ 15700 1750
+NoConn ~ 15700 2200
+NoConn ~ 15700 2350
+NoConn ~ 15700 2500
+NoConn ~ 15700 2650
 $EndSCHEMATC
