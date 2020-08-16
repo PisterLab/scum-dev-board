@@ -437,37 +437,35 @@ F 3 "" H 3100 6050 50  0001 C CNN
 	1    3100 6050
 	-1   0    0    1   
 $EndComp
-Text GLabel 3700 6050 3    50   BiDi ~ 0
-GPIO0
-Text GLabel 3850 6050 3    50   BiDi ~ 0
+Text HLabel 3850 6050 3    50   BiDi ~ 0
 GPIO1
-Text GLabel 4000 6050 3    50   BiDi ~ 0
+Text HLabel 4000 6050 3    50   BiDi ~ 0
 GPIO2
-Text GLabel 4150 6050 3    50   BiDi ~ 0
+Text HLabel 4150 6050 3    50   BiDi ~ 0
 GPIO3
-Text GLabel 4300 6050 3    50   BiDi ~ 0
+Text HLabel 4300 6050 3    50   BiDi ~ 0
 GPIO4
-Text GLabel 4450 6050 3    50   BiDi ~ 0
+Text HLabel 4450 6050 3    50   BiDi ~ 0
 GPIO5
-Text GLabel 4600 6050 3    50   BiDi ~ 0
+Text HLabel 4600 6050 3    50   BiDi ~ 0
 GPIO6
-Text GLabel 4750 6050 3    50   BiDi ~ 0
+Text HLabel 4750 6050 3    50   BiDi ~ 0
 GPIO7
-Text GLabel 5050 6050 3    50   BiDi ~ 0
+Text HLabel 5050 6050 3    50   BiDi ~ 0
 GPIO8
-Text GLabel 5200 6050 3    50   BiDi ~ 0
+Text HLabel 5200 6050 3    50   BiDi ~ 0
 GPIO9
-Text GLabel 5350 6050 3    50   BiDi ~ 0
+Text HLabel 5350 6050 3    50   BiDi ~ 0
 GPIO10
-Text GLabel 5500 6050 3    50   BiDi ~ 0
+Text HLabel 5500 6050 3    50   BiDi ~ 0
 GPIO11
-Text GLabel 5650 6050 3    50   BiDi ~ 0
+Text HLabel 5650 6050 3    50   BiDi ~ 0
 GPIO12
-Text GLabel 5800 6050 3    50   BiDi ~ 0
+Text HLabel 5800 6050 3    50   BiDi ~ 0
 GPIO13
-Text GLabel 5950 6050 3    50   BiDi ~ 0
+Text HLabel 5950 6050 3    50   BiDi ~ 0
 GPIO14
-Text GLabel 6100 6050 3    50   BiDi ~ 0
+Text HLabel 6100 6050 3    50   BiDi ~ 0
 GPIO15
 $Comp
 L draft1library:+VDDIO #PWR?
@@ -480,19 +478,19 @@ F 3 "" H 4900 6050 50  0001 C CNN
 	1    4900 6050
 	-1   0    0    1   
 $EndComp
-Text GLabel 6450 6050 3    50   Output ~ 0
+Text HLabel 6450 6050 3    50   Output ~ 0
 RsTx
-Text GLabel 6600 6050 3    50   Input ~ 0
+Text HLabel 6600 6050 3    50   Input ~ 0
 RsRx
-Text GLabel 6750 6050 3    50   Input ~ 0
+Text HLabel 6750 6050 3    50   Input ~ 0
 3WB_CLK
-Text GLabel 6900 6050 3    50   Input ~ 0
+Text HLabel 6900 6050 3    50   Input ~ 0
 3WB_ENB
-Text GLabel 7050 6050 3    50   Input ~ 0
+Text HLabel 7050 6050 3    50   Input ~ 0
 3WB_DATA
-Text GLabel 8000 4800 2    50   BiDi ~ 0
+Text HLabel 8000 4800 2    50   BiDi ~ 0
 LF_CLK_EXT_IN
-Text GLabel 8000 4200 2    50   BiDi ~ 0
+Text HLabel 8000 4200 2    50   BiDi ~ 0
 HARD_RESETT
 $Comp
 L draft1library:+VBAT #PWR?
@@ -505,7 +503,7 @@ F 3 "" H 8000 4350 50  0001 C CNN
 	1    8000 4350
 	0    1    1    0   
 $EndComp
-Text GLabel 8000 3750 2    50   BiDi ~ 0
+Text HLabel 8000 3750 2    50   BiDi ~ 0
 ASC_PHI2
 $Comp
 L draft1library:+VBAT #PWR?
@@ -522,15 +520,15 @@ Wire Wire Line
 	8000 4050 9250 4050
 Text Label 9250 4050 2    50   ~ 0
 BOOT_SOURCE_SEL
-Text GLabel 8000 3600 2    50   BiDi ~ 0
+Text HLabel 8000 3600 2    50   BiDi ~ 0
 ASC_PHI1
-Text GLabel 8000 3450 2    50   BiDi ~ 0
+Text HLabel 8000 3450 2    50   BiDi ~ 0
 ASC_OUT
-Text GLabel 8000 3300 2    50   BiDi ~ 0
+Text HLabel 8000 3300 2    50   BiDi ~ 0
 ASC_LOAD
-Text GLabel 8000 3150 2    50   BiDi ~ 0
+Text HLabel 8000 3150 2    50   BiDi ~ 0
 ASC_IN
-Text GLabel 8000 3000 2    50   BiDi ~ 0
+Text HLabel 8000 3000 2    50   BiDi ~ 0
 ASC_EXT_override
 $Comp
 L Device:C C20
@@ -871,4 +869,6 @@ F 3 "" H 10850 5650 50  0001 C CNN
 	1    10850 5650
 	0    -1   -1   0   
 $EndComp
+Text HLabel 3700 6050 3    50   BiDi ~ 0
+GPIO0
 $EndSCHEMATC

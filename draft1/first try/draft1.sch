@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 8550 1500 1100 1850
+S 8550 1500 1600 4650
 U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
@@ -217,7 +217,7 @@ F0 "U_scan_chain_boot" 50
 F1 "scan_chain_boot.sch" 50
 $EndSheet
 $Sheet
-S 8350 4550 1300 1150
+S 6100 5300 1300 1150
 U 5F3E80E4
 F0 "U_uart" 50
 F1 "uart.sch" 50
