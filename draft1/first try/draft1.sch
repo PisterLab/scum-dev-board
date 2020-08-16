@@ -489,64 +489,6 @@ F 3 "" H 1650 1850 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR?
-U 1 1 5F2FF5C2
-P 15650 7350
-F 0 "#PWR?" H 15650 7200 50  0001 C CNN
-F 1 "+VBAT" H 15665 7523 50  0000 C CNN
-F 2 "" H 15650 7350 50  0001 C CNN
-F 3 "" H 15650 7350 50  0001 C CNN
-	1    15650 7350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	15650 7050 15650 7350
-$Comp
-L power:GND #PWR?
-U 1 1 5F303554
-P 15850 7350
-F 0 "#PWR?" H 15850 7100 50  0001 C CNN
-F 1 "GND" V 15855 7222 50  0000 R CNN
-F 2 "" H 15850 7350 50  0001 C CNN
-F 3 "" H 15850 7350 50  0001 C CNN
-	1    15850 7350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15850 7050 15850 7350
-Text GLabel 16600 7050 3    50   BiDi ~ 0
-GPIO0
-Text GLabel 16750 7050 3    50   BiDi ~ 0
-GPIO1
-Text GLabel 16900 7050 3    50   BiDi ~ 0
-GPIO2
-Text GLabel 17050 7050 3    50   BiDi ~ 0
-GPIO3
-Text GLabel 17200 7050 3    50   BiDi ~ 0
-GPIO4
-Text GLabel 17350 7050 3    50   BiDi ~ 0
-GPIO5
-Text GLabel 17500 7050 3    50   BiDi ~ 0
-GPIO6
-Text GLabel 17650 7050 3    50   BiDi ~ 0
-GPIO7
-Text GLabel 17950 7050 3    50   BiDi ~ 0
-GPIO8
-Text GLabel 18100 7050 3    50   BiDi ~ 0
-GPIO9
-Text GLabel 18250 7050 3    50   BiDi ~ 0
-GPIO10
-Text GLabel 18400 7050 3    50   BiDi ~ 0
-GPIO11
-Text GLabel 18550 7050 3    50   BiDi ~ 0
-GPIO12
-Text GLabel 18700 7050 3    50   BiDi ~ 0
-GPIO13
-Text GLabel 18850 7050 3    50   BiDi ~ 0
-GPIO14
-Text GLabel 19000 7050 3    50   BiDi ~ 0
-GPIO15
-$Comp
 L power:PWR_FLAG #FLG?
 U 1 1 5F308B79
 P 1050 1850
@@ -557,41 +499,10 @@ F 3 "~" H 1050 1850 50  0001 C CNN
 	1    1050 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L draft1library:+VDDIO #PWR?
-U 1 1 5F30D677
-P 17800 7350
-F 0 "#PWR?" H 17800 7200 50  0001 C CNN
-F 1 "+VDDIO" H 17815 7523 50  0000 C CNN
-F 2 "" H 17800 7350 50  0001 C CNN
-F 3 "" H 17800 7350 50  0001 C CNN
-	1    17800 7350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	17800 7050 17800 7350
 $Sheet
-S 12300 0    12650 8500
-U 5F1F2002
-F0 "scumpadsheet" 50
-F1 "scumpadsheet.sch" 50
+S 0    10000 11050 7250
+U 5F3B1D81
+F0 "scumsheet" 50
+F1 "scumsheet.sch" 50
 $EndSheet
-$Comp
-L draft1library:scum3 U8?
-U 1 1 5F3B381A
-P 19400 3150
-F 0 "U8?" H 23044 2971 50  0000 L CNN
-F 1 "scum3" H 23044 2880 50  0000 L CNN
-F 2 "" H 19400 3150 50  0001 C CNN
-F 3 "" H 19400 3150 50  0001 C CNN
-	1    19400 3150
-	1    0    0    -1  
-$EndComp
-NoConn ~ 15700 1450
-NoConn ~ 15700 1600
-NoConn ~ 15700 1750
-NoConn ~ 15700 2200
-NoConn ~ 15700 2350
-NoConn ~ 15700 2500
-NoConn ~ 15700 2650
 $EndSCHEMATC
