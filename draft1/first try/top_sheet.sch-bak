@@ -1,0 +1,181 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Sensor_Motion:ICM-20948 U?
+U 1 1 5F3B387C
+P 1100 1250
+F 0 "U?" H 1100 461 50  0000 C CNN
+F 1 "ICM-20948" H 1100 370 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 1100 250 50  0001 C CNN
+F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf" H 1100 1100 50  0001 C CNN
+	1    1100 1250
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1600 1250
+NoConn ~ 1600 1150
+$Comp
+L Sensor_Motion:MPU-9250 U9AB
+U 1 1 5F3B7667
+P 3000 2450
+F 0 "U9AB" H 3350 1550 50  0000 C CNN
+F 1 "MPU-9250" H 3400 1650 50  0000 C CNN
+F 2 "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm" H 3000 1450 50  0001 C CNN
+F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 3000 2300 50  0001 C CNN
+	1    3000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F3B9067
+P 3700 2750
+F 0 "#PWR?" H 3700 2600 50  0001 C CNN
+F 1 "+VDDIO" V 3715 2878 50  0000 L CNN
+F 2 "" H 3700 2750 50  0001 C CNN
+F 3 "" H 3700 2750 50  0001 C CNN
+	1    3700 2750
+	0    1    1    0   
+$EndComp
+NoConn ~ 3700 2150
+NoConn ~ 3700 2450
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F3BED62
+P 2900 1350
+F 0 "#PWR?" H 2900 1200 50  0001 C CNN
+F 1 "+VDDIO" H 2915 1523 50  0000 C CNN
+F 2 "" H 2900 1350 50  0001 C CNN
+F 3 "" H 2900 1350 50  0001 C CNN
+	1    2900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C27
+U 1 1 5F3BF2EE
+P 2750 1550
+F 0 "C27" V 2498 1550 50  0000 C CNN
+F 1 "0.1uF" V 2589 1550 50  0000 C CNN
+F 2 "" H 2788 1400 50  0001 C CNN
+F 3 "~" H 2750 1550 50  0001 C CNN
+	1    2750 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C03CF
+P 2600 1550
+F 0 "#PWR?" H 2600 1300 50  0001 C CNN
+F 1 "GND" V 2605 1422 50  0000 R CNN
+F 2 "" H 2600 1550 50  0001 C CNN
+F 3 "" H 2600 1550 50  0001 C CNN
+	1    2600 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 1300 3100 1550
+$Comp
+L draft1library:+UART33 #PWR?
+U 1 1 5F3C0C45
+P 3250 1200
+F 0 "#PWR?" H 3250 1050 50  0001 C CNN
+F 1 "+UART33" H 3265 1373 50  0000 C CNN
+F 2 "" H 3250 1200 50  0001 C CNN
+F 3 "" H 3250 1200 50  0001 C CNN
+	1    3250 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1550 2900 1350
+Connection ~ 2900 1550
+$Comp
+L Device:C C26
+U 1 1 5F3C4C72
+P 3550 1300
+F 0 "C26" V 3802 1300 50  0000 C CNN
+F 1 "0.1uF" V 3711 1300 50  0000 C CNN
+F 2 "" H 3588 1150 50  0001 C CNN
+F 3 "~" H 3550 1300 50  0001 C CNN
+	1    3550 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C6464
+P 3700 1300
+F 0 "#PWR?" H 3700 1050 50  0001 C CNN
+F 1 "GND" V 3705 1172 50  0000 R CNN
+F 2 "" H 3700 1300 50  0001 C CNN
+F 3 "" H 3700 1300 50  0001 C CNN
+	1    3700 1300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C6845
+P 3000 3350
+F 0 "#PWR?" H 3000 3100 50  0001 C CNN
+F 1 "GND" H 3005 3177 50  0000 C CNN
+F 2 "" H 3000 3350 50  0001 C CNN
+F 3 "" H 3000 3350 50  0001 C CNN
+	1    3000 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3C7827
+P 2300 2650
+F 0 "#PWR?" H 2300 2400 50  0001 C CNN
+F 1 "GND" V 2305 2522 50  0000 R CNN
+F 2 "" H 2300 2650 50  0001 C CNN
+F 3 "" H 2300 2650 50  0001 C CNN
+	1    2300 2650
+	0    1    1    0   
+$EndComp
+NoConn ~ 2300 2350
+NoConn ~ 2300 2450
+NoConn ~ 2300 2150
+Wire Wire Line
+	3100 1300 3250 1300
+Wire Wire Line
+	3250 1300 3250 1200
+Connection ~ 3250 1300
+Wire Wire Line
+	3250 1300 3400 1300
+$Comp
+L Device:C C25
+U 1 1 5F3CBA15
+P 4250 2650
+F 0 "C25" V 4502 2650 50  0000 C CNN
+F 1 "0.1uF" V 4411 2650 50  0000 C CNN
+F 2 "" H 4288 2500 50  0001 C CNN
+F 3 "~" H 4250 2650 50  0001 C CNN
+	1    4250 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3CBA1B
+P 4400 2650
+F 0 "#PWR?" H 4400 2400 50  0001 C CNN
+F 1 "GND" V 4405 2522 50  0000 R CNN
+F 2 "" H 4400 2650 50  0001 C CNN
+F 3 "" H 4400 2650 50  0001 C CNN
+	1    4400 2650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 2650 3700 2650
+NoConn ~ 2300 2250
+$EndSCHEMATC

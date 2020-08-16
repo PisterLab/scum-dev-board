@@ -508,7 +508,7 @@ $EndSheet
 $Sheet
 S -150 19700 11350 9250
 U 5F3B307E
-F0 "Sheet5F3B307D" 50
-F1 "file5F3B307D.sch" 50
+F0 "U_top_sheet" 50
+F1 "top_sheet.sch" 50
 $EndSheet
 $EndSCHEMATC
