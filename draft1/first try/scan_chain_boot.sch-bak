@@ -482,4 +482,6 @@ Text Label 9600 2450 2    50   ~ 0
 3WB_ENB
 Text Label 9600 2550 2    50   ~ 0
 3WB_DATA
+Text Label 6500 4800 0    50   ~ 0
+HR
 $EndSCHEMATC

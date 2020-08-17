@@ -542,13 +542,13 @@ Text HLabel 4000 6050 3    50   BiDi ~ 0
 GPIO2
 Text HLabel 4150 6050 3    50   BiDi ~ 0
 GPIO3
-Text HLabel 4300 6050 3    50   BiDi ~ 0
+Text HLabel 4300 6500 3    50   BiDi ~ 0
 GPIO4
-Text HLabel 4450 6050 3    50   BiDi ~ 0
+Text HLabel 4450 6500 3    50   BiDi ~ 0
 GPIO5
-Text HLabel 4600 6050 3    50   BiDi ~ 0
+Text HLabel 4600 6500 3    50   BiDi ~ 0
 GPIO6
-Text HLabel 4750 6050 3    50   BiDi ~ 0
+Text HLabel 4750 6500 3    50   BiDi ~ 0
 GPIO7
 Text HLabel 5050 6050 3    50   BiDi ~ 0
 GPIO8
@@ -741,20 +741,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 2400 8000 2400
 Connection ~ 8800 2150
-$Comp
-L power:GND #PWR0200
-U 1 1 5F4157E6
-P 800 4400
-AR Path="/5F3B1D81/5F4157E6" Ref="#PWR0200"  Part="1" 
-AR Path="/5F41418C/5F4157E6" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F4157E6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0200" H 800 4150 50  0001 C CNN
-F 1 "GND" H 805 4227 50  0000 C CNN
-F 2 "" H 800 4400 50  0001 C CNN
-F 3 "" H 800 4400 50  0001 C CNN
-	1    800  4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 4100 900  4100
 Text Notes 700  4250 0    50   ~ 0
@@ -822,7 +808,7 @@ VDDD_DISABLE
 Wire Wire Line
 	10550 1700 10550 950 
 Text Label 10550 950  3    50   ~ 0
-VDDD_AO_DISABLE
+VDD_AO_DISABLE
 $Comp
 L SamacSys_Parts:ADT7302ARMZ U7
 U 1 1 5F38CA2F
@@ -1057,4 +1043,21 @@ Wire Wire Line
 	9900 4850 10800 4850
 Text Label 10800 4850 2    50   ~ 0
 BOOT_SOURCE_SEL
+Wire Wire Line
+	4300 6050 4300 6500
+Wire Wire Line
+	4450 6500 4450 6050
+Wire Wire Line
+	4600 6050 4600 6500
+Wire Wire Line
+	4750 6500 4750 6050
+Text Label 4300 6350 1    50   ~ 0
+GP4
+Text Label 4450 6350 1    50   ~ 0
+GP5
+Text Label 4600 6350 1    50   ~ 0
+GP6
+Text Label 4750 6350 1    50   ~ 0
+GP7
+NoConn ~ 900  4100
 $EndSCHEMATC
