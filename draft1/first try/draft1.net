@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\polar\\Documents\\GitHub\\scum-dev-board\\draft1\\first try\\draft1.sch")
-    (date "8/16/2020 11:24:30 PM")
+    (date "8/16/2020 11:59:16 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -385,6 +385,7 @@
       (tstamp 5F3B48F0))
     (comp (ref U8)
       (value scum3)
+      (footprint SCUM:QFP-100_2x3_Pitch0.15mm)
       (libsource (lib draft1library) (part scum3) (description ""))
       (sheetpath (names /scumsheet/) (tstamps /5F3B1D81/))
       (tstamp 5F3B2246))
@@ -824,7 +825,8 @@
     (libpart (lib draft1library) (part scum3)
       (fields
         (field (name Reference) U8)
-        (field (name Value) scum3))
+        (field (name Value) scum3)
+        (field (name Footprint) SCUM:QFP-100_2x3_Pitch0.15mm))
       (pins
         (pin (num 1) (name NC) (type passive))
         (pin (num 2) (name NC) (type passive))
