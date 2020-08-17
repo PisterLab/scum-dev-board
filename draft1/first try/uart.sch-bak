@@ -33,10 +33,10 @@ F 11 "https://www.mouser.co.uk/ProductDetail/FTDI/FT231XS-U?qs=Gp1Yz1mis3WFP7tMt
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:LP5907MFX-1.5 U?
+L Regulator_Linear:LP5907MFX-1.5 U1
 U 1 1 5F39F373
 P 2250 2000
-F 0 "U?" H 2250 2367 50  0000 C CNN
+F 0 "U1" H 2250 2367 50  0000 C CNN
 F 1 "LP5907MFX-1.5" H 2250 2276 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2250 2350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lp5907.pdf" H 2250 2500 50  0001 C CNN
@@ -639,12 +639,12 @@ $EndComp
 $Comp
 L power:GND #PWR0164
 U 1 1 5F3FFFA1
-P 4200 2350
-F 0 "#PWR0164" H 4200 2100 50  0001 C CNN
-F 1 "GND" H 4205 2177 50  0000 C CNN
-F 2 "" H 4200 2350 50  0001 C CNN
-F 3 "" H 4200 2350 50  0001 C CNN
-	1    4200 2350
+P 4400 2200
+F 0 "#PWR0164" H 4400 1950 50  0001 C CNN
+F 1 "GND" H 4405 2027 50  0000 C CNN
+F 2 "" H 4400 2200 50  0001 C CNN
+F 3 "" H 4400 2200 50  0001 C CNN
+	1    4400 2200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -661,12 +661,12 @@ $EndComp
 $Comp
 L Device:C C2
 U 1 1 5F401046
-P 4200 2200
-F 0 "C2" H 4315 2246 50  0000 L CNN
-F 1 "NP" H 4315 2155 50  0000 L CNN
-F 2 "" H 4238 2050 50  0001 C CNN
-F 3 "~" H 4200 2200 50  0001 C CNN
-	1    4200 2200
+P 4400 2050
+F 0 "C2" H 4515 2096 50  0000 L CNN
+F 1 "NP" H 4515 2005 50  0000 L CNN
+F 2 "" H 4438 1900 50  0001 C CNN
+F 3 "~" H 4400 2050 50  0001 C CNN
+	1    4400 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -717,16 +717,10 @@ Wire Wire Line
 	3500 1900 3500 2100
 Connection ~ 3050 1900
 Wire Wire Line
-	3650 2100 3650 1900
+	3600 2100 3600 1900
 Wire Wire Line
-	3650 1900 3950 1900
-Wire Wire Line
-	4200 1900 4200 2050
+	3600 1900 3950 1900
 Connection ~ 3950 1900
-Wire Wire Line
-	3950 1900 4200 1900
-Text Notes 3300 2250 0    50   ~ 0
-idk what goes here
 $Comp
 L draft1library:+UART33 #PWR0166
 U 1 1 5F408911
@@ -795,4 +789,19 @@ Wire Wire Line
 Connection ~ 10150 1400
 Wire Wire Line
 	9550 1650 9150 1650
+$Comp
+L Connector_Generic:Conn_01x02 P3
+U 1 1 5F3B48F0
+P 3500 2300
+F 0 "P3" V 3372 2112 50  0000 R CNN
+F 1 "Conn_01x02" V 3463 2112 50  0000 R CNN
+F 2 "" H 3500 2300 50  0001 C CNN
+F 3 "~" H 3500 2300 50  0001 C CNN
+	1    3500 2300
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	3950 1900 4400 1900
+Text Notes 8650 800  0    50   ~ 0
+Populate One. Choose VDDIO = 3.3V or 1.5V
 $EndSCHEMATC
