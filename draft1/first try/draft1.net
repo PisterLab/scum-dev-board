@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\polar\\Documents\\GitHub\\scum-dev-board\\draft1\\first try\\draft1.sch")
-    (date "8/16/2020 11:03:14 PM")
+    (date "8/16/2020 11:24:30 PM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -90,6 +90,7 @@
       (tstamp 5F3E8E41))
     (comp (ref U10)
       (value LTC4123)
+      (footprint Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.6x1.37mm)
       (libsource (lib draft1library) (part LTC4123) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5F3A3074))
@@ -169,6 +170,7 @@
       (tstamp 5F3DDBC0))
     (comp (ref U3)
       (value FT231XS-U)
+      (footprint Package_SO:SSOP-20_3.9x8.7mm_P0.635mm)
       (datasheet https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf)
       (fields
         (field (name "Arrow Part Number") FT231XS-U)
@@ -309,6 +311,7 @@
       (tstamp 5F3EB316))
     (comp (ref U2)
       (value 74AVC1T45GS,132)
+      (footprint SamacSys_Parts:74LVC1G3157GS132)
       (datasheet https://assets.nexperia.com/documents/data-sheet/74AVC1T45.pdf)
       (fields
         (field (name "Arrow Part Number") 74AVC1T45GS,132)
@@ -324,6 +327,7 @@
       (tstamp 5F3F47EB))
     (comp (ref U4)
       (value 74AVC1T45GS,132)
+      (footprint SamacSys_Parts:74LVC1G3157GS132)
       (datasheet https://assets.nexperia.com/documents/data-sheet/74AVC1T45.pdf)
       (fields
         (field (name "Arrow Part Number") 74AVC1T45GS,132)
@@ -470,6 +474,7 @@
       (tstamp 5F419870))
     (comp (ref U7)
       (value ADT7302ARMZ)
+      (footprint SamacSys_Parts:SOP65P490X110-8N)
       (fields
         (field (name "Arrow Part Number") ADT7302ARMZ)
         (field (name "Arrow Price/Stock") https://www.arrow.com/en/products/adt7302armz/analog-devices)
@@ -786,9 +791,11 @@
         (pin (num 23) (name SCL/SCLK) (type input))
         (pin (num 24) (name SDA/MOSI) (type BiDi))))
     (libpart (lib draft1library) (part LTC4123)
+      (docs https://www.analog.com/media/en/technical-documentation/data-sheets/4123fa.pdf)
       (fields
         (field (name Reference) U10)
-        (field (name Value) LTC4123))
+        (field (name Value) LTC4123)
+        (field (name Footprint) Package_DFN_QFN:DFN-6-1EP_2x2mm_P0.5mm_EP0.6x1.37mm))
       (pins
         (pin (num 1) (name ACIN) (type BiDi))
         (pin (num 2) (name VCC) (type BiDi))
