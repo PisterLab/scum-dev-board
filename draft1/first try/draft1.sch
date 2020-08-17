@@ -217,7 +217,7 @@ U 1 1 5F3E8685
 P 2650 5550
 F 0 "JA1" H 2625 6065 50  0000 C CNN
 F 1 "fpga_header_1" H 2625 5974 50  0000 C CNN
-F 2 "" H 2450 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 2450 5900 50  0001 C CNN
 F 3 "" H 2450 5900 50  0001 C CNN
 	1    2650 5550
 	1    0    0    -1  
@@ -228,7 +228,7 @@ U 1 1 5F3E8E41
 P 4450 5550
 F 0 "JB1" H 4425 6065 50  0000 C CNN
 F 1 "fpga_header_1" H 4425 5974 50  0000 C CNN
-F 2 "" H 4250 5900 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 4250 5900 50  0001 C CNN
 F 3 "" H 4250 5900 50  0001 C CNN
 	1    4450 5550
 	1    0    0    -1  

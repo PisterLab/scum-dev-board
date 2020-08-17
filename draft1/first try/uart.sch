@@ -315,7 +315,7 @@ U 1 1 5F3D9866
 P 1900 6050
 F 0 "J1" V 1635 6392 50  0000 C CNN
 F 1 "47346-0001" V 1726 6392 50  0000 C CNN
-F 2 "" H 2450 6750 50  0001 L CNN
+F 2 "Connector_USB:USB_Micro-B_Molex_47346-0001" H 2450 6750 50  0001 L CNN
 F 3 "http://www.molex.com/pdm_docs/sd/473460001_sd.pdf" H 2450 6650 50  0001 L CNN
 F 4 "Micro USB B Receptacle Bottom Mount Assy Molex Right Angle SMT Type B Version 2.0 Micro USB Connector Socket, 30 V ac, 1A 47352 MICRO-USB" H 2450 6550 50  0001 L CNN "Description"
 F 5 "" H 2450 6450 50  0001 L CNN "Height"
@@ -374,7 +374,7 @@ U 1 1 5F3E1203
 P 2500 6700
 F 0 "L1" V 2746 6472 50  0000 R CNN
 F 1 "HZ0805E601R-10" V 2837 6472 50  0000 R CNN
-F 2 "" H 3150 6800 50  0001 L CNN
+F 2 "Inductor_SMD:L_0805_2012Metric" H 3150 6800 50  0001 L CNN
 F 3 "https://assets.lairdtech.com/home/brandworld/files/Catalog_EMI%20FILTERING%20RF%200717.pdf" H 3150 6700 50  0001 L CNN
 F 4 "FERRITE BEAD 600 OHM 0805 1LN" H 3150 6600 50  0001 L CNN "Description"
 F 5 "0.9" H 3150 6500 50  0001 L CNN "Height"
@@ -757,7 +757,7 @@ U 1 1 5F3B48F0
 P 3500 2300
 F 0 "P3" V 3372 2112 50  0000 R CNN
 F 1 "Conn_01x02" V 3463 2112 50  0000 R CNN
-F 2 "" H 3500 2300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3500 2300 50  0001 C CNN
 F 3 "~" H 3500 2300 50  0001 C CNN
 	1    3500 2300
 	0    -1   1    0   
