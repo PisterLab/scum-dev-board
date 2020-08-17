@@ -222,10 +222,12 @@ F11 "3WB_ENB" B R 8200 3200 50
 F12 "3WB_CLK" B R 8200 3100 50 
 $EndSheet
 $Sheet
-S 6100 5300 1300 1150
+S 8550 4700 550  400 
 U 5F3E80E4
 F0 "U_uart" 50
 F1 "uart.sch" 50
+F2 "RsRx" I L 8550 4800 50 
+F3 "RsTx" O L 8550 4900 50 
 $EndSheet
 $Comp
 L draft1library:fpga_header_1 JA1
@@ -556,4 +558,42 @@ Wire Wire Line
 	8200 4050 8550 4050
 Wire Wire Line
 	8550 4150 8200 4150
+Text Label 8550 1200 2    50   ~ 0
+GPIO0
+Text Label 8550 1300 2    50   ~ 0
+GPIO1
+Text Label 8550 1400 2    50   ~ 0
+GPIO2
+Text Label 8550 1500 2    50   ~ 0
+GPIO3
+Text Label 8550 1600 2    50   ~ 0
+GPIO4
+Text Label 8550 1700 2    50   ~ 0
+GPIO5
+Text Label 8550 1800 2    50   ~ 0
+GPIO6
+Text Label 8550 1900 2    50   ~ 0
+GPIO7
+Text Label 8550 2100 2    50   ~ 0
+GPIO8
+Text Label 8550 2200 2    50   ~ 0
+GPIO9
+Text Label 8550 2300 2    50   ~ 0
+GPIO10
+Text Label 8550 2400 2    50   ~ 0
+GPIO11
+Text Label 8550 2500 2    50   ~ 0
+GPIO12
+Text Label 8550 2600 2    50   ~ 0
+GPIO13
+Text Label 8550 2700 2    50   ~ 0
+GPIO14
+Text Label 8550 2800 2    50   ~ 0
+GPIO15
+Text Label 8550 4800 2    50   ~ 0
+RsRx
+Text Label 8550 4900 2    50   ~ 0
+RsTx
+Text Label 8550 2100 2    50   ~ 0
+GPIO8
 $EndSCHEMATC
