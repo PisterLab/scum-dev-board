@@ -581,4 +581,26 @@ Text Label 8550 4900 2    50   ~ 0
 RsTx
 Text Label 8550 2100 2    50   ~ 0
 GPIO8
+$Comp
+L draft1library:Component_1 U?
+U 1 1 5F3A25D9
+P 2650 4100
+F 0 "U?" H 2650 4615 50  0000 C CNN
+F 1 "Component_1" H 2650 4524 50  0000 C CNN
+F 2 "" H 2650 4150 50  0001 C CNN
+F 3 "" H 2650 4150 50  0001 C CNN
+	1    2650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:LTC4123 U10?
+U 1 1 5F3A3074
+P 4400 4100
+F 0 "U10?" H 4375 4565 50  0000 C CNN
+F 1 "LTC4123" H 4375 4474 50  0000 C CNN
+F 2 "" H 4000 4150 50  0001 C CNN
+F 3 "" H 4000 4150 50  0001 C CNN
+	1    4400 4100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
