@@ -576,23 +576,20 @@ Text Label 8550 1900 2    50   ~ 0
 GPIO7
 Text Label 8550 2100 2    50   ~ 0
 GPIO8
-Text Label 8550 2300 2    50   ~ 0
+Text Label 8550 2200 2    50   ~ 0
 GPIO9
-Text Label 8550 2400 2    50   ~ 0
+Text Label 8550 2300 2    50   ~ 0
 GPIO10
-Text Label 8550 2500 2    50   ~ 0
+Text Label 8550 2400 2    50   ~ 0
 GPIO11
-Text Label 8550 2600 2    50   ~ 0
+Text Label 8550 2500 2    50   ~ 0
 GPIO12
-Text Label 8550 2700 2    50   ~ 0
+Text Label 8550 2600 2    50   ~ 0
 GPIO13
-Text Label 8550 2800 2    50   ~ 0
+Text Label 8550 2700 2    50   ~ 0
 GPIO14
-Text Label 8550 2900 2    50   ~ 0
+Text Label 8550 2800 2    50   ~ 0
 GPIO15
-
-
-
 Text Label 8550 4800 2    50   ~ 0
 RsRx
 Text Label 8550 4900 2    50   ~ 0
