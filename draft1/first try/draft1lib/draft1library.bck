@@ -35,4 +35,8 @@ D Power symbol creates a global label with name "+VUSB"
 K power-flag battery
 $ENDCMP
 #
+$CMP LTC4123
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4123fa.pdf
+$ENDCMP
+#
 #End Doc Library
