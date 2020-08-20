@@ -37,6 +37,8 @@ ksjp
 
 This dev board would be even smaller than the one we currently have. It would be closer to something that we would normally see in industry where we have only what we need to use it for. Ideally we could use this small board for mesh network type of applications. Kris mentioned all the things he wanted on the board in the first email.
 Alex Moreno
+
+
 I suppose I might as well post my wishlist, although I'll personally probably be working on MEMS robots with silicon interconnects instead of PCBs.
 
 I think the idea is that now, since we have SCuM more or less working, it's about time to start making semi-practical demonstrations of small/cheap/lightweight/lighthouse/wireless applications instead of just showing RF/tracking works with our big dev board. I'm hoping for several types of modular 10x10mm (as small as possible) SMD PCBs with castellated edges or something instead of through holes. One PCB has SCuM+power circuitry and a way to attach a small battery (potentially rechargeable) (also a lens on the SCuM photodiode?), another has Zappy for solar, another Zappy+a mounting point for a MEMS taction device, others have sensors (IMU, humidity, air quality). Maybe an induction charging PCB, and maybe an LED would be cool if we can find something sufficiently low power. For any application, we would stack the required PCBs and solder the castellations together or use a tiny PCB connector or something, making custom motes just like stacking Arduino shields but in a 10mm cube. Given our empirical iteration speed, this may be faster than designing a separate PCB for each application.
