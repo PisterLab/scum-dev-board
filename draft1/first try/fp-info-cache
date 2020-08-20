@@ -1,4 +1,4 @@
-18628444022634060
+18630044142642907
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -75424,9 +75424,51 @@ rotary encoder
 0
 5
 4
+SCUM
+QFP-100_2x3_Pitch0.15mm
+
+
+0
+100
+100
+SamacSys_Parts
+74LVC1G3157GS132
+SOT1202
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+47346-0001
+47346-0001
+Connector
+0
+11
+11
+SamacSys_Parts
+BEADC2012X90N
+1212 (0805)
+Ferrite Bead
+0
+2
+2
 SamacSys_Parts
 SOIC127P600X175-8N
 D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP64P599X175-20N
+SSOP-20
+Integrated Circuit
+0
+20
+20
+SamacSys_Parts
+SOP65P490X110-8N
+SOP65P490X110-8N
 Integrated Circuit
 0
 8
