@@ -12,6 +12,7 @@ UART, but better connection. maybe not part of same board because the microUSB p
 RF 232 level shifter?
 current dev board design should be on atlassian
 
+end notes
 
 metric:
 standards compliant, crystal free. bluetooth. works with phone, works with other motes. peer to peer. other motes require a high power base station. glorified RF tags. needs a base station that's really big.
