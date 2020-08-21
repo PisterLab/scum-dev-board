@@ -743,8 +743,6 @@ Wire Wire Line
 Connection ~ 8800 2150
 Wire Wire Line
 	2250 4100 900  4100
-Text Notes 700  4250 0    50   ~ 0
-idk what goes here
 $Comp
 L Device:R_US R13
 U 1 1 5F4188E4
@@ -1059,5 +1057,26 @@ Text Label 4600 6350 1    50   ~ 0
 GP6
 Text Label 4750 6350 1    50   ~ 0
 GP7
-NoConn ~ 900  4100
+$Comp
+L Connector:Conn_Coaxial J2
+U 1 1 5F3FC09A
+P 700 4100
+F 0 "J2" H 628 4338 50  0000 C CNN
+F 1 "Conn_Coaxial" H 628 4247 50  0000 C CNN
+F 2 "" H 700 4100 50  0001 C CNN
+F 3 " ~" H 700 4100 50  0001 C CNN
+	1    700  4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3FE6A2
+P 700 4300
+F 0 "#PWR?" H 700 4050 50  0001 C CNN
+F 1 "GND" H 705 4127 50  0000 C CNN
+F 2 "" H 700 4300 50  0001 C CNN
+F 3 "" H 700 4300 50  0001 C CNN
+	1    700  4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
