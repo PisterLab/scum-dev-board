@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\polar\Documents\GitHub\scum-dev-board\scum3c_devboard\scum3c-devboard.sch)
-    (date "9/1/2020 11:42:26 AM")
+    (date "9/1/2020 11:52:12 AM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -848,7 +848,7 @@
       (fields
         (field (name Reference) U8)
         (field (name Value) scum3)
-        (field (name Footprint) SCUM:QFP-100_2x3_Pitch0.15mm))
+        (field (name Footprint) SCUM:QFN-100_EP_12x12_Pitch0.4mm))
       (pins
         (pin (num 1) (name NC) (type passive))
         (pin (num 2) (name NC) (type passive))
