@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\polar\Documents\GitHub\scum-dev-board\scum3c_devboard\scum3c-devboard.sch)
-    (date "8/20/2020 11:40:24 PM")
+    (date "9/1/2020 11:42:26 AM")
     (tool "Eeschema (5.1.6)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -385,7 +385,7 @@
       (tstamp 5F3B48F0))
     (comp (ref U8)
       (value scum3)
-      (footprint SCUM:QFP-100_2x3_Pitch0.15mm)
+      (footprint SCUM:QFN-100_EP_12x12_Pitch0.4mm)
       (libsource (lib draft1library) (part scum3) (description ""))
       (sheetpath (names /scumsheet/) (tstamps /5F3B1D81/))
       (tstamp 5F3B2246))
@@ -517,6 +517,7 @@
       (tstamp 5F3A4822))
     (comp (ref J2)
       (value Conn_Coaxial)
+      (footprint Connector_Coaxial:SMA_Amphenol_132134-14_Vertical)
       (datasheet " ~")
       (libsource (lib Connector) (part Conn_Coaxial) (description "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)"))
       (sheetpath (names /scumsheet/) (tstamps /5F3B1D81/))
