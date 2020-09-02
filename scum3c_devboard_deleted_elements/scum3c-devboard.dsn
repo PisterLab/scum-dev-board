@@ -14,17 +14,31 @@
         (index 0)
       )
     )
-    (layer B.Cu
+    (layer In1.Cu
       (type signal)
       (property
         (index 1)
+      )
+    )
+    (layer In2.Cu
+      (type signal)
+      (property
+        (index 2)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 3)
       )
     )
     (boundary
       (path pcb 0  153670 -134620  76200 -134620  76200 -71120  153670 -71120
             153670 -134620)
     )
-    (via "Via[0-1]_800:400_um" "Via[0-1]_600:300_um")
+    (plane GND (polygon B.Cu 0  153670 -134620  76200 -134620  76200 -71120  153670 -71120
+            153670 -134620))
+    (via "Via[0-3]_800:400_um" "Via[0-3]_600:300_um")
     (rule
       (width 250)
       (clearance 200.1)
@@ -47,7 +61,6 @@
     )
     (component Resistor_SMD:R_0402_1005Metric
       (place R14 97790 -95250 back 0 (PN NP))
-      (place R13 127000 -87630 front 270 (PN NP))
       (place R12 115570 -78740 front 0 (PN NP))
       (place C13 110490 -80010 front 180 (PN NP))
       (place C17 114300 -129540 back 270 (PN NP))
@@ -57,17 +70,18 @@
       (place C25 81280 -123190 back 270 (PN 0.1uF))
       (place C27 105410 -124460 back 180 (PN 0.1uF))
     )
-    (component "SCUM:QFN-100_EP_12x12_Pitch0.4mm"
-      (place U8 115570 -92710 front 0 (PN scum3))
-    )
-    (component Capacitor_SMD:C_0402_1005Metric
+    (component Resistor_SMD:R_0402_1005Metric::1
+      (place R13 127000 -87630 front 270 (PN NP))
       (place C14 104925 -101600 front 180 (PN NP))
-      (place C15 96520 -88900 front 270 (PN NP))
+      (place C15 96520 -88900 front 0 (PN NP))
       (place C16 109220 -129540 back 270 (PN NP))
       (place C19 134620 -92710 front 90 (PN NP))
       (place C20 129540 -97790 front 180 (PN NP))
       (place C21 101600 -91440 back 270 (PN NP))
       (place C26 85090 -119380 back 90 (PN 0.1uF))
+    )
+    (component "SCUM:QFN-100_EP_12x12_Pitch0.4mm"
+      (place U8 115570 -92710 front 0 (PN scum3))
     )
     (component "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
       (place U9AB1 90170 -123190 back 270 (PN "MPU-9250"))
@@ -179,6 +193,18 @@
       (outline (path signal 50  930 -470  -930 -470))
       (pin RoundRect[T]Pad_590x640_148.061_um 2 485 0)
       (pin RoundRect[T]Pad_590x640_148.061_um 1 -485 0)
+    )
+    (image Resistor_SMD:R_0402_1005Metric::1
+      (outline (path signal 50  930 -470  -930 -470))
+      (outline (path signal 50  930 470  930 -470))
+      (outline (path signal 50  -930 470  930 470))
+      (outline (path signal 50  -930 -470  -930 470))
+      (outline (path signal 100  500 -250  -500 -250))
+      (outline (path signal 100  500 250  500 -250))
+      (outline (path signal 100  -500 250  500 250))
+      (outline (path signal 100  -500 -250  -500 250))
+      (pin RoundRect[T]Pad_590x640_148.061_um 1 -485 0)
+      (pin RoundRect[T]Pad_590x640_148.061_um 2 485 0)
     )
     (image "SCUM:QFN-100_EP_12x12_Pitch0.4mm"
       (outline (path signal 150  -5000 6000  -6000 5000))
@@ -426,18 +452,6 @@
       (pin Oval[T]Pad_200x800_um (rotate 90) 2 -6400 4400)
       (pin Oval[T]Pad_200x800_um (rotate 90) 1 -6400 4800)
     )
-    (image Capacitor_SMD:C_0402_1005Metric
-      (outline (path signal 50  930 -470  -930 -470))
-      (outline (path signal 50  930 470  930 -470))
-      (outline (path signal 50  -930 470  930 470))
-      (outline (path signal 50  -930 -470  -930 470))
-      (outline (path signal 100  500 -250  -500 -250))
-      (outline (path signal 100  500 250  500 -250))
-      (outline (path signal 100  -500 250  500 250))
-      (outline (path signal 100  -500 -250  -500 250))
-      (pin RoundRect[T]Pad_590x640_148.061_um 1 -485 0)
-      (pin RoundRect[T]Pad_590x640_148.061_um 2 485 0)
-    )
     (image "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
       (outline (path signal 150  -500 1500  1500 1500))
       (outline (path signal 150  1500 1500  1500 -1500))
@@ -492,16 +506,22 @@
     )
     (padstack Round[A]Pad_1600_um
       (shape (circle F.Cu 1600))
+      (shape (circle In1.Cu 1600))
+      (shape (circle In2.Cu 1600))
       (shape (circle B.Cu 1600))
       (attach off)
     )
     (padstack Round[A]Pad_568.75_um
       (shape (circle F.Cu 568.75))
+      (shape (circle In1.Cu 568.75))
+      (shape (circle In2.Cu 568.75))
       (shape (circle B.Cu 568.75))
       (attach off)
     )
     (padstack Oval[A]Pad_1700x1700_um
       (shape (path F.Cu 1700  0 0  0 0))
+      (shape (path In1.Cu 1700  0 0  0 0))
+      (shape (path In2.Cu 1700  0 0  0 0))
       (shape (path B.Cu 1700  0 0  0 0))
       (attach off)
     )
@@ -538,6 +558,8 @@
     )
     (padstack Rect[A]Pad_2700x2700_um
       (shape (rect F.Cu -1350 -1350 1350 1350))
+      (shape (rect In1.Cu -1350 -1350 1350 1350))
+      (shape (rect In2.Cu -1350 -1350 1350 1350))
       (shape (rect B.Cu -1350 -1350 1350 1350))
       (attach off)
     )
@@ -547,16 +569,22 @@
     )
     (padstack Rect[A]Pad_1700x1700_um
       (shape (rect F.Cu -850 -850 850 850))
+      (shape (rect In1.Cu -850 -850 850 850))
+      (shape (rect In2.Cu -850 -850 850 850))
       (shape (rect B.Cu -850 -850 850 850))
       (attach off)
     )
-    (padstack "Via[0-1]_800:400_um"
+    (padstack "Via[0-3]_800:400_um"
       (shape (circle F.Cu 800))
+      (shape (circle In1.Cu 800))
+      (shape (circle In2.Cu 800))
       (shape (circle B.Cu 800))
       (attach off)
     )
-    (padstack "Via[0-1]_600:300_um"
+    (padstack "Via[0-3]_600:300_um"
       (shape (circle F.Cu 600))
+      (shape (circle In1.Cu 600))
+      (shape (circle In2.Cu 600))
       (shape (circle B.Cu 600))
       (attach off)
     )
@@ -670,47 +698,46 @@
     (net "Net-(R14-Pad1)"
       (pins R14-1 U8-12)
     )
-    (class kicad_default "" "Net-(R13-Pad1)" "Net-(R14-Pad1)" "Net-(U8-Pad1)"
-      "Net-(U8-Pad100)" "Net-(U8-Pad13)" "Net-(U8-Pad18)" "Net-(U8-Pad19)"
-      "Net-(U8-Pad2)" "Net-(U8-Pad20)" "Net-(U8-Pad21)" "Net-(U8-Pad23)" "Net-(U8-Pad24)"
-      "Net-(U8-Pad25)" "Net-(U8-Pad3)" "Net-(U8-Pad46)" "Net-(U8-Pad47)" "Net-(U8-Pad48)"
-      "Net-(U8-Pad49)" "Net-(U8-Pad50)" "Net-(U8-Pad51)" "Net-(U8-Pad52)"
-      "Net-(U8-Pad53)" "Net-(U8-Pad54)" "Net-(U8-Pad56)" "Net-(U8-Pad57)"
-      "Net-(U8-Pad6)" "Net-(U8-Pad60)" "Net-(U8-Pad63)" "Net-(U8-Pad64)" "Net-(U8-Pad65)"
-      "Net-(U8-Pad66)" "Net-(U8-Pad67)" "Net-(U8-Pad68)" "Net-(U8-Pad7)" "Net-(U8-Pad73)"
-      "Net-(U8-Pad74)" "Net-(U8-Pad75)" "Net-(U8-Pad76)" "Net-(U8-Pad77)"
-      "Net-(U8-Pad78)" "Net-(U8-Pad79)" "Net-(U8-Pad8)" "Net-(U8-Pad80)" "Net-(U8-Pad81)"
-      "Net-(U8-Pad82)" "Net-(U8-Pad83)" "Net-(U8-Pad84)" "Net-(U8-Pad85)"
-      "Net-(U8-Pad86)" "Net-(U8-Pad87)" "Net-(U8-Pad88)" "Net-(U8-Pad9)" "Net-(U8-Pad91)"
-      "Net-(U8-Pad93)" "Net-(U8-Pad94)" "Net-(U8-Pad95)" "Net-(U8-Pad96)"
-      "Net-(U8-Pad97)" "Net-(U8-Pad98)" "Net-(U8-Pad99)" "Net-(U9AB1-Pad12)"
-      "Net-(U9AB1-Pad21)" "Net-(U9AB1-Pad22)" "Net-(U9AB1-Pad23)" "Net-(U9AB1-Pad24)"
-      "Net-(U9AB1-Pad7)" "Net-(U9AB1-Pad9)"
+    (class kicad_default "" +VUSB /RsRx /RsTx /U_scan_chain_boot/3WB_CLK /U_scan_chain_boot/3WB_DATA
+      /U_scan_chain_boot/3WB_ENB /U_scan_chain_boot/ASC_EXT_OVER33 /U_scan_chain_boot/ASC_EXT_OVERRIDE
+      /U_scan_chain_boot/ASC_IN /U_scan_chain_boot/ASC_IN_33 /U_scan_chain_boot/ASC_LOAD
+      /U_scan_chain_boot/ASC_LOAD_33 /U_scan_chain_boot/ASC_OUT /U_scan_chain_boot/ASC_OUT33
+      /U_scan_chain_boot/ASC_PHI1 /U_scan_chain_boot/ASC_PHI1_33 /U_scan_chain_boot/ASC_PHI2
+      /U_scan_chain_boot/ASC_PHI2_33 /U_scan_chain_boot/HARD_RESET /U_scan_chain_boot/HARD_RESET_33
+      /U_scan_chain_boot/LF_CLK_33 /U_scan_chain_boot/LF_CLK_EXT_IN /U_uart/D_N
+      /U_uart/D_P /U_uart/RsRx33 /U_uart/RsTx33 /scumsheet/VDDD_DISABLE /scumsheet/VDD_AO_DISABLE
+      "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad1)" "Net-(C11-Pad2)"
+      "Net-(C28-Pad1)" "Net-(C29-Pad1)" "Net-(C3-Pad1)" "Net-(C7-Pad1)" "Net-(J2-Pad1)"
+      "Net-(R13-Pad1)" "Net-(R14-Pad1)" "Net-(R3-Pad1)" "Net-(R6-Pad2)" "Net-(R9-Pad1)"
+      "Net-(U8-Pad1)" "Net-(U8-Pad100)" "Net-(U8-Pad13)" "Net-(U8-Pad18)"
+      "Net-(U8-Pad19)" "Net-(U8-Pad2)" "Net-(U8-Pad20)" "Net-(U8-Pad21)" "Net-(U8-Pad23)"
+      "Net-(U8-Pad24)" "Net-(U8-Pad25)" "Net-(U8-Pad3)" "Net-(U8-Pad46)" "Net-(U8-Pad47)"
+      "Net-(U8-Pad48)" "Net-(U8-Pad49)" "Net-(U8-Pad50)" "Net-(U8-Pad51)"
+      "Net-(U8-Pad52)" "Net-(U8-Pad53)" "Net-(U8-Pad54)" "Net-(U8-Pad56)"
+      "Net-(U8-Pad57)" "Net-(U8-Pad6)" "Net-(U8-Pad60)" "Net-(U8-Pad63)" "Net-(U8-Pad64)"
+      "Net-(U8-Pad65)" "Net-(U8-Pad66)" "Net-(U8-Pad67)" "Net-(U8-Pad68)"
+      "Net-(U8-Pad7)" "Net-(U8-Pad73)" "Net-(U8-Pad74)" "Net-(U8-Pad75)" "Net-(U8-Pad76)"
+      "Net-(U8-Pad77)" "Net-(U8-Pad78)" "Net-(U8-Pad79)" "Net-(U8-Pad8)" "Net-(U8-Pad80)"
+      "Net-(U8-Pad81)" "Net-(U8-Pad82)" "Net-(U8-Pad83)" "Net-(U8-Pad84)"
+      "Net-(U8-Pad85)" "Net-(U8-Pad86)" "Net-(U8-Pad87)" "Net-(U8-Pad88)"
+      "Net-(U8-Pad9)" "Net-(U8-Pad91)" "Net-(U8-Pad93)" "Net-(U8-Pad94)" "Net-(U8-Pad95)"
+      "Net-(U8-Pad96)" "Net-(U8-Pad97)" "Net-(U8-Pad98)" "Net-(U8-Pad99)"
+      "Net-(U9AB1-Pad12)" "Net-(U9AB1-Pad21)" "Net-(U9AB1-Pad22)" "Net-(U9AB1-Pad23)"
+      "Net-(U9AB1-Pad24)" "Net-(U9AB1-Pad7)" "Net-(U9AB1-Pad9)"
       (circuit
-        (use_via Via[0-1]_800:400_um)
+        (use_via Via[0-3]_800:400_um)
       )
       (rule
         (width 250)
         (clearance 200.1)
       )
     )
-    (class smaller +UART33 +VBAT +VDD25 +VDDAO +VDDD +VDDIO +VUSB /GPIO0 /GPIO1
+    (class smaller +UART33 +VBAT +VDD25 +VDDAO +VDDD +VDDIO /GPIO0 /GPIO1
       /GPIO10 /GPIO11 /GPIO12 /GPIO13 /GPIO14 /GPIO15 /GPIO2 /GPIO3 /GPIO4
-      /GPIO5 /GPIO6 /GPIO7 /GPIO8 /GPIO9 /RsRx /RsTx /U_scan_chain_boot/3WB_CLK
-      /U_scan_chain_boot/3WB_DATA /U_scan_chain_boot/3WB_ENB /U_scan_chain_boot/ASC_EXT_OVER33
-      /U_scan_chain_boot/ASC_EXT_OVERRIDE /U_scan_chain_boot/ASC_IN /U_scan_chain_boot/ASC_IN_33
-      /U_scan_chain_boot/ASC_LOAD /U_scan_chain_boot/ASC_LOAD_33 /U_scan_chain_boot/ASC_OUT
-      /U_scan_chain_boot/ASC_OUT33 /U_scan_chain_boot/ASC_PHI1 /U_scan_chain_boot/ASC_PHI1_33
-      /U_scan_chain_boot/ASC_PHI2 /U_scan_chain_boot/ASC_PHI2_33 /U_scan_chain_boot/HARD_RESET
-      /U_scan_chain_boot/HARD_RESET_33 /U_scan_chain_boot/LF_CLK_33 /U_scan_chain_boot/LF_CLK_EXT_IN
-      /U_uart/D_N /U_uart/D_P /U_uart/RsRx33 /U_uart/RsTx33 /scumsheet/AUX_LDO_OUTPUT
-      /scumsheet/BOOT_SOURCE_SEL /scumsheet/VDDD_DISABLE /scumsheet/VDD_AO_DISABLE
-      GND "Net-(C10-Pad1)" "Net-(C10-Pad2)" "Net-(C11-Pad1)" "Net-(C11-Pad2)"
-      "Net-(C22-Pad1)" "Net-(C25-Pad1)" "Net-(C28-Pad1)" "Net-(C29-Pad1)"
-      "Net-(C3-Pad1)" "Net-(C7-Pad1)" "Net-(J2-Pad1)" "Net-(R12-Pad2)" "Net-(R3-Pad1)"
-      "Net-(R6-Pad2)" "Net-(R9-Pad1)"
+      /GPIO5 /GPIO6 /GPIO7 /GPIO8 /GPIO9 /scumsheet/AUX_LDO_OUTPUT /scumsheet/BOOT_SOURCE_SEL
+      GND "Net-(C22-Pad1)" "Net-(C25-Pad1)" "Net-(R12-Pad2)"
       (circuit
-        (use_via Via[0-1]_600:300_um)
+        (use_via Via[0-3]_600:300_um)
       )
       (rule
         (width 200)
