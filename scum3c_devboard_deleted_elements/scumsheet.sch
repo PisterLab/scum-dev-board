@@ -940,17 +940,6 @@ F 3 "" H 9800 5550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Battery_Cell BT1
-U 1 1 5F554877
-P 10300 4300
-F 0 "BT1" H 10418 4396 50  0000 L CNN
-F 1 "Battery_Cell" H 10418 4305 50  0000 L CNN
-F 2 "" V 10300 4360 50  0001 C CNN
-F 3 "~" V 10300 4360 50  0001 C CNN
-	1    10300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0120
 U 1 1 5F555029
 P 10300 4400
@@ -974,4 +963,15 @@ F 3 "" H 10300 4100 50  0001 C CNN
 $EndComp
 Text Notes 8600 4850 0    50   ~ 0
 i know this isn't how it works. just getting a footprint placeholder\n
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5F554877
+P 10300 4300
+F 0 "BT1" H 10418 4396 50  0000 L CNN
+F 1 "Battery_Cell" H 10418 4305 50  0000 L CNN
+F 2 "Battery:Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles" V 10300 4360 50  0001 C CNN
+F 3 "~" V 10300 4360 50  0001 C CNN
+	1    10300 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
