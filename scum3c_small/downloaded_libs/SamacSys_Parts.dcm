@@ -1,0 +1,45 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 74AVC4TD245PW,118
+D 74AVC4TD245PW - 4-bit dual supply translating transceiver with configurable voltage translation;3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74AVC4TD245PW.pdf
+$ENDCMP
+#
+$CMP ADT7302ARMZ
+D Digital Temperature Sensor
+K
+F 
+$ENDCMP
+#
+$CMP FT231XS-U
+D Full Speed to Handshake USB UART IC
+K
+F https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf
+$ENDCMP
+#
+$CMP 47346-0001
+D Micro USB B Receptacle Bottom Mount Assy Molex Right Angle SMT Type B Version 2.0 Micro USB Connector Socket, 30 V ac, 1A 47352 MICRO-USB
+K
+F http://www.molex.com/pdm_docs/sd/473460001_sd.pdf
+$ENDCMP
+#
+$CMP 74AVC1T45GS,132
+D 74AVC1T45 - Dual-supply voltage level translator/transceiver; 3-state@en-us
+K
+F https://assets.nexperia.com/documents/data-sheet/74AVC1T45.pdf
+$ENDCMP
+#
+$CMP HZ0805E601R-10
+D FERRITE BEAD 600 OHM 0805 1LN
+K
+F https://assets.lairdtech.com/home/brandworld/files/Catalog_EMI%20FILTERING%20RF%200717.pdf
+$ENDCMP
+#
+#End Doc Library

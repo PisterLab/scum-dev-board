@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -13,10 +13,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 8750 1950 1400 3150
-U 5F4F5085
-F0 "scum_footprint" 50
-F1 "scum_footprint.sch" 50
-$EndSheet
 $EndSCHEMATC
