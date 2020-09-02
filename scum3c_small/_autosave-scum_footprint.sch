@@ -1,0 +1,123 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L draft1library:scum3 U8?
+U 1 1 5F4F52DC
+P 4900 3300
+F 0 "U8?" H 7744 3196 50  0000 L CNN
+F 1 "scum3" H 7744 3105 50  0000 L CNN
+F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm" H 5350 3050 50  0001 C CNN
+F 3 "" H 5350 3050 50  0001 C CNN
+	1    4900 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4F76E1
+P 1950 1550
+F 0 "#PWR?" H 1950 1300 50  0001 C CNN
+F 1 "GND" V 1955 1422 50  0000 R CNN
+F 2 "" H 1950 1550 50  0001 C CNN
+F 3 "" H 1950 1550 50  0001 C CNN
+	1    1950 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4F7D9D
+P 1950 2450
+F 0 "#PWR?" H 1950 2200 50  0001 C CNN
+F 1 "GND" V 1955 2322 50  0000 R CNN
+F 2 "" H 1950 2450 50  0001 C CNN
+F 3 "" H 1950 2450 50  0001 C CNN
+	1    1950 2450
+	0    1    1    0   
+$EndComp
+NoConn ~ 1950 1850
+NoConn ~ 1950 2000
+NoConn ~ 1950 2150
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F4F8B14
+P 1950 2300
+F 0 "#PWR?" H 1950 2150 50  0001 C CNN
+F 1 "+VBAT" V 1965 2428 50  0000 L CNN
+F 2 "" H 1950 2300 50  0001 C CNN
+F 3 "" H 1950 2300 50  0001 C CNN
+	1    1950 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F4F9682
+P 1100 850
+F 0 "#PWR?" H 1100 700 50  0001 C CNN
+F 1 "+VBAT" H 1115 1023 50  0000 C CNN
+F 2 "" H 1100 850 50  0001 C CNN
+F 3 "" H 1100 850 50  0001 C CNN
+	1    1100 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F4F9C98
+P 850 1000
+F 0 "C?" H 965 1046 50  0000 L CNN
+F 1 "NP" H 965 955 50  0000 L CNN
+F 2 "" H 888 850 50  0001 C CNN
+F 3 "~" H 850 1000 50  0001 C CNN
+	1    850  1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F4FA28D
+P 1350 1000
+F 0 "C?" H 1465 1046 50  0000 L CNN
+F 1 "C" H 1465 955 50  0000 L CNN
+F 2 "" H 1388 850 50  0001 C CNN
+F 3 "~" H 1350 1000 50  0001 C CNN
+	1    1350 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  850  1100 850 
+Wire Wire Line
+	1350 850  1100 850 
+Connection ~ 1100 850 
+$Comp
+L power:GND #PWR?
+U 1 1 5F4FAC19
+P 850 1150
+F 0 "#PWR?" H 850 900 50  0001 C CNN
+F 1 "GND" H 855 977 50  0000 C CNN
+F 2 "" H 850 1150 50  0001 C CNN
+F 3 "" H 850 1150 50  0001 C CNN
+	1    850  1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F4FAFDF
+P 1350 1150
+F 0 "#PWR?" H 1350 900 50  0001 C CNN
+F 1 "GND" H 1355 977 50  0000 C CNN
+F 2 "" H 1350 1150 50  0001 C CNN
+F 3 "" H 1350 1150 50  0001 C CNN
+	1    1350 1150
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
