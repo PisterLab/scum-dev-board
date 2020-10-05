@@ -48,4 +48,22 @@ K
 F https://www.mouser.com/datasheet/2/115/ds30410-30695.pdf
 $ENDCMP
 #
+$CMP 2986
+D Coin Cell Battery Holders 5.8 MM SMT BUTTON CELL RETAINER
+K
+F https://www.mouser.com/datasheet/2/215/Keystone_Electronics_04082019_2986-1551342.pdf
+$ENDCMP
+#
+$CMP ADP2138ACBZ-1.8
+D ANALOG DEVICES - ADP2138ACBZ-1.8 - BUCK, 800MA, 1.8V, 6WLCSP
+K
+F http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2138_2139.pdf
+$ENDCMP
+#
+$CMP LD_MVSG-JGLH-46-1
+D Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package
+K
+F https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf
+$ENDCMP
+#
 #End Doc Library

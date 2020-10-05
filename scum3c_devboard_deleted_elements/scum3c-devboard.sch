@@ -186,22 +186,6 @@ F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 190
 	1    1900 2150
 	1    0    0    -1  
 $EndComp
-Text Label 1750 3650 2    50   ~ 0
-GPIO2
-Text Label 2250 3650 0    50   ~ 0
-GPIO1
-Text Label 1750 3750 2    50   ~ 0
-GPIO4
-Text Label 1750 3850 2    50   ~ 0
-GPIO6
-Text Label 1750 3950 2    50   ~ 0
-GPIO8
-Text Label 2250 3950 0    50   ~ 0
-GPIO7
-Text Label 2250 3850 0    50   ~ 0
-GPIO5
-Text Label 2250 3750 0    50   ~ 0
-GPIO3
 Text Label 2950 3650 2    50   ~ 0
 GPIO10
 Text Label 2950 3750 2    50   ~ 0
@@ -518,7 +502,7 @@ GPIO14
 Text Label 8550 2800 2    50   ~ 0
 GPIO15
 $Sheet
-S 8550 800  750  2150
+S 8550 800  850  2750
 U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
@@ -538,6 +522,13 @@ F14 "GPIO13" B L 8550 2600 50
 F15 "GPIO14" B L 8550 2700 50 
 F16 "GPIO15" B L 8550 2800 50 
 F17 "GPIO0" B L 8550 1200 50 
+F18 "3WB_CLK" B R 9400 1200 50 
+F19 "3WB_ENB" B R 9400 1300 50 
+F20 "3WB_DATA" B R 9400 1400 50 
+F21 "RF_IN" B R 9400 1500 50 
+F22 "RsTx" B L 8550 3050 50 
+F23 "RsRx" B L 8550 2950 50 
+F24 "BOOT_SOURCE_SEL" B R 9400 3250 50 
 $EndSheet
 $Comp
 L SamacSys_Parts:DDZ9678-7 Z1
@@ -582,4 +573,126 @@ F 3 "" H 4900 6550 50  0001 C CNN
 $EndComp
 Text Notes 5150 6450 0    50   ~ 0
 hope this is the right component for voltage protection
+Text Label 9400 1200 0    50   ~ 0
+3WB_CLK
+Text Label 9400 1300 0    50   ~ 0
+3WB_ENB
+Text Label 9400 1400 0    50   ~ 0
+3WB_DATA
+$Comp
+L power:GND #PWR0120
+U 1 1 5F7C4691
+P 5800 3650
+F 0 "#PWR0120" H 5800 3400 50  0001 C CNN
+F 1 "GND" H 5805 3477 50  0000 C CNN
+F 2 "" H 5800 3650 50  0001 C CNN
+F 3 "" H 5800 3650 50  0001 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR0121
+U 1 1 5F7C4697
+P 5800 3350
+F 0 "#PWR0121" H 5800 3200 50  0001 C CNN
+F 1 "+VBAT" H 5815 3523 50  0000 C CNN
+F 2 "" H 5800 3350 50  0001 C CNN
+F 3 "" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5F7C469D
+P 5800 3550
+F 0 "BT1" H 5918 3646 50  0000 L CNN
+F 1 "Battery_Cell" H 5918 3555 50  0000 L CNN
+F 2 "SamacSys_Parts:2986" V 5800 3610 50  0001 C CNN
+F 3 "~" V 5800 3610 50  0001 C CNN
+	1    5800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F7B958D
+P 6600 2650
+AR Path="/5F3B1D81/5F7B958D" Ref="#PWR?"  Part="1" 
+AR Path="/5F41418C/5F7B958D" Ref="#PWR?"  Part="1" 
+AR Path="/5F414989/5F7B958D" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B958D" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 6600 2500 50  0001 C CNN
+F 1 "+VBAT" V 6600 2900 50  0000 C CNN
+F 2 "" H 6600 2650 50  0001 C CNN
+F 3 "" H 6600 2650 50  0001 C CNN
+	1    6600 2650
+	0    1    1    0   
+$EndComp
+Text Label 6600 2450 0    50   ~ 0
+BOOT_SOURCE_SEL
+$Comp
+L Connector_Generic:Conn_01x03 P?
+U 1 1 5F7B9594
+P 6400 2550
+AR Path="/5F3B1D81/5F7B9594" Ref="P?"  Part="1" 
+AR Path="/5F7B9594" Ref="P1"  Part="1" 
+F 0 "P1" H 6318 2225 50  0000 C CNN
+F 1 "Conn_01x03" H 6318 2316 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6400 2550 50  0001 C CNN
+F 3 "~" H 6400 2550 50  0001 C CNN
+	1    6400 2550
+	-1   0    0    1   
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F7B959A
+P 6600 2550
+AR Path="/5F3B1D81/5F7B959A" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B959A" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 6600 2400 50  0001 C CNN
+F 1 "+VDDIO" V 6615 2678 50  0000 L CNN
+F 2 "" H 6600 2550 50  0001 C CNN
+F 3 "" H 6600 2550 50  0001 C CNN
+	1    6600 2550
+	0    1    1    0   
+$EndComp
+Text Label 9400 3250 0    50   ~ 0
+BOOT_SOURCE_SEL
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even JC1
+U 1 1 5F7BA02A
+P 7500 3650
+F 0 "JC1" H 7550 4067 50  0000 C CNN
+F 1 "Conn_02x05_Odd_Even" H 7550 3976 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 7500 3650 50  0001 C CNN
+F 3 "~" H 7500 3650 50  0001 C CNN
+	1    7500 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 5F7BC634
+P 4400 3450
+F 0 "J?" H 4480 3442 50  0000 L CNN
+F 1 "Conn_01x10" H 4480 3351 50  0000 L CNN
+F 2 "" H 4400 3450 50  0001 C CNN
+F 3 "~" H 4400 3450 50  0001 C CNN
+	1    4400 3450
+	1    0    0    -1  
+$EndComp
+Text Label 2250 3750 0    50   ~ 0
+GPIO3
+Text Label 2250 3850 0    50   ~ 0
+GPIO5
+Text Label 2250 3950 0    50   ~ 0
+GPIO7
+Text Label 2250 3650 0    50   ~ 0
+GPIO1
+Text Label 1750 3950 2    50   ~ 0
+GPIO8
+Text Label 1750 3850 2    50   ~ 0
+GPIO6
+Text Label 1750 3750 2    50   ~ 0
+GPIO4
+Text Label 1750 3650 2    50   ~ 0
+GPIO2
 $EndSCHEMATC

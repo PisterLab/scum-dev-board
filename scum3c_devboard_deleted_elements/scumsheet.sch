@@ -31,7 +31,6 @@ NoConn ~ 2250 5600
 NoConn ~ 8000 1950
 NoConn ~ 8000 2100
 NoConn ~ 8000 2250
-NoConn ~ 8000 4650
 NoConn ~ 8000 5550
 NoConn ~ 8000 5400
 NoConn ~ 8000 5250
@@ -594,8 +593,6 @@ F 3 "" H 8000 3900 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	8000 4050 9250 4050
-Text Label 9250 4050 2    50   ~ 0
-BOOT_SOURCE_SEL
 $Comp
 L Device:C C20
 U 1 1 5F40AC2A
@@ -850,22 +847,6 @@ Wire Wire Line
 	5000 700  5000 1150
 Text HLabel 3700 6050 3    50   BiDi ~ 0
 GPIO0
-$Comp
-L draft1library:+VBAT #PWR0210
-U 1 1 5F3AF896
-P 9800 5650
-AR Path="/5F3B1D81/5F3AF896" Ref="#PWR0210"  Part="1" 
-AR Path="/5F41418C/5F3AF896" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3AF896" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0210" H 9800 5500 50  0001 C CNN
-F 1 "+VBAT" V 9800 5900 50  0000 C CNN
-F 2 "" H 9800 5650 50  0001 C CNN
-F 3 "" H 9800 5650 50  0001 C CNN
-	1    9800 5650
-	0    1    1    0   
-$EndComp
-Text Label 9800 5450 0    50   ~ 0
-BOOT_SOURCE_SEL
 Wire Wire Line
 	4300 6050 4300 6500
 Wire Wire Line
@@ -898,80 +879,50 @@ F 3 "" H 5200 3450 50  0001 C CNN
 	1    5200 3450
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6450 6050
-NoConn ~ 6600 6050
-NoConn ~ 6750 6050
-NoConn ~ 6900 6050
-NoConn ~ 7050 6050
+Text HLabel 6750 6050 3    50   BiDi ~ 0
+3WB_CLK
+Text HLabel 6900 6050 3    50   BiDi ~ 0
+3WB_ENB
+Text HLabel 7050 6050 3    50   BiDi ~ 0
+3WB_DATA
+Text HLabel 2250 4100 0    50   BiDi ~ 0
+RF_IN
+Text HLabel 6450 6050 3    50   BiDi ~ 0
+RsTx
+Text HLabel 6600 6050 3    50   BiDi ~ 0
+RsRx
+Text HLabel 9250 4050 2    50   BiDi ~ 0
+BOOT_SOURCE_SEL
 $Comp
-L Connector_Generic:Conn_01x03 P5
-U 1 1 5F5126D4
-P 9600 5550
-F 0 "P5" H 9518 5225 50  0000 C CNN
-F 1 "Conn_01x03" H 9518 5316 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9600 5550 50  0001 C CNN
-F 3 "~" H 9600 5550 50  0001 C CNN
-	1    9600 5550
+L SamacSys_Parts:LD_MVSG-JGLH-46-1 LED1
+U 1 1 5F7B4972
+P 9200 4650
+F 0 "LED1" H 9500 4385 50  0000 C CNN
+F 1 "LD_MVSG-JGLH-46-1" H 9500 4476 50  0000 C CNN
+F 2 "LEDM2218X140N" H 9700 4800 50  0001 L BNN
+F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf" H 9700 4700 50  0001 L BNN
+F 4 "Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package" H 9700 4600 50  0001 L BNN "Description"
+F 5 "1.4" H 9700 4500 50  0001 L BNN "Height"
+F 6 "OSRAM" H 9700 4400 50  0001 L BNN "Manufacturer_Name"
+F 7 "LD MVSG-JGLH-46-1" H 9700 4300 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "LD MVSG-JGLH-46-1" H 9700 4200 50  0001 L BNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ldmvsg-jglh-46-1/osram-opto-semiconductors" H 9700 4100 50  0001 L BNN "Arrow Price/Stock"
+F 10 "720-LDMVSGJGLH461" H 9700 4000 50  0001 L BNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LD-MVSG-JGLH-46-1?qs=znB0%2F8lYn%252BuYpqaPHtqGHw%3D%3D" H 9700 3900 50  0001 L BNN "Mouser Price/Stock"
+	1    9200 4650
 	-1   0    0    1   
 $EndComp
+Wire Wire Line
+	8000 4650 8600 4650
 $Comp
-L draft1library:+VDDIO #PWR0110
-U 1 1 5F5148F6
-P 9800 5550
-F 0 "#PWR0110" H 9800 5400 50  0001 C CNN
-F 1 "+VDDIO" V 9815 5678 50  0000 L CNN
-F 2 "" H 9800 5550 50  0001 C CNN
-F 3 "" H 9800 5550 50  0001 C CNN
-	1    9800 5550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0120
-U 1 1 5F555029
-P 10300 4400
-F 0 "#PWR0120" H 10300 4150 50  0001 C CNN
-F 1 "GND" H 10305 4227 50  0000 C CNN
-F 2 "" H 10300 4400 50  0001 C CNN
-F 3 "" H 10300 4400 50  0001 C CNN
-	1    10300 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VBAT #PWR0121
-U 1 1 5F5558C9
-P 10300 4100
-F 0 "#PWR0121" H 10300 3950 50  0001 C CNN
-F 1 "+VBAT" H 10315 4273 50  0000 C CNN
-F 2 "" H 10300 4100 50  0001 C CNN
-F 3 "" H 10300 4100 50  0001 C CNN
-	1    10300 4100
-	1    0    0    -1  
-$EndComp
-Text Notes 8600 4850 0    50   ~ 0
-i know this isn't how it works. just getting a footprint placeholder\n
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5F554877
-P 10300 4300
-F 0 "BT1" H 10418 4396 50  0000 L CNN
-F 1 "Battery_Cell" H 10418 4305 50  0000 L CNN
-F 2 "Battery:Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles" V 10300 4360 50  0001 C CNN
-F 3 "~" V 10300 4360 50  0001 C CNN
-	1    10300 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 5F4F714B
-P 2250 4100
-AR Path="/5F3B1D81/5F4F714B" Ref="#PWR0109"  Part="1" 
-AR Path="/5F41418C/5F4F714B" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F4F714B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0109" H 2250 3850 50  0001 C CNN
-F 1 "GND" V 2255 3972 50  0000 R CNN
-F 2 "" H 2250 4100 50  0001 C CNN
-F 3 "" H 2250 4100 50  0001 C CNN
-	1    2250 4100
-	0    1    1    0   
+L power:GND #PWR?
+U 1 1 5F7B7D3D
+P 9200 4650
+F 0 "#PWR?" H 9200 4400 50  0001 C CNN
+F 1 "GND" V 9205 4522 50  0000 R CNN
+F 2 "" H 9200 4650 50  0001 C CNN
+F 3 "" H 9200 4650 50  0001 C CNN
+	1    9200 4650
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

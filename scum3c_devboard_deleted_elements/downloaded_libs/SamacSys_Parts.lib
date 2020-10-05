@@ -233,5 +233,83 @@ P 2 0 1 6 500 0 400 0 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 2986
+#/2015096/287758/2.47/3/4/Undefined or Miscellaneous
+DEF 2986 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "2986" 650 200 50 H V L CNN
+F2 "2986" 650 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/215/Keystone_Electronics_04082019_2986-1551342.pdf" 650 0 50 H I L CNN
+F4 "Coin Cell Battery Holders 5.8 MM SMT BUTTON CELL RETAINER" 650 -100 50 H I L CNN "Description"
+F5 "2.92" 650 -200 50 H I L CNN "Height"
+F6 "Keystone Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2986" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "2986" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "534-2986" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/2986?qs=u16ybLDytRZqKumx7EzKqw%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ADP2138ACBZ-1.8
+#/545077/287758/2.47/6/3/Integrated Circuit
+DEF ADP2138ACBZ-1.8 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ADP2138ACBZ-1.8" 950 200 50 H V L CNN
+F2 "BGA6C50P2X3_103X150X64" 950 100 50 H I L CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2138_2139.pdf" 950 0 50 H I L CNN
+F4 "ANALOG DEVICES - ADP2138ACBZ-1.8 - BUCK, 800MA, 1.8V, 6WLCSP" 950 -100 50 H I L CNN "Description"
+F5 "0.64" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADP2138ACBZ-1.8" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ADP2138ACBZ-1.8" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X VIN A1 0 0 200 R 50 50 0 0 P
+X EN A2 0 -100 200 R 50 50 0 0 P
+X SW B1 0 -200 200 R 50 50 0 0 P
+X MODE B2 1100 0 200 L 50 50 0 0 P
+X GND C1 1100 -100 200 L 50 50 0 0 P
+X VOUT C2 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LD_MVSG-JGLH-46-1
+#/482091/287758/2.47/2/3/LED
+DEF LD_MVSG-JGLH-46-1 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "LD_MVSG-JGLH-46-1" 500 250 50 H V L BNN
+F2 "LEDM2218X140N" 500 150 50 H I L BNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf" 500 50 50 H I L BNN
+F4 "Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package" 500 -50 50 H I L BNN "Description"
+F5 "1.4" 500 -150 50 H I L BNN "Height"
+F6 "OSRAM" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "LD MVSG-JGLH-46-1" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "LD MVSG-JGLH-46-1" 500 -450 50 H I L BNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ldmvsg-jglh-46-1/osram-opto-semiconductors" 500 -550 50 H I L BNN "Arrow Price/Stock"
+F10 "720-LDMVSGJGLH461" 500 -650 50 H I L BNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LD-MVSG-JGLH-46-1?qs=znB0%2F8lYn%252BuYpqaPHtqGHw%3D%3D" 500 -750 50 H I L BNN "Mouser Price/Stock"
+DRAW
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
 #End Library
 
