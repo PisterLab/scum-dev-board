@@ -42,4 +42,10 @@ K
 F https://assets.lairdtech.com/home/brandworld/files/Catalog_EMI%20FILTERING%20RF%200717.pdf
 $ENDCMP
 #
+$CMP DDZ9678-7
+D Diode Zener 1.8V 5% 500mW 2Pin SOD123
+K
+F https://www.mouser.com/datasheet/2/115/ds30410-30695.pdf
+$ENDCMP
+#
 #End Doc Library

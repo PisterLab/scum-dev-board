@@ -146,6 +146,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# SamacSys_Parts_DDZ9678-7
+#
+DEF SamacSys_Parts_DDZ9678-7 Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "SamacSys_Parts_DDZ9678-7" 400 250 50 H V L CNN
+F2 "SOD3716X135N" 400 150 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/115/ds30410-30695.pdf" 400 50 50 H I L CNN
+F4 "Diode Zener 1.8V 5% 500mW 2Pin SOD123" 400 -50 50 H I L CNN "Description"
+F5 "1.35" 400 -150 50 H I L CNN "Height"
+F6 "Diodes Inc." 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "DDZ9678-7" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "DDZ9678-7" 400 -450 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ddz9678-7/diodes-incorporated" 400 -550 50 H I L CNN "Arrow Price/Stock"
+F10 "621-DDZ9678-7" 400 -650 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DDZ9678-7?qs=ptj1V1atRAp2rXEOTrnLaA%3D%3D" 400 -750 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 500 0 400 0 N
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Sensor_Motion_MPU-9250
 #
 DEF Sensor_Motion_MPU-9250 U 0 20 Y Y 1 F N
