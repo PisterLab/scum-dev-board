@@ -186,60 +186,22 @@ F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 190
 	1    1900 2150
 	1    0    0    -1  
 $EndComp
-Text Label 1700 4600 2    50   ~ 0
-GPIO2
-Text Label 2200 4600 0    50   ~ 0
-GPIO1
-Text Label 1700 4700 2    50   ~ 0
-GPIO4
-Text Label 1700 4800 2    50   ~ 0
-GPIO6
-Text Label 1700 4900 2    50   ~ 0
-GPIO8
-Text Label 2200 4900 0    50   ~ 0
-GPIO7
-Text Label 2200 4800 0    50   ~ 0
-GPIO5
-Text Label 2200 4700 0    50   ~ 0
-GPIO3
-Text Label 4350 4300 2    50   ~ 0
+Text Label 3550 4500 2    50   ~ 0
 GPIO10
-Text Label 4350 4400 2    50   ~ 0
+Text Label 3550 4700 2    50   ~ 0
 GPIO12
-Text Label 4350 4500 2    50   ~ 0
+Text Label 3550 4900 2    50   ~ 0
 GPIO14
-Text Label 4350 4600 2    50   ~ 0
+Text Label 3550 5000 2    50   ~ 0
 GPIO15
-$Comp
-L power:GND #PWR0111
-U 1 1 5F3EC8B2
-P 4350 4700
-F 0 "#PWR0111" H 4350 4450 50  0001 C CNN
-F 1 "GND" V 4355 4572 50  0000 R CNN
-F 2 "" H 4350 4700 50  0001 C CNN
-F 3 "" H 4350 4700 50  0001 C CNN
-	1    4350 4700
-	0    1    1    0   
-$EndComp
-Text Label 4850 4300 0    50   ~ 0
+Text Label 3550 4400 2    50   ~ 0
 GPIO9
-Text Label 4850 4600 0    50   ~ 0
+Text Label 2450 4350 2    50   ~ 0
 GPIO0
-Text Label 4850 4500 0    50   ~ 0
+Text Label 3550 4800 2    50   ~ 0
 GPIO13
-Text Label 4850 4400 0    50   ~ 0
+Text Label 3550 4600 2    50   ~ 0
 GPIO11
-$Comp
-L power:GND #PWR0112
-U 1 1 5F3ED1BB
-P 4850 4700
-F 0 "#PWR0112" H 4850 4450 50  0001 C CNN
-F 1 "GND" V 4855 4572 50  0000 R CNN
-F 2 "" H 4850 4700 50  0001 C CNN
-F 3 "" H 4850 4700 50  0001 C CNN
-	1    4850 4700
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F3F179B
@@ -487,28 +449,6 @@ F 3 "~" H 1700 7700 50  0001 C CNN
 	1    1700 7700
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Odd_Even JA1
-U 1 1 5F4FC0F5
-P 1900 4700
-F 0 "JA1" H 1950 5017 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 1950 4926 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1900 4700 50  0001 C CNN
-F 3 "~" H 1900 4700 50  0001 C CNN
-	1    1900 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even JB1
-U 1 1 5F4FD4BB
-P 4550 4500
-F 0 "JB1" H 4600 4917 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 4600 4826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4550 4500 50  0001 C CNN
-F 3 "~" H 4550 4500 50  0001 C CNN
-	1    4550 4500
-	1    0    0    -1  
-$EndComp
 Text Label 8550 2600 2    50   ~ 0
 GPIO13
 Text Label 8550 2500 2    50   ~ 0
@@ -518,7 +458,7 @@ GPIO14
 Text Label 8550 2800 2    50   ~ 0
 GPIO15
 $Sheet
-S 8550 800  750  2150
+S 8550 800  850  2750
 U 5F3B1D81
 F0 "scumsheet" 50
 F1 "scumsheet.sch" 50
@@ -538,5 +478,202 @@ F14 "GPIO13" B L 8550 2600 50
 F15 "GPIO14" B L 8550 2700 50 
 F16 "GPIO15" B L 8550 2800 50 
 F17 "GPIO0" B L 8550 1200 50 
+F18 "3WB_CLK" B R 9400 1200 50 
+F19 "3WB_ENB" B R 9400 1300 50 
+F20 "3WB_DATA" B R 9400 1400 50 
+F21 "RF_IN" B R 9400 1500 50 
+F22 "RsTx" B L 8550 3050 50 
+F23 "RsRx" B L 8550 2950 50 
+F24 "BOOT_SOURCE_SEL" B R 9400 3250 50 
 $EndSheet
+$Comp
+L SamacSys_Parts:DDZ9678-7 Z1
+U 1 1 5F7B30CA
+P 4900 6550
+F 0 "Z1" V 5246 6422 50  0000 R CNN
+F 1 "DDZ9678-7" V 5155 6422 50  0000 R CNN
+F 2 "SamacSys_Parts:SOD3716X135N" H 5300 6700 50  0001 L CNN
+F 3 "https://www.mouser.com/datasheet/2/115/ds30410-30695.pdf" H 5300 6600 50  0001 L CNN
+F 4 "Diode Zener 1.8V 5% 500mW 2Pin SOD123" H 5300 6500 50  0001 L CNN "Description"
+F 5 "1.35" H 5300 6400 50  0001 L CNN "Height"
+F 6 "Diodes Inc." H 5300 6300 50  0001 L CNN "Manufacturer_Name"
+F 7 "DDZ9678-7" H 5300 6200 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "DDZ9678-7" H 5300 6100 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/ddz9678-7/diodes-incorporated" H 5300 6000 50  0001 L CNN "Arrow Price/Stock"
+F 10 "621-DDZ9678-7" H 5300 5900 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DDZ9678-7?qs=ptj1V1atRAp2rXEOTrnLaA%3D%3D" H 5300 5800 50  0001 L CNN "Mouser Price/Stock"
+	1    4900 6550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0122
+U 1 1 5F7B8192
+P 4900 7150
+F 0 "#PWR0122" H 4900 6900 50  0001 C CNN
+F 1 "GND" H 4905 6977 50  0000 C CNN
+F 2 "" H 4900 7150 50  0001 C CNN
+F 3 "" H 4900 7150 50  0001 C CNN
+	1    4900 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR0123
+U 1 1 5F7BC62D
+P 4900 6550
+F 0 "#PWR0123" H 4900 6400 50  0001 C CNN
+F 1 "+VBAT" H 4915 6723 50  0000 C CNN
+F 2 "" H 4900 6550 50  0001 C CNN
+F 3 "" H 4900 6550 50  0001 C CNN
+	1    4900 6550
+	1    0    0    -1  
+$EndComp
+Text Notes 5150 6450 0    50   ~ 0
+hope this is the right component for voltage protection
+Text Label 9400 1200 0    50   ~ 0
+3WB_CLK
+Text Label 9400 1300 0    50   ~ 0
+3WB_ENB
+Text Label 9400 1400 0    50   ~ 0
+3WB_DATA
+$Comp
+L power:GND #PWR0120
+U 1 1 5F7C4691
+P 5800 3650
+F 0 "#PWR0120" H 5800 3400 50  0001 C CNN
+F 1 "GND" H 5805 3477 50  0000 C CNN
+F 2 "" H 5800 3650 50  0001 C CNN
+F 3 "" H 5800 3650 50  0001 C CNN
+	1    5800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR0121
+U 1 1 5F7C4697
+P 5800 3350
+F 0 "#PWR0121" H 5800 3200 50  0001 C CNN
+F 1 "+VBAT" H 5815 3523 50  0000 C CNN
+F 2 "" H 5800 3350 50  0001 C CNN
+F 3 "" H 5800 3350 50  0001 C CNN
+	1    5800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Battery_Cell BT1
+U 1 1 5F7C469D
+P 5800 3550
+F 0 "BT1" H 5918 3646 50  0000 L CNN
+F 1 "Battery_Cell" H 5918 3555 50  0000 L CNN
+F 2 "SamacSys_Parts:2986" V 5800 3610 50  0001 C CNN
+F 3 "~" V 5800 3610 50  0001 C CNN
+	1    5800 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR?
+U 1 1 5F7B958D
+P 4450 3350
+AR Path="/5F3B1D81/5F7B958D" Ref="#PWR?"  Part="1" 
+AR Path="/5F41418C/5F7B958D" Ref="#PWR?"  Part="1" 
+AR Path="/5F414989/5F7B958D" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B958D" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 4450 3200 50  0001 C CNN
+F 1 "+VBAT" V 4450 3600 50  0000 C CNN
+F 2 "" H 4450 3350 50  0001 C CNN
+F 3 "" H 4450 3350 50  0001 C CNN
+	1    4450 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F7B959A
+P 4450 3450
+AR Path="/5F3B1D81/5F7B959A" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B959A" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 4450 3300 50  0001 C CNN
+F 1 "+VDDIO" V 4465 3578 50  0000 L CNN
+F 2 "" H 4450 3450 50  0001 C CNN
+F 3 "" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	0    -1   -1   0   
+$EndComp
+Text Label 9400 3250 0    50   ~ 0
+BOOT_SOURCE_SEL
+Text Label 2450 4650 2    50   ~ 0
+GPIO3
+Text Label 2450 4850 2    50   ~ 0
+GPIO5
+Text Label 2450 5050 2    50   ~ 0
+GPIO7
+Text Label 2450 4450 2    50   ~ 0
+GPIO1
+Text Label 2450 4550 2    50   ~ 0
+GPIO2
+Text Label 2450 4750 2    50   ~ 0
+GPIO4
+Text Label 2450 4950 2    50   ~ 0
+GPIO6
+Text Label 3550 4300 2    50   ~ 0
+GPIO8
+Text Label 9400 1500 0    50   ~ 0
+RF_IN
+Text Label 8550 2950 2    50   ~ 0
+RsRx
+Text Label 8550 3050 2    50   ~ 0
+RsTx
+$Comp
+L power:GND #PWR0124
+U 1 1 5F7D3632
+P 4450 3250
+F 0 "#PWR0124" H 4450 3000 50  0001 C CNN
+F 1 "GND" V 4455 3122 50  0000 R CNN
+F 2 "" H 4450 3250 50  0001 C CNN
+F 3 "" H 4450 3250 50  0001 C CNN
+	1    4450 3250
+	0    1    1    0   
+$EndComp
+Text Label 4450 3950 2    50   ~ 0
+RsRx
+Text Label 4450 4050 2    50   ~ 0
+RsTx
+Text Label 4450 3850 2    50   ~ 0
+3WB_CLK
+Text Label 4450 3750 2    50   ~ 0
+3WB_ENB
+Text Label 4450 3650 2    50   ~ 0
+3WB_DATA
+Text Label 4450 3550 2    50   ~ 0
+RF_IN
+$Comp
+L Connector_Generic:Conn_01x08 JA1
+U 1 1 5F7FC97F
+P 2650 4650
+F 0 "JA1" H 2730 4642 50  0000 L CNN
+F 1 "Conn_01x08" H 2730 4551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2650 4650 50  0001 C CNN
+F 3 "~" H 2650 4650 50  0001 C CNN
+	1    2650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 JB1
+U 1 1 5F7FD7A2
+P 3750 4600
+F 0 "JB1" H 3830 4592 50  0000 L CNN
+F 1 "Conn_01x08" H 3830 4501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3750 4600 50  0001 C CNN
+F 3 "~" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 JC1
+U 1 1 5F804045
+P 4650 3650
+F 0 "JC1" H 4730 3692 50  0000 L CNN
+F 1 "Conn_01x09" H 4730 3601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4650 3650 50  0001 C CNN
+F 3 "~" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
