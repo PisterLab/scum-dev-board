@@ -186,44 +186,22 @@ F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 190
 	1    1900 2150
 	1    0    0    -1  
 $EndComp
-Text Label 3550 4400 2    50   ~ 0
-GPIO10
-Text Label 3550 4600 2    50   ~ 0
-GPIO12
-Text Label 3550 4800 2    50   ~ 0
-GPIO14
-Text Label 3550 4900 2    50   ~ 0
-GPIO15
-$Comp
-L power:GND #PWR0111
-U 1 1 5F3EC8B2
-P 2450 5150
-F 0 "#PWR0111" H 2450 4900 50  0001 C CNN
-F 1 "GND" V 2455 5022 50  0000 R CNN
-F 2 "" H 2450 5150 50  0001 C CNN
-F 3 "" H 2450 5150 50  0001 C CNN
-	1    2450 5150
-	0    1    1    0   
-$EndComp
-Text Label 3550 4300 2    50   ~ 0
-GPIO9
-Text Label 3550 5000 2    50   ~ 0
-GPIO0
-Text Label 3550 4700 2    50   ~ 0
-GPIO13
 Text Label 3550 4500 2    50   ~ 0
+GPIO10
+Text Label 3550 4700 2    50   ~ 0
+GPIO12
+Text Label 3550 4900 2    50   ~ 0
+GPIO14
+Text Label 3550 5000 2    50   ~ 0
+GPIO15
+Text Label 3550 4400 2    50   ~ 0
+GPIO9
+Text Label 2450 4350 2    50   ~ 0
+GPIO0
+Text Label 3550 4800 2    50   ~ 0
+GPIO13
+Text Label 3550 4600 2    50   ~ 0
 GPIO11
-$Comp
-L power:GND #PWR0112
-U 1 1 5F3ED1BB
-P 3550 5100
-F 0 "#PWR0112" H 3550 4850 50  0001 C CNN
-F 1 "GND" V 3555 4972 50  0000 R CNN
-F 2 "" H 3550 5100 50  0001 C CNN
-F 3 "" H 3550 5100 50  0001 C CNN
-	1    3550 5100
-	0    1    1    0   
-$EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F3F179B
@@ -605,8 +583,6 @@ F 3 "" H 4450 3350 50  0001 C CNN
 	1    4450 3350
 	0    -1   -1   0   
 $EndComp
-Text Label 4450 3550 2    50   ~ 0
-BOOT_SOURCE_SEL
 $Comp
 L draft1library:+VDDIO #PWR?
 U 1 1 5F7B959A
@@ -622,32 +598,21 @@ F 3 "" H 4450 3450 50  0001 C CNN
 $EndComp
 Text Label 9400 3250 0    50   ~ 0
 BOOT_SOURCE_SEL
-$Comp
-L Connector_Generic:Conn_01x10 JC1
-U 1 1 5F7BC634
-P 4650 3650
-F 0 "JC1" H 4730 3642 50  0000 L CNN
-F 1 "Conn_01x10" H 4730 3551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4650 3650 50  0001 C CNN
-F 3 "~" H 4650 3650 50  0001 C CNN
-	1    4650 3650
-	1    0    0    -1  
-$EndComp
-Text Label 2450 4550 2    50   ~ 0
-GPIO3
-Text Label 2450 4750 2    50   ~ 0
-GPIO5
-Text Label 2450 4950 2    50   ~ 0
-GPIO7
-Text Label 2450 4350 2    50   ~ 0
-GPIO1
-Text Label 2450 4450 2    50   ~ 0
-GPIO2
 Text Label 2450 4650 2    50   ~ 0
-GPIO4
+GPIO3
 Text Label 2450 4850 2    50   ~ 0
-GPIO6
+GPIO5
 Text Label 2450 5050 2    50   ~ 0
+GPIO7
+Text Label 2450 4450 2    50   ~ 0
+GPIO1
+Text Label 2450 4550 2    50   ~ 0
+GPIO2
+Text Label 2450 4750 2    50   ~ 0
+GPIO4
+Text Label 2450 4950 2    50   ~ 0
+GPIO6
+Text Label 3550 4300 2    50   ~ 0
 GPIO8
 Text Label 9400 1500 0    50   ~ 0
 RF_IN
@@ -655,28 +620,6 @@ Text Label 8550 2950 2    50   ~ 0
 RsRx
 Text Label 8550 3050 2    50   ~ 0
 RsTx
-$Comp
-L Connector_Generic:Conn_01x09 JA1
-U 1 1 5F7CC956
-P 2650 4750
-F 0 "JA1" H 2730 4792 50  0000 L CNN
-F 1 "Conn_01x09" H 2730 4701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 2650 4750 50  0001 C CNN
-F 3 "~" H 2650 4750 50  0001 C CNN
-	1    2650 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x09 JB1
-U 1 1 5F7CF946
-P 3750 4700
-F 0 "JB1" H 3830 4742 50  0000 L CNN
-F 1 "Conn_01x09" H 3830 4651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 3750 4700 50  0001 C CNN
-F 3 "~" H 3750 4700 50  0001 C CNN
-	1    3750 4700
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR0124
 U 1 1 5F7D3632
@@ -688,16 +631,49 @@ F 3 "" H 4450 3250 50  0001 C CNN
 	1    4450 3250
 	0    1    1    0   
 $EndComp
-Text Label 4450 4050 2    50   ~ 0
-RsRx
-Text Label 4450 4150 2    50   ~ 0
-RsTx
 Text Label 4450 3950 2    50   ~ 0
-3WB_CLK
+RsRx
+Text Label 4450 4050 2    50   ~ 0
+RsTx
 Text Label 4450 3850 2    50   ~ 0
-3WB_ENB
+3WB_CLK
 Text Label 4450 3750 2    50   ~ 0
-3WB_DATA
+3WB_ENB
 Text Label 4450 3650 2    50   ~ 0
+3WB_DATA
+Text Label 4450 3550 2    50   ~ 0
 RF_IN
+$Comp
+L Connector_Generic:Conn_01x08 JA1
+U 1 1 5F7FC97F
+P 2650 4650
+F 0 "JA1" H 2730 4642 50  0000 L CNN
+F 1 "Conn_01x08" H 2730 4551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2650 4650 50  0001 C CNN
+F 3 "~" H 2650 4650 50  0001 C CNN
+	1    2650 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 JB1
+U 1 1 5F7FD7A2
+P 3750 4600
+F 0 "JB1" H 3830 4592 50  0000 L CNN
+F 1 "Conn_01x08" H 3830 4501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3750 4600 50  0001 C CNN
+F 3 "~" H 3750 4600 50  0001 C CNN
+	1    3750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 JC1
+U 1 1 5F804045
+P 4650 3650
+F 0 "JC1" H 4730 3692 50  0000 L CNN
+F 1 "Conn_01x09" H 4730 3601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4650 3650 50  0001 C CNN
+F 3 "~" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
