@@ -865,28 +865,12 @@ NoConn ~ 8000 4800
 NoConn ~ 8000 4200
 Wire Wire Line
 	8000 2550 9150 2550
-$Comp
-L draft1library:scum3 U8
-U 1 1 5F3B2246
-P 5200 3450
-AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
-AR Path="/5F41418C/5F3B2246" Ref="U?"  Part="1" 
-AR Path="/5F414989/5F3B2246" Ref="U?"  Part="1" 
-F 0 "U8" H 8944 3271 50  0000 L CNN
-F 1 "scum3" H 8944 3180 50  0000 L CNN
-F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm" H 5200 3450 50  0001 C CNN
-F 3 "" H 5200 3450 50  0001 C CNN
-	1    5200 3450
-	1    0    0    -1  
-$EndComp
 Text HLabel 6750 6050 3    50   BiDi ~ 0
 3WB_CLK
 Text HLabel 6900 6050 3    50   BiDi ~ 0
 3WB_ENB
 Text HLabel 7050 6050 3    50   BiDi ~ 0
 3WB_DATA
-Text HLabel 2250 4100 0    50   BiDi ~ 0
-RF_IN
 Text HLabel 6450 6050 3    50   BiDi ~ 0
 RsTx
 Text HLabel 6600 6050 3    50   BiDi ~ 0
@@ -925,4 +909,19 @@ F 3 "" H 9200 4650 50  0001 C CNN
 	1    9200 4650
 	0    -1   -1   0   
 $EndComp
+$Comp
+L draft1library:scum3 U8
+U 1 1 5F3B2246
+P 5200 3450
+AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
+AR Path="/5F41418C/5F3B2246" Ref="U?"  Part="1" 
+AR Path="/5F414989/5F3B2246" Ref="U?"  Part="1" 
+F 0 "U8" H 8944 3271 50  0000 L CNN
+F 1 "scum3" H 8944 3180 50  0000 L CNN
+F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm" H 5200 3450 50  0001 C CNN
+F 3 "" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2250 4100
 $EndSCHEMATC
