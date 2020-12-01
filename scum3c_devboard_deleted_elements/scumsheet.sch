@@ -533,22 +533,6 @@ Text HLabel 4600 6500 3    50   BiDi ~ 0
 GPIO6
 Text HLabel 4750 6500 3    50   BiDi ~ 0
 GPIO7
-Text HLabel 5050 6050 3    50   BiDi ~ 0
-GPIO8
-Text HLabel 5200 6050 3    50   BiDi ~ 0
-GPIO9
-Text HLabel 5350 6050 3    50   BiDi ~ 0
-GPIO10
-Text HLabel 5500 6050 3    50   BiDi ~ 0
-GPIO11
-Text HLabel 5650 6050 3    50   BiDi ~ 0
-GPIO12
-Text HLabel 5800 6050 3    50   BiDi ~ 0
-GPIO13
-Text HLabel 5950 6050 3    50   BiDi ~ 0
-GPIO14
-Text HLabel 6100 6050 3    50   BiDi ~ 0
-GPIO15
 $Comp
 L draft1library:+VDDIO #PWR0194
 U 1 1 5F404D67
@@ -924,4 +908,12 @@ F 3 "" H 5200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2250 4100
+NoConn ~ 6100 6050
+NoConn ~ 5950 6050
+NoConn ~ 5800 6050
+NoConn ~ 5650 6050
+NoConn ~ 5500 6050
+NoConn ~ 5350 6050
+NoConn ~ 5200 6050
+NoConn ~ 5050 6050
 $EndSCHEMATC
