@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:scum3c-devboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -13,6 +14,20 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L draft1library:scum3 U8
+U 1 1 5F3B2246
+P 5200 3450
+AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
+AR Path="/5F41418C/5F3B2246" Ref="U?"  Part="1" 
+AR Path="/5F414989/5F3B2246" Ref="U?"  Part="1" 
+F 0 "U8" H 8944 3271 50  0000 L CNN
+F 1 "scum3" H 8944 3180 50  0000 L CNN
+F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm" H 5200 3450 50  0001 C CNN
+F 3 "" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
 NoConn ~ 2250 2000
 NoConn ~ 2250 2150
 NoConn ~ 2250 2300
@@ -31,6 +46,7 @@ NoConn ~ 2250 5600
 NoConn ~ 8000 1950
 NoConn ~ 8000 2100
 NoConn ~ 8000 2250
+NoConn ~ 8000 4650
 NoConn ~ 8000 5550
 NoConn ~ 8000 5400
 NoConn ~ 8000 5250
@@ -39,7 +55,6 @@ NoConn ~ 6950 1150
 NoConn ~ 6800 1150
 NoConn ~ 6650 1150
 NoConn ~ 6500 1150
-NoConn ~ 6350 1150
 NoConn ~ 6200 1150
 NoConn ~ 6050 1150
 NoConn ~ 5900 1150
@@ -505,6 +520,8 @@ F 3 "" H 2250 3350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2250 3650 1550 3650
+Text Label 1550 3650 0    50   ~ 0
+VDD_AO_DISABLE
 $Comp
 L draft1library:+VBAT #PWR0193
 U 1 1 5F40149D
@@ -533,6 +550,22 @@ Text HLabel 4600 6500 3    50   BiDi ~ 0
 GPIO6
 Text HLabel 4750 6500 3    50   BiDi ~ 0
 GPIO7
+Text HLabel 5050 6050 3    50   BiDi ~ 0
+GPIO8
+Text HLabel 5200 6050 3    50   BiDi ~ 0
+GPIO9
+Text HLabel 5350 6050 3    50   BiDi ~ 0
+GPIO10
+Text HLabel 5500 6050 3    50   BiDi ~ 0
+GPIO11
+Text HLabel 5650 6050 3    50   BiDi ~ 0
+GPIO12
+Text HLabel 5800 6050 3    50   BiDi ~ 0
+GPIO13
+Text HLabel 5950 6050 3    50   BiDi ~ 0
+GPIO14
+Text HLabel 6100 6050 3    50   BiDi ~ 0
+GPIO15
 $Comp
 L draft1library:+VDDIO #PWR0194
 U 1 1 5F404D67
@@ -547,6 +580,20 @@ F 3 "" H 4900 6050 50  0001 C CNN
 	1    4900 6050
 	-1   0    0    1   
 $EndComp
+Text HLabel 6450 6050 3    50   Output ~ 0
+RsTx
+Text HLabel 6600 6050 3    50   Input ~ 0
+RsRx
+Text HLabel 6750 6050 3    50   Input ~ 0
+3WB_CLK
+Text HLabel 6900 6050 3    50   Input ~ 0
+3WB_ENB
+Text HLabel 7050 6050 3    50   Input ~ 0
+3WB_DATA
+Text HLabel 8000 4800 2    50   BiDi ~ 0
+LF_CLK_EXT_IN
+Text HLabel 8000 4200 2    50   BiDi ~ 0
+HARD_RESET
 $Comp
 L draft1library:+VBAT #PWR0195
 U 1 1 5F406DAE
@@ -561,6 +608,8 @@ F 3 "" H 8000 4350 50  0001 C CNN
 	1    8000 4350
 	0    1    1    0   
 $EndComp
+Text HLabel 8000 3750 2    50   BiDi ~ 0
+ASC_PHI2
 $Comp
 L draft1library:+VBAT #PWR0196
 U 1 1 5F407E52
@@ -575,8 +624,16 @@ F 3 "" H 8000 3900 50  0001 C CNN
 	1    8000 3900
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	8000 4050 9250 4050
+Text HLabel 8000 3600 2    50   BiDi ~ 0
+ASC_PHI1
+Text HLabel 8000 3450 2    50   BiDi ~ 0
+ASC_OUT
+Text HLabel 8000 3300 2    50   BiDi ~ 0
+ASC_LOAD
+Text HLabel 8000 3150 2    50   BiDi ~ 0
+ASC_IN
+Text HLabel 8000 3000 2    50   BiDi ~ 0
+ASC_EXT_OVERRIDE
 $Comp
 L Device:C C20
 U 1 1 5F40AC2A
@@ -609,6 +666,10 @@ F 3 "" H 9000 2700 50  0001 C CNN
 $EndComp
 Text Label 8050 2700 0    50   ~ 0
 AUX_LDO_OUTPUT
+Wire Wire Line
+	8000 2550 8700 2550
+Text Label 8700 2550 2    50   ~ 0
+VDDD_DISABLE
 $Comp
 L Device:C C18
 U 1 1 5F40EBE3
@@ -679,59 +740,67 @@ Connection ~ 8800 2150
 $Comp
 L Device:R_US R13
 U 1 1 5F4188E4
-P 9300 2550
+P 9900 1850
 AR Path="/5F3B1D81/5F4188E4" Ref="R13"  Part="1" 
 AR Path="/5F41418C/5F4188E4" Ref="R?"  Part="1" 
 AR Path="/5F414989/5F4188E4" Ref="R?"  Part="1" 
-F 0 "R13" H 9368 2596 50  0000 L CNN
-F 1 "NP" H 9368 2505 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 9340 2540 50  0001 C CNN
-F 3 "~" H 9300 2550 50  0001 C CNN
-	1    9300 2550
-	0    -1   -1   0   
+F 0 "R13" H 9968 1896 50  0000 L CNN
+F 1 "NP" H 9968 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 9940 1840 50  0001 C CNN
+F 3 "~" H 9900 1850 50  0001 C CNN
+	1    9900 1850
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_US R14
 U 1 1 5F419870
-P 1400 3650
+P 10550 1850
 AR Path="/5F3B1D81/5F419870" Ref="R14"  Part="1" 
 AR Path="/5F41418C/5F419870" Ref="R?"  Part="1" 
 AR Path="/5F414989/5F419870" Ref="R?"  Part="1" 
-F 0 "R14" H 1468 3696 50  0000 L CNN
-F 1 "NP" H 1468 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1440 3640 50  0001 C CNN
-F 3 "~" H 1400 3650 50  0001 C CNN
-	1    1400 3650
-	0    1    1    0   
+F 0 "R14" H 10618 1896 50  0000 L CNN
+F 1 "NP" H 10618 1805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 10590 1840 50  0001 C CNN
+F 3 "~" H 10550 1850 50  0001 C CNN
+	1    10550 1850
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0201
 U 1 1 5F419E58
-P 9450 2550
+P 9900 2000
 AR Path="/5F3B1D81/5F419E58" Ref="#PWR0201"  Part="1" 
 AR Path="/5F41418C/5F419E58" Ref="#PWR?"  Part="1" 
 AR Path="/5F414989/5F419E58" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0201" H 9450 2300 50  0001 C CNN
-F 1 "GND" H 9455 2377 50  0000 C CNN
-F 2 "" H 9450 2550 50  0001 C CNN
-F 3 "" H 9450 2550 50  0001 C CNN
-	1    9450 2550
-	0    -1   -1   0   
+F 0 "#PWR0201" H 9900 1750 50  0001 C CNN
+F 1 "GND" H 9905 1827 50  0000 C CNN
+F 2 "" H 9900 2000 50  0001 C CNN
+F 3 "" H 9900 2000 50  0001 C CNN
+	1    9900 2000
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0202
 U 1 1 5F41A5FE
-P 1250 3650
+P 10550 2000
 AR Path="/5F3B1D81/5F41A5FE" Ref="#PWR0202"  Part="1" 
 AR Path="/5F41418C/5F41A5FE" Ref="#PWR?"  Part="1" 
 AR Path="/5F414989/5F41A5FE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0202" H 1250 3400 50  0001 C CNN
-F 1 "GND" H 1255 3477 50  0000 C CNN
-F 2 "" H 1250 3650 50  0001 C CNN
-F 3 "" H 1250 3650 50  0001 C CNN
-	1    1250 3650
-	0    1    1    0   
+F 0 "#PWR0202" H 10550 1750 50  0001 C CNN
+F 1 "GND" H 10555 1827 50  0000 C CNN
+F 2 "" H 10550 2000 50  0001 C CNN
+F 3 "" H 10550 2000 50  0001 C CNN
+	1    10550 2000
+	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9900 1700 9900 1250
+Text Label 9900 1250 3    50   ~ 0
+VDDD_DISABLE
+Wire Wire Line
+	10550 1700 10550 950 
+Text Label 10550 950  3    50   ~ 0
+VDD_AO_DISABLE
 $Comp
 L draft1library:+VDDAO #PWR0205
 U 1 1 5F3A3049
@@ -798,15 +867,15 @@ Connection ~ 4100 700
 $Comp
 L draft1library:+VDDD #PWR0208
 U 1 1 5F3A8DE4
-P 6000 700
+P 5900 700
 AR Path="/5F3B1D81/5F3A8DE4" Ref="#PWR0208"  Part="1" 
 AR Path="/5F41418C/5F3A8DE4" Ref="#PWR?"  Part="1" 
 AR Path="/5F414989/5F3A8DE4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0208" H 6000 550 50  0001 C CNN
-F 1 "+VDDD" V 6015 828 50  0000 L CNN
-F 2 "" H 6000 700 50  0001 C CNN
-F 3 "" H 6000 700 50  0001 C CNN
-	1    6000 700 
+F 0 "#PWR0208" H 5900 550 50  0001 C CNN
+F 1 "+VDDD" V 5915 828 50  0000 L CNN
+F 2 "" H 5900 700 50  0001 C CNN
+F 3 "" H 5900 700 50  0001 C CNN
+	1    5900 700 
 	0    1    1    0   
 $EndComp
 $Comp
@@ -824,8 +893,6 @@ F 3 "~" H 5650 700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6000 700  5800 700 
-Wire Wire Line
 	5500 700  5000 700 
 Wire Wire Line
 	5000 700  5000 1150
@@ -839,81 +906,20 @@ Wire Wire Line
 	4600 6050 4600 6500
 Wire Wire Line
 	4750 6500 4750 6050
-NoConn ~ 8000 3000
-NoConn ~ 8000 3150
-NoConn ~ 8000 3300
-NoConn ~ 8000 3450
-NoConn ~ 8000 3600
-NoConn ~ 8000 3750
-NoConn ~ 8000 4800
-NoConn ~ 8000 4200
+Text Label 4300 6350 1    50   ~ 0
+GP4
+Text Label 4450 6350 1    50   ~ 0
+GP5
+Text Label 4600 6350 1    50   ~ 0
+GP6
+Text Label 4750 6350 1    50   ~ 0
+GP7
+Text HLabel 2250 4100 0    50   BiDi ~ 0
+RF_IN
+Text HLabel 6350 1150 1    50   Input ~ 0
+SOFT_RESET
 Wire Wire Line
-	8000 2550 9150 2550
-Text HLabel 6750 6050 3    50   BiDi ~ 0
-3WB_CLK
-Text HLabel 6900 6050 3    50   BiDi ~ 0
-3WB_ENB
-Text HLabel 7050 6050 3    50   BiDi ~ 0
-3WB_DATA
-Text HLabel 6450 6050 3    50   BiDi ~ 0
-RsTx
-Text HLabel 6600 6050 3    50   BiDi ~ 0
-RsRx
-Text HLabel 9250 4050 2    50   BiDi ~ 0
+	5900 700  5800 700 
+Text HLabel 8000 4050 2    50   Input ~ 0
 BOOT_SOURCE_SEL
-$Comp
-L SamacSys_Parts:LD_MVSG-JGLH-46-1 LED1
-U 1 1 5F7B4972
-P 9200 4650
-F 0 "LED1" H 9500 4385 50  0000 C CNN
-F 1 "LD_MVSG-JGLH-46-1" H 9500 4476 50  0000 C CNN
-F 2 "SamacSys_Parts:LEDM2218X140N" H 9700 4800 50  0001 L BNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf" H 9700 4700 50  0001 L BNN
-F 4 "Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package" H 9700 4600 50  0001 L BNN "Description"
-F 5 "1.4" H 9700 4500 50  0001 L BNN "Height"
-F 6 "OSRAM" H 9700 4400 50  0001 L BNN "Manufacturer_Name"
-F 7 "LD MVSG-JGLH-46-1" H 9700 4300 50  0001 L BNN "Manufacturer_Part_Number"
-F 8 "LD MVSG-JGLH-46-1" H 9700 4200 50  0001 L BNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ldmvsg-jglh-46-1/osram-opto-semiconductors" H 9700 4100 50  0001 L BNN "Arrow Price/Stock"
-F 10 "720-LDMVSGJGLH461" H 9700 4000 50  0001 L BNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LD-MVSG-JGLH-46-1?qs=znB0%2F8lYn%252BuYpqaPHtqGHw%3D%3D" H 9700 3900 50  0001 L BNN "Mouser Price/Stock"
-	1    9200 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 4650 8600 4650
-$Comp
-L power:GND #PWR0125
-U 1 1 5F7B7D3D
-P 9200 4650
-F 0 "#PWR0125" H 9200 4400 50  0001 C CNN
-F 1 "GND" V 9205 4522 50  0000 R CNN
-F 2 "" H 9200 4650 50  0001 C CNN
-F 3 "" H 9200 4650 50  0001 C CNN
-	1    9200 4650
-	0    -1   -1   0   
-$EndComp
-$Comp
-L draft1library:scum3 U8
-U 1 1 5F3B2246
-P 5200 3450
-AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
-AR Path="/5F41418C/5F3B2246" Ref="U?"  Part="1" 
-AR Path="/5F414989/5F3B2246" Ref="U?"  Part="1" 
-F 0 "U8" H 8944 3271 50  0000 L CNN
-F 1 "scum3" H 8944 3180 50  0000 L CNN
-F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm" H 5200 3450 50  0001 C CNN
-F 3 "" H 5200 3450 50  0001 C CNN
-	1    5200 3450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2250 4100
-NoConn ~ 6100 6050
-NoConn ~ 5950 6050
-NoConn ~ 5800 6050
-NoConn ~ 5650 6050
-NoConn ~ 5500 6050
-NoConn ~ 5350 6050
-NoConn ~ 5200 6050
-NoConn ~ 5050 6050
 $EndSCHEMATC

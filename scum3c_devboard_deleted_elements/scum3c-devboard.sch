@@ -186,22 +186,6 @@ F 3 "https://store.invensense.com/datasheets/invensense/MPU9250REV1.0.pdf" H 190
 	1    1900 2150
 	1    0    0    -1  
 $EndComp
-Text Label 3550 4500 2    50   ~ 0
-GPIO10
-Text Label 3550 4700 2    50   ~ 0
-GPIO12
-Text Label 3550 4900 2    50   ~ 0
-GPIO14
-Text Label 3550 5000 2    50   ~ 0
-GPIO15
-Text Label 3550 4400 2    50   ~ 0
-GPIO9
-Text Label 2450 4350 2    50   ~ 0
-GPIO0
-Text Label 3550 4800 2    50   ~ 0
-GPIO13
-Text Label 3550 4600 2    50   ~ 0
-GPIO11
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5F3F179B
@@ -392,16 +376,6 @@ Text Label 8550 1800 2    50   ~ 0
 GPIO6
 Text Label 8550 1900 2    50   ~ 0
 GPIO7
-Text Label 8550 2100 2    50   ~ 0
-GPIO8
-Text Label 8550 2200 2    50   ~ 0
-GPIO9
-Text Label 8550 2300 2    50   ~ 0
-GPIO10
-Text Label 8550 2400 2    50   ~ 0
-GPIO11
-Text Label 8550 2100 2    50   ~ 0
-GPIO8
 Text Notes 3200 1150 0    50   ~ 0
 Invensense MPU-9250 and ICM-20948 are pin compatible\nWhen using MPU-9250, VDDIO can be 1.71V-3.3V\nWhen using ICM-20948, VDDIO can be 1.71V-1.95V\nEasiest way to use ICM-20948 is to replace 1.5V VBAT LDO with 1.8V and set VDDIO=VBAT
 Wire Wire Line
@@ -449,43 +423,6 @@ F 3 "~" H 1700 7700 50  0001 C CNN
 	1    1700 7700
 	1    0    0    -1  
 $EndComp
-Text Label 8550 2600 2    50   ~ 0
-GPIO13
-Text Label 8550 2500 2    50   ~ 0
-GPIO12
-Text Label 8550 2700 2    50   ~ 0
-GPIO14
-Text Label 8550 2800 2    50   ~ 0
-GPIO15
-$Sheet
-S 8550 800  850  2750
-U 5F3B1D81
-F0 "scumsheet" 50
-F1 "scumsheet.sch" 50
-F2 "GPIO1" B L 8550 1300 50 
-F3 "GPIO2" B L 8550 1400 50 
-F4 "GPIO3" B L 8550 1500 50 
-F5 "GPIO4" B L 8550 1600 50 
-F6 "GPIO5" B L 8550 1700 50 
-F7 "GPIO6" B L 8550 1800 50 
-F8 "GPIO7" B L 8550 1900 50 
-F9 "GPIO8" B L 8550 2100 50 
-F10 "GPIO9" B L 8550 2200 50 
-F11 "GPIO10" B L 8550 2300 50 
-F12 "GPIO11" B L 8550 2400 50 
-F13 "GPIO12" B L 8550 2500 50 
-F14 "GPIO13" B L 8550 2600 50 
-F15 "GPIO14" B L 8550 2700 50 
-F16 "GPIO15" B L 8550 2800 50 
-F17 "GPIO0" B L 8550 1200 50 
-F18 "3WB_CLK" B R 9400 1200 50 
-F19 "3WB_ENB" B R 9400 1300 50 
-F20 "3WB_DATA" B R 9400 1400 50 
-F21 "RF_IN" B R 9400 1500 50 
-F22 "RsTx" B L 8550 3050 50 
-F23 "RsRx" B L 8550 2950 50 
-F24 "BOOT_SOURCE_SEL" B R 9400 3250 50 
-$EndSheet
 $Comp
 L SamacSys_Parts:DDZ9678-7 Z1
 U 1 1 5F7B30CA
@@ -583,39 +520,8 @@ F 3 "" H 4450 3350 50  0001 C CNN
 	1    4450 3350
 	0    -1   -1   0   
 $EndComp
-$Comp
-L draft1library:+VDDIO #PWR?
-U 1 1 5F7B959A
-P 4450 3450
-AR Path="/5F3B1D81/5F7B959A" Ref="#PWR?"  Part="1" 
-AR Path="/5F7B959A" Ref="#PWR0110"  Part="1" 
-F 0 "#PWR0110" H 4450 3300 50  0001 C CNN
-F 1 "+VDDIO" V 4465 3578 50  0000 L CNN
-F 2 "" H 4450 3450 50  0001 C CNN
-F 3 "" H 4450 3450 50  0001 C CNN
-	1    4450 3450
-	0    -1   -1   0   
-$EndComp
 Text Label 9400 3250 0    50   ~ 0
 BOOT_SOURCE_SEL
-Text Label 2450 4650 2    50   ~ 0
-GPIO3
-Text Label 2450 4850 2    50   ~ 0
-GPIO5
-Text Label 2450 5050 2    50   ~ 0
-GPIO7
-Text Label 2450 4450 2    50   ~ 0
-GPIO1
-Text Label 2450 4550 2    50   ~ 0
-GPIO2
-Text Label 2450 4750 2    50   ~ 0
-GPIO4
-Text Label 2450 4950 2    50   ~ 0
-GPIO6
-Text Label 3550 4300 2    50   ~ 0
-GPIO8
-Text Label 9400 1500 0    50   ~ 0
-RF_IN
 Text Label 8550 2950 2    50   ~ 0
 RsRx
 Text Label 8550 3050 2    50   ~ 0
@@ -631,6 +537,19 @@ F 3 "" H 4450 3250 50  0001 C CNN
 	1    4450 3250
 	0    1    1    0   
 $EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 5F7B959A
+P 4450 3450
+AR Path="/5F3B1D81/5F7B959A" Ref="#PWR?"  Part="1" 
+AR Path="/5F7B959A" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 4450 3300 50  0001 C CNN
+F 1 "+VDDIO" V 4465 3578 50  0000 L CNN
+F 2 "" H 4450 3450 50  0001 C CNN
+F 3 "" H 4450 3450 50  0001 C CNN
+	1    4450 3450
+	0    -1   -1   0   
+$EndComp
 Text Label 4450 3950 2    50   ~ 0
 RsRx
 Text Label 4450 4050 2    50   ~ 0
@@ -641,39 +560,73 @@ Text Label 4450 3750 2    50   ~ 0
 3WB_ENB
 Text Label 4450 3650 2    50   ~ 0
 3WB_DATA
-Text Label 4450 3550 2    50   ~ 0
-RF_IN
+Text Label 4400 4500 2    50   ~ 0
+GPIO0
+Text Label 4400 4700 2    50   ~ 0
+GPIO2
+Text Label 4400 4900 2    50   ~ 0
+GPIO4
+Text Label 4400 5100 2    50   ~ 0
+GPIO6
+Text Label 4400 5200 2    50   ~ 0
+GPIO7
+Text Label 4400 4600 2    50   ~ 0
+GPIO1
+Text Label 4400 4800 2    50   ~ 0
+GPIO3
+Text Label 4400 5000 2    50   ~ 0
+GPIO5
+$Sheet
+S 8550 800  850  2750
+U 5F3B1D81
+F0 "scumsheet" 50
+F1 "scumsheet.sch" 50
+F2 "GPIO1" B L 8550 1300 50 
+F3 "GPIO2" B L 8550 1400 50 
+F4 "GPIO3" B L 8550 1500 50 
+F5 "GPIO4" B L 8550 1600 50 
+F6 "GPIO5" B L 8550 1700 50 
+F7 "GPIO6" B L 8550 1800 50 
+F8 "GPIO7" B L 8550 1900 50 
+F9 "GPIO0" B L 8550 1200 50 
+F10 "3WB_CLK" B R 9400 1200 50 
+F11 "3WB_ENB" B R 9400 1300 50 
+F12 "3WB_DATA" B R 9400 1400 50 
+F13 "RsTx" B L 8550 3050 50 
+F14 "RsRx" B L 8550 2950 50 
+F15 "BOOT_SOURCE_SEL" B R 9400 3250 50 
+$EndSheet
 $Comp
 L Connector_Generic:Conn_01x08 JA1
-U 1 1 5F7FC97F
-P 2650 4650
-F 0 "JA1" H 2730 4642 50  0000 L CNN
-F 1 "Conn_01x08" H 2730 4551 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 2650 4650 50  0001 C CNN
-F 3 "~" H 2650 4650 50  0001 C CNN
-	1    2650 4650
+U 1 1 5FCC5985
+P 4600 4800
+F 0 "JA1" H 4680 4792 50  0000 L CNN
+F 1 "Conn_01x08" H 4680 4701 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 4600 4800 50  0001 C CNN
+F 3 "~" H 4600 4800 50  0001 C CNN
+	1    4600 4800
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 JB1
-U 1 1 5F7FD7A2
-P 3750 4600
-F 0 "JB1" H 3830 4592 50  0000 L CNN
-F 1 "Conn_01x08" H 3830 4501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 3750 4600 50  0001 C CNN
-F 3 "~" H 3750 4600 50  0001 C CNN
-	1    3750 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x09 JC1
+L Connector_Generic:Conn_01x09 JB1
 U 1 1 5F804045
 P 4650 3650
-F 0 "JC1" H 4730 3692 50  0000 L CNN
+F 0 "JB1" H 4730 3692 50  0000 L CNN
 F 1 "Conn_01x09" H 4730 3601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical" H 4650 3650 50  0001 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" H 4650 3650 50  0001 C CNN
 F 3 "~" H 4650 3650 50  0001 C CNN
 	1    4650 3650
 	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VDDD #PWR?
+U 1 1 5FCBDE12
+P 4450 3550
+F 0 "#PWR?" H 4450 3400 50  0001 C CNN
+F 1 "+VDDD" H 4465 3723 50  0000 C CNN
+F 2 "" H 4450 3550 50  0001 C CNN
+F 3 "" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
