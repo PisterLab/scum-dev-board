@@ -560,17 +560,6 @@ Text Label 4450 3750 2    50   ~ 0
 3WB_ENB
 Text Label 4450 3650 2    50   ~ 0
 3WB_DATA
-$Comp
-L Connector_Generic:Conn_01x09 JB1
-U 1 1 5F804045
-P 4650 3650
-F 0 "JB1" H 4730 3692 50  0000 L CNN
-F 1 "Conn_01x09" H 4730 3601 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" H 4650 3650 50  0001 C CNN
-F 3 "~" H 4650 3650 50  0001 C CNN
-	1    4650 3650
-	1    0    0    -1  
-$EndComp
 Text Label 4400 4500 2    50   ~ 0
 GPIO0
 Text Label 4400 4700 2    50   ~ 0
@@ -617,5 +606,27 @@ F 2 "Connector_PinHeader_1.27mm:PinHeader_1x08_P1.27mm_Vertical" H 4600 4800 50 
 F 3 "~" H 4600 4800 50  0001 C CNN
 	1    4600 4800
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x09 JB1
+U 1 1 5F804045
+P 4650 3650
+F 0 "JB1" H 4730 3692 50  0000 L CNN
+F 1 "Conn_01x09" H 4730 3601 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" H 4650 3650 50  0001 C CNN
+F 3 "~" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VDDD #PWR?
+U 1 1 5FCBDE12
+P 4450 3550
+F 0 "#PWR?" H 4450 3400 50  0001 C CNN
+F 1 "+VDDD" H 4465 3723 50  0000 C CNN
+F 2 "" H 4450 3550 50  0001 C CNN
+F 3 "" H 4450 3550 50  0001 C CNN
+	1    4450 3550
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
