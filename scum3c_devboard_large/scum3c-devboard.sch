@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "SCuM PCB1"
 Date ""
 Rev ""
@@ -312,54 +312,6 @@ F 3 "" H 3750 800 50  0001 C CNN
 	1    3750 800 
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0106
-U 1 1 5F3F3173
-P 4200 1350
-AR Path="/5F3F3173" Ref="#FLG0106"  Part="1" 
-AR Path="/5F3B0B28/5F3F3173" Ref="#FLG?"  Part="1" 
-F 0 "#FLG0106" H 4200 1425 50  0001 C CNN
-F 1 "PWR_FLAG" H 4200 1523 50  0000 C CNN
-F 2 "" H 4200 1350 50  0001 C CNN
-F 3 "~" H 4200 1350 50  0001 C CNN
-	1    4200 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VDDAO #PWR0118
-U 1 1 5F3F362D
-P 4200 1350
-F 0 "#PWR0118" H 4200 1200 50  0001 C CNN
-F 1 "+VDDAO" H 4215 1523 50  0000 C CNN
-F 2 "" H 4200 1350 50  0001 C CNN
-F 3 "" H 4200 1350 50  0001 C CNN
-	1    4200 1350
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0107
-U 1 1 5F3F3E4C
-P 4650 1350
-AR Path="/5F3F3E4C" Ref="#FLG0107"  Part="1" 
-AR Path="/5F3B0B28/5F3F3E4C" Ref="#FLG?"  Part="1" 
-F 0 "#FLG0107" H 4650 1425 50  0001 C CNN
-F 1 "PWR_FLAG" H 4650 1523 50  0000 C CNN
-F 2 "" H 4650 1350 50  0001 C CNN
-F 3 "~" H 4650 1350 50  0001 C CNN
-	1    4650 1350
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VDD25 #PWR0119
-U 1 1 5F3F4256
-P 4650 1350
-F 0 "#PWR0119" H 4650 1200 50  0001 C CNN
-F 1 "+VDD25" H 4665 1523 50  0000 C CNN
-F 2 "" H 4650 1350 50  0001 C CNN
-F 3 "" H 4650 1350 50  0001 C CNN
-	1    4650 1350
-	-1   0    0    1   
-$EndComp
 Text Label 4300 2250 2    50   ~ 0
 GPIO0
 Text Label 4300 2350 2    50   ~ 0
@@ -410,25 +362,25 @@ $EndComp
 $Comp
 L draft1library:+VUSB #PWR0200
 U 1 1 5F3B6ADB
-P 5100 1350
-F 0 "#PWR0200" H 5100 1200 50  0001 C CNN
-F 1 "+VUSB" H 5115 1523 50  0000 C CNN
-F 2 "" H 5100 1350 50  0001 C CNN
-F 3 "" H 5100 1350 50  0001 C CNN
-	1    5100 1350
+P 4200 1350
+F 0 "#PWR0200" H 4200 1200 50  0001 C CNN
+F 1 "+VUSB" H 4215 1523 50  0000 C CNN
+F 2 "" H 4200 1350 50  0001 C CNN
+F 3 "" H 4200 1350 50  0001 C CNN
+	1    4200 1350
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0108
 U 1 1 5F3B796B
-P 5100 1350
+P 4200 1350
 AR Path="/5F3B796B" Ref="#FLG0108"  Part="1" 
 AR Path="/5F3B0B28/5F3B796B" Ref="#FLG?"  Part="1" 
-F 0 "#FLG0108" H 5100 1425 50  0001 C CNN
-F 1 "PWR_FLAG" H 5100 1523 50  0000 C CNN
-F 2 "" H 5100 1350 50  0001 C CNN
-F 3 "~" H 5100 1350 50  0001 C CNN
-	1    5100 1350
+F 0 "#FLG0108" H 4200 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 4200 1523 50  0000 C CNN
+F 2 "" H 4200 1350 50  0001 C CNN
+F 3 "~" H 4200 1350 50  0001 C CNN
+	1    4200 1350
 	1    0    0    -1  
 $EndComp
 Text Label 4300 3650 2    50   ~ 0
@@ -510,7 +462,7 @@ U 1 1 5F737106
 P 850 4450
 F 0 "H3" H 950 4496 50  0000 L CNN
 F 1 "MountingHole" H 950 4405 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm" H 850 4450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 850 4450 50  0001 C CNN
 F 3 "~" H 850 4450 50  0001 C CNN
 	1    850  4450
 	1    0    0    -1  
@@ -521,7 +473,7 @@ U 1 1 5F737150
 P 850 4650
 F 0 "H4" H 950 4696 50  0000 L CNN
 F 1 "MountingHole" H 950 4605 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm" H 850 4650 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 850 4650 50  0001 C CNN
 F 3 "~" H 850 4650 50  0001 C CNN
 	1    850  4650
 	1    0    0    -1  
@@ -532,7 +484,7 @@ U 1 1 5F737198
 P 850 4250
 F 0 "H2" H 950 4296 50  0000 L CNN
 F 1 "MountingHole" H 950 4205 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm" H 850 4250 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 850 4250 50  0001 C CNN
 F 3 "~" H 850 4250 50  0001 C CNN
 	1    850  4250
 	1    0    0    -1  
@@ -543,18 +495,21 @@ U 1 1 5F7371CC
 P 850 4050
 F 0 "H1" H 950 4096 50  0000 L CNN
 F 1 "MountingHole" H 950 4005 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.7mm" H 850 4050 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 850 4050 50  0001 C CNN
 F 3 "~" H 850 4050 50  0001 C CNN
 	1    850  4050
 	1    0    0    -1  
 $EndComp
 $Sheet
-S 800  7100 600  250 
+S 800  7100 600  550 
 U 5F7F639B
 F0 "UART" 50
 F1 "UART.sch" 50
 F2 "RsRx" I L 800 7200 50 
 F3 "RsTx" O R 1400 7200 50 
+F4 "VBAT_USB" I R 1400 7550 50 
+F5 "RsRx33" I L 800 7300 50 
+F6 "RsTx33" I R 1400 7400 50 
 $EndSheet
 Text Label 800  7200 2    50   ~ 0
 RsRx
@@ -573,25 +528,14 @@ Text Label 5300 2650 0    50   ~ 0
 Text Label 5300 2750 0    50   ~ 0
 RF_IN
 $Comp
-L power:GND #PWR0148
-U 1 1 5F80735E
-P 4550 4900
-F 0 "#PWR0148" H 4550 4650 50  0001 C CNN
-F 1 "GND" V 4555 4727 50  0000 C CNN
-F 2 "" H 4550 4900 50  0001 C CNN
-F 3 "" H 4550 4900 50  0001 C CNN
-	1    4550 4900
-	0    1    1    0   
-$EndComp
-$Comp
 L draft1library:+VDDIO #PWR0150
 U 1 1 5F808564
-P 2250 6200
-F 0 "#PWR0150" H 2250 6050 50  0001 C CNN
-F 1 "+VDDIO" V 2250 6450 50  0000 C CNN
-F 2 "" H 2250 6200 50  0001 C CNN
-F 3 "" H 2250 6200 50  0001 C CNN
-	1    2250 6200
+P 1100 6300
+F 0 "#PWR0150" H 1100 6150 50  0001 C CNN
+F 1 "+VDDIO" V 1100 6550 50  0000 C CNN
+F 2 "" H 1100 6300 50  0001 C CNN
+F 3 "" H 1100 6300 50  0001 C CNN
+	1    1100 6300
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
@@ -791,9 +735,9 @@ Text Label 4550 6000 2    50   ~ 0
 3WB_DATA
 Text Label 4550 6100 2    50   ~ 0
 GPIO0
-Text Label 4550 5200 2    50   ~ 0
-aSCSEL
 Text Label 4550 5100 2    50   ~ 0
+aSCSEL
+Text Label 4550 5200 2    50   ~ 0
 aSCANIN
 Text Label 1550 5450 0    50   ~ 0
 GPIO7
@@ -818,7 +762,7 @@ F 3 "~" H 1250 5550 50  0001 C CNN
 	1    1250 5550
 	1    0    0    -1  
 $EndComp
-Text Label 2750 6100 0    50   ~ 0
+Text Label 2500 5250 2    50   ~ 0
 Boot_Source_Sel
 Wire Notes Line
 	3500 550  3500 1650
@@ -860,38 +804,8 @@ Text Label 5300 3950 0    50   ~ 0
 aSCSEL
 Text Label 5300 4150 0    50   ~ 0
 Boot_Source_Sel
-$Comp
-L Connector_Generic:Conn_01x23 J4
-U 1 1 5FBB32A3
-P 4750 6000
-F 0 "J4" H 4830 6042 50  0000 L CNN
-F 1 "Conn_01x23" H 4830 5951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x23_P2.54mm_Vertical" H 4750 6000 50  0001 C CNN
-F 3 "~" H 4750 6000 50  0001 C CNN
-	1    4750 6000
-	1    0    0    -1  
-$EndComp
 Text Label 4550 6500 2    50   ~ 0
 GPIO3
-$Comp
-L power:GND #PWR?
-U 1 1 5FB5BC7D
-P 4550 6200
-AR Path="/5F3B307E/5FB5BC7D" Ref="#PWR?"  Part="1" 
-AR Path="/5FB5BC7D" Ref="#PWR0158"  Part="1" 
-F 0 "#PWR0158" H 4550 5950 50  0001 C CNN
-F 1 "GND" V 4550 6100 50  0000 R CNN
-F 2 "" H 4550 6200 50  0001 C CNN
-F 3 "" H 4550 6200 50  0001 C CNN
-	1    4550 6200
-	0    1    1    0   
-$EndComp
-NoConn ~ 4550 6300
-NoConn ~ 4550 6400
-Text Label 4550 7100 2    50   ~ 0
-RsTx
-Text Label 4550 7000 2    50   ~ 0
-RsRx
 Text Label 4550 6900 2    50   ~ 0
 aLOAD
 Text Label 4550 6800 2    50   ~ 0
@@ -908,19 +822,6 @@ Wire Notes Line
 	6000 7250 6000 4750
 Wire Notes Line
 	6000 4750 3500 4750
-$Comp
-L draft1library:+VBAT #PWR0153
-U 1 1 5FBF1B27
-P 9050 1750
-AR Path="/5FBF1B27" Ref="#PWR0153"  Part="1" 
-AR Path="/5F3B0B28/5FBF1B27" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0153" H 9050 1600 50  0001 C CNN
-F 1 "+VBAT" V 9050 2000 50  0000 C CNN
-F 2 "" H 9050 1750 50  0001 C CNN
-F 3 "" H 9050 1750 50  0001 C CNN
-	1    9050 1750
-	0    1    1    0   
-$EndComp
 Text Notes 8950 2400 0    50   ~ 0
 DC-DC Converters
 $Comp
@@ -1145,15 +1046,15 @@ $EndComp
 $Comp
 L draft1library:+VBAT #PWR02
 U 1 1 5FC3C9B1
-P 2750 6200
+P 1100 6400
 AR Path="/5FC3C9B1" Ref="#PWR02"  Part="1" 
 AR Path="/5F3B0B28/5FC3C9B1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR02" H 2750 6050 50  0001 C CNN
-F 1 "+VBAT" V 2750 6450 50  0000 C CNN
-F 2 "" H 2750 6200 50  0001 C CNN
-F 3 "" H 2750 6200 50  0001 C CNN
-	1    2750 6200
-	0    1    1    0   
+F 0 "#PWR02" H 1100 6250 50  0001 C CNN
+F 1 "+VBAT" V 1100 6650 50  0000 C CNN
+F 2 "" H 1100 6400 50  0001 C CNN
+F 3 "" H 1100 6400 50  0001 C CNN
+	1    1100 6400
+	0    -1   -1   0   
 $EndComp
 Text Label 6500 2350 0    50   ~ 0
 PVSS1.5
@@ -1189,75 +1090,201 @@ F 3 "" H 6250 900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L draft1library:+VIN #PWR0149
-U 1 1 5FC22043
-P 4550 5000
-F 0 "#PWR0149" H 4550 4850 50  0001 C CNN
-F 1 "+VIN" V 4565 5127 50  0000 L CNN
-F 2 "" H 4550 5000 50  0001 C CNN
-F 3 "" H 4550 5000 50  0001 C CNN
-	1    4550 5000
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J6
-U 1 1 5FC7398E
-P 2450 6100
-F 0 "J6" H 2500 6317 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 2500 6226 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 2450 6100 50  0001 C CNN
-F 3 "~" H 2450 6100 50  0001 C CNN
-	1    2450 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x02_Odd_Even J5
-U 1 1 5FC739F0
-P 1250 6300
-F 0 "J5" H 1300 6517 50  0000 C CNN
-F 1 "Conn_02x02_Odd_Even" H 1300 6426 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical" H 1250 6300 50  0001 C CNN
-F 3 "~" H 1250 6300 50  0001 C CNN
-	1    1250 6300
-	1    0    0    -1  
-$EndComp
-$Comp
 L draft1library:+VIN #PWR0151
 U 1 1 5FC73A38
-P 2250 6100
-F 0 "#PWR0151" H 2250 5950 50  0001 C CNN
-F 1 "+VIN" V 2265 6227 50  0000 L CNN
-F 2 "" H 2250 6100 50  0001 C CNN
-F 3 "" H 2250 6100 50  0001 C CNN
-	1    2250 6100
+P 1100 6200
+F 0 "#PWR0151" H 1100 6050 50  0001 C CNN
+F 1 "+VIN" V 1115 6327 50  0000 L CNN
+F 2 "" H 1100 6200 50  0001 C CNN
+F 3 "" H 1100 6200 50  0001 C CNN
+	1    1100 6200
 	0    -1   -1   0   
 $EndComp
 $Comp
 L draft1library:+VBAT #PWR0152
 U 1 1 5FC73A73
-P 1550 6400
+P 2550 6400
 AR Path="/5FC73A73" Ref="#PWR0152"  Part="1" 
 AR Path="/5F3B0B28/5FC73A73" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0152" H 1550 6250 50  0001 C CNN
-F 1 "+VBAT" V 1550 6650 50  0000 C CNN
-F 2 "" H 1550 6400 50  0001 C CNN
-F 3 "" H 1550 6400 50  0001 C CNN
-	1    1550 6400
-	0    1    1    0   
+F 0 "#PWR0152" H 2550 6250 50  0001 C CNN
+F 1 "+VBAT" V 2550 6650 50  0000 C CNN
+F 2 "" H 2550 6400 50  0001 C CNN
+F 3 "" H 2550 6400 50  0001 C CNN
+	1    2550 6400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L draft1library:+VDDD #PWR0154
 U 1 1 5FC73AAE
-P 1050 6400
-F 0 "#PWR0154" H 1050 6250 50  0001 C CNN
-F 1 "+VDDD" V 1050 6650 50  0000 C CNN
-F 2 "" H 1050 6400 50  0001 C CNN
-F 3 "" H 1050 6400 50  0001 C CNN
-	1    1050 6400
+P 2550 6300
+F 0 "#PWR0154" H 2550 6150 50  0001 C CNN
+F 1 "+VDDD" V 2550 6550 50  0000 C CNN
+F 2 "" H 2550 6300 50  0001 C CNN
+F 3 "" H 2550 6300 50  0001 C CNN
+	1    2550 6300
 	0    -1   -1   0   
 $EndComp
-Text Label 1050 6300 2    50   ~ 0
+Text Label 2550 6200 2    50   ~ 0
 1Vin
 Text Label 9050 900  0    50   ~ 0
 1Vin
+$Comp
+L draft1library:+VDDD #PWR06
+U 1 1 5FC8B15B
+P 2500 5350
+F 0 "#PWR06" H 2500 5200 50  0001 C CNN
+F 1 "+VDDD" V 2500 5600 50  0000 C CNN
+F 2 "" H 2500 5350 50  0001 C CNN
+F 3 "" H 2500 5350 50  0001 C CNN
+	1    2500 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR05
+U 1 1 5FC8B19A
+P 2500 5450
+F 0 "#PWR05" H 2500 5300 50  0001 C CNN
+F 1 "+VDDIO" V 2500 5700 50  0000 C CNN
+F 2 "" H 2500 5450 50  0001 C CNN
+F 3 "" H 2500 5450 50  0001 C CNN
+	1    2500 5450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR01
+U 1 1 5FC8B3CE
+P 2500 5550
+AR Path="/5FC8B3CE" Ref="#PWR01"  Part="1" 
+AR Path="/5F3B0B28/5FC8B3CE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR01" H 2500 5400 50  0001 C CNN
+F 1 "+VBAT" V 2500 5800 50  0000 C CNN
+F 2 "" H 2500 5550 50  0001 C CNN
+F 3 "" H 2500 5550 50  0001 C CNN
+	1    2500 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR07
+U 1 1 5FC8B5C3
+P 3100 5600
+AR Path="/5FC8B5C3" Ref="#PWR07"  Part="1" 
+AR Path="/5F3B0B28/5FC8B5C3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR07" H 3100 5350 50  0001 C CNN
+F 1 "GND" H 3105 5427 50  0000 C CNN
+F 2 "" H 3100 5600 50  0001 C CNN
+F 3 "" H 3100 5600 50  0001 C CNN
+	1    3100 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J5
+U 1 1 5FC8B696
+P 2700 5350
+F 0 "J5" H 2750 5667 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 2750 5576 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 2700 5350 50  0001 C CNN
+F 3 "~" H 2700 5350 50  0001 C CNN
+	1    2700 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 5350 3100 5350
+Wire Wire Line
+	3100 5350 3100 5450
+Wire Wire Line
+	3000 5450 3100 5450
+Connection ~ 3100 5450
+Wire Wire Line
+	3100 5450 3100 5550
+$Comp
+L Connector_Generic:Conn_01x03 J7
+U 1 1 5FC967D7
+P 2750 6300
+F 0 "J7" H 2830 6342 50  0000 L CNN
+F 1 "Conn_01x03" H 2830 6251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2750 6300 50  0001 C CNN
+F 3 "~" H 2750 6300 50  0001 C CNN
+	1    2750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J6
+U 1 1 5FC969D2
+P 1300 6300
+F 0 "J6" H 1380 6342 50  0000 L CNN
+F 1 "Conn_01x03" H 1380 6251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1300 6300 50  0001 C CNN
+F 3 "~" H 1300 6300 50  0001 C CNN
+	1    1300 6300
+	1    0    0    -1  
+$EndComp
+Text Label 1400 7550 0    50   ~ 0
+VBAT_USB
+$Comp
+L Connector_Generic:Conn_01x03 J8
+U 1 1 5FC9CD42
+P 2750 5900
+F 0 "J8" H 2830 5942 50  0000 L CNN
+F 1 "Conn_01x03" H 2830 5851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2750 5900 50  0001 C CNN
+F 3 "~" H 2750 5900 50  0001 C CNN
+	1    2750 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR0141
+U 1 1 5FC9CD88
+P 2550 5900
+AR Path="/5FC9CD88" Ref="#PWR0141"  Part="1" 
+AR Path="/5F3B0B28/5FC9CD88" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0141" H 2550 5750 50  0001 C CNN
+F 1 "+VBAT" V 2550 6150 50  0000 C CNN
+F 2 "" H 2550 5900 50  0001 C CNN
+F 3 "" H 2550 5900 50  0001 C CNN
+	1    2550 5900
+	0    -1   -1   0   
+$EndComp
+Text Label 2550 5800 2    50   ~ 0
+VBAT_USB
+Text Label 9050 1750 0    50   ~ 0
+VBAT_TEENSY
+Text Label 2550 6000 2    50   ~ 0
+VBAT_TEENSY
+$Sheet
+S 4550 4950 500  2200
+U 5FCB6A87
+F0 "Teensy Connections" 50
+F1 "Teensy Conn.sch" 50
+F2 "aSCANIN" I L 4550 5200 50 
+F3 "aSCSEL" I L 4550 5100 50 
+F4 "GPIO1" I L 4550 5300 50 
+F5 "Clock" I L 4550 5400 50 
+F6 "GPIO2" I L 4550 5500 50 
+F7 "sReset" I L 4550 5600 50 
+F8 "hReset" I L 4550 5700 50 
+F9 "3WB_CLK" I L 4550 5800 50 
+F10 "3WB_ENB" I L 4550 5900 50 
+F11 "3WB_DATA" I L 4550 6000 50 
+F12 "GPIO0" I L 4550 6100 50 
+F13 "GPIO3" I L 4550 6500 50 
+F14 "aPHIb" I L 4550 6600 50 
+F15 "aPHI" I L 4550 6700 50 
+F16 "aSCANOUT" I L 4550 6800 50 
+F17 "aLOAD" I L 4550 6900 50 
+F18 "RsRx" I L 4550 7000 50 
+F19 "RsTx" I L 4550 7100 50 
+$EndSheet
+Wire Wire Line
+	3000 5550 3100 5550
+Connection ~ 3100 5550
+Wire Wire Line
+	3100 5550 3100 5600
+Text Label 1400 7400 0    50   ~ 0
+Tx33
+Text Label 800  7300 2    50   ~ 0
+Rx33
+Text Label 4550 7000 2    50   ~ 0
+Rx33
+Text Label 4550 7100 2    50   ~ 0
+Tx33
 $EndSCHEMATC
