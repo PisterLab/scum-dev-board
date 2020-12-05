@@ -33,8 +33,6 @@ NoConn ~ 8000 2100
 NoConn ~ 8000 2250
 NoConn ~ 8000 5550
 NoConn ~ 8000 5400
-NoConn ~ 8000 5250
-NoConn ~ 8000 5100
 NoConn ~ 6950 1150
 NoConn ~ 6800 1150
 NoConn ~ 6650 1150
@@ -916,4 +914,8 @@ NoConn ~ 5500 6050
 NoConn ~ 5350 6050
 NoConn ~ 5200 6050
 NoConn ~ 5050 6050
+Text HLabel 8000 5100 2    50   BiDi ~ 0
+SENSOR_EXT_IN
+Text HLabel 8000 5250 2    50   BiDi ~ 0
+SENSOR_LDO_OUTPUT
 $EndSCHEMATC

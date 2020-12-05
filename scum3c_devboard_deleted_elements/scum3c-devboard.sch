@@ -514,13 +514,13 @@ AR Path="/5F41418C/5F7B958D" Ref="#PWR?"  Part="1"
 AR Path="/5F414989/5F7B958D" Ref="#PWR?"  Part="1" 
 AR Path="/5F7B958D" Ref="#PWR0109"  Part="1" 
 F 0 "#PWR0109" H 4450 3200 50  0001 C CNN
-F 1 "+VBAT" V 4450 3600 50  0000 C CNN
+F 1 "+VBAT" V 4450 3650 50  0000 C CNN
 F 2 "" H 4450 3350 50  0001 C CNN
 F 3 "" H 4450 3350 50  0001 C CNN
 	1    4450 3350
 	0    -1   -1   0   
 $EndComp
-Text Label 9400 3250 0    50   ~ 0
+Text Label 9400 2350 0    50   ~ 0
 BOOT_SOURCE_SEL
 Text Label 8550 2950 2    50   ~ 0
 RsRx
@@ -550,15 +550,15 @@ F 3 "" H 4450 3450 50  0001 C CNN
 	1    4450 3450
 	0    -1   -1   0   
 $EndComp
-Text Label 4450 3950 2    50   ~ 0
+Text Label 4450 4150 2    50   ~ 0
 RsRx
-Text Label 4450 4050 2    50   ~ 0
+Text Label 4450 4250 2    50   ~ 0
 RsTx
-Text Label 4450 3850 2    50   ~ 0
+Text Label 4450 4050 2    50   ~ 0
 3WB_CLK
-Text Label 4450 3750 2    50   ~ 0
+Text Label 4450 3950 2    50   ~ 0
 3WB_ENB
-Text Label 4450 3650 2    50   ~ 0
+Text Label 4450 3850 2    50   ~ 0
 3WB_DATA
 Text Label 4400 4500 2    50   ~ 0
 GPIO0
@@ -594,7 +594,9 @@ F11 "3WB_ENB" B R 9400 1300 50
 F12 "3WB_DATA" B R 9400 1400 50 
 F13 "RsTx" B L 8550 3050 50 
 F14 "RsRx" B L 8550 2950 50 
-F15 "BOOT_SOURCE_SEL" B R 9400 3250 50 
+F15 "BOOT_SOURCE_SEL" B R 9400 2350 50 
+F16 "SENSOR_EXT_IN" B R 9400 2500 50 
+F17 "SENSOR_LDO_OUTPUT" B R 9400 2650 50 
 $EndSheet
 $Comp
 L Connector_Generic:Conn_01x08 JA1
@@ -608,25 +610,33 @@ F 3 "~" H 4600 4800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x09 JB1
-U 1 1 5F804045
-P 4650 3650
-F 0 "JB1" H 4730 3692 50  0000 L CNN
-F 1 "Conn_01x09" H 4730 3601 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x09_P1.27mm_Vertical" H 4650 3650 50  0001 C CNN
-F 3 "~" H 4650 3650 50  0001 C CNN
-	1    4650 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VDDD #PWR?
+L draft1library:+VDDD #PWR0111
 U 1 1 5FCBDE12
 P 4450 3550
-F 0 "#PWR?" H 4450 3400 50  0001 C CNN
-F 1 "+VDDD" H 4465 3723 50  0000 C CNN
+F 0 "#PWR0111" H 4450 3400 50  0001 C CNN
+F 1 "+VDDD" V 4450 3850 50  0000 C CNN
 F 2 "" H 4450 3550 50  0001 C CNN
 F 3 "" H 4450 3550 50  0001 C CNN
 	1    4450 3550
 	0    -1   -1   0   
 $EndComp
+Text Label 9400 2500 0    50   ~ 0
+SENSOR_EXT_IN
+Text Label 9400 2650 0    50   ~ 0
+SENSOR_LDO_OUTPUT
+$Comp
+L Connector_Generic:Conn_01x11 JB1
+U 1 1 5FCC0A7F
+P 4650 3750
+F 0 "JB1" H 4730 3792 50  0000 L CNN
+F 1 "Conn_01x11" H 4730 3701 50  0000 L CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x11_P1.27mm_Vertical" H 4650 3750 50  0001 C CNN
+F 3 "~" H 4650 3750 50  0001 C CNN
+	1    4650 3750
+	1    0    0    -1  
+$EndComp
+Text Label 4450 3650 2    50   ~ 0
+SENSOR_EXT_IN
+Text Label 4450 3750 2    50   ~ 0
+SENSOR_LDO_OUTPUT
 $EndSCHEMATC
