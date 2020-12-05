@@ -423,47 +423,6 @@ F 3 "~" H 1700 7700 50  0001 C CNN
 	1    1700 7700
 	1    0    0    -1  
 $EndComp
-$Comp
-L SamacSys_Parts:DDZ9678-7 Z1
-U 1 1 5F7B30CA
-P 4900 6550
-F 0 "Z1" V 5246 6422 50  0000 R CNN
-F 1 "DDZ9678-7" V 5155 6422 50  0000 R CNN
-F 2 "SamacSys_Parts:SOD3716X135N" H 5300 6700 50  0001 L CNN
-F 3 "https://www.mouser.com/datasheet/2/115/ds30410-30695.pdf" H 5300 6600 50  0001 L CNN
-F 4 "Diode Zener 1.8V 5% 500mW 2Pin SOD123" H 5300 6500 50  0001 L CNN "Description"
-F 5 "1.35" H 5300 6400 50  0001 L CNN "Height"
-F 6 "Diodes Inc." H 5300 6300 50  0001 L CNN "Manufacturer_Name"
-F 7 "DDZ9678-7" H 5300 6200 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "DDZ9678-7" H 5300 6100 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ddz9678-7/diodes-incorporated" H 5300 6000 50  0001 L CNN "Arrow Price/Stock"
-F 10 "621-DDZ9678-7" H 5300 5900 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DDZ9678-7?qs=ptj1V1atRAp2rXEOTrnLaA%3D%3D" H 5300 5800 50  0001 L CNN "Mouser Price/Stock"
-	1    4900 6550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0122
-U 1 1 5F7B8192
-P 4900 7150
-F 0 "#PWR0122" H 4900 6900 50  0001 C CNN
-F 1 "GND" H 4905 6977 50  0000 C CNN
-F 2 "" H 4900 7150 50  0001 C CNN
-F 3 "" H 4900 7150 50  0001 C CNN
-	1    4900 7150
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VBAT #PWR0123
-U 1 1 5F7BC62D
-P 4900 6550
-F 0 "#PWR0123" H 4900 6400 50  0001 C CNN
-F 1 "+VBAT" H 4915 6723 50  0000 C CNN
-F 2 "" H 4900 6550 50  0001 C CNN
-F 3 "" H 4900 6550 50  0001 C CNN
-	1    4900 6550
-	1    0    0    -1  
-$EndComp
 Text Notes 5150 6450 0    50   ~ 0
 hope this is the right component for voltage protection
 Text Label 9400 1200 0    50   ~ 0
