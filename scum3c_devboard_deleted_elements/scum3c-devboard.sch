@@ -605,13 +605,13 @@ GPIO10
 $Comp
 L Connector_Generic:Conn_01x14 J1
 U 1 1 5FCBF099
-P 4600 5100
-F 0 "J1" H 4680 5092 50  0000 L CNN
-F 1 "Conn_01x14" H 4680 5001 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Vertical" H 4600 5100 50  0001 C CNN
-F 3 "~" H 4600 5100 50  0001 C CNN
-	1    4600 5100
-	1    0    0    -1  
+P 4600 5200
+F 0 "J1" H 4518 4275 50  0000 C CNN
+F 1 "Conn_01x14" H 4518 4366 50  0000 C CNN
+F 2 "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Vertical" H 4600 5200 50  0001 C CNN
+F 3 "~" H 4600 5200 50  0001 C CNN
+	1    4600 5200
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0112
