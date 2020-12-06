@@ -33,8 +33,6 @@ NoConn ~ 8000 2100
 NoConn ~ 8000 2250
 NoConn ~ 8000 5550
 NoConn ~ 8000 5400
-NoConn ~ 8000 5250
-NoConn ~ 8000 5100
 NoConn ~ 6950 1150
 NoConn ~ 6800 1150
 NoConn ~ 6650 1150
@@ -913,7 +911,20 @@ NoConn ~ 5950 6050
 NoConn ~ 5800 6050
 NoConn ~ 5650 6050
 NoConn ~ 5500 6050
-NoConn ~ 5350 6050
-NoConn ~ 5200 6050
-NoConn ~ 5050 6050
+Text HLabel 8000 5100 2    50   BiDi ~ 0
+SENSOR_EXT_IN
+Text HLabel 8000 5250 2    50   BiDi ~ 0
+SENSOR_LDO_OUTPUT
+Text HLabel 5050 6500 3    50   BiDi ~ 0
+GPIO8
+Wire Wire Line
+	5050 6500 5050 6050
+Text HLabel 5200 6500 3    50   BiDi ~ 0
+GPIO9
+Wire Wire Line
+	5200 6500 5200 6050
+Text HLabel 5350 6500 3    50   BiDi ~ 0
+GPIO10
+Wire Wire Line
+	5350 6500 5350 6050
 $EndSCHEMATC
