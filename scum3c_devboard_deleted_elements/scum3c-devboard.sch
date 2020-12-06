@@ -603,10 +603,10 @@ GPIO9
 Text Label 4400 5500 2    50   ~ 0
 GPIO10
 $Comp
-L Connector_Generic:Conn_01x14 J1
+L Connector_Generic:Conn_01x14 JA1
 U 1 1 5FCBF099
 P 4600 5200
-F 0 "J1" H 4518 4275 50  0000 C CNN
+F 0 "JA1" H 4518 4275 50  0000 C CNN
 F 1 "Conn_01x14" H 4518 4366 50  0000 C CNN
 F 2 "Connector_PinHeader_1.27mm:PinHeader_1x14_P1.27mm_Vertical" H 4600 5200 50  0001 C CNN
 F 3 "~" H 4600 5200 50  0001 C CNN
