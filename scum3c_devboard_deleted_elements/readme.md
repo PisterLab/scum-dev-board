@@ -1,4 +1,7 @@
-
+![Schematic page 1](pictures/scum3c-devboard_schematic_Page_1.png)
+![Schematic page 2](pictures/scum3c-devboard_schematic_Page_2.png)
+![3D front](pictures/scum3c-devboard.png)
+![3D back](pictures/scum3c-devboard_back.png)
 ### Updates 2020.12.05
 - removed zener diode
 - added GPIOs 8, 9, 10
