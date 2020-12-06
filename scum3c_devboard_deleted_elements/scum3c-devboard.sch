@@ -596,8 +596,6 @@ Text Label 8550 2100 2    50   ~ 0
 GPIO9
 Text Label 8550 2200 2    50   ~ 0
 GPIO10
-Text Label 4400 5300 2    50   ~ 0
-GPIO8
 Text Label 4400 5400 2    50   ~ 0
 GPIO9
 Text Label 4400 5500 2    50   ~ 0
