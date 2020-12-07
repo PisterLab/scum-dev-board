@@ -1,4 +1,4 @@
-https://crystalfree.atlassian.net/wiki/x/AQDGJg
+feedback page: https://crystalfree.atlassian.net/wiki/x/AQDGJg
 
 Currently there are three versions of the dev board in this folder
 - scum3c_devboard is a KiCad model of the currently in-use board as of October 12th 2020. It might be not 100% accurate to the original: https://github.com/PisterLab/scum-dev-board/blob/master/SCM3C_PCB.pdf
