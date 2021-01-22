@@ -1,7 +1,17 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +TEENSY33
+D Power symbol creates a global label with name "+UART33"
+K power-flag battery
+$ENDCMP
+#
 $CMP +UART33
 D Power symbol creates a global label with name "+UART33"
+K power-flag battery
+$ENDCMP
+#
+$CMP +V18IO
+D Power symbol creates a global label with name "+VBAT"
 K power-flag battery
 $ENDCMP
 #

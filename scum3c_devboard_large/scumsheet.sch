@@ -37,13 +37,11 @@ NoConn ~ 2250 3050
 NoConn ~ 2250 3200
 NoConn ~ 2250 3800
 NoConn ~ 2250 4550
-NoConn ~ 2250 4700
 NoConn ~ 2250 4850
 NoConn ~ 2250 5000
 NoConn ~ 2250 5300
 NoConn ~ 2250 5450
 NoConn ~ 2250 5600
-NoConn ~ 8000 1950
 NoConn ~ 8000 2100
 NoConn ~ 8000 2250
 NoConn ~ 8000 4650
@@ -376,10 +374,14 @@ Text HLabel 8000 4050 2    50   Input ~ 0
 BOOT_SOURCE_SEL
 NoConn ~ 8000 2550
 NoConn ~ 8000 2700
-NoConn ~ 5000 1150
 NoConn ~ 2250 3350
 NoConn ~ 2250 5150
-NoConn ~ 8000 2400
 NoConn ~ 2250 3650
 NoConn ~ 4550 1150
+NoConn ~ 8000 2400
+Wire Wire Line
+	5000 1150 4850 1150
+Connection ~ 4850 1150
+NoConn ~ 2250 4700
+NoConn ~ 8000 1950
 $EndSCHEMATC

@@ -8,4 +8,8 @@ $CMP S-85S1AB15-I6T1U
 F downloaded_libs/S85S1A_E.pdf
 $ENDCMP
 #
+$CMP S-85S1AB18-I6T1U
+F downloaded_libs/S85S1A_E.pdf
+$ENDCMP
+#
 #End Doc Library

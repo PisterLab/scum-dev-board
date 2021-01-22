@@ -8,4 +8,6 @@
   (lib (name 2450AT42B100E)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/2450AT42B100E.lib)(options "")(descr ""))
   (lib (name LTC3252EDETR)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/LTC3252EDETR.lib)(options "")(descr ""))
   (lib (name S-85S1AB20-I6T1U)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/S-85S1AB20-I6T1U.lib)(options "")(descr ""))
+  (lib (name 74AVCH4T245D_118)(type Legacy)(uri C:/Users/jgolf/Downloads/temp/scum-dev-board-master/scum3c_devboard_large/downloaded_libs/74AVCH4T245D_118.lib)(options "")(descr ""))
+  (lib (name ICM-20948)(type Legacy)(uri C:/Users/jgolf/Downloads/temp/scum-dev-board-master/scum3c_devboard_large/downloaded_libs/ICM-20948.lib)(options "")(descr ""))
 )
