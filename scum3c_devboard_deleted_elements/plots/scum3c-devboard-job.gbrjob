@@ -7,7 +7,7 @@
       "Application": "Pcbnew",
       "Version":     "(5.1.6)-1"
     },
-    "CreationDate":  "2021-01-19T17:49:51-08:00"
+    "CreationDate":  "2021-01-23T06:31:54-08:00"
   },
   "GeneralSpecs":
   {
@@ -82,11 +82,6 @@
       "FilePolarity":  "Positive"
     },
     {
-      "Path":  "scum3c-devboard-B_SilkS.gbo",
-      "FileFunction":  "Legend,Bot",
-      "FilePolarity":  "Positive"
-    },
-    {
       "Path":  "scum3c-devboard-F_Mask.gts",
       "FileFunction":  "SolderMask,Top",
       "FilePolarity":  "Negative"
@@ -154,10 +149,6 @@
     {
       "Type":  "SolderPaste",
       "Notes":  "Layer B.Paste"
-    },
-    {
-      "Type":  "Legend",
-      "Notes":  "Layer B.SilkS"
     }
   ]
 }
