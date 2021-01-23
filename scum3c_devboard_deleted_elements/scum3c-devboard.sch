@@ -595,62 +595,14 @@ Wire Wire Line
 	1000 4700 1000 4800
 Text Label 1000 4700 2    50   ~ 0
 IMU
-Text Label 2100 2950 2    50   ~ 0
+Text Label 2600 1900 0    50   ~ 0
 IMU
-$Comp
-L draft1library:+VBAT #PWR0105
-U 1 1 600FAB01
-P 2600 2750
-F 0 "#PWR0105" H 2600 2600 50  0001 C CNN
-F 1 "+VBAT" V 2615 2923 50  0000 C CNN
-F 2 "" H 2600 2750 50  0001 C CNN
-F 3 "" H 2600 2750 50  0001 C CNN
-	1    2600 2750
-	0    1    1    0   
-$EndComp
-$Comp
-L draft1library:+VDDIO #PWR?
-U 1 1 600FB727
-P 2600 2850
-AR Path="/5F3B1D81/600FB727" Ref="#PWR?"  Part="1" 
-AR Path="/600FB727" Ref="#PWR0107"  Part="1" 
-F 0 "#PWR0107" H 2600 2700 50  0001 C CNN
-F 1 "+VDDIO" V 2615 2978 50  0000 L CNN
-F 2 "" H 2600 2850 50  0001 C CNN
-F 3 "" H 2600 2850 50  0001 C CNN
-	1    2600 2850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 600FC1D2
-P 2600 2950
-F 0 "#PWR0108" H 2600 2700 50  0001 C CNN
-F 1 "GND" V 2605 2822 50  0000 R CNN
-F 2 "" H 2600 2950 50  0001 C CNN
-F 3 "" H 2600 2950 50  0001 C CNN
-	1    2600 2950
-	0    -1   -1   0   
-$EndComp
 Text Label 2350 4000 2    50   ~ 0
 IMU_VDDIO
 Text Label 2550 3950 0    50   ~ 0
 IMU_VDD
-Text Label 2100 2750 2    50   ~ 0
-IMU_VDD
-Text Label 2100 2850 2    50   ~ 0
+Text Label 2600 1800 0    50   ~ 0
 IMU_VDDIO
-$Comp
-L Connector_Generic:Conn_02x03_Odd_Even J1
-U 1 1 6011E367
-P 2300 2850
-F 0 "J1" H 2396 2662 50  0000 R CNN
-F 1 "Conn_02x03_Odd_Even" H 2305 2662 50  0000 R CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical" H 2300 2850 50  0001 C CNN
-F 3 "~" H 2300 2850 50  0001 C CNN
-	1    2300 2850
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector_Generic:Conn_01x15 JA1
 U 1 1 601472CC
@@ -671,43 +623,6 @@ GPIO14
 Text Label 4400 5900 2    50   ~ 0
 GPIO15
 $Comp
-L Connector_Generic:Conn_01x02 JA2
-U 1 1 60197EFF
-P 5350 5850
-F 0 "JA2" H 5430 5842 50  0000 L CNN
-F 1 "Conn_01x02" H 5430 5751 50  0000 L CNN
-F 2 "Connector_PinHeader_1.27mm:PinHeader_1x02_P1.27mm_Vertical" H 5350 5850 50  0001 C CNN
-F 3 "~" H 5350 5850 50  0001 C CNN
-	1    5350 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60198B34
-P 5150 5850
-AR Path="/5F3B307E/60198B34" Ref="#PWR?"  Part="1" 
-AR Path="/60198B34" Ref="#PWR0112"  Part="1" 
-F 0 "#PWR0112" H 5150 5600 50  0001 C CNN
-F 1 "GND" V 5155 5722 50  0000 R CNN
-F 2 "" H 5150 5850 50  0001 C CNN
-F 3 "" H 5150 5850 50  0001 C CNN
-	1    5150 5850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60199128
-P 5150 5950
-AR Path="/5F3B307E/60199128" Ref="#PWR?"  Part="1" 
-AR Path="/60199128" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 5150 5700 50  0001 C CNN
-F 1 "GND" V 5155 5822 50  0000 R CNN
-F 2 "" H 5150 5950 50  0001 C CNN
-F 3 "" H 5150 5950 50  0001 C CNN
-	1    5150 5950
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x04_Odd_Even J2
 U 1 1 6019BB04
 P 2300 1800
@@ -717,5 +632,64 @@ F 2 "Connector_PinHeader_1.27mm:PinHeader_2x04_P1.27mm_Vertical" H 2300 1800 50 
 F 3 "~" H 2300 1800 50  0001 C CNN
 	1    2300 1800
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 601A5F5D
+P 2600 2000
+F 0 "#PWR0123" H 2600 1750 50  0001 C CNN
+F 1 "GND" V 2605 1872 50  0000 R CNN
+F 2 "" H 2600 2000 50  0001 C CNN
+F 3 "" H 2600 2000 50  0001 C CNN
+	1    2600 2000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0126
+U 1 1 601A6370
+P 2100 2000
+F 0 "#PWR0126" H 2100 1750 50  0001 C CNN
+F 1 "GND" V 2105 1872 50  0000 R CNN
+F 2 "" H 2100 2000 50  0001 C CNN
+F 3 "" H 2100 2000 50  0001 C CNN
+	1    2100 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 601A6ABA
+P 2100 1900
+F 0 "#PWR0127" H 2100 1650 50  0001 C CNN
+F 1 "GND" V 2105 1772 50  0000 R CNN
+F 2 "" H 2100 1900 50  0001 C CNN
+F 3 "" H 2100 1900 50  0001 C CNN
+	1    2100 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L draft1library:+VDDIO #PWR?
+U 1 1 600FB727
+P 2100 1700
+AR Path="/5F3B1D81/600FB727" Ref="#PWR?"  Part="1" 
+AR Path="/600FB727" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 2100 1550 50  0001 C CNN
+F 1 "+VDDIO" V 2115 1828 50  0000 L CNN
+F 2 "" H 2100 1700 50  0001 C CNN
+F 3 "" H 2100 1700 50  0001 C CNN
+	1    2100 1700
+	0    -1   -1   0   
+$EndComp
+Text Label 2600 1700 0    50   ~ 0
+IMU_VDD
+$Comp
+L draft1library:+VBAT #PWR0105
+U 1 1 600FAB01
+P 2100 1800
+F 0 "#PWR0105" H 2100 1650 50  0001 C CNN
+F 1 "+VBAT" V 2115 1973 50  0000 C CNN
+F 2 "" H 2100 1800 50  0001 C CNN
+F 3 "" H 2100 1800 50  0001 C CNN
+	1    2100 1800
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
