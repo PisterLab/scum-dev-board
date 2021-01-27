@@ -850,10 +850,6 @@ F 3 "" H 5200 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2250 4100
-NoConn ~ 6100 6050
-NoConn ~ 5950 6050
-NoConn ~ 5800 6050
-NoConn ~ 5650 6050
 NoConn ~ 5500 6050
 Text HLabel 8000 5100 2    50   BiDi ~ 0
 SENSOR_EXT_IN
@@ -927,4 +923,20 @@ F 3 "" H 2250 3350 50  0001 C CNN
 	1    2250 3350
 	0    -1   -1   0   
 $EndComp
+Text HLabel 5650 6500 3    50   BiDi ~ 0
+GPIO12
+Text HLabel 5800 6500 3    50   BiDi ~ 0
+GPIO13
+Text HLabel 5950 6500 3    50   BiDi ~ 0
+GPIO14
+Text HLabel 6100 6500 3    50   BiDi ~ 0
+GPIO15
+Wire Wire Line
+	5650 6050 5650 6500
+Wire Wire Line
+	5800 6050 5800 6500
+Wire Wire Line
+	5950 6050 5950 6500
+Wire Wire Line
+	6100 6050 6100 6500
 $EndSCHEMATC
