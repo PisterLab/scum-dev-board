@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:scum3c-devboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -167,8 +168,6 @@ F 3 "" H 1400 5450 50  0001 C CNN
 	1    1400 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2250 5150 1400 5150
 $Comp
 L draft1library:+VBAT #PWR0176
 U 1 1 5F3DA21E
@@ -445,8 +444,6 @@ F 3 "" H 1400 2450 50  0001 C CNN
 	1    1400 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2250 3650 1550 3650
 $Comp
 L draft1library:+VBAT #PWR0193
 U 1 1 5F40149D
@@ -835,21 +832,6 @@ F 3 "" H 9200 4650 50  0001 C CNN
 	1    9200 4650
 	0    -1   -1   0   
 $EndComp
-$Comp
-L draft1library:scum3 U8
-U 1 1 5F3B2246
-P 5200 3450
-AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
-AR Path="/5F41418C/5F3B2246" Ref="U?"  Part="1" 
-AR Path="/5F414989/5F3B2246" Ref="U?"  Part="1" 
-F 0 "U8" H 8944 3271 50  0000 L CNN
-F 1 "scum3" H 8944 3180 50  0000 L CNN
-F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm" H 5200 3450 50  0001 C CNN
-F 3 "" H 5200 3450 50  0001 C CNN
-	1    5200 3450
-	1    0    0    -1  
-$EndComp
-NoConn ~ 2250 4100
 NoConn ~ 5500 6050
 Text HLabel 8000 5100 2    50   BiDi ~ 0
 SENSOR_EXT_IN
@@ -939,4 +921,27 @@ Wire Wire Line
 	5950 6050 5950 6500
 Wire Wire Line
 	6100 6050 6100 6500
+Wire Wire Line
+	2250 5150 1400 5150
+Wire Wire Line
+	2250 3650 1550 3650
+NoConn ~ 2250 4100
+$Comp
+L draft1library:scum3 U8
+U 1 1 5F3B2246
+P 5200 3450
+AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
+AR Path="/5F41418C/5F3B2246" Ref="U?"  Part="1" 
+AR Path="/5F414989/5F3B2246" Ref="U?"  Part="1" 
+F 0 "U8" H 8944 3271 50  0000 L CNN
+F 1 "scum3" H 8944 3180 50  0000 L CNN
+F 2 "SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm" H 5200 3450 50  0001 C CNN
+F 3 "" H 5200 3450 50  0001 C CNN
+	1    5200 3450
+	1    0    0    -1  
+$EndComp
+Text HLabel 2200 4100 0    50   BiDi ~ 0
+ANTENNA
+Wire Wire Line
+	2200 4100 2250 4100
 $EndSCHEMATC
