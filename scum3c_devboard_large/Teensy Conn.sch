@@ -17,15 +17,15 @@ $EndDescr
 $Comp
 L Connector_Generic:Conn_01x22 J?
 U 1 1 5FCB6CAE
-P 1400 1800
+P 1400 1950
 AR Path="/5FCB6CAE" Ref="J?"  Part="1" 
 AR Path="/5FCB6A87/5FCB6CAE" Ref="J4"  Part="1" 
-F 0 "J4" H 1480 1792 50  0000 L CNN
-F 1 "Conn_01x22" H 1480 1701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 1400 1800 50  0001 C CNN
-F 3 "~" H 1400 1800 50  0001 C CNN
-	1    1400 1800
-	1    0    0    -1  
+F 0 "J4" H 1480 1942 50  0000 L CNN
+F 1 "Conn_01x22" H 1480 1851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 1400 1950 50  0001 C CNN
+F 3 "~" H 1400 1950 50  0001 C CNN
+	1    1400 1950
+	-1   0    0    1   
 $EndComp
 $Comp
 L draft1library:+VBAT #PWR0118
@@ -129,28 +129,28 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FCB782F
-P 1200 2000
+P 1600 1750
 AR Path="/5F3B307E/5FCB782F" Ref="#PWR?"  Part="1" 
 AR Path="/5FCB782F" Ref="#PWR?"  Part="1" 
 AR Path="/5FCB6A87/5FCB782F" Ref="#PWR0162"  Part="1" 
-F 0 "#PWR0162" H 1200 1750 50  0001 C CNN
-F 1 "GND" V 1200 1900 50  0000 R CNN
-F 2 "" H 1200 2000 50  0001 C CNN
-F 3 "" H 1200 2000 50  0001 C CNN
-	1    1200 2000
-	0    1    1    0   
+F 0 "#PWR0162" H 1600 1500 50  0001 C CNN
+F 1 "GND" V 1600 1650 50  0000 R CNN
+F 2 "" H 1600 1750 50  0001 C CNN
+F 3 "" H 1600 1750 50  0001 C CNN
+	1    1600 1750
+	0    -1   -1   0   
 $EndComp
-NoConn ~ 1200 2100
-NoConn ~ 1200 2200
+NoConn ~ 1600 1650
+NoConn ~ 1600 1550
 Text HLabel 1050 4000 0    50   Input ~ 0
 aSCANIN
 Text HLabel 1050 4100 0    50   Input ~ 0
 aSCSEL
-Text HLabel 1200 1100 0    50   Input ~ 0
+Text HLabel 1600 2650 2    50   Input ~ 0
 GPIO1
 Text HLabel 1050 4900 0    50   Input ~ 0
 Clock
-Text HLabel 1200 1300 0    50   Input ~ 0
+Text HLabel 1600 2450 2    50   Input ~ 0
 GPIO2
 Text HLabel 1050 6000 0    50   Input ~ 0
 sReset
@@ -162,9 +162,9 @@ Text HLabel 1050 5100 0    50   Input ~ 0
 3WB_ENB
 Text HLabel 1050 5000 0    50   Input ~ 0
 3WB_DATA
-Text HLabel 1200 1900 0    50   Input ~ 0
+Text HLabel 1600 1850 2    50   Input ~ 0
 GPIO0
-Text HLabel 1200 2300 0    50   Input ~ 0
+Text HLabel 1600 1450 2    50   Input ~ 0
 GPIO3
 Text HLabel 1050 6200 0    50   Input ~ 0
 aPHIb
@@ -174,15 +174,15 @@ Text HLabel 1050 7100 0    50   Input ~ 0
 aSCANOUT
 Text HLabel 1050 3900 0    50   Input ~ 0
 aLOAD
-Text HLabel 1200 2800 0    50   Input ~ 0
+Text HLabel 1600 950  2    50   Input ~ 0
 RsRx
-Text HLabel 1200 2900 0    50   Input ~ 0
+Text HLabel 1600 850  2    50   Input ~ 0
 RsTx
 Text Label 2350 7100 0    50   ~ 0
 aSCANOUT33
-Text Label 1200 2700 2    50   ~ 0
+Text Label 1600 1050 0    50   ~ 0
 aLOAD33
-Text Label 1200 2600 2    50   ~ 0
+Text Label 1600 1150 0    50   ~ 0
 aSCANOUT33
 Text Label 2350 3900 0    50   ~ 0
 aLOAD33
@@ -190,13 +190,13 @@ Text Label 2350 4000 0    50   ~ 0
 aSCANIN33
 Text Label 2350 4100 0    50   ~ 0
 aSCSEL33
-Text Label 1200 1000 2    50   ~ 0
+Text Label 1600 2750 0    50   ~ 0
 aSCANIN33
-Text Label 1200 900  2    50   ~ 0
+Text Label 1600 2850 0    50   ~ 0
 aSCSEL33
 Text Label 2350 6100 0    50   ~ 0
 aPHI33
-Text Label 1200 2500 2    50   ~ 0
+Text Label 1600 1250 0    50   ~ 0
 aPHI33
 Text Label 2350 6200 0    50   ~ 0
 aPHIb33
@@ -204,11 +204,11 @@ Text Label 2350 4900 0    50   ~ 0
 Clock33
 Text Label 2350 6300 0    50   ~ 0
 hReset33
-Text Label 1200 1500 2    50   ~ 0
+Text Label 1600 2250 0    50   ~ 0
 hReset33
-Text Label 1200 2400 2    50   ~ 0
+Text Label 1600 1350 0    50   ~ 0
 aPHIb33
-Text Label 1200 1200 2    50   ~ 0
+Text Label 1600 2550 0    50   ~ 0
 Clock33
 Wire Notes Line
 	600  3200 600  600 
@@ -287,26 +287,26 @@ Text Label 2350 5100 0    50   ~ 0
 3WB_ENB33
 Text Label 2350 5000 0    50   ~ 0
 3WB_DATA33
-Text Label 1200 1600 2    50   ~ 0
+Text Label 1600 2150 0    50   ~ 0
 3WB_CLK33
-Text Label 1200 1700 2    50   ~ 0
+Text Label 1600 2050 0    50   ~ 0
 3WB_ENB33
-Text Label 1200 1800 2    50   ~ 0
+Text Label 1600 1950 0    50   ~ 0
 3WB_DATA33
 Text Label 2350 6000 0    50   ~ 0
 sReset33
-Text Label 1200 1400 2    50   ~ 0
+Text Label 1600 2350 0    50   ~ 0
 sReset33
 $Comp
 L draft1library:+TEENSY33 #PWR0155
 U 1 1 6009E0D6
-P 1200 800
-F 0 "#PWR0155" H 1200 650 50  0001 C CNN
-F 1 "+TEENSY33" V 1215 927 50  0000 L CNN
-F 2 "" H 1200 800 50  0001 C CNN
-F 3 "" H 1200 800 50  0001 C CNN
-	1    1200 800 
-	0    -1   -1   0   
+P 1600 2950
+F 0 "#PWR0155" H 1600 2800 50  0001 C CNN
+F 1 "+TEENSY33" V 1615 3077 50  0000 L CNN
+F 2 "" H 1600 2950 50  0001 C CNN
+F 3 "" H 1600 2950 50  0001 C CNN
+	1    1600 2950
+	0    1    1    0   
 $EndComp
 $Comp
 L draft1library:+VIN #PWR0159

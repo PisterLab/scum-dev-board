@@ -70,17 +70,17 @@ F 3 "~" H 3100 1250 50  0001 C CNN
 $EndComp
 Text Label 4550 5300 2    50   ~ 0
 GPIO1
-Text Label 1000 5650 2    50   ~ 0
+Text Label 1500 5350 0    50   ~ 0
 GPIO12
-Text Label 1000 5750 2    50   ~ 0
+Text Label 1500 5250 0    50   ~ 0
 GPIO14
-Text Label 1000 5250 2    50   ~ 0
+Text Label 1500 5750 0    50   ~ 0
 GPIO4
-Text Label 1000 5550 2    50   ~ 0
+Text Label 1500 5450 0    50   ~ 0
 GPIO10
-Text Label 1000 5350 2    50   ~ 0
+Text Label 1500 5650 0    50   ~ 0
 GPIO6
-Text Label 1000 5450 2    50   ~ 0
+Text Label 1500 5550 0    50   ~ 0
 GPIO8
 $Comp
 L power:PWR_FLAG #FLG0101
@@ -584,28 +584,28 @@ Text Label 4550 5100 2    50   ~ 0
 aSCSEL
 Text Label 4550 5200 2    50   ~ 0
 aSCANIN
-Text Label 1500 5350 0    50   ~ 0
+Text Label 1000 5650 2    50   ~ 0
 GPIO7
-Text Label 1500 5250 0    50   ~ 0
+Text Label 1000 5750 2    50   ~ 0
 GPIO5
-Text Label 1500 5750 0    50   ~ 0
+Text Label 1000 5250 2    50   ~ 0
 GPIO15
-Text Label 1500 5450 0    50   ~ 0
+Text Label 1000 5550 2    50   ~ 0
 GPIO9
-Text Label 1500 5650 0    50   ~ 0
+Text Label 1000 5350 2    50   ~ 0
 GPIO13
-Text Label 1500 5550 0    50   ~ 0
+Text Label 1000 5450 2    50   ~ 0
 GPIO11
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J3
 U 1 1 5FB91074
-P 1200 5450
-F 0 "J3" H 1250 5867 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 1250 5776 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1200 5450 50  0001 C CNN
-F 3 "~" H 1200 5450 50  0001 C CNN
-	1    1200 5450
-	1    0    0    -1  
+P 1300 5550
+F 0 "J3" H 1350 5150 50  0000 C CNN
+F 1 "Conn_02x06_Odd_Even" H 1350 5050 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 1300 5550 50  0001 C CNN
+F 3 "~" H 1300 5550 50  0001 C CNN
+	1    1300 5550
+	-1   0    0    1   
 $EndComp
 Text Label 2500 5250 2    50   ~ 0
 Boot_Source_Sel
