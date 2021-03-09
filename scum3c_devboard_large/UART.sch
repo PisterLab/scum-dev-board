@@ -402,7 +402,7 @@ L SamacSys_Parts:74AVC1T45GS,132 U3
 U 1 1 5F3F47EB
 P 2150 5050
 F 0 "U3" H 2800 5315 50  0000 C CNN
-F 1 "74AVC1T45GS,132" H 2800 5224 50  0000 C CNN
+F 1 "74AVC1T45GS-Q100H" H 2800 5224 50  0000 C CNN
 F 2 "SamacSys_Parts:74LVC1G3157GS132" H 3300 5150 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AVC1T45.pdf" H 3300 5050 50  0001 L CNN
 F 4 "74AVC1T45 - Dual-supply voltage level translator/transceiver; 3-state@en-us" H 3300 4950 50  0001 L CNN "Description"
@@ -445,7 +445,7 @@ L SamacSys_Parts:74AVC1T45GS,132 U4
 U 1 1 5F3FAE12
 P 1050 5600
 F 0 "U4" H 1700 5865 50  0000 C CNN
-F 1 "74AVC1T45GS,132" H 1700 5774 50  0000 C CNN
+F 1 "74AVC1T45GS-Q100H" H 1700 5774 50  0000 C CNN
 F 2 "SamacSys_Parts:74LVC1G3157GS132" H 2200 5700 50  0001 L CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74AVC1T45.pdf" H 2200 5600 50  0001 L CNN
 F 4 "74AVC1T45 - Dual-supply voltage level translator/transceiver; 3-state@en-us" H 2200 5500 50  0001 L CNN "Description"
