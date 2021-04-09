@@ -382,7 +382,6 @@ F0 "UART" 50
 F1 "UART.sch" 50
 F2 "RsRx" I L 800 7200 50 
 F3 "RsTx" O R 1400 7200 50 
-F4 "VBAT_USB" I R 1400 7550 50 
 F5 "RsTxTeensy" I R 1400 7400 50 
 F6 "RsRxTeensy" I L 800 7300 50 
 $EndSheet
@@ -1043,8 +1042,6 @@ F 3 "~" H 1300 6000 50  0001 C CNN
 	1    1300 6000
 	1    0    0    -1  
 $EndComp
-Text Label 1400 7550 0    50   ~ 0
-VBAT_USB
 $Comp
 L Connector_Generic:Conn_01x03 J8
 U 1 1 5FC9CD42
