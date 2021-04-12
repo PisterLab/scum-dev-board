@@ -1,3 +1,69 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1VIN
+D Power symbol creates a global label with name "+1VIN"
+K power-flag battery
+$ENDCMP
+#
+$CMP +TEENSY33
+D Power symbol creates a global label with name "+UART33"
+K power-flag battery
+$ENDCMP
+#
+$CMP +UART33
+D Power symbol creates a global label with name "+UART33"
+K power-flag battery
+$ENDCMP
+#
+$CMP +V18IO
+D Power symbol creates a global label with name "+VBAT"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VBAT
+D Power symbol creates a global label with name "+VBAT"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VBAT'
+D Power symbol creates a global label with name "+VBAT"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDD
+D Power symbol creates a global label with name "+VDDD"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDD'
+D Power symbol creates a global label with name "+VDDD"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDIO
+D Power symbol creates a global label with name "+VDDIO"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDIO'
+D Power symbol creates a global label with name "+VDDIO"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VIN
+D Power symbol creates a global label with name "+VBAT0"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VUSB
+D Power symbol creates a global label with name "+VUSB"
+K power-flag battery
+$ENDCMP
+#
+$CMP Teensy_Connector
+D Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library

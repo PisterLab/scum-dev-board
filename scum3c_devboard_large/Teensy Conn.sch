@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:scum3c-devboard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -15,20 +15,20 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x22 J?
+L SCUM:Teensy_Connector J?
 U 1 1 5FCB6CAE
 P 1400 1950
 AR Path="/5FCB6CAE" Ref="J?"  Part="1" 
 AR Path="/5FCB6A87/5FCB6CAE" Ref="J4"  Part="1" 
 F 0 "J4" H 1480 1942 50  0000 L CNN
 F 1 "Conn_01x22" H 1480 1851 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x22_P2.54mm_Vertical" H 1400 1950 50  0001 C CNN
+F 2 "SCUM:Teensy_Connector" H 1400 1950 50  0001 C CNN
 F 3 "~" H 1400 1950 50  0001 C CNN
 	1    1400 1950
 	-1   0    0    1   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR0118
+L SCUM:+VBAT #PWR0118
 U 1 1 5FCB6DF9
 P 1050 3500
 F 0 "#PWR0118" H 1050 3350 50  0001 C CNN
@@ -39,7 +39,7 @@ F 3 "" H 1050 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR0142
+L SCUM:+VBAT #PWR0142
 U 1 1 5FCB6E2B
 P 1050 4600
 F 0 "#PWR0142" H 1050 4450 50  0001 C CNN
@@ -227,7 +227,7 @@ Teensy
 Text Notes 2300 7650 0    50   ~ 0
 Level Shifters
 $Comp
-L draft1library:+VBAT #PWR0166
+L SCUM:+VBAT #PWR0166
 U 1 1 6008365C
 P 1050 5700
 F 0 "#PWR0166" H 1050 5550 50  0001 C CNN
@@ -298,7 +298,7 @@ sReset33
 Text Label 1600 2350 0    50   ~ 0
 sReset33
 $Comp
-L draft1library:+TEENSY33 #PWR0155
+L SCUM:+TEENSY33 #PWR0155
 U 1 1 6009E0D6
 P 1600 2950
 F 0 "#PWR0155" H 1600 2800 50  0001 C CNN
@@ -309,7 +309,7 @@ F 3 "" H 1600 2950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L draft1library:+VIN #PWR0159
+L SCUM:+VIN #PWR0159
 U 1 1 6009F474
 P 2350 3500
 F 0 "#PWR0159" H 2350 3350 50  0001 C CNN
@@ -320,7 +320,7 @@ F 3 "" H 2350 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L draft1library:+VIN #PWR0163
+L SCUM:+VIN #PWR0163
 U 1 1 6009F4B7
 P 2350 4600
 F 0 "#PWR0163" H 2350 4450 50  0001 C CNN
@@ -331,7 +331,7 @@ F 3 "" H 2350 4600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L draft1library:+VIN #PWR0164
+L SCUM:+VIN #PWR0164
 U 1 1 6009F4E5
 P 2350 5700
 F 0 "#PWR0164" H 2350 5550 50  0001 C CNN
@@ -447,7 +447,7 @@ F 3 "" H 1050 4800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR0192
+L SCUM:+VBAT #PWR0192
 U 1 1 600C6A13
 P 1050 6800
 F 0 "#PWR0192" H 1050 6650 50  0001 C CNN
@@ -502,7 +502,7 @@ F 3 "" H 2350 6900 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L draft1library:+VIN #PWR0202
+L SCUM:+VIN #PWR0202
 U 1 1 600C6A35
 P 2350 6800
 F 0 "#PWR0202" H 2350 6650 50  0001 C CNN
@@ -552,7 +552,7 @@ Wire Notes Line
 Wire Notes Line
 	2900 3300 2900 7700
 $Comp
-L draft1library:+VBAT #PWR0205
+L SCUM:+VBAT #PWR0205
 U 1 1 600C710E
 P 1050 6900
 F 0 "#PWR0205" H 1050 6750 50  0001 C CNN

@@ -12,4 +12,5 @@
   (lib (name ICM-20948)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/ICM-20948.lib)(options "")(descr ""))
   (lib (name 2450AT45A100E)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/2450AT45A100E.lib)(options "")(descr ""))
   (lib (name CONSMA001-G)(type Legacy)(uri C:/Users/jgolf/Downloads/scum-dev-board/scum3c_devboard_large/downloaded_libs/CONSMA001-G.lib)(options "")(descr ""))
+  (lib (name SCUM)(type Legacy)(uri ${KIPRJMOD}/SCUM.lib)(options "")(descr ""))
 )

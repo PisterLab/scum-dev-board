@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:scum3c-devboard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L draft1library:scum3 U8
+L SCUM:scum3 U8
 U 1 1 5F3B2246
 P 5200 3450
 AR Path="/5F3B1D81/5F3B2246" Ref="U8"  Part="1" 
@@ -47,8 +47,6 @@ NoConn ~ 8000 2250
 NoConn ~ 8000 4650
 NoConn ~ 8000 5550
 NoConn ~ 8000 5400
-NoConn ~ 8000 5250
-NoConn ~ 8000 5100
 NoConn ~ 6950 1150
 NoConn ~ 6800 1150
 NoConn ~ 6650 1150
@@ -85,7 +83,7 @@ F 3 "" H 2250 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR0170
+L SCUM:+VBAT #PWR0170
 U 1 1 5F3D3274
 P 2250 2450
 AR Path="/5F3B1D81/5F3D3274" Ref="#PWR0170"  Part="1" 
@@ -155,7 +153,7 @@ F 3 "" H 2250 4250 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR0176
+L SCUM:+VBAT #PWR0176
 U 1 1 5F3DA21E
 P 2250 4400
 AR Path="/5F3B1D81/5F3DA21E" Ref="#PWR0176"  Part="1" 
@@ -239,7 +237,7 @@ F 3 "" H 8000 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L draft1library:+VBAT #PWR0193
+L SCUM:+VBAT #PWR0193
 U 1 1 5F40149D
 P 3100 6050
 AR Path="/5F3B1D81/5F40149D" Ref="#PWR0193"  Part="1" 
@@ -283,7 +281,7 @@ GPIO14
 Text HLabel 6100 6050 3    50   BiDi ~ 0
 GPIO15
 $Comp
-L draft1library:+VDDIO #PWR0194
+L SCUM:+VDDIO #PWR0194
 U 1 1 5F404D67
 P 4900 6050
 AR Path="/5F3B1D81/5F404D67" Ref="#PWR0194"  Part="1" 
@@ -311,7 +309,7 @@ LF_CLK_EXT_IN
 Text HLabel 8000 4200 2    50   BiDi ~ 0
 HARD_RESET
 $Comp
-L draft1library:+VBAT #PWR0195
+L SCUM:+VBAT #PWR0195
 U 1 1 5F406DAE
 P 8000 4350
 AR Path="/5F3B1D81/5F406DAE" Ref="#PWR0195"  Part="1" 
@@ -327,7 +325,7 @@ $EndComp
 Text HLabel 8000 3750 2    50   BiDi ~ 0
 ASC_PHI2
 $Comp
-L draft1library:+VBAT #PWR0196
+L SCUM:+VBAT #PWR0196
 U 1 1 5F407E52
 P 8000 3900
 AR Path="/5F3B1D81/5F407E52" Ref="#PWR0196"  Part="1" 
@@ -351,7 +349,7 @@ ASC_IN
 Text HLabel 8000 3000 2    50   BiDi ~ 0
 ASC_EXT_OVERRIDE
 $Comp
-L draft1library:+VDDD #PWR0207
+L SCUM:+VDDD #PWR0207
 U 1 1 5F3A7150
 P 4850 1150
 AR Path="/5F3B1D81/5F3A7150" Ref="#PWR0207"  Part="1" 
@@ -381,7 +379,28 @@ NoConn ~ 4550 1150
 NoConn ~ 8000 2400
 Wire Wire Line
 	5000 1150 4850 1150
-Connection ~ 4850 1150
 NoConn ~ 2250 4700
 NoConn ~ 8000 1950
+$Comp
+L Connector:Conn_01x01_Male J14
+U 1 1 607AD522
+P 8200 5100
+F 0 "J14" H 8172 5032 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 8172 5123 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8200 5100 50  0001 C CNN
+F 3 "~" H 8200 5100 50  0001 C CNN
+	1    8200 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J15
+U 1 1 607AEA7E
+P 8200 5250
+F 0 "J15" H 8172 5182 50  0000 R CNN
+F 1 "Conn_01x01_Male" H 8172 5273 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8200 5250 50  0001 C CNN
+F 3 "~" H 8200 5250 50  0001 C CNN
+	1    8200 5250
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
