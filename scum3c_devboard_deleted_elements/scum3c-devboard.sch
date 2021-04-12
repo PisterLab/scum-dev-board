@@ -501,39 +501,6 @@ Text Label 2600 4050 0    50   ~ 0
 ANTENNA
 Text Label 2600 3350 0    50   ~ 0
 HARD_RESET
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J3
-U 1 1 6074F0B6
-P 3100 7450
-F 0 "J3" V 3196 6962 50  0000 R CNN
-F 1 "Conn_02x08_Top_Bottom" V 3105 6962 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3100 7450 50  0001 C CNN
-F 3 "~" H 3100 7450 50  0001 C CNN
-	1    3100 7450
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Top_Bottom J4
-U 1 1 6075135A
-P 5250 6750
-F 0 "J4" H 5300 7267 50  0000 C CNN
-F 1 "Conn_02x08_Top_Bottom" H 5300 7176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5250 6750 50  0001 C CNN
-F 3 "~" H 5250 6750 50  0001 C CNN
-	1    5250 6750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J1
-U 1 1 60753F8E
-P 1500 6600
-F 0 "J1" H 1550 6917 50  0000 C CNN
-F 1 "Conn_02x04_Top_Bottom" H 1550 6826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1500 6600 50  0001 C CNN
-F 3 "~" H 1500 6600 50  0001 C CNN
-	1    1500 6600
-	1    0    0    -1  
-$EndComp
 Text Label 2600 2250 0    50   ~ 0
 3WB_DATA
 Text Label 2600 3250 0    50   ~ 0
@@ -793,4 +760,37 @@ F 3 "" H 4900 5500 50  0001 C CNN
 $EndComp
 Text Label 4800 5500 1    50   ~ 0
 GPO_ZERO
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J3
+U 1 1 60813E01
+P 3100 7450
+F 0 "J3" V 3196 6962 50  0000 R CNN
+F 1 "Conn_02x08_Odd_Even" V 3105 6962 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3100 7450 50  0001 C CNN
+F 3 "~" H 3100 7450 50  0001 C CNN
+	1    3100 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J4
+U 1 1 6081ABA3
+P 5250 6750
+F 0 "J4" H 5300 7267 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 5300 7176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5250 6750 50  0001 C CNN
+F 3 "~" H 5250 6750 50  0001 C CNN
+	1    5250 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x04_Odd_Even J1
+U 1 1 6081EBCB
+P 1500 6600
+F 0 "J1" H 1550 6917 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 1550 6826 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1500 6600 50  0001 C CNN
+F 3 "~" H 1500 6600 50  0001 C CNN
+	1    1500 6600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
