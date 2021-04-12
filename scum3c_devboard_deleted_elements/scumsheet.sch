@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:scum3c-devboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -785,7 +784,6 @@ NoConn ~ 8000 3450
 NoConn ~ 8000 3600
 NoConn ~ 8000 3750
 NoConn ~ 8000 4800
-NoConn ~ 8000 4200
 Wire Wire Line
 	8000 2550 9150 2550
 Text HLabel 6750 6050 3    50   BiDi ~ 0
@@ -800,39 +798,6 @@ Text HLabel 6600 6050 3    50   BiDi ~ 0
 RsRx
 Text HLabel 9250 4050 2    50   BiDi ~ 0
 BOOT_SOURCE_SEL
-$Comp
-L SamacSys_Parts:LD_MVSG-JGLH-46-1 LED1
-U 1 1 5F7B4972
-P 9200 4650
-F 0 "LED1" H 9500 4385 50  0000 C CNN
-F 1 "LD_MVSG-JGLH-46-1" H 9500 4476 50  0000 C CNN
-F 2 "SamacSys_Parts:LEDM2218X140N" H 9700 4800 50  0001 L BNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf" H 9700 4700 50  0001 L BNN
-F 4 "Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package" H 9700 4600 50  0001 L BNN "Description"
-F 5 "1.4" H 9700 4500 50  0001 L BNN "Height"
-F 6 "OSRAM" H 9700 4400 50  0001 L BNN "Manufacturer_Name"
-F 7 "LD MVSG-JGLH-46-1" H 9700 4300 50  0001 L BNN "Manufacturer_Part_Number"
-F 8 "LD MVSG-JGLH-46-1" H 9700 4200 50  0001 L BNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ldmvsg-jglh-46-1/osram-opto-semiconductors" H 9700 4100 50  0001 L BNN "Arrow Price/Stock"
-F 10 "720-LDMVSGJGLH461" H 9700 4000 50  0001 L BNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LD-MVSG-JGLH-46-1?qs=znB0%2F8lYn%252BuYpqaPHtqGHw%3D%3D" H 9700 3900 50  0001 L BNN "Mouser Price/Stock"
-	1    9200 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 4650 8600 4650
-$Comp
-L power:GND #PWR0125
-U 1 1 5F7B7D3D
-P 9200 4650
-F 0 "#PWR0125" H 9200 4400 50  0001 C CNN
-F 1 "GND" V 9205 4522 50  0000 R CNN
-F 2 "" H 9200 4650 50  0001 C CNN
-F 3 "" H 9200 4650 50  0001 C CNN
-	1    9200 4650
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 5500 6050
 Text HLabel 8000 5100 2    50   BiDi ~ 0
 SENSOR_EXT_IN
 Text HLabel 8000 5250 2    50   BiDi ~ 0
@@ -944,4 +909,16 @@ Text HLabel 2200 4100 0    50   BiDi ~ 0
 ANTENNA
 Wire Wire Line
 	2200 4100 2250 4100
+Wire Wire Line
+	8000 4200 9300 4200
+Text HLabel 9300 4200 2    50   BiDi ~ 0
+HARD_RESET
+Text HLabel 5500 6500 3    50   BiDi ~ 0
+GPIO11
+Wire Wire Line
+	5500 6050 5500 6500
+Wire Wire Line
+	8000 4650 9100 4650
+Text HLabel 9100 4650 2    50   BiDi ~ 0
+GPO_ZERO
 $EndSCHEMATC
