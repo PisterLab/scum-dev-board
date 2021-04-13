@@ -748,17 +748,6 @@ $EndComp
 Text Label 4800 5500 1    50   ~ 0
 GPO_ZERO
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J3
-U 1 1 60813E01
-P 3100 7450
-F 0 "J3" V 3196 6962 50  0000 R CNN
-F 1 "Conn_02x08_Odd_Even" V 3105 6962 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3100 7450 50  0001 C CNN
-F 3 "~" H 3100 7450 50  0001 C CNN
-	1    3100 7450
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 6081ABA3
 P 5250 6750
@@ -792,5 +781,60 @@ F 2 "" H 4650 3050 50  0001 C CNN
 F 3 "" H 4650 3050 50  0001 C CNN
 	1    4650 3050
 	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J3
+U 1 1 6076CDED
+P 3200 7450
+F 0 "J3" V 3296 6862 50  0000 R CNN
+F 1 "Conn_02x10_Odd_Even" V 3205 6862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3200 7450 50  0001 C CNN
+F 3 "~" H 3200 7450 50  0001 C CNN
+	1    3200 7450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60774BA2
+P 3600 7150
+F 0 "#PWR?" H 3600 6900 50  0001 C CNN
+F 1 "GND" V 3605 7022 50  0000 R CNN
+F 2 "" H 3600 7150 50  0001 C CNN
+F 3 "" H 3600 7150 50  0001 C CNN
+	1    3600 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6077524A
+P 3700 7150
+F 0 "#PWR?" H 3700 6900 50  0001 C CNN
+F 1 "GND" V 3705 7022 50  0000 R CNN
+F 2 "" H 3700 7150 50  0001 C CNN
+F 3 "" H 3700 7150 50  0001 C CNN
+	1    3700 7150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6077609C
+P 3600 7650
+F 0 "#PWR?" H 3600 7400 50  0001 C CNN
+F 1 "GND" V 3605 7522 50  0000 R CNN
+F 2 "" H 3600 7650 50  0001 C CNN
+F 3 "" H 3600 7650 50  0001 C CNN
+	1    3600 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60776430
+P 3700 7650
+F 0 "#PWR?" H 3700 7400 50  0001 C CNN
+F 1 "GND" V 3705 7522 50  0000 R CNN
+F 2 "" H 3700 7650 50  0001 C CNN
+F 3 "" H 3700 7650 50  0001 C CNN
+	1    3700 7650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
