@@ -41,19 +41,6 @@ F 3 "~" H 5900 3050 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR?
-U 1 1 5F3A825F
-P 4650 3050
-AR Path="/5F3B307E/5F3A825F" Ref="#PWR?"  Part="1" 
-AR Path="/5F3A825F" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 4650 2800 50  0001 C CNN
-F 1 "GND" V 4655 2922 50  0000 R CNN
-F 2 "" H 4650 3050 50  0001 C CNN
-F 3 "" H 4650 3050 50  0001 C CNN
-	1    4650 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5F3A8265
 P 5200 3600
 AR Path="/5F3B307E/5F3A8265" Ref="#PWR?"  Part="1" 
@@ -76,7 +63,7 @@ F 1 "GND" V 5905 1772 50  0000 R CNN
 F 2 "" H 5900 1900 50  0001 C CNN
 F 3 "" H 5900 1900 50  0001 C CNN
 	1    5900 1900
-	0    -1   -1   0   
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C?
@@ -425,7 +412,7 @@ F 1 "GND" V 4455 1822 50  0000 R CNN
 F 2 "" H 4450 1950 50  0001 C CNN
 F 3 "" H 4450 1950 50  0001 C CNN
 	1    4450 1950
-	0    1    1    0   
+	1    0    0    -1  
 $EndComp
 NoConn ~ 5700 2850
 NoConn ~ 5700 2750
@@ -792,5 +779,18 @@ F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical" H 1500 6600 50 
 F 3 "~" H 1500 6600 50  0001 C CNN
 	1    1500 6600
 	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F3A825F
+P 4650 3050
+AR Path="/5F3B307E/5F3A825F" Ref="#PWR?"  Part="1" 
+AR Path="/5F3A825F" Ref="#PWR0102"  Part="1" 
+F 0 "#PWR0102" H 4650 2800 50  0001 C CNN
+F 1 "GND" V 4655 2922 50  0000 R CNN
+F 2 "" H 4650 3050 50  0001 C CNN
+F 3 "" H 4650 3050 50  0001 C CNN
+	1    4650 3050
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
