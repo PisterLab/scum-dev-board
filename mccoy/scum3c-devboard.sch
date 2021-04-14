@@ -298,39 +298,6 @@ Text Label 2600 2050 0    50   ~ 0
 3WB_CLK
 Text Label 2600 2150 0    50   ~ 0
 3WB_ENB
-$Comp
-L power:GND #PWR0120
-U 1 1 5F7C4691
-P 8700 4200
-F 0 "#PWR0120" H 8700 3950 50  0001 C CNN
-F 1 "GND" H 8705 4027 50  0000 C CNN
-F 2 "" H 8700 4200 50  0001 C CNN
-F 3 "" H 8700 4200 50  0001 C CNN
-	1    8700 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VBAT #PWR0121
-U 1 1 5F7C4697
-P 8700 3900
-F 0 "#PWR0121" H 8700 3750 50  0001 C CNN
-F 1 "+VBAT" H 8715 4073 50  0000 C CNN
-F 2 "" H 8700 3900 50  0001 C CNN
-F 3 "" H 8700 3900 50  0001 C CNN
-	1    8700 3900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 5F7C469D
-P 8700 4100
-F 0 "BT1" H 8818 4196 50  0000 L CNN
-F 1 "Battery_Cell" H 8818 4105 50  0000 L CNN
-F 2 "SamacSys_Parts:2986" V 8700 4160 50  0001 C CNN
-F 3 "~" V 8700 4160 50  0001 C CNN
-	1    8700 4100
-	1    0    0    -1  
-$EndComp
 Text Label 2800 7650 3    50   ~ 0
 GPIO0
 Text Label 3000 7650 3    50   ~ 0
@@ -564,13 +531,13 @@ F 3 "" H 5550 6650 50  0001 C CNN
 $EndComp
 Text Label 5550 6750 0    50   ~ 0
 BOOT_SOURCE_SEL
-Text Label 5550 6850 0    50   ~ 0
-3WB_DATA
 Text Label 5550 6950 0    50   ~ 0
-3WB_ENB
+3WB_DATA
 Text Label 5550 7050 0    50   ~ 0
-3WB_CLK
+3WB_ENB
 Text Label 5550 7150 0    50   ~ 0
+3WB_CLK
+Text Label 5550 7250 0    50   ~ 0
 HARD_RESET
 $Comp
 L draft1library:+VBAT #PWR?
@@ -622,13 +589,13 @@ F 3 "" H 5050 6750 50  0001 C CNN
 	1    5050 6750
 	0    -1   -1   0   
 $EndComp
-Text Label 5050 6850 2    50   ~ 0
-SENSOR_EXT_IN
 Text Label 5050 6950 2    50   ~ 0
-SENSOR_LDO_OUTPUT
+SENSOR_EXT_IN
 Text Label 5050 7050 2    50   ~ 0
-RsRx
+SENSOR_LDO_OUTPUT
 Text Label 5050 7150 2    50   ~ 0
+RsRx
+Text Label 5050 7250 2    50   ~ 0
 RsTx
 $Comp
 L draft1library:+VDDIO #PWR?
@@ -706,57 +673,20 @@ F 3 "" H 1800 6700 50  0001 C CNN
 	1    1800 6700
 	0    1    1    0   
 $EndComp
-Text Label 2900 6550 2    50   ~ 0
+Text Label 2700 7150 1    50   ~ 0
 GPIO1
-Text Label 3000 6550 0    50   ~ 0
-GPIO1
-$Comp
-L Connector_Generic:Conn_01x02 J2
-U 1 1 60772874
-P 3000 6750
-F 0 "J2" V 2872 6830 50  0000 L CNN
-F 1 "Conn_01x02" V 2963 6830 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3000 6750 50  0001 C CNN
-F 3 "~" H 3000 6750 50  0001 C CNN
-	1    3000 6750
-	0    1    1    0   
-$EndComp
 Text Label 2600 3900 0    50   ~ 0
 GPO_ZERO
 $Comp
-L Connector_Generic:Conn_01x02 J5
-U 1 1 6077BC1A
-P 4900 5700
-F 0 "J5" V 4772 5780 50  0000 L CNN
-F 1 "Conn_01x02" V 4863 5780 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4900 5700 50  0001 C CNN
-F 3 "~" H 4900 5700 50  0001 C CNN
-	1    4900 5700
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0125
 U 1 1 6077BF5A
-P 4900 5500
-F 0 "#PWR0125" H 4900 5250 50  0001 C CNN
-F 1 "GND" V 4905 5372 50  0000 R CNN
-F 2 "" H 4900 5500 50  0001 C CNN
-F 3 "" H 4900 5500 50  0001 C CNN
-	1    4900 5500
-	-1   0    0    1   
-$EndComp
-Text Label 4800 5500 1    50   ~ 0
-GPO_ZERO
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even J4
-U 1 1 6081ABA3
-P 5250 6750
-F 0 "J4" H 5300 7267 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 5300 7176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5250 6750 50  0001 C CNN
-F 3 "~" H 5250 6750 50  0001 C CNN
-	1    5250 6750
-	1    0    0    -1  
+P 5550 6850
+F 0 "#PWR0125" H 5550 6600 50  0001 C CNN
+F 1 "GND" V 5555 6722 50  0000 R CNN
+F 2 "" H 5550 6850 50  0001 C CNN
+F 3 "" H 5550 6850 50  0001 C CNN
+	1    5550 6850
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even J1
@@ -785,12 +715,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even J3
 U 1 1 6076CDED
-P 3200 7450
-F 0 "J3" V 3296 6862 50  0000 R CNN
-F 1 "Conn_02x10_Odd_Even" V 3205 6862 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3200 7450 50  0001 C CNN
-F 3 "~" H 3200 7450 50  0001 C CNN
-	1    3200 7450
+P 3100 7450
+F 0 "J3" V 3196 6862 50  0000 R CNN
+F 1 "Conn_02x10_Odd_Even" V 3105 6862 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3100 7450 50  0001 C CNN
+F 3 "~" H 3100 7450 50  0001 C CNN
+	1    3100 7450
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -805,17 +735,6 @@ F 3 "" H 3600 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0131
-U 1 1 6077524A
-P 3700 7150
-F 0 "#PWR0131" H 3700 6900 50  0001 C CNN
-F 1 "GND" V 3705 7022 50  0000 R CNN
-F 2 "" H 3700 7150 50  0001 C CNN
-F 3 "" H 3700 7150 50  0001 C CNN
-	1    3700 7150
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR0132
 U 1 1 6077609C
 P 3600 7650
@@ -827,14 +746,71 @@ F 3 "" H 3600 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
-U 1 1 60776430
-P 3700 7650
-F 0 "#PWR0133" H 3700 7400 50  0001 C CNN
-F 1 "GND" V 3705 7522 50  0000 R CNN
-F 2 "" H 3700 7650 50  0001 C CNN
-F 3 "" H 3700 7650 50  0001 C CNN
-	1    3700 7650
+L power:GND #PWR0131
+U 1 1 60773571
+P 2700 7650
+F 0 "#PWR0131" H 2700 7400 50  0001 C CNN
+F 1 "GND" V 2705 7522 50  0000 R CNN
+F 2 "" H 2700 7650 50  0001 C CNN
+F 3 "" H 2700 7650 50  0001 C CNN
+	1    2700 7650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x09_Odd_Even J2
+U 1 1 60777233
+P 5250 6850
+F 0 "J2" H 5300 7467 50  0000 C CNN
+F 1 "Conn_02x09_Odd_Even" H 5300 7376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical" H 5250 6850 50  0001 C CNN
+F 3 "~" H 5250 6850 50  0001 C CNN
+	1    5250 6850
+	1    0    0    -1  
+$EndComp
+Text Label 5050 6850 2    50   ~ 0
+GPO_ZERO
+$Comp
+L power:GND #PWR0120
+U 1 1 5F7C4691
+P 9000 3900
+F 0 "#PWR0120" H 9000 3650 50  0001 C CNN
+F 1 "GND" H 9005 3727 50  0000 C CNN
+F 2 "" H 9000 3900 50  0001 C CNN
+F 3 "" H 9000 3900 50  0001 C CNN
+	1    9000 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR0133
+U 1 1 607B4D72
+P 8900 3900
+F 0 "#PWR0133" H 8900 3750 50  0001 C CNN
+F 1 "+VBAT" H 8915 4073 50  0000 C CNN
+F 2 "" H 8900 3900 50  0001 C CNN
+F 3 "" H 8900 3900 50  0001 C CNN
+	1    8900 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VBAT #PWR0121
+U 1 1 5F7C4697
+P 8950 4600
+F 0 "#PWR0121" H 8950 4450 50  0001 C CNN
+F 1 "+VBAT" H 8965 4773 50  0000 C CNN
+F 2 "" H 8950 4600 50  0001 C CNN
+F 3 "" H 8950 4600 50  0001 C CNN
+	1    8950 4600
+	-1   0    0    1   
+$EndComp
+$Comp
+L draft1library:Battery_Clip BT1
+U 1 1 60775F67
+P 8950 4300
+F 0 "BT1" H 9150 4396 50  0000 L CNN
+F 1 "Battery_Clip" H 9150 4305 50  0000 L CNN
+F 2 "SCUM:BK-414_battery_clip" H 8950 4300 50  0001 C CNN
+F 3 "" H 8950 4300 50  0001 C CNN
+	1    8950 4300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
