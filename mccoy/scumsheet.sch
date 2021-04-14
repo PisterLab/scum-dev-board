@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:scum3c-devboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -17,12 +16,7 @@ $EndDescr
 NoConn ~ 2250 2000
 NoConn ~ 2250 2150
 NoConn ~ 2250 2300
-NoConn ~ 2250 2750
-NoConn ~ 2250 2900
-NoConn ~ 2250 3050
-NoConn ~ 2250 3200
 NoConn ~ 2250 3800
-NoConn ~ 2250 4550
 NoConn ~ 2250 4700
 NoConn ~ 2250 4850
 NoConn ~ 2250 5000
@@ -403,48 +397,6 @@ Wire Wire Line
 	2150 950  1900 950 
 Connection ~ 1900 950 
 $Comp
-L draft1library:+VDDAO #PWR0189
-U 1 1 5F3FA20C
-P 1400 2150
-AR Path="/5F3B1D81/5F3FA20C" Ref="#PWR0189"  Part="1" 
-AR Path="/5F41418C/5F3FA20C" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3FA20C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0189" H 1400 2000 50  0001 C CNN
-F 1 "+VDDAO" H 1415 2323 50  0000 C CNN
-F 2 "" H 1400 2150 50  0001 C CNN
-F 3 "" H 1400 2150 50  0001 C CNN
-	1    1400 2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C24
-U 1 1 5F3FB2CB
-P 1400 2300
-AR Path="/5F3B1D81/5F3FB2CB" Ref="C24"  Part="1" 
-AR Path="/5F41418C/5F3FB2CB" Ref="C?"  Part="1" 
-AR Path="/5F414989/5F3FB2CB" Ref="C?"  Part="1" 
-F 0 "C24" H 1515 2346 50  0000 L CNN
-F 1 "NP" H 1515 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 2150 50  0001 C CNN
-F 3 "~" H 1400 2300 50  0001 C CNN
-	1    1400 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0191
-U 1 1 5F3FBEC7
-P 1400 2450
-AR Path="/5F3B1D81/5F3FBEC7" Ref="#PWR0191"  Part="1" 
-AR Path="/5F41418C/5F3FBEC7" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3FBEC7" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0191" H 1400 2200 50  0001 C CNN
-F 1 "GND" H 1405 2277 50  0000 C CNN
-F 2 "" H 1400 2450 50  0001 C CNN
-F 3 "" H 1400 2450 50  0001 C CNN
-	1    1400 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L draft1library:+VBAT #PWR0193
 U 1 1 5F40149D
 P 3100 6050
@@ -630,20 +582,6 @@ F 3 "~" H 9300 2550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_US R14
-U 1 1 5F419870
-P 1400 3650
-AR Path="/5F3B1D81/5F419870" Ref="R14"  Part="1" 
-AR Path="/5F41418C/5F419870" Ref="R?"  Part="1" 
-AR Path="/5F414989/5F419870" Ref="R?"  Part="1" 
-F 0 "R14" H 1468 3696 50  0000 L CNN
-F 1 "NP" H 1468 3605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 1440 3640 50  0001 C CNN
-F 3 "~" H 1400 3650 50  0001 C CNN
-	1    1400 3650
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0201
 U 1 1 5F419E58
 P 9450 2550
@@ -656,20 +594,6 @@ F 2 "" H 9450 2550 50  0001 C CNN
 F 3 "" H 9450 2550 50  0001 C CNN
 	1    9450 2550
 	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0202
-U 1 1 5F41A5FE
-P 1250 3650
-AR Path="/5F3B1D81/5F41A5FE" Ref="#PWR0202"  Part="1" 
-AR Path="/5F41418C/5F41A5FE" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F41A5FE" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0202" H 1250 3400 50  0001 C CNN
-F 1 "GND" H 1255 3477 50  0000 C CNN
-F 2 "" H 1250 3650 50  0001 C CNN
-F 3 "" H 1250 3650 50  0001 C CNN
-	1    1250 3650
-	0    1    1    0   
 $EndComp
 $Comp
 L draft1library:+VDDAO #PWR0205
@@ -686,34 +610,6 @@ F 3 "" H 4550 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0206
-U 1 1 5F3A4A87
-P 3550 700
-AR Path="/5F3B1D81/5F3A4A87" Ref="#PWR0206"  Part="1" 
-AR Path="/5F41418C/5F3A4A87" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3A4A87" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0206" H 3550 450 50  0001 C CNN
-F 1 "GND" V 3555 572 50  0000 R CNN
-F 2 "" H 3550 700 50  0001 C CNN
-F 3 "" H 3550 700 50  0001 C CNN
-	1    3550 700 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C C13
-U 1 1 5F3A5D08
-P 3700 700
-AR Path="/5F3B1D81/5F3A5D08" Ref="C13"  Part="1" 
-AR Path="/5F41418C/5F3A5D08" Ref="C?"  Part="1" 
-AR Path="/5F414989/5F3A5D08" Ref="C?"  Part="1" 
-F 0 "C13" H 3815 746 50  0000 L CNN
-F 1 "NP" H 3815 655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3738 550 50  0001 C CNN
-F 3 "~" H 3700 700 50  0001 C CNN
-	1    3700 700 
-	0    1    1    0   
-$EndComp
-$Comp
 L draft1library:+VDDD #PWR0207
 U 1 1 5F3A7150
 P 4100 700
@@ -725,47 +621,12 @@ F 1 "+VDDD" H 4115 873 50  0000 C CNN
 F 2 "" H 4100 700 50  0001 C CNN
 F 3 "" H 4100 700 50  0001 C CNN
 	1    4100 700 
-	-1   0    0    1   
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	4850 1150 4850 700 
 Wire Wire Line
 	4850 700  4100 700 
-Wire Wire Line
-	3850 700  4100 700 
-Connection ~ 4100 700 
-$Comp
-L draft1library:+VDDD #PWR0208
-U 1 1 5F3A8DE4
-P 6000 700
-AR Path="/5F3B1D81/5F3A8DE4" Ref="#PWR0208"  Part="1" 
-AR Path="/5F41418C/5F3A8DE4" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3A8DE4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0208" H 6000 550 50  0001 C CNN
-F 1 "+VDDD" V 6015 828 50  0000 L CNN
-F 2 "" H 6000 700 50  0001 C CNN
-F 3 "" H 6000 700 50  0001 C CNN
-	1    6000 700 
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R12
-U 1 1 5F3A9D0E
-P 5650 700
-AR Path="/5F3B1D81/5F3A9D0E" Ref="R12"  Part="1" 
-AR Path="/5F41418C/5F3A9D0E" Ref="R?"  Part="1" 
-AR Path="/5F414989/5F3A9D0E" Ref="R?"  Part="1" 
-F 0 "R12" H 5718 746 50  0000 L CNN
-F 1 "NP" H 5718 655 50  0000 L CNN
-F 2 "Resistor_SMD:R_0402_1005Metric" V 5690 690 50  0001 C CNN
-F 3 "~" H 5650 700 50  0001 C CNN
-	1    5650 700 
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6000 700  5800 700 
-Wire Wire Line
-	5500 700  5000 700 
 Wire Wire Line
 	5000 700  5000 1150
 Text HLabel 3700 6050 3    50   BiDi ~ 0
@@ -785,7 +646,6 @@ NoConn ~ 8000 3450
 NoConn ~ 8000 3600
 NoConn ~ 8000 3750
 NoConn ~ 8000 4800
-NoConn ~ 8000 4200
 Wire Wire Line
 	8000 2550 9150 2550
 Text HLabel 6750 6050 3    50   BiDi ~ 0
@@ -800,39 +660,6 @@ Text HLabel 6600 6050 3    50   BiDi ~ 0
 RsRx
 Text HLabel 9250 4050 2    50   BiDi ~ 0
 BOOT_SOURCE_SEL
-$Comp
-L SamacSys_Parts:LD_MVSG-JGLH-46-1 LED1
-U 1 1 5F7B4972
-P 9200 4650
-F 0 "LED1" H 9500 4385 50  0000 C CNN
-F 1 "LD_MVSG-JGLH-46-1" H 9500 4476 50  0000 C CNN
-F 2 "SamacSys_Parts:LEDM2218X140N" H 9700 4800 50  0001 L BNN
-F 3 "https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf" H 9700 4700 50  0001 L BNN
-F 4 "Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package" H 9700 4600 50  0001 L BNN "Description"
-F 5 "1.4" H 9700 4500 50  0001 L BNN "Height"
-F 6 "OSRAM" H 9700 4400 50  0001 L BNN "Manufacturer_Name"
-F 7 "LD MVSG-JGLH-46-1" H 9700 4300 50  0001 L BNN "Manufacturer_Part_Number"
-F 8 "LD MVSG-JGLH-46-1" H 9700 4200 50  0001 L BNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ldmvsg-jglh-46-1/osram-opto-semiconductors" H 9700 4100 50  0001 L BNN "Arrow Price/Stock"
-F 10 "720-LDMVSGJGLH461" H 9700 4000 50  0001 L BNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LD-MVSG-JGLH-46-1?qs=znB0%2F8lYn%252BuYpqaPHtqGHw%3D%3D" H 9700 3900 50  0001 L BNN "Mouser Price/Stock"
-	1    9200 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	8000 4650 8600 4650
-$Comp
-L power:GND #PWR0125
-U 1 1 5F7B7D3D
-P 9200 4650
-F 0 "#PWR0125" H 9200 4400 50  0001 C CNN
-F 1 "GND" V 9205 4522 50  0000 R CNN
-F 2 "" H 9200 4650 50  0001 C CNN
-F 3 "" H 9200 4650 50  0001 C CNN
-	1    9200 4650
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 5500 6050
 Text HLabel 8000 5100 2    50   BiDi ~ 0
 SENSOR_EXT_IN
 Text HLabel 8000 5250 2    50   BiDi ~ 0
@@ -849,48 +676,6 @@ Text HLabel 5350 6500 3    50   BiDi ~ 0
 GPIO10
 Wire Wire Line
 	5350 6500 5350 6050
-$Comp
-L power:GND #PWR0190
-U 1 1 5F3FB8E1
-P 800 2450
-AR Path="/5F3B1D81/5F3FB8E1" Ref="#PWR0190"  Part="1" 
-AR Path="/5F41418C/5F3FB8E1" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3FB8E1" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0190" H 800 2200 50  0001 C CNN
-F 1 "GND" H 805 2277 50  0000 C CNN
-F 2 "" H 800 2450 50  0001 C CNN
-F 3 "" H 800 2450 50  0001 C CNN
-	1    800  2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:+VDD25 #PWR0188
-U 1 1 5F3F91ED
-P 800 2150
-AR Path="/5F3B1D81/5F3F91ED" Ref="#PWR0188"  Part="1" 
-AR Path="/5F41418C/5F3F91ED" Ref="#PWR?"  Part="1" 
-AR Path="/5F414989/5F3F91ED" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0188" H 800 2000 50  0001 C CNN
-F 1 "+VDD25" H 815 2323 50  0000 C CNN
-F 2 "" H 800 2150 50  0001 C CNN
-F 3 "" H 800 2150 50  0001 C CNN
-	1    800  2150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C21
-U 1 1 5F3FABA5
-P 800 2300
-AR Path="/5F3B1D81/5F3FABA5" Ref="C21"  Part="1" 
-AR Path="/5F41418C/5F3FABA5" Ref="C?"  Part="1" 
-AR Path="/5F414989/5F3FABA5" Ref="C?"  Part="1" 
-F 0 "C21" H 915 2346 50  0000 L CNN
-F 1 "NP" H 915 2255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 838 2150 50  0001 C CNN
-F 3 "~" H 800 2300 50  0001 C CNN
-	1    800  2300
-	1    0    0    -1  
-$EndComp
 $Comp
 L draft1library:+VDD25 #PWR0192
 U 1 1 5F3FC7C2
@@ -923,9 +708,55 @@ Wire Wire Line
 	6100 6050 6100 6500
 Wire Wire Line
 	2250 5150 1400 5150
-Wire Wire Line
-	2250 3650 1550 3650
 NoConn ~ 2250 4100
+Text HLabel 2200 4100 0    50   BiDi ~ 0
+ANTENNA
+Wire Wire Line
+	2200 4100 2250 4100
+Wire Wire Line
+	8000 4200 9300 4200
+Text HLabel 9300 4200 2    50   BiDi ~ 0
+HARD_RESET
+Text HLabel 5500 6500 3    50   BiDi ~ 0
+GPIO11
+Wire Wire Line
+	5500 6050 5500 6500
+Wire Wire Line
+	8000 4650 9100 4650
+Text HLabel 9100 4650 2    50   BiDi ~ 0
+GPO_ZERO
+NoConn ~ 2250 3650
+Wire Wire Line
+	5000 700  4850 700 
+Connection ~ 4850 700 
+$Comp
+L Device:C C1
+U 1 1 6085A679
+P 2100 4550
+AR Path="/5F3B1D81/6085A679" Ref="C1"  Part="1" 
+AR Path="/5F41418C/6085A679" Ref="C?"  Part="1" 
+AR Path="/5F414989/6085A679" Ref="C?"  Part="1" 
+F 0 "C1" H 2215 4596 50  0000 L CNN
+F 1 "NP" H 2215 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2138 4400 50  0001 C CNN
+F 3 "~" H 2100 4550 50  0001 C CNN
+	1    2100 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 6085A67F
+P 1950 4550
+AR Path="/5F3B1D81/6085A67F" Ref="#PWR0129"  Part="1" 
+AR Path="/5F41418C/6085A67F" Ref="#PWR?"  Part="1" 
+AR Path="/5F414989/6085A67F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0129" H 1950 4300 50  0001 C CNN
+F 1 "GND" H 1955 4377 50  0000 C CNN
+F 2 "" H 1950 4550 50  0001 C CNN
+F 3 "" H 1950 4550 50  0001 C CNN
+	1    1950 4550
+	0    1    1    0   
+$EndComp
 $Comp
 L draft1library:scum3 U8
 U 1 1 5F3B2246
@@ -940,8 +771,50 @@ F 3 "" H 5200 3450 50  0001 C CNN
 	1    5200 3450
 	1    0    0    -1  
 $EndComp
-Text HLabel 2200 4100 0    50   BiDi ~ 0
-ANTENNA
-Wire Wire Line
-	2200 4100 2250 4100
+$Comp
+L power:GND #PWR0191
+U 1 1 5F3FBEC7
+P 1400 2450
+AR Path="/5F3B1D81/5F3FBEC7" Ref="#PWR0191"  Part="1" 
+AR Path="/5F41418C/5F3FBEC7" Ref="#PWR?"  Part="1" 
+AR Path="/5F414989/5F3FBEC7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0191" H 1400 2200 50  0001 C CNN
+F 1 "GND" H 1405 2277 50  0000 C CNN
+F 2 "" H 1400 2450 50  0001 C CNN
+F 3 "" H 1400 2450 50  0001 C CNN
+	1    1400 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C24
+U 1 1 5F3FB2CB
+P 1400 2300
+AR Path="/5F3B1D81/5F3FB2CB" Ref="C24"  Part="1" 
+AR Path="/5F41418C/5F3FB2CB" Ref="C?"  Part="1" 
+AR Path="/5F414989/5F3FB2CB" Ref="C?"  Part="1" 
+F 0 "C24" H 1515 2346 50  0000 L CNN
+F 1 "NP" H 1515 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1438 2150 50  0001 C CNN
+F 3 "~" H 1400 2300 50  0001 C CNN
+	1    1400 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L draft1library:+VDDAO #PWR0189
+U 1 1 5F3FA20C
+P 1400 2150
+AR Path="/5F3B1D81/5F3FA20C" Ref="#PWR0189"  Part="1" 
+AR Path="/5F41418C/5F3FA20C" Ref="#PWR?"  Part="1" 
+AR Path="/5F414989/5F3FA20C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0189" H 1400 2000 50  0001 C CNN
+F 1 "+VDDAO" H 1415 2323 50  0000 C CNN
+F 2 "" H 1400 2150 50  0001 C CNN
+F 3 "" H 1400 2150 50  0001 C CNN
+	1    1400 2150
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2250 3050
+NoConn ~ 2250 2900
+NoConn ~ 2250 2750
+NoConn ~ 2250 3200
 $EndSCHEMATC
