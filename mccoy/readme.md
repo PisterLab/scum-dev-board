@@ -2,6 +2,20 @@
 ![Schematic page 2](pictures/scum3c-devboard_schematic_Page_2.png)
 ![3D front](pictures/scum3c-devboard.png)
 ![3D back](pictures/scum3c-devboard_back.png)
+
+### Updates 2021.04.14
+- Austin’s requested layout
+- Larger dimensions -- no longers square
+- 0.01” pins
+- Pins for all GPIOs
+- Antenna pin
+- Removed I2C for IMU
+- Via holes for wiring
+- 2 layer instead of 4 layer
+- HARD_RESET pin
+- GPO_ZERO pin instead of LED
+- Swapped GPIO 12 and 	GPIO 13 on IMU
+
 ### Updates 2020.12.05
 - removed zener diode
 - added GPIOs 8, 9, 10
