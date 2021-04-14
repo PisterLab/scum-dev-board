@@ -17,6 +17,7 @@
 - Swapped GPIO 12 and GPIO 13 on IMU
 - Consolidated headers
 - Neatened labels
+- New battery clip
 
 ### Updates 2020.12.05
 - removed zener diode
