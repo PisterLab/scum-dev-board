@@ -6,7 +6,7 @@
 ### Updates 2021.04.14
 - Austin’s requested layout
 - Larger dimensions -- no longers square
-- 0.01” pins
+- 0.1” pins
 - Pins for all GPIOs
 - Antenna pin
 - Removed I2C for IMU
@@ -14,7 +14,9 @@
 - 2 layer instead of 4 layer
 - HARD_RESET pin
 - GPO_ZERO pin instead of LED
-- Swapped GPIO 12 and 	GPIO 13 on IMU
+- Swapped GPIO 12 and GPIO 13 on IMU
+- Consolidated headers
+- Neatened labels
 
 ### Updates 2020.12.05
 - removed zener diode
