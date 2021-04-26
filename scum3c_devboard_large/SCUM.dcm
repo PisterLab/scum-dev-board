@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +15VIN
+D Power symbol creates a global label with name "+1VIN"
+K power-flag battery
+$ENDCMP
+#
 $CMP +1VIN
 D Power symbol creates a global label with name "+1VIN"
 K power-flag battery
@@ -10,7 +15,7 @@ D Power symbol creates a global label with name "+UART33"
 K power-flag battery
 $ENDCMP
 #
-$CMP +UART33
+$CMP +USB33
 D Power symbol creates a global label with name "+UART33"
 K power-flag battery
 $ENDCMP
@@ -20,12 +25,17 @@ D Power symbol creates a global label with name "+VBAT"
 K power-flag battery
 $ENDCMP
 #
+$CMP +V18IO_IMU
+D Power symbol creates a global label with name "+VBAT"
+K power-flag battery
+$ENDCMP
+#
 $CMP +VBAT
 D Power symbol creates a global label with name "+VBAT"
 K power-flag battery
 $ENDCMP
 #
-$CMP +VBAT'
+$CMP +VBATSCuM
 D Power symbol creates a global label with name "+VBAT"
 K power-flag battery
 $ENDCMP
@@ -35,17 +45,12 @@ D Power symbol creates a global label with name "+VDDD"
 K power-flag battery
 $ENDCMP
 #
-$CMP +VDDD'
-D Power symbol creates a global label with name "+VDDD"
-K power-flag battery
-$ENDCMP
-#
 $CMP +VDDIO
 D Power symbol creates a global label with name "+VDDIO"
 K power-flag battery
 $ENDCMP
 #
-$CMP +VDDIO'
+$CMP +VDDIOSCuM
 D Power symbol creates a global label with name "+VDDIO"
 K power-flag battery
 $ENDCMP
@@ -55,9 +60,19 @@ D Power symbol creates a global label with name "+VBAT0"
 K power-flag battery
 $ENDCMP
 #
+$CMP +VIN_IMU
+D Power symbol creates a global label with name "+VBAT0"
+K power-flag battery
+$ENDCMP
+#
 $CMP +VUSB
 D Power symbol creates a global label with name "+VUSB"
 K power-flag battery
+$ENDCMP
+#
+$CMP 1050170001
+D USB Receptacle
+F https://www.molex.com/pdm_docs/sd/1050170001_sd.pdf
 $ENDCMP
 #
 $CMP Teensy_Connector

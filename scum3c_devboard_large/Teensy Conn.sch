@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SCUM:Teensy_Connector J?
-U 1 1 5FCB6CAE
-P 1400 1950
-AR Path="/5FCB6CAE" Ref="J?"  Part="1" 
-AR Path="/5FCB6A87/5FCB6CAE" Ref="J4"  Part="1" 
-F 0 "J4" H 1480 1942 50  0000 L CNN
-F 1 "Conn_01x22" H 1480 1851 50  0000 L CNN
-F 2 "SCUM:Teensy_Connector" H 1400 1950 50  0001 C CNN
-F 3 "~" H 1400 1950 50  0001 C CNN
-	1    1400 1950
-	-1   0    0    1   
-$EndComp
-$Comp
 L SCUM:+VBAT #PWR0118
 U 1 1 5FCB6DF9
 P 1050 3500
@@ -129,31 +116,25 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FCB782F
-P 1600 1750
+P 1800 1600
 AR Path="/5F3B307E/5FCB782F" Ref="#PWR?"  Part="1" 
 AR Path="/5FCB782F" Ref="#PWR?"  Part="1" 
 AR Path="/5FCB6A87/5FCB782F" Ref="#PWR0162"  Part="1" 
-F 0 "#PWR0162" H 1600 1500 50  0001 C CNN
-F 1 "GND" V 1600 1650 50  0000 R CNN
-F 2 "" H 1600 1750 50  0001 C CNN
-F 3 "" H 1600 1750 50  0001 C CNN
-	1    1600 1750
+F 0 "#PWR0162" H 1800 1350 50  0001 C CNN
+F 1 "GND" V 1800 1500 50  0000 R CNN
+F 2 "" H 1800 1600 50  0001 C CNN
+F 3 "" H 1800 1600 50  0001 C CNN
+	1    1800 1600
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 1600 1650
-NoConn ~ 1600 1550
 Text HLabel 1050 4000 0    50   Input ~ 0
 aSCANIN
 Text HLabel 1050 4100 0    50   Input ~ 0
 aSCSEL
-Text HLabel 1600 2650 2    50   Input ~ 0
-GPIO1
 Text HLabel 1050 4900 0    50   Input ~ 0
 Clock
-Text HLabel 1600 2450 2    50   Input ~ 0
-GPIO2
 Text HLabel 1050 6000 0    50   Input ~ 0
-sReset
+GPO_ZERO
 Text HLabel 1050 6300 0    50   Input ~ 0
 hReset
 Text HLabel 1050 5200 0    50   Input ~ 0
@@ -162,10 +143,8 @@ Text HLabel 1050 5100 0    50   Input ~ 0
 3WB_ENB
 Text HLabel 1050 5000 0    50   Input ~ 0
 3WB_DATA
-Text HLabel 1600 1850 2    50   Input ~ 0
+Text HLabel 1750 2050 2    50   Input ~ 0
 GPIO0
-Text HLabel 1600 1450 2    50   Input ~ 0
-GPIO3
 Text HLabel 1050 6200 0    50   Input ~ 0
 aPHIb
 Text HLabel 1050 6100 0    50   Input ~ 0
@@ -174,15 +153,15 @@ Text HLabel 1050 7100 0    50   Input ~ 0
 aSCANOUT
 Text HLabel 1050 3900 0    50   Input ~ 0
 aLOAD
-Text HLabel 1600 950  2    50   Input ~ 0
+Text HLabel 1750 850  2    50   Input ~ 0
 RsRx
-Text HLabel 1600 850  2    50   Input ~ 0
+Text HLabel 1750 750  2    50   Input ~ 0
 RsTx
 Text Label 2350 7100 0    50   ~ 0
 aSCANOUT33
-Text Label 1600 1050 0    50   ~ 0
+Text Label 1750 1250 0    50   ~ 0
 aLOAD33
-Text Label 1600 1150 0    50   ~ 0
+Text Label 1750 1550 0    50   ~ 0
 aSCANOUT33
 Text Label 2350 3900 0    50   ~ 0
 aLOAD33
@@ -190,13 +169,13 @@ Text Label 2350 4000 0    50   ~ 0
 aSCANIN33
 Text Label 2350 4100 0    50   ~ 0
 aSCSEL33
-Text Label 1600 2750 0    50   ~ 0
+Text Label 1750 1150 0    50   ~ 0
 aSCANIN33
-Text Label 1600 2850 0    50   ~ 0
+Text Label 1750 1450 0    50   ~ 0
 aSCSEL33
 Text Label 2350 6100 0    50   ~ 0
 aPHI33
-Text Label 1600 1250 0    50   ~ 0
+Text Label 1750 1350 0    50   ~ 0
 aPHI33
 Text Label 2350 6200 0    50   ~ 0
 aPHIb33
@@ -204,26 +183,22 @@ Text Label 2350 4900 0    50   ~ 0
 Clock33
 Text Label 2350 6300 0    50   ~ 0
 hReset33
-Text Label 1600 2250 0    50   ~ 0
+Text Label 1750 2450 0    50   ~ 0
 hReset33
-Text Label 1600 1350 0    50   ~ 0
+Text Label 1750 1750 0    50   ~ 0
 aPHIb33
-Text Label 1600 2550 0    50   ~ 0
+Text Label 1750 1850 0    50   ~ 0
 Clock33
-Wire Notes Line
-	600  3200 600  600 
 Wire Notes Line
 	600  7700 2900 7700
 Wire Notes Line
 	2900 3300 600  3300
 Wire Notes Line
-	2900 600  2900 3200
-Wire Notes Line
-	600  600  2900 600 
+	2900 550  600  550 
 Wire Notes Line
 	600  3200 2900 3200
-Text Notes 2550 3150 0    50   ~ 0
-Teensy
+Text Notes 2000 3150 0    50   ~ 0
+Teensy/nRF Connector
 Text Notes 2300 7650 0    50   ~ 0
 Level Shifters
 $Comp
@@ -287,25 +262,23 @@ Text Label 2350 5100 0    50   ~ 0
 3WB_ENB33
 Text Label 2350 5000 0    50   ~ 0
 3WB_DATA33
-Text Label 1600 2150 0    50   ~ 0
+Text Label 1750 2350 0    50   ~ 0
 3WB_CLK33
-Text Label 1600 2050 0    50   ~ 0
+Text Label 1750 2250 0    50   ~ 0
 3WB_ENB33
-Text Label 1600 1950 0    50   ~ 0
+Text Label 1750 2150 0    50   ~ 0
 3WB_DATA33
 Text Label 2350 6000 0    50   ~ 0
-sReset33
-Text Label 1600 2350 0    50   ~ 0
-sReset33
+GPO_ZERO33
 $Comp
 L SCUM:+TEENSY33 #PWR0155
 U 1 1 6009E0D6
-P 1600 2950
-F 0 "#PWR0155" H 1600 2800 50  0001 C CNN
-F 1 "+TEENSY33" V 1615 3077 50  0000 L CNN
-F 2 "" H 1600 2950 50  0001 C CNN
-F 3 "" H 1600 2950 50  0001 C CNN
-	1    1600 2950
+P 1750 2850
+F 0 "#PWR0155" H 1750 2700 50  0001 C CNN
+F 1 "+TEENSY33" V 1765 2977 50  0000 L CNN
+F 2 "" H 1750 2850 50  0001 C CNN
+F 3 "" H 1750 2850 50  0001 C CNN
+	1    1750 2850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -342,7 +315,7 @@ F 3 "" H 2350 5700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74AVCH4T245D_118:74AVCH4T245D,118 U9
+L SCUM:74AVCH4T245D,118 U9
 U 1 1 6009FAD9
 P 1700 3850
 F 0 "U9" H 1700 4350 50  0000 C CNN
@@ -355,7 +328,7 @@ F 5 "Nexperia" H 1700 3850 50  0001 L BNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74AVCH4T245D_118:74AVCH4T245D,118 U10
+L SCUM:74AVCH4T245D,118 U10
 U 1 1 600A041E
 P 1700 4950
 F 0 "U10" H 1700 5500 50  0000 C CNN
@@ -368,7 +341,7 @@ F 5 "Nexperia" H 1700 4950 50  0001 L BNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74AVCH4T245D_118:74AVCH4T245D,118 U11
+L SCUM:74AVCH4T245D,118 U11
 U 1 1 600A0446
 P 1700 6050
 F 0 "U11" H 1700 6600 50  0000 C CNN
@@ -513,7 +486,7 @@ F 3 "" H 2350 6800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L 74AVCH4T245D_118:74AVCH4T245D,118 U13
+L SCUM:74AVCH4T245D,118 U13
 U 1 1 600C6A3D
 P 1700 7150
 F 0 "U13" H 1700 7700 50  0000 C CNN
@@ -570,4 +543,49 @@ NoConn ~ 1050 3800
 NoConn ~ 2350 3800
 NoConn ~ 2350 7200
 NoConn ~ 1050 7200
+$Comp
+L Connector_Generic:Conn_01x24 J6
+U 1 1 60B65C85
+P 1550 1950
+F 0 "J6" H 1850 1850 50  0000 C CNN
+F 1 "Conn_01x24" H 1850 1950 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical" H 1550 1950 50  0001 C CNN
+F 3 "~" H 1550 1950 50  0001 C CNN
+	1    1550 1950
+	-1   0    0    1   
+$EndComp
+Wire Notes Line
+	2900 550  2900 3200
+Wire Notes Line
+	600  550  600  3200
+NoConn ~ 1750 3050
+NoConn ~ 1750 2950
+Text HLabel 1750 2650 2    50   Input ~ 0
+RsRx
+Text HLabel 1750 2750 2    50   Input ~ 0
+RsTx
+$Comp
+L power:GND #PWR?
+U 1 1 60B82D3E
+P 1750 2550
+AR Path="/5F3B307E/60B82D3E" Ref="#PWR?"  Part="1" 
+AR Path="/60B82D3E" Ref="#PWR?"  Part="1" 
+AR Path="/5FCB6A87/60B82D3E" Ref="#PWR0237"  Part="1" 
+F 0 "#PWR0237" H 1750 2300 50  0001 C CNN
+F 1 "GND" V 1750 2450 50  0000 R CNN
+F 2 "" H 1750 2550 50  0001 C CNN
+F 3 "" H 1750 2550 50  0001 C CNN
+	1    1750 2550
+	0    -1   -1   0   
+$EndComp
+Text Label 1750 1050 0    50   ~ 0
+aSCANOUT33
+Text Label 1750 950  0    50   ~ 0
+aSCSEL33
+Text Label 1750 1950 0    50   ~ 0
+GPO_ZERO33
+Wire Wire Line
+	1800 1600 1800 1650
+Wire Wire Line
+	1800 1650 1750 1650
 $EndSCHEMATC
