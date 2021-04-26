@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:scum3c-devboard-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -657,7 +657,7 @@ U 1 1 6088293F
 P 1250 4250
 F 0 "C13" H 1365 4296 50  0000 L CNN
 F 1 "C" H 1365 4205 50  0000 L CNN
-F 2 "" H 1288 4100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1288 4100 50  0001 C CNN
 F 3 "~" H 1250 4250 50  0001 C CNN
 	1    1250 4250
 	1    0    0    -1  

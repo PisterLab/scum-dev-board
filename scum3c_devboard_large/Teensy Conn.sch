@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:scum3c-devboard-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -127,27 +127,27 @@ F 3 "" H 1800 1600 50  0001 C CNN
 	1    1800 1600
 	0    -1   -1   0   
 $EndComp
-Text HLabel 1050 4000 0    50   Input ~ 0
+Text HLabel 1050 3800 0    50   Input ~ 0
 aSCANIN
 Text HLabel 1050 4100 0    50   Input ~ 0
 aSCSEL
-Text HLabel 1050 4900 0    50   Input ~ 0
+Text HLabel 1050 5100 0    50   Input ~ 0
 Clock
-Text HLabel 1050 6000 0    50   Input ~ 0
+Text HLabel 1050 5200 0    50   Input ~ 0
 GPO_ZERO
 Text HLabel 1050 6300 0    50   Input ~ 0
 hReset
-Text HLabel 1050 5200 0    50   Input ~ 0
+Text HLabel 1050 6200 0    50   Input ~ 0
 3WB_CLK
-Text HLabel 1050 5100 0    50   Input ~ 0
+Text HLabel 1050 6100 0    50   Input ~ 0
 3WB_ENB
-Text HLabel 1050 5000 0    50   Input ~ 0
+Text HLabel 1050 6000 0    50   Input ~ 0
 3WB_DATA
 Text HLabel 1750 2050 2    50   Input ~ 0
 GPIO0
-Text HLabel 1050 6200 0    50   Input ~ 0
+Text HLabel 1050 5000 0    50   Input ~ 0
 aPHIb
-Text HLabel 1050 6100 0    50   Input ~ 0
+Text HLabel 1050 4000 0    50   Input ~ 0
 aPHI
 Text HLabel 1050 7100 0    50   Input ~ 0
 aSCANOUT
@@ -165,7 +165,7 @@ Text Label 1750 1550 0    50   ~ 0
 aSCANOUT33
 Text Label 2350 3900 0    50   ~ 0
 aLOAD33
-Text Label 2350 4000 0    50   ~ 0
+Text Label 2350 3800 0    50   ~ 0
 aSCANIN33
 Text Label 2350 4100 0    50   ~ 0
 aSCSEL33
@@ -173,13 +173,13 @@ Text Label 1750 1150 0    50   ~ 0
 aSCANIN33
 Text Label 1750 1450 0    50   ~ 0
 aSCSEL33
-Text Label 2350 6100 0    50   ~ 0
+Text Label 2350 4000 0    50   ~ 0
 aPHI33
 Text Label 1750 1350 0    50   ~ 0
 aPHI33
-Text Label 2350 6200 0    50   ~ 0
+Text Label 2350 5000 0    50   ~ 0
 aPHIb33
-Text Label 2350 4900 0    50   ~ 0
+Text Label 2350 5100 0    50   ~ 0
 Clock33
 Text Label 2350 6300 0    50   ~ 0
 hReset33
@@ -256,11 +256,11 @@ F 3 "" H 2350 5800 50  0001 C CNN
 	1    2350 5800
 	0    -1   -1   0   
 $EndComp
-Text Label 2350 5200 0    50   ~ 0
+Text Label 2350 6200 0    50   ~ 0
 3WB_CLK33
-Text Label 2350 5100 0    50   ~ 0
+Text Label 2350 6100 0    50   ~ 0
 3WB_ENB33
-Text Label 2350 5000 0    50   ~ 0
+Text Label 2350 6000 0    50   ~ 0
 3WB_DATA33
 Text Label 1750 2350 0    50   ~ 0
 3WB_CLK33
@@ -268,7 +268,7 @@ Text Label 1750 2250 0    50   ~ 0
 3WB_ENB33
 Text Label 1750 2150 0    50   ~ 0
 3WB_DATA33
-Text Label 2350 6000 0    50   ~ 0
+Text Label 2350 5200 0    50   ~ 0
 GPO_ZERO33
 $Comp
 L SCUM:+TEENSY33 #PWR0155
@@ -539,8 +539,8 @@ NoConn ~ 2350 7300
 NoConn ~ 2350 7400
 NoConn ~ 1050 7400
 NoConn ~ 1050 7300
-NoConn ~ 1050 3800
-NoConn ~ 2350 3800
+NoConn ~ 1050 4900
+NoConn ~ 2350 4900
 NoConn ~ 2350 7200
 NoConn ~ 1050 7200
 $Comp
