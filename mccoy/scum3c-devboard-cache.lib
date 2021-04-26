@@ -407,6 +407,18 @@ X NC 99 -1700 2300 200 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# draft1library_through_hole
+#
+DEF draft1library_through_hole J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H I C CNN
+F1 "draft1library_through_hole" 0 100 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pin 1 0 0 100 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # power_GND
 #
 DEF power_GND #PWR 0 0 Y Y 1 F P
