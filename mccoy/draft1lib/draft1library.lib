@@ -390,4 +390,16 @@ X NC 99 -1700 2300 200 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# through_hole
+#
+DEF through_hole J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H I C CNN
+F1 "through_hole" 0 100 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+X pin 1 0 0 100 R 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 #End Library
