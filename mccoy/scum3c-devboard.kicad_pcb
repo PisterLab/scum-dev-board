@@ -11,7 +11,7 @@
 
   (page A4)
   (layers
-    (0 F.Cu mixed hide)
+    (0 F.Cu mixed)
     (31 B.Cu mixed)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -3227,7 +3227,7 @@
   (segment (start 123.444 82.296) (end 123.916 82.296) (width 0.2032) (layer F.Cu) (net 55))
   (segment (start 123.165 82.575) (end 123.444 82.296) (width 0.2032) (layer F.Cu) (net 55))
 
-  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 6076EC9A) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer F.Cu) (tstamp 60883B25) (hatch edge 0.508)
     (connect_pads yes (clearance 0.127))
     (min_thickness 0.127)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -4153,7 +4153,7 @@
       )
     )
   )
-  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 6076EC97) (hatch edge 0.508)
+  (zone (net 1) (net_name GND) (layer B.Cu) (tstamp 60883B22) (hatch edge 0.508)
     (connect_pads yes (clearance 0.127))
     (min_thickness 0.127)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
