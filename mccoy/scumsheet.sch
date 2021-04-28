@@ -602,10 +602,10 @@ F 3 "" H 3950 1150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L draft1library:through_hole J?
+L draft1library:through_hole J21
 U 1 1 608F8296
 P 8000 4650
-F 0 "J?" H 8000 4850 50  0001 C CNN
+F 0 "J21" H 8000 4850 50  0001 C CNN
 F 1 "through_hole" H 8000 4750 50  0001 C CNN
 F 2 "SCUM:through_hole" H 8000 4650 50  0001 C CNN
 F 3 "" H 8000 4650 50  0001 C CNN
