@@ -3,6 +3,19 @@
 ![3D front](pictures/scum3c-devboard.png)
 ![3D back](pictures/scum3c-devboard_back.png)
 
+
+### Update from board review 2021.04.27
+- Put the antenna on a solo pin
+- rearrange some pins
+- change through hole size to 15 mils
+- nrf pin labels
+
+### Updates 2021.04.25
+- New layout for compatibility with NRF
+- Bunch of through holes for emergency connections
+- Return of the 2986 battery clip
+
+
 ### Updates 2021.04.14
 - Austin’s requested layout
 - Larger dimensions -- no longers square

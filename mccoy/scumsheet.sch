@@ -386,10 +386,6 @@ Text HLabel 5500 6500 3    50   BiDi ~ 0
 GPIO11
 Wire Wire Line
 	5500 6050 5500 6500
-Wire Wire Line
-	8000 4650 9100 4650
-Text HLabel 9100 4650 2    50   BiDi ~ 0
-GPO_ZERO
 NoConn ~ 2250 3650
 NoConn ~ 2250 3200
 Text HLabel 2250 5150 0    50   Input ~ 0
@@ -414,10 +410,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 1150 4850 700 
 $Comp
-L draft1library:through_hole J4
+L draft1library:through_hole J20
 U 1 1 6090C006
 P 8000 1950
-F 0 "J4" H 8000 2150 50  0001 C CNN
+F 0 "J20" H 8000 2150 50  0001 C CNN
 F 1 "through_hole" H 8000 2050 50  0001 C CNN
 F 2 "SCUM:through_hole" H 8000 1950 50  0001 C CNN
 F 3 "" H 8000 1950 50  0001 C CNN
@@ -482,26 +478,26 @@ $EndComp
 $Comp
 L draft1library:through_hole J11
 U 1 1 609130FD
-P 2250 4700
-F 0 "J11" H 2250 4900 50  0001 C CNN
-F 1 "through_hole" H 2250 4800 50  0001 C CNN
-F 2 "SCUM:through_hole" H 2250 4700 50  0001 C CNN
-F 3 "" H 2250 4700 50  0001 C CNN
-	1    2250 4700
-	-1   0    0    1   
-$EndComp
-$Comp
-L draft1library:through_hole J12
-U 1 1 60913103
 P 2250 4850
-F 0 "J12" H 2250 5050 50  0001 C CNN
+F 0 "J11" H 2250 5050 50  0001 C CNN
 F 1 "through_hole" H 2250 4950 50  0001 C CNN
 F 2 "SCUM:through_hole" H 2250 4850 50  0001 C CNN
 F 3 "" H 2250 4850 50  0001 C CNN
 	1    2250 4850
 	-1   0    0    1   
 $EndComp
-NoConn ~ 2250 5000
+$Comp
+L draft1library:through_hole J12
+U 1 1 60913103
+P 2250 5000
+F 0 "J12" H 2250 5200 50  0001 C CNN
+F 1 "through_hole" H 2250 5100 50  0001 C CNN
+F 2 "SCUM:through_hole" H 2250 5000 50  0001 C CNN
+F 3 "" H 2250 5000 50  0001 C CNN
+	1    2250 5000
+	-1   0    0    1   
+$EndComp
+NoConn ~ 2250 4700
 $Comp
 L draft1library:through_hole J8
 U 1 1 6091435E
@@ -604,5 +600,16 @@ F 2 "SCUM:through_hole" H 3950 1150 50  0001 C CNN
 F 3 "" H 3950 1150 50  0001 C CNN
 	1    3950 1150
 	0    -1   -1   0   
+$EndComp
+$Comp
+L draft1library:through_hole J?
+U 1 1 608F8296
+P 8000 4650
+F 0 "J?" H 8000 4850 50  0001 C CNN
+F 1 "through_hole" H 8000 4750 50  0001 C CNN
+F 2 "SCUM:through_hole" H 8000 4650 50  0001 C CNN
+F 3 "" H 8000 4650 50  0001 C CNN
+	1    8000 4650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
