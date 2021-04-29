@@ -1321,9 +1321,9 @@ F 3 "" H 1750 6600 50  0001 C CNN
 	1    1750 6600
 	0    -1   -1   0   
 $EndComp
-Text Label 4950 7250 2    50   ~ 0
-GPIO2
 Text Label 4950 7150 2    50   ~ 0
+GPIO2
+Text Label 4950 7250 2    50   ~ 0
 GPIO3
 $Comp
 L Connector:Conn_01x01_Male J4
