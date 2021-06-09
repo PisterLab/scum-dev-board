@@ -1,0 +1,17 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +VDD25
+D Power symbol creates a global label with name "+VDD25"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDAO
+D Power symbol creates a global label with name "+VDDAO"
+K power-flag battery
+$ENDCMP
+#
+$CMP LTC4123
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4123fa.pdf
+$ENDCMP
+#
+#End Doc Library
