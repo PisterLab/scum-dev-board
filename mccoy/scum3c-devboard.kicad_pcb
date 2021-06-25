@@ -30,7 +30,7 @@
     (46 B.CrtYd user)
     (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user)
+    (49 F.Fab user hide)
   )
 
   (setup
@@ -358,7 +358,7 @@
   )
 
   (module Package_SO:VSSOP-10_3x3mm_P0.5mm (layer F.Cu) (tedit 5D9F72B2) (tstamp 60C97DB2)
-    (at 81.1755 81.78)
+    (at 63.3955 76.7)
     (descr "VSSOP, 10 Pin (http://www.ti.com/lit/ds/symlink/ads1115.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "VSSOP SO")
     (path /60D46674)
@@ -413,7 +413,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 60D5B40B)
-    (at 81.28 85.875 90)
+    (at 62.23 80.495 90)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60D5A511)
@@ -446,8 +446,8 @@
     )
   )
 
-  (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 60D5B3FC)
-    (at 86.36 85.875 270)
+  (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 60D608D1)
+    (at 67.31 80.795 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /60D59B32)
@@ -481,7 +481,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D5B217)
-    (at 86.845 82.55)
+    (at 68.095 77.47)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60D53065)
@@ -515,7 +515,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D5B208)
-    (at 83.82 85.875 270)
+    (at 64.77 80.795 270)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60D576A3)
@@ -549,7 +549,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D5B815)
-    (at 76.2 82.065 270)
+    (at 58.42 76.985 270)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60D4B8E6)
@@ -583,7 +583,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D5B76B)
-    (at 90.17 83.035 270)
+    (at 71.12 77.955 270)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60D4B49F)
@@ -617,7 +617,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 607782AD)
-    (at 141.605 83.82)
+    (at 142.24 90.17)
     (descr "Through hole straight pin header, 2x05, 2.54mm pitch, double rows")
     (tags "Through hole pin header THT 2x05 2.54mm double row")
     (path /60C9BACE)
@@ -745,7 +745,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60898C00)
-    (at 138.43 92.71)
+    (at 165.1 95.25)
     (path /5F3B1D81/608F8296)
     (fp_text reference J21 (at -1.27 0) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -758,7 +758,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60892565)
-    (at 133.985 84.455)
+    (at 170.18 80.01)
     (path /5F3B1D81/6090C006)
     (fp_text reference J20 (at 0.1524 0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -770,8 +770,8 @@
       (net 54 "Net-(J20-Pad1)"))
   )
 
-  (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60880580)
-    (at 123.916 82.296)
+  (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60D607A4)
+    (at 126.456 64.516)
     (path /5F3B1D81/6094699F)
     (fp_text reference J19 (at 0.036 1.016) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -783,8 +783,8 @@
       (net 53 "Net-(J19-Pad1)"))
   )
 
-  (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 6088057B)
-    (at 122.156 82.296)
+  (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60D6078C)
+    (at 124.696 64.516)
     (path /5F3B1D81/60945310)
     (fp_text reference J18 (at 0.1524 1.016) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -796,8 +796,8 @@
       (net 52 "Net-(J18-Pad1)"))
   )
 
-  (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 6088055E)
-    (at 119.888 82.296)
+  (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60D60798)
+    (at 122.428 64.516)
     (path /5F3B1D81/60944B2D)
     (fp_text reference J14 (at 0 1.016) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -810,7 +810,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F21)
-    (at 116.84 95.25)
+    (at 82.55 96.52)
     (path /5F3B1D81/60913103)
     (fp_text reference J12 (at 0.635 0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -823,7 +823,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F3A)
-    (at 138.43 95.25)
+    (at 172.72 99.06)
     (path /5F3B1D81/60910D8D)
     (fp_text reference J17 (at -1.27 0) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -836,7 +836,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F35)
-    (at 134.112 89.408)
+    (at 166.37 91.44)
     (path /5F3B1D81/6091065C)
     (fp_text reference J16 (at -0.127 0.762) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -849,7 +849,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F30)
-    (at 133.604 88.392)
+    (at 163.83 83.82)
     (path /5F3B1D81/6090FF2A)
     (fp_text reference J15 (at 0.381 -0.762) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -862,7 +862,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 6087E55E)
-    (at 118.11 97.79)
+    (at 83.82 99.06)
     (path /5F3B1D81/60911573)
     (fp_text reference J13 (at 0 1.27) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -875,7 +875,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F1C)
-    (at 117.475 93.98)
+    (at 83.185 95.25)
     (path /5F3B1D81/609130FD)
     (fp_text reference J11 (at 0.635 0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -888,7 +888,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F17)
-    (at 114.935 87.63)
+    (at 78.105 107.95)
     (path /5F3B1D81/60914AFA)
     (fp_text reference J10 (at 0.635 -0.381) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -901,7 +901,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F12)
-    (at 116.84 86.995)
+    (at 80.01 107.315)
     (path /5F3B1D81/60914928)
     (fp_text reference J9 (at 0.635 -0.381) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -914,7 +914,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F0D)
-    (at 115.57 86.36)
+    (at 78.74 106.68)
     (path /5F3B1D81/6091435E)
     (fp_text reference J8 (at 0.635 -0.381) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -927,7 +927,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F08)
-    (at 116.205 85.09)
+    (at 79.375 105.41)
     (path /5F3B1D81/60914C95)
     (fp_text reference J7 (at 0 -0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -940,7 +940,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F03)
-    (at 117.475 84.455)
+    (at 80.645 104.775)
     (path /5F3B1D81/60915152)
     (fp_text reference J6 (at 0.635 -0.381) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -953,7 +953,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879EFE)
-    (at 134.112 85.852)
+    (at 166.37 78.74)
     (path /5F3B1D81/6090C4A3)
     (fp_text reference J5 (at 0.1524 1.143) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -966,7 +966,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 608773B9)
-    (at 114.935 83.82)
+    (at 78.105 104.14)
     (path /608DC32B)
     (fp_text reference GND6 (at 0.1524 0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -979,7 +979,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 608773B4)
-    (at 140.335 76.2)
+    (at 158.75 69.85)
     (path /608DC138)
     (fp_text reference GND5 (at -1.27 0) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -992,7 +992,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 608773AF)
-    (at 138.43 82.55)
+    (at 168.91 72.39)
     (path /608DBDD3)
     (fp_text reference GND4 (at 0.1524 -0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -1005,7 +1005,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 608773AA)
-    (at 116.84 97.79)
+    (at 82.55 99.06)
     (path /608DBC5D)
     (fp_text reference GND3 (at 0.1524 1.27) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -1018,7 +1018,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 608773A5)
-    (at 138.43 87.63)
+    (at 166.37 86.36)
     (path /608DBAB0)
     (fp_text reference GND2 (at -1.27 -0.635) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -1031,7 +1031,7 @@
   )
 
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 608773A0)
-    (at 118.11 75.565)
+    (at 118.11 64.77)
     (path /608D7FA8)
     (fp_text reference GND1 (at 1.27 0) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
@@ -1043,8 +1043,8 @@
       (net 1 GND))
   )
 
-  (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 6089575A)
-    (at 116.84 90.805)
+  (module Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 60D60813)
+    (at 119.38 92.075)
     (descr "Through hole straight pin header, 1x01, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x01 2.54mm single row")
     (path /6088AE2D)
@@ -1082,7 +1082,7 @@
   )
 
   (module Resistor_SMD:R_0402_1005Metric (layer F.Cu) (tedit 5B301BBD) (tstamp 60869020)
-    (at 137.16 88.75 270)
+    (at 176.53 78.59 270)
     (descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /608941D3)
@@ -1116,7 +1116,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F85)
-    (at 137.16 84.605 90)
+    (at 176.53 74.445 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60891A1A)
@@ -1150,7 +1150,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F76)
-    (at 135.255 84.605 90)
+    (at 174.625 74.445 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60891A14)
@@ -1184,7 +1184,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F67)
-    (at 135.255 88.75 90)
+    (at 174.625 78.59 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60886B15)
@@ -1217,8 +1217,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60869E29)
-    (at 125.095 81.43 90)
+  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D607BA)
+    (at 127.635 63.65 90)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60874DCE)
@@ -1251,8 +1251,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F49)
-    (at 145.415 100.815 270)
+  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D5FF1C)
+    (at 152.4 99.845 270)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /608736AA)
@@ -1285,8 +1285,8 @@
     )
   )
 
-  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F3A)
-    (at 142.875 100.815 270)
+  (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60D5FF46)
+    (at 151.13 97.305 270)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /608736A4)
@@ -1320,7 +1320,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 6086A53E)
-    (at 139.55 77.47)
+    (at 138.28 64.77)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6087369E)
@@ -1354,7 +1354,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F1C)
-    (at 139.55 79.375)
+    (at 138.28 66.675)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60873698)
@@ -1388,7 +1388,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60868F0D)
-    (at 115.72 93.98 180)
+    (at 81.43 95.25 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /60877945)
@@ -1422,7 +1422,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60896D52)
-    (at 115.72 96.52 180)
+    (at 81.43 97.79 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /6087E524)
@@ -1534,7 +1534,7 @@
   )
 
   (module SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm (layer F.Cu) (tedit 0) (tstamp 6074B887)
-    (at 126.365 90.355)
+    (at 130.10875 92.14125)
     (path /5F3B1D81/5F3B2246)
     (attr smd)
     (fp_text reference U1 (at 8.763 6.165) (layer F.SilkS)
@@ -2018,7 +2018,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 608614EC)
-    (at 113.18 80.01 180)
+    (at 113.815 80.01 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F3A8252)
@@ -2086,7 +2086,7 @@
   )
 
   (module Capacitor_SMD:C_0402_1005Metric (layer F.Cu) (tedit 5B301BBE) (tstamp 60860BE8)
-    (at 113.18 77.47 180)
+    (at 114.3 77.47 180)
     (descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5F3A8286)
@@ -2119,8 +2119,8 @@
     )
   )
 
-  (module SamacSys_Parts:2986 (layer F.Cu) (tedit 5F7B3063) (tstamp 6086571C)
-    (at 132.08 78.74)
+  (module SamacSys_Parts:2986 (layer F.Cu) (tedit 5F7B3063) (tstamp 60D6004C)
+    (at 135.89 78.74)
     (descr 2986-1)
     (tags "Undefined or Miscellaneous")
     (path /60775F67)
@@ -2311,10 +2311,10 @@
   (gr_text GND (at 119.38 125.095 90) (layer F.SilkS) (tstamp 608928BA)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (gr_text ANTENNA (at 116.84 88.265) (layer B.SilkS) (tstamp 608928B4)
+  (gr_text ANTENNA (at 119.38 89.535) (layer B.SilkS) (tstamp 608928B4)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
-  (gr_text ANTENNA (at 116.84 88.265) (layer F.SilkS) (tstamp 60867A14)
+  (gr_text ANTENNA (at 119.38 89.535) (layer F.SilkS) (tstamp 60867A14)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
   (gr_text VDDIO (at 191.77 71.755) (layer B.SilkS) (tstamp 60866EE9)
@@ -2443,8 +2443,8 @@
   (gr_text GND (at 93.345 66.04 90) (layer B.SilkS) (tstamp 608641C6)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify mirror))
   )
-  (dimension 34.29 (width 0.15) (layer Dwgs.User)
-    (gr_text "1.3500 in" (at 157.51 91.567 90) (layer Dwgs.User)
+  (dimension 34.29 (width 0.15) (layer Dwgs.User) (tstamp 60D5FF0A)
+    (gr_text "1.3500 in" (at 157.51 91.567 90) (layer Dwgs.User) (tstamp 60D5FF0B)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 143.764 74.422) (xy 156.796421 74.422)))
@@ -3279,17 +3279,6 @@
     (polygon
       (pts
         (xy 163.195 74.93) (xy 156.21 122.555) (xy 87.63 105.41) (xy 98.425 71.12)
-      )
-    )
-  )
-  (zone (net 0) (net_name "") (layers F&B.Cu) (tstamp 0) (hatch edge 0.508)
-    (connect_pads yes (clearance 0.127))
-    (min_thickness 0.127)
-    (keepout (tracks not_allowed) (vias not_allowed) (copperpour allowed))
-    (fill (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
-    (polygon
-      (pts
-        (xy 131.445 95.885) (xy 121.285 95.885) (xy 121.285 85.09) (xy 131.445 85.09)
       )
     )
   )
