@@ -1498,8 +1498,6 @@ Wire Wire Line
 Wire Wire Line
 	3600 1800 3050 1800
 Connection ~ 3050 1800
-Wire Wire Line
-	3050 1800 2650 1800
 $Comp
 L power:GND #PWR?
 U 1 1 60D5FC15
@@ -1513,7 +1511,6 @@ F 3 "" H 2650 1800 50  0001 C CNN
 	1    2650 1800
 	1    0    0    -1  
 $EndComp
-Connection ~ 2650 1800
 Wire Wire Line
 	2450 1900 2450 1500
 Wire Wire Line
