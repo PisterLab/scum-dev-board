@@ -410,50 +410,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 1150 4850 700 
 $Comp
-L draft1library:through_hole J20
-U 1 1 6090C006
-P 8000 1950
-F 0 "J20" H 8000 2150 50  0001 C CNN
-F 1 "through_hole" H 8000 2050 50  0001 C CNN
-F 2 "SCUM:through_hole" H 8000 1950 50  0001 C CNN
-F 3 "" H 8000 1950 50  0001 C CNN
-	1    8000 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:through_hole J5
-U 1 1 6090C4A3
-P 8000 2250
-F 0 "J5" H 8000 2450 50  0001 C CNN
-F 1 "through_hole" H 8000 2350 50  0001 C CNN
-F 2 "SCUM:through_hole" H 8000 2250 50  0001 C CNN
-F 3 "" H 8000 2250 50  0001 C CNN
-	1    8000 2250
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:through_hole J15
-U 1 1 6090FF2A
-P 8000 3150
-F 0 "J15" H 8000 3350 50  0001 C CNN
-F 1 "through_hole" H 8000 3250 50  0001 C CNN
-F 2 "SCUM:through_hole" H 8000 3150 50  0001 C CNN
-F 3 "" H 8000 3150 50  0001 C CNN
-	1    8000 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L draft1library:through_hole J16
-U 1 1 6091065C
-P 8000 3450
-F 0 "J16" H 8000 3650 50  0001 C CNN
-F 1 "through_hole" H 8000 3550 50  0001 C CNN
-F 2 "SCUM:through_hole" H 8000 3450 50  0001 C CNN
-F 3 "" H 8000 3450 50  0001 C CNN
-	1    8000 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L draft1library:through_hole J17
 U 1 1 60910D8D
 P 8000 4800
@@ -612,4 +568,8 @@ F 3 "" H 8000 4650 50  0001 C CNN
 	1    8000 4650
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8000 3450
+NoConn ~ 8000 3150
+NoConn ~ 8000 2250
+NoConn ~ 8000 1950
 $EndSCHEMATC

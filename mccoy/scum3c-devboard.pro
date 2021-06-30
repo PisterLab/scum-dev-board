@@ -1,4 +1,4 @@
-update=6/29/2021 10:01:13 PM
+update=6/30/2021 2:45:45 AM
 version=1
 last_client=kicad
 [general]
@@ -41,15 +41,18 @@ MinHoleToHole=0.4064
 TrackWidth1=0.2032
 TrackWidth2=0.127
 TrackWidth3=0.2032
-TrackWidth4=0.4064
+TrackWidth4=0.3048
+TrackWidth5=0.4064
 ViaDiameter1=0.4572
 ViaDrill1=0.2032
 ViaDiameter2=0.4064
 ViaDrill2=0.1524
 ViaDiameter3=0.4572
 ViaDrill3=0.2032
-ViaDiameter4=0.8128
-ViaDrill4=0.4064
+ViaDiameter4=0.6096
+ViaDrill4=0.3048
+ViaDiameter5=0.8128
+ViaDrill5=0.4064
 dPairWidth1=0.2
 dPairGap1=0.25
 dPairViaGap1=0.25
@@ -281,6 +284,17 @@ dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
+Name=reg
+Clearance=0.127
+TrackWidth=0.254
+ViaDiameter=0.508
+ViaDrill=0.254
+uViaDiameter=0.3
+uViaDrill=0.1
+dPairWidth=0.2
+dPairGap=0.25
+dPairViaGap=0.25
+[pcbnew/Netclasses/4]
 Name=smallest
 Clearance=0.127
 TrackWidth=0.127
