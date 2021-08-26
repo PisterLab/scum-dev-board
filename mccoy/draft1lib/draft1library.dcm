@@ -15,6 +15,11 @@ D Power symbol creates a global label with name "+EXT_BAT"
 K power-flag battery
 $ENDCMP
 #
+$CMP +NRF_VDDD
+D Power symbol creates a global label with name "+NRF_VDDD"
+K power-flag battery
+$ENDCMP
+#
 $CMP +UART33
 D Power symbol creates a global label with name "+UART33"
 K power-flag battery
