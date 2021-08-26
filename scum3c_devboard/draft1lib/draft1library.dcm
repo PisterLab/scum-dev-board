@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +1.1V_REG
+D Power symbol creates a global label with name "+1.1V_REG"
+K power-flag battery
+$ENDCMP
+#
+$CMP +1.8V_REG
+D Power symbol creates a global label with name "+1.8V_REG"
+K power-flag battery
+$ENDCMP
+#
 $CMP +EXT_BAT
 D Power symbol creates a global label with name "+EXT_BAT"
 K power-flag battery
