@@ -2,4 +2,5 @@
   (lib (name draft1library)(type Legacy)(uri ${KIPRJMOD}/draft1lib/draft1library.lib)(options "")(descr ""))
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name S-85S1AB20-I6T1U)(type Legacy)(uri ${GITHUB_REPOS}/scum-dev-board/mccoy/downloaded_libs/S-85S1AB20-I6T1U.lib)(options "")(descr ""))
+  (lib (name BK-870)(type Legacy)(uri ${GITHUB_REPOS}/scum-dev-board/mccoy/downloaded_libs/BK-870.lib)(options "")(descr ""))
 )

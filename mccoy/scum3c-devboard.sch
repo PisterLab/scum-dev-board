@@ -403,7 +403,7 @@ Wire Wire Line
 	1350 1750 1700 1750
 Text Label 1700 1750 2    50   ~ 0
 IMU_VDDIO
-Text Label 1100 6950 1    50   ~ 0
+Text Label 1200 6950 1    50   ~ 0
 IMU_VDDIO
 Text Label 3200 7150 1    50   ~ 0
 GPIO12
@@ -413,7 +413,7 @@ Text Label 3400 7150 1    50   ~ 0
 GPIO14
 Text Label 3500 7150 1    50   ~ 0
 GPIO15
-Text Label 1200 6950 1    50   ~ 0
+Text Label 1100 6950 1    50   ~ 0
 IMU_VDD
 NoConn ~ 1300 2950
 Text Notes 6650 1750 0    197  ~ 39
@@ -644,30 +644,6 @@ F30 "AUX_LDO_OUTPUT" I R 7950 2850 50
 F31 "VDDD_LDO_OUTPUT" I R 7950 2650 50 
 F32 "VDDD_DISABLE" I R 7950 2750 50 
 $EndSheet
-$Comp
-L draft1library:+VBAT #PWR048
-U 1 1 608BF8E8
-P 9850 1650
-F 0 "#PWR048" H 9850 1500 50  0001 C CNN
-F 1 "+VBAT" H 9865 1823 50  0000 C CNN
-F 2 "" H 9850 1650 50  0001 C CNN
-F 3 "" H 9850 1650 50  0001 C CNN
-	1    9850 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR046
-U 1 1 608BFCDC
-P 9850 2000
-AR Path="/608BFCDC" Ref="#PWR046"  Part="1" 
-AR Path="/5F3B0B28/608BFCDC" Ref="#PWR?"  Part="1" 
-F 0 "#PWR046" H 9850 1750 50  0001 C CNN
-F 1 "GND" H 9855 1827 50  0000 C CNN
-F 2 "" H 9850 2000 50  0001 C CNN
-F 3 "" H 9850 2000 50  0001 C CNN
-	1    9850 2000
-	1    0    0    -1  
-$EndComp
 $Comp
 L draft1library:+VDDIO #PWR?
 U 1 1 60873674
@@ -1488,17 +1464,6 @@ F 3 "" H 1200 4350 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Connection ~ 1200 4350
-$Comp
-L Device:Battery_Cell BT1
-U 1 1 612886A9
-P 9850 1850
-F 0 "BT1" H 9968 1946 50  0000 L CNN
-F 1 "Battery_Cell" H 9968 1855 50  0000 L CNN
-F 2 "Battery:Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles" V 9850 1910 50  0001 C CNN
-F 3 "~" V 9850 1910 50  0001 C CNN
-	1    9850 1850
-	1    0    0    -1  
-$EndComp
 Text Notes 1050 4000 0    197  ~ 39
 Regulators
 $Comp
@@ -1658,7 +1623,7 @@ F 3 "" H 1200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4350 2600 4350
+	3000 4350 2800 4350
 Wire Wire Line
 	2600 4750 3000 4750
 Wire Wire Line
@@ -1670,7 +1635,7 @@ Wire Wire Line
 Connection ~ 3000 4750
 Connection ~ 3000 4650
 Wire Wire Line
-	2600 5300 3000 5300
+	2600 5300 2800 5300
 Wire Wire Line
 	1200 5300 1200 5400
 Connection ~ 1200 5400
@@ -1686,4 +1651,76 @@ Connection ~ 3000 5600
 Wire Wire Line
 	2600 5700 3000 5700
 Connection ~ 3000 5700
+$Comp
+L BK-870:BK-870 BT1
+U 1 1 61426DB6
+P 10000 2600
+F 0 "BT1" V 9954 2730 50  0000 L CNN
+F 1 "BK-870" V 10045 2730 50  0000 L CNN
+F 2 "downloaded_libs:MPD_BK-870" H 10000 2600 50  0001 L BNN
+F 3 "" H 10000 2600 50  0001 L BNN
+F 4 "D" H 10000 2600 50  0001 L BNN "PARTREV"
+F 5 "MPD" H 10000 2600 50  0001 L BNN "MANUFACTURER"
+F 6 "Manufacturer Recommendation" H 10000 2600 50  0001 L BNN "STANDARD"
+	1    10000 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 608BFCDC
+P 10000 2800
+AR Path="/608BFCDC" Ref="#PWR046"  Part="1" 
+AR Path="/5F3B0B28/608BFCDC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR046" H 10000 2550 50  0001 C CNN
+F 1 "GND" H 10005 2627 50  0000 C CNN
+F 2 "" H 10000 2800 50  0001 C CNN
+F 3 "" H 10000 2800 50  0001 C CNN
+	1    10000 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5400 2800 5300
+Connection ~ 2800 5300
+Wire Wire Line
+	2800 5300 3000 5300
+Wire Wire Line
+	2800 4450 2800 4350
+Connection ~ 2800 4350
+Wire Wire Line
+	2800 4350 2600 4350
+$Comp
+L draft1library:+EXT_BAT #PWR?
+U 1 1 6148DC5B
+P 10000 2400
+F 0 "#PWR?" H 10000 2250 50  0001 C CNN
+F 1 "+EXT_BAT" H 10015 2528 50  0000 L CNN
+F 2 "" H 10000 2400 50  0001 C CNN
+F 3 "" H 10000 2400 50  0001 C CNN
+	1    10000 2400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L draft1library:+EXT_BAT #PWR?
+U 1 1 6148E3AA
+P 9150 1350
+F 0 "#PWR?" H 9150 1200 50  0001 C CNN
+F 1 "+EXT_BAT" H 9165 1478 50  0000 L CNN
+F 2 "" H 9150 1350 50  0001 C CNN
+F 3 "" H 9150 1350 50  0001 C CNN
+	1    9150 1350
+	1    0    0    1   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 6148F1C6
+P 9150 1350
+AR Path="/6148F1C6" Ref="#FLG?"  Part="1" 
+AR Path="/5F3B0B28/6148F1C6" Ref="#FLG?"  Part="1" 
+F 0 "#FLG?" H 9150 1425 50  0001 C CNN
+F 1 "PWR_FLAG" H 9150 1523 50  0000 C CNN
+F 2 "" H 9150 1350 50  0001 C CNN
+F 3 "~" H 9150 1350 50  0001 C CNN
+	1    9150 1350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
