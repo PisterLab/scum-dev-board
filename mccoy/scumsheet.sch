@@ -406,8 +406,6 @@ Connection ~ 4950 700
 Wire Wire Line
 	4950 700  4850 700 
 Wire Wire Line
-	5000 700  5000 1150
-Wire Wire Line
 	4850 1150 4850 700 
 $Comp
 L draft1library:through_hole J20
@@ -612,4 +610,19 @@ F 3 "" H 8000 4650 50  0001 C CNN
 	1    8000 4650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 61298275
+P 5000 900
+F 0 "R?" H 5068 946 50  0000 L CNN
+F 1 "0 Ohm" H 5068 855 50  0000 L CNN
+F 2 "" H 5000 900 50  0001 C CNN
+F 3 "~" H 5000 900 50  0001 C CNN
+	1    5000 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 700  5000 800 
+Wire Wire Line
+	5000 1000 5000 1150
 $EndSCHEMATC
