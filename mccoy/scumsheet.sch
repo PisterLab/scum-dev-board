@@ -611,12 +611,12 @@ F 3 "" H 8000 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R?
+L Device:R_Small_US R4
 U 1 1 61298275
 P 5000 900
-F 0 "R?" H 5068 946 50  0000 L CNN
+F 0 "R4" H 5068 946 50  0000 L CNN
 F 1 "0 Ohm" H 5068 855 50  0000 L CNN
-F 2 "" H 5000 900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 5000 900 50  0001 C CNN
 F 3 "~" H 5000 900 50  0001 C CNN
 	1    5000 900 
 	1    0    0    -1  
