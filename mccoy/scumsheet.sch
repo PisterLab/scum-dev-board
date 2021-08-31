@@ -39,7 +39,7 @@ NoConn ~ 4100 1150
 NoConn ~ 3800 1150
 NoConn ~ 3500 1150
 $Comp
-L power:GND #PWR050
+L scum3c-devboard-rescue:GND-power #PWR050
 U 1 1 5F3D1F96
 P 2250 1700
 AR Path="/5F3B1D81/5F3D1F96" Ref="#PWR050"  Part="1" 
@@ -67,7 +67,7 @@ F 3 "" H 2250 2450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR052
+L scum3c-devboard-rescue:GND-power #PWR052
 U 1 1 5F3D443B
 P 2250 2600
 AR Path="/5F3B1D81/5F3D443B" Ref="#PWR052"  Part="1" 
@@ -81,7 +81,7 @@ F 3 "" H 2250 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR054
+L scum3c-devboard-rescue:GND-power #PWR054
 U 1 1 5F3D4BFB
 P 2250 3500
 AR Path="/5F3B1D81/5F3D4BFB" Ref="#PWR054"  Part="1" 
@@ -95,7 +95,7 @@ F 3 "" H 2250 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR055
+L scum3c-devboard-rescue:GND-power #PWR055
 U 1 1 5F3D5659
 P 2250 3950
 AR Path="/5F3B1D81/5F3D5659" Ref="#PWR055"  Part="1" 
@@ -109,7 +109,7 @@ F 3 "" H 2250 3950 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR056
+L scum3c-devboard-rescue:GND-power #PWR056
 U 1 1 5F3D5E43
 P 2250 4250
 AR Path="/5F3B1D81/5F3D5E43" Ref="#PWR056"  Part="1" 
@@ -137,7 +137,7 @@ F 3 "" H 2250 4400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR059
+L scum3c-devboard-rescue:GND-power #PWR059
 U 1 1 5F3DBD77
 P 3300 6050
 AR Path="/5F3B1D81/5F3DBD77" Ref="#PWR059"  Part="1" 
@@ -151,7 +151,7 @@ F 3 "" H 3300 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR063
+L scum3c-devboard-rescue:GND-power #PWR063
 U 1 1 5F3DC62E
 P 6300 6050
 AR Path="/5F3B1D81/5F3DC62E" Ref="#PWR063"  Part="1" 
@@ -165,7 +165,7 @@ F 3 "" H 6300 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR068
+L scum3c-devboard-rescue:GND-power #PWR068
 U 1 1 5F3DDBE9
 P 8000 4950
 AR Path="/5F3B1D81/5F3DDBE9" Ref="#PWR068"  Part="1" 
@@ -179,7 +179,7 @@ F 3 "" H 8000 4950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR067
+L scum3c-devboard-rescue:GND-power #PWR067
 U 1 1 5F3DE6E7
 P 8000 4500
 AR Path="/5F3B1D81/5F3DE6E7" Ref="#PWR067"  Part="1" 
@@ -193,7 +193,7 @@ F 3 "" H 8000 4500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR064
+L scum3c-devboard-rescue:GND-power #PWR064
 U 1 1 5F3DEB56
 P 8000 2850
 AR Path="/5F3B1D81/5F3DEB56" Ref="#PWR064"  Part="1" 
@@ -611,7 +611,7 @@ F 3 "" H 8000 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R4
+L scum3c-devboard-rescue:R_Small_US-Device R4
 U 1 1 61298275
 P 5000 900
 F 0 "R4" H 5068 946 50  0000 L CNN

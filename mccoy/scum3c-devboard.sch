@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 5F3A824C
 P 2650 2850
 AR Path="/5F3B307E/5F3A824C" Ref="#PWR?"  Part="1" 
@@ -27,7 +27,7 @@ F 3 "" H 2650 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 5F3A8252
 P 2500 2850
 AR Path="/5F3B307E/5F3A8252" Ref="C?"  Part="1" 
@@ -40,7 +40,7 @@ F 3 "~" H 2500 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 5F3A8265
 P 1800 3400
 AR Path="/5F3B307E/5F3A8265" Ref="#PWR?"  Part="1" 
@@ -53,7 +53,7 @@ F 3 "" H 1800 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 5F3A826B
 P 2500 1700
 AR Path="/5F3B307E/5F3A826B" Ref="#PWR?"  Part="1" 
@@ -66,7 +66,7 @@ F 3 "" H 2500 1700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 5F3A8271
 P 2350 1700
 AR Path="/5F3B307E/5F3A8271" Ref="C?"  Part="1" 
@@ -79,7 +79,7 @@ F 3 "~" H 2350 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG08
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG08
 U 1 1 5F3F179B
 P 8750 1350
 AR Path="/5F3F179B" Ref="#FLG08"  Part="1" 
@@ -92,7 +92,7 @@ F 3 "~" H 8750 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG07
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG07
 U 1 1 5F3F17A1
 P 8750 750
 AR Path="/5F3F17A1" Ref="#FLG07"  Part="1" 
@@ -105,7 +105,7 @@ F 3 "~" H 8750 750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR039
+L scum3c-devboard-rescue:GND-power #PWR039
 U 1 1 5F3F17A7
 P 8750 1350
 AR Path="/5F3F17A7" Ref="#PWR039"  Part="1" 
@@ -131,7 +131,7 @@ F 3 "" H 8750 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG05
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG05
 U 1 1 5F3F17B3
 P 8300 750
 AR Path="/5F3F17B3" Ref="#FLG05"  Part="1" 
@@ -157,7 +157,7 @@ F 3 "" H 8300 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG06
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG06
 U 1 1 5F3F17BF
 P 8300 1350
 AR Path="/5F3F17BF" Ref="#FLG06"  Part="1" 
@@ -181,7 +181,7 @@ F 3 "" H 8300 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG01
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG01
 U 1 1 5F3F2540
 P 7350 750
 AR Path="/5F3F2540" Ref="#FLG01"  Part="1" 
@@ -205,7 +205,7 @@ F 3 "" H 7350 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG03
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG03
 U 1 1 5F3F3173
 P 7850 750
 AR Path="/5F3F3173" Ref="#FLG03"  Part="1" 
@@ -229,7 +229,7 @@ F 3 "" H 7850 750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG02
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG02
 U 1 1 5F3F3E4C
 P 7350 1350
 AR Path="/5F3F3E4C" Ref="#FLG02"  Part="1" 
@@ -282,7 +282,7 @@ F 3 "" H 7850 1350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG04
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG04
 U 1 1 5F3B796B
 P 7850 1350
 AR Path="/5F3B796B" Ref="#FLG04"  Part="1" 
@@ -343,7 +343,7 @@ GPIO14
 Text Label 5500 5150 2    50   ~ 0
 GPIO15
 $Comp
-L Sensor_Motion:ICM-20948 U9AB1
+L scum3c-devboard-rescue:ICM-20948-Sensor_Motion U9AB1
 U 1 1 600CB116
 P 1800 2650
 F 0 "U9AB1" H 1450 1850 50  0000 C CNN
@@ -354,7 +354,7 @@ F 3 "http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 5F3A8286
 P 1200 1750
 AR Path="/5F3B307E/5F3A8286" Ref="C?"  Part="1" 
@@ -369,7 +369,7 @@ $EndComp
 Wire Wire Line
 	1700 1750 1700 1950
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 5F3A8280
 P 1050 1750
 AR Path="/5F3B307E/5F3A8280" Ref="#PWR?"  Part="1" 
@@ -453,7 +453,7 @@ GPIO11
 Text Label 3100 7150 1    50   ~ 0
 GPIO11
 $Comp
-L power:GND #PWR021
+L scum3c-devboard-rescue:GND-power #PWR021
 U 1 1 607605CB
 P 4950 7050
 F 0 "#PWR021" H 4950 6800 50  0001 C CNN
@@ -538,7 +538,7 @@ F 3 "" H 1300 7450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR03
+L scum3c-devboard-rescue:GND-power #PWR03
 U 1 1 6076DD96
 P 1000 7450
 F 0 "#PWR03" H 1000 7200 50  0001 C CNN
@@ -551,7 +551,7 @@ $EndComp
 Text Label 2700 7150 1    50   ~ 0
 GPIO1
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 5F3A825F
 P 1250 2850
 AR Path="/5F3B307E/5F3A825F" Ref="#PWR?"  Part="1" 
@@ -564,7 +564,7 @@ F 3 "" H 1250 2850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J2
+L scum3c-devboard-rescue:Conn_02x10_Odd_Even-Connector_Generic J2
 U 1 1 6076CDED
 P 3100 7450
 F 0 "J2" V 3196 6862 50  0000 R CNN
@@ -575,7 +575,7 @@ F 3 "~" H 3100 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR015
+L scum3c-devboard-rescue:GND-power #PWR015
 U 1 1 60774BA2
 P 3600 7150
 F 0 "#PWR015" H 3600 6900 50  0001 C CNN
@@ -586,7 +586,7 @@ F 3 "" H 3600 7150 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR016
+L scum3c-devboard-rescue:GND-power #PWR016
 U 1 1 6077609C
 P 3600 7650
 F 0 "#PWR016" H 3600 7400 50  0001 C CNN
@@ -597,7 +597,7 @@ F 3 "" H 3600 7650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR012
+L scum3c-devboard-rescue:GND-power #PWR012
 U 1 1 60773571
 P 2700 7650
 F 0 "#PWR012" H 2700 7400 50  0001 C CNN
@@ -675,7 +675,7 @@ F 3 "" H 4600 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 60873680
 P 4350 1100
 AR Path="/5F3B1D81/60873680" Ref="#PWR?"  Part="1" 
@@ -690,7 +690,7 @@ F 3 "" H 4350 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 60873686
 P 4800 1100
 AR Path="/5F3B1D81/60873686" Ref="#PWR?"  Part="1" 
@@ -705,7 +705,7 @@ F 3 "" H 4800 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 6087368C
 P 5300 1100
 AR Path="/5F3B1D81/6087368C" Ref="#PWR?"  Part="1" 
@@ -720,7 +720,7 @@ F 3 "" H 5300 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 60873692
 P 5800 1100
 AR Path="/5F3B1D81/60873692" Ref="#PWR?"  Part="1" 
@@ -735,7 +735,7 @@ F 3 "" H 5800 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 60873698
 P 4350 950
 AR Path="/5F3B1D81/60873698" Ref="C?"  Part="1" 
@@ -750,7 +750,7 @@ F 3 "~" H 4350 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 6087369E
 P 4800 950
 AR Path="/5F3B1D81/6087369E" Ref="C?"  Part="1" 
@@ -765,7 +765,7 @@ F 3 "~" H 4800 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 608736A4
 P 5300 950
 AR Path="/5F3B1D81/608736A4" Ref="C?"  Part="1" 
@@ -780,7 +780,7 @@ F 3 "~" H 5300 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 608736AA
 P 5800 950
 AR Path="/5F3B1D81/608736AA" Ref="C?"  Part="1" 
@@ -805,7 +805,7 @@ Wire Wire Line
 	5800 800  5550 800 
 Connection ~ 5550 800 
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 60874DC8
 P 6450 1100
 AR Path="/5F3B1D81/60874DC8" Ref="#PWR?"  Part="1" 
@@ -820,7 +820,7 @@ F 3 "" H 6450 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 60874DCE
 P 6450 950
 AR Path="/5F3B1D81/60874DCE" Ref="C?"  Part="1" 
@@ -850,7 +850,7 @@ F 3 "" H 6450 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 60877945
 P 5000 2450
 AR Path="/5F3B1D81/60877945" Ref="C?"  Part="1" 
@@ -865,7 +865,7 @@ F 3 "~" H 5000 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 6087794B
 P 5000 2600
 AR Path="/5F3B1D81/6087794B" Ref="#PWR?"  Part="1" 
@@ -880,7 +880,7 @@ F 3 "" H 5000 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 6087E524
 P 4650 3550
 AR Path="/5F3B1D81/6087E524" Ref="C?"  Part="1" 
@@ -895,7 +895,7 @@ F 3 "~" H 4650 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 6087E52A
 P 4650 3700
 AR Path="/5F3B1D81/6087E52A" Ref="#PWR?"  Part="1" 
@@ -914,7 +914,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 3400 4650 3400
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 60886B15
 P 8800 2850
 AR Path="/5F3B1D81/60886B15" Ref="C?"  Part="1" 
@@ -931,7 +931,7 @@ $EndComp
 Wire Wire Line
 	7950 2850 8650 2850
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 60886B1C
 P 8950 2850
 AR Path="/5F3B1D81/60886B1C" Ref="#PWR?"  Part="1" 
@@ -946,7 +946,7 @@ F 3 "" H 8950 2850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 60891A14
 P 8900 2050
 AR Path="/5F3B1D81/60891A14" Ref="C?"  Part="1" 
@@ -961,7 +961,7 @@ F 3 "~" H 8900 2050 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C C?
+L scum3c-devboard-rescue:C-Device C?
 U 1 1 60891A1A
 P 8900 2400
 AR Path="/5F3B1D81/60891A1A" Ref="C?"  Part="1" 
@@ -976,7 +976,7 @@ F 3 "~" H 8900 2400 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 60891A20
 P 9050 2400
 AR Path="/5F3B1D81/60891A20" Ref="#PWR?"  Part="1" 
@@ -1017,7 +1017,7 @@ Wire Wire Line
 	8750 2650 7950 2650
 Connection ~ 8750 2400
 $Comp
-L Device:R_US R?
+L scum3c-devboard-rescue:R_US-Device R?
 U 1 1 608941D3
 P 9250 2750
 AR Path="/5F3B1D81/608941D3" Ref="R?"  Part="1" 
@@ -1032,7 +1032,7 @@ F 3 "~" H 9250 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 608941D9
 P 9400 2750
 AR Path="/5F3B1D81/608941D9" Ref="#PWR?"  Part="1" 
@@ -1049,7 +1049,7 @@ $EndComp
 Wire Wire Line
 	7950 2750 9100 2750
 $Comp
-L power:GND #PWR034
+L scum3c-devboard-rescue:GND-power #PWR034
 U 1 1 608C1CA6
 P 8100 6550
 AR Path="/608C1CA6" Ref="#PWR034"  Part="1" 
@@ -1064,7 +1064,7 @@ $EndComp
 Text Notes 8050 6200 0    197  ~ 39
 Extra grounds
 $Comp
-L power:GND #PWR0101
+L scum3c-devboard-rescue:GND-power #PWR0101
 U 1 1 608CAA18
 P 8400 6550
 AR Path="/608CAA18" Ref="#PWR0101"  Part="1" 
@@ -1077,7 +1077,7 @@ F 3 "" H 8400 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0102
+L scum3c-devboard-rescue:GND-power #PWR0102
 U 1 1 608CACF2
 P 8650 6550
 AR Path="/608CACF2" Ref="#PWR0102"  Part="1" 
@@ -1090,7 +1090,7 @@ F 3 "" H 8650 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0103
+L scum3c-devboard-rescue:GND-power #PWR0103
 U 1 1 608CAF5E
 P 8900 6550
 AR Path="/608CAF5E" Ref="#PWR0103"  Part="1" 
@@ -1103,7 +1103,7 @@ F 3 "" H 8900 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0104
+L scum3c-devboard-rescue:GND-power #PWR0104
 U 1 1 608CB440
 P 9150 6550
 AR Path="/608CB440" Ref="#PWR0104"  Part="1" 
@@ -1116,7 +1116,7 @@ F 3 "" H 9150 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0105
+L scum3c-devboard-rescue:GND-power #PWR0105
 U 1 1 608CB7F6
 P 9400 6550
 AR Path="/608CB7F6" Ref="#PWR0105"  Part="1" 
@@ -1195,7 +1195,7 @@ F 3 "" H 9400 6550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0106
+L scum3c-devboard-rescue:GND-power #PWR0106
 U 1 1 60889659
 P 1000 6950
 F 0 "#PWR0106" H 1000 6700 50  0001 C CNN
@@ -1208,7 +1208,7 @@ $EndComp
 Text Label 4950 7150 2    50   ~ 0
 GPIO2
 $Comp
-L Connector:Conn_01x01_Male J4
+L scum3c-devboard-rescue:Conn_01x01_Male-Connector J4
 U 1 1 6088AE2D
 P 2600 6600
 F 0 "J4" H 2708 6781 50  0000 C CNN
@@ -1234,7 +1234,7 @@ F 3 "" H 1500 7450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR0108
+L scum3c-devboard-rescue:GND-power #PWR0108
 U 1 1 6127B18B
 P 1600 7450
 F 0 "#PWR0108" H 1600 7200 50  0001 C CNN
@@ -1245,7 +1245,7 @@ F 3 "" H 1600 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L scum3c-devboard-rescue:GND-power #PWR0109
 U 1 1 6127B4FF
 P 1700 7450
 F 0 "#PWR0109" H 1700 7200 50  0001 C CNN
@@ -1300,7 +1300,7 @@ F 3 "" H 1700 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Odd_Even J3
+L scum3c-devboard-rescue:Conn_02x05_Odd_Even-Connector_Generic J3
 U 1 1 61289652
 P 5150 6950
 F 0 "J3" H 5200 7367 50  0000 C CNN
@@ -1322,42 +1322,20 @@ F 3 "" H 4950 6750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 61293282
-P 3000 4750
+P 2850 4750
 AR Path="/5F3B307E/61293282" Ref="#PWR?"  Part="1" 
 AR Path="/61293282" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 3000 4500 50  0001 C CNN
-F 1 "GND" V 3005 4622 50  0000 R CNN
-F 2 "" H 3000 4750 50  0001 C CNN
-F 3 "" H 3000 4750 50  0001 C CNN
-	1    3000 4750
+F 0 "#PWR0115" H 2850 4500 50  0001 C CNN
+F 1 "GND" V 2855 4622 50  0000 R CNN
+F 2 "" H 2850 4750 50  0001 C CNN
+F 3 "" H 2850 4750 50  0001 C CNN
+	1    2850 4750
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C_1.8_OUT1
-U 1 1 612968B6
-P 3000 4450
-F 0 "C_1.8_OUT1" H 3092 4496 50  0000 L CNN
-F 1 "100 uF" H 3092 4405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 4450 50  0001 C CNN
-F 3 "~" H 3000 4450 50  0001 C CNN
-	1    3000 4450
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:L_Small L1
-U 1 1 6129713D
-P 2700 4450
-F 0 "L1" V 2650 4400 50  0000 L CNN
-F 1 "2.2 uH" V 2750 4350 50  0000 L CNN
-F 2 "Inductor_SMD:L_0402_1005Metric" H 2700 4450 50  0001 C CNN
-F 3 "~" H 2700 4450 50  0001 C CNN
-	1    2700 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 612ACBDB
 P 1200 5600
 AR Path="/5F3B307E/612ACBDB" Ref="#PWR?"  Part="1" 
@@ -1370,29 +1348,18 @@ F 3 "" H 1200 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C_1.1_OUT1
+L scum3c-devboard-rescue:C_Small-Device C_1.1_OUT1
 U 1 1 612ACBE1
-P 3000 5400
-F 0 "C_1.1_OUT1" H 3500 5450 50  0000 R CNN
-F 1 "100 uF" H 3350 5350 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 3000 5400 50  0001 C CNN
-F 3 "~" H 3000 5400 50  0001 C CNN
-	1    3000 5400
+P 2850 5400
+F 0 "C_1.1_OUT1" H 3350 5450 50  0000 R CNN
+F 1 "100 uF" H 3200 5350 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 5400 50  0001 C CNN
+F 3 "~" H 2850 5400 50  0001 C CNN
+	1    2850 5400
 	1    0    0    1   
 $EndComp
 $Comp
-L Device:L_Small L2
-U 1 1 612ACBE7
-P 2700 5400
-F 0 "L2" V 2650 5350 50  0000 L CNN
-F 1 "2.2 uH" V 2750 5300 50  0000 L CNN
-F 2 "Inductor_SMD:L_0402_1005Metric" H 2700 5400 50  0001 C CNN
-F 3 "~" H 2700 5400 50  0001 C CNN
-	1    2700 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C_1.1_IN1
+L scum3c-devboard-rescue:C_Small-Device C_1.1_IN1
 U 1 1 612ACBED
 P 1200 5500
 F 0 "C_1.1_IN1" H 1292 5546 50  0000 L CNN
@@ -1403,44 +1370,42 @@ F 3 "~" H 1200 5500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 612ACC04
-P 3000 5700
+P 2850 5700
 AR Path="/5F3B307E/612ACC04" Ref="#PWR?"  Part="1" 
 AR Path="/612ACC04" Ref="#PWR0120"  Part="1" 
-F 0 "#PWR0120" H 3000 5450 50  0001 C CNN
-F 1 "GND" V 3005 5572 50  0000 R CNN
-F 2 "" H 3000 5700 50  0001 C CNN
-F 3 "" H 3000 5700 50  0001 C CNN
-	1    3000 5700
+F 0 "#PWR0120" H 2850 5450 50  0001 C CNN
+F 1 "GND" V 2855 5572 50  0000 R CNN
+F 2 "" H 2850 5700 50  0001 C CNN
+F 3 "" H 2850 5700 50  0001 C CNN
+	1    2850 5700
 	1    0    0    -1  
 $EndComp
 $Comp
 L draft1library:+1.1V_REG #PWR0121
 U 1 1 612B51DE
-P 3000 5300
-F 0 "#PWR0121" H 3000 5150 50  0001 C CNN
-F 1 "+1.1V_REG" H 3015 5428 50  0000 L CNN
-F 2 "" H 3000 5300 50  0001 C CNN
-F 3 "" H 3000 5300 50  0001 C CNN
-	1    3000 5300
+P 2850 5300
+F 0 "#PWR0121" H 2850 5150 50  0001 C CNN
+F 1 "+1.1V_REG" H 2865 5428 50  0000 L CNN
+F 2 "" H 2850 5300 50  0001 C CNN
+F 3 "" H 2850 5300 50  0001 C CNN
+	1    2850 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L draft1library:+1.8V_REG #PWR0122
 U 1 1 612B5F52
-P 3000 4350
-F 0 "#PWR0122" H 3000 4200 50  0001 C CNN
-F 1 "+1.8V_REG" H 3015 4478 50  0000 L CNN
-F 2 "" H 3000 4350 50  0001 C CNN
-F 3 "" H 3000 4350 50  0001 C CNN
-	1    3000 4350
+P 2850 4350
+F 0 "#PWR0122" H 2850 4200 50  0001 C CNN
+F 1 "+1.8V_REG" H 2865 4478 50  0000 L CNN
+F 2 "" H 2850 4350 50  0001 C CNN
+F 3 "" H 2850 4350 50  0001 C CNN
+	1    2850 4350
 	-1   0    0    -1  
 $EndComp
-Connection ~ 3000 4350
 Wire Wire Line
 	1200 4350 1200 4450
-Connection ~ 1200 4450
 $Comp
 L draft1library:+EXT_BAT #PWR0123
 U 1 1 612B9496
@@ -1463,7 +1428,6 @@ F 3 "" H 1200 4350 50  0001 C CNN
 	1    1200 4350
 	-1   0    0    -1  
 $EndComp
-Connection ~ 1200 4350
 Text Notes 1050 4000 0    197  ~ 39
 Regulators
 $Comp
@@ -1502,7 +1466,7 @@ F 3 "" H 1800 7450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even J1
+L scum3c-devboard-rescue:Conn_02x10_Odd_Even-Connector_Generic J1
 U 1 1 61273EE1
 P 1400 7250
 F 0 "J1" H 1450 7867 50  0000 C CNN
@@ -1513,7 +1477,7 @@ F 3 "~" H 1400 7250 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R_Small_US R2
+L scum3c-devboard-rescue:R_Small_US-Device R2
 U 1 1 61375149
 P 4900 6000
 F 0 "R2" H 4968 6046 50  0000 L CNN
@@ -1524,7 +1488,7 @@ F 3 "~" H 4900 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small_US R3
+L scum3c-devboard-rescue:R_Small_US-Device R3
 U 1 1 61376DC9
 P 4900 6200
 F 0 "R3" H 4968 6246 50  0000 L CNN
@@ -1558,7 +1522,7 @@ F 3 "" H 4900 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0128
+L scum3c-devboard-rescue:GND-power #PWR0128
 U 1 1 6137B87E
 P 4900 6300
 F 0 "#PWR0128" H 4900 6050 50  0001 C CNN
@@ -1569,7 +1533,7 @@ F 3 "" H 4900 6300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C_1.8_IN1
+L scum3c-devboard-rescue:C_Small-Device C_1.8_IN1
 U 1 1 612980CF
 P 1200 4550
 F 0 "C_1.8_IN1" H 1292 4596 50  0000 L CNN
@@ -1580,37 +1544,7 @@ F 3 "~" H 1200 4550 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L S-85S1AB20-I6T1U:S-85S1AB11-I6T1U U3
-U 1 1 613EE865
-P 1900 5500
-F 0 "U3" H 1900 5967 50  0000 C CNN
-F 1 "S-85S1AB11-I6T1U" H 1900 5876 50  0000 C CNN
-F 2 "downloaded_libs:SOFL50P180X50-6N" H 1900 5500 50  0001 L BNN
-F 3 "downloaded_libs/S85S1A_E.pdf" H 1900 5500 50  0001 L BNN
-F 4 "0.50 mm" H 1900 5500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 5 "ABLIC U.S.A. Inc." H 1900 5500 50  0001 L BNN "MANUFACTURER"
-F 6 "1.4_00" H 1900 5500 50  0001 L BNN "PARTREV"
-F 7 "IPC 7351B" H 1900 5500 50  0001 L BNN "STANDARD"
-	1    1900 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L S-85S1AB20-I6T1U:S-85S1AB18-I6T1U U2
-U 1 1 613EFF3D
-P 1900 4550
-F 0 "U2" H 1900 5017 50  0000 C CNN
-F 1 "S-85S1AB18-I6T1U" H 1900 4926 50  0000 C CNN
-F 2 "downloaded_libs:SOFL50P180X50-6N" H 1900 4550 50  0001 L BNN
-F 3 "downloaded_libs/S85S1A_E.pdf" H 1900 4550 50  0001 L BNN
-F 4 "0.50 mm" H 1900 4550 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
-F 5 "ABLIC U.S.A. Inc." H 1900 4550 50  0001 L BNN "MANUFACTURER"
-F 6 "1.4_00" H 1900 4550 50  0001 L BNN "PARTREV"
-F 7 "IPC 7351B" H 1900 4550 50  0001 L BNN "STANDARD"
-	1    1900 4550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
+L scum3c-devboard-rescue:GND-power #PWR?
 U 1 1 613F95E1
 P 1200 4650
 AR Path="/5F3B307E/613F95E1" Ref="#PWR?"  Part="1" 
@@ -1623,36 +1557,13 @@ F 3 "" H 1200 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3000 4350 2800 4350
+	2450 4750 2850 4750
+Connection ~ 2850 5300
 Wire Wire Line
-	2600 4750 3000 4750
-Wire Wire Line
-	3000 4650 3000 4550
-Wire Wire Line
-	2600 4650 3000 4650
-Wire Wire Line
-	3000 4750 3000 4650
-Connection ~ 3000 4750
-Connection ~ 3000 4650
-Wire Wire Line
-	2600 5300 2800 5300
-Wire Wire Line
-	1200 5300 1200 5400
-Connection ~ 1200 5400
-Connection ~ 1200 5300
-Connection ~ 3000 5300
-Wire Wire Line
-	2600 5600 3000 5600
-Wire Wire Line
-	3000 5600 3000 5500
-Wire Wire Line
-	3000 5600 3000 5700
-Connection ~ 3000 5600
-Wire Wire Line
-	2600 5700 3000 5700
-Connection ~ 3000 5700
+	2450 5700 2850 5700
+Connection ~ 2850 5700
 $Comp
-L BK-870:BK-870 BT1
+L scum3c-devboard-rescue:BK-870-BK-870 BT1
 U 1 1 61426DB6
 P 10000 2600
 F 0 "BT1" V 9954 2730 50  0000 L CNN
@@ -1666,7 +1577,7 @@ F 6 "Manufacturer Recommendation" H 10000 2600 50  0001 L BNN "STANDARD"
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR046
+L scum3c-devboard-rescue:GND-power #PWR046
 U 1 1 608BFCDC
 P 10000 2800
 AR Path="/608BFCDC" Ref="#PWR046"  Part="1" 
@@ -1678,16 +1589,6 @@ F 3 "" H 10000 2800 50  0001 C CNN
 	1    10000 2800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2800 5400 2800 5300
-Connection ~ 2800 5300
-Wire Wire Line
-	2800 5300 3000 5300
-Wire Wire Line
-	2800 4450 2800 4350
-Connection ~ 2800 4350
-Wire Wire Line
-	2800 4350 2600 4350
 $Comp
 L draft1library:+EXT_BAT #PWR0116
 U 1 1 6148DC5B
@@ -1711,7 +1612,7 @@ F 3 "" H 9150 1350 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L power:PWR_FLAG #FLG0101
+L scum3c-devboard-rescue:PWR_FLAG-power #FLG0101
 U 1 1 6148F1C6
 P 9150 1350
 AR Path="/6148F1C6" Ref="#FLG0101"  Part="1" 
@@ -1723,4 +1624,69 @@ F 3 "~" H 9150 1350 50  0001 C CNN
 	1    9150 1350
 	1    0    0    -1  
 $EndComp
+$Comp
+L LP5908MFX-1.8/NOB:LP5907MFX-1.8_NOPB U?
+U 1 1 612E010B
+P 1950 4550
+F 0 "U?" H 1950 5017 50  0000 C CNN
+F 1 "LP5907MFX-1.8_NOPB" H 1950 4926 50  0000 C CNN
+F 2 "SOT95P280X145-5N" H 1950 4550 50  0001 L BNN
+F 3 "" H 1950 4550 50  0001 L BNN
+F 4 "1.45mm" H 1950 4550 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "IPC-7351B" H 1950 4550 50  0001 L BNN "STANDARD"
+F 6 "O" H 1950 4550 50  0001 L BNN "PARTREV"
+F 7 "Texas Instruments" H 1950 4550 50  0001 L BNN "MANUFACTURER"
+	1    1950 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 4350
+$Comp
+L scum3c-devboard-rescue:C_Small-Device C_1.8_OUT1
+U 1 1 612968B6
+P 2850 4450
+F 0 "C_1.8_OUT1" H 2942 4496 50  0000 L CNN
+F 1 "100 uF" H 2942 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2850 4450 50  0001 C CNN
+F 3 "~" H 2850 4450 50  0001 C CNN
+	1    2850 4450
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2450 4350 2850 4350
+Wire Wire Line
+	2850 4550 2850 4750
+Connection ~ 2850 4750
+Wire Wire Line
+	1450 4350 1200 4350
+Connection ~ 1200 4350
+Wire Wire Line
+	1450 4550 1450 4350
+Connection ~ 1450 4350
+$Comp
+L TLV70311DBVR:TLV70311DBVR U?
+U 1 1 612ED5D0
+P 1950 5500
+F 0 "U?" H 1950 5967 50  0000 C CNN
+F 1 "TLV70311DBVR" H 1950 5876 50  0000 C CNN
+F 2 "SOT95P280X145-5N" H 1950 5500 50  0001 L BNN
+F 3 "" H 1950 5500 50  0001 L BNN
+F 4 "1.45mm" H 1950 5500 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "IPC-7351B" H 1950 5500 50  0001 L BNN "STANDARD"
+F 6 "O" H 1950 5500 50  0001 L BNN "PARTREV"
+F 7 "Texas Instruments" H 1950 5500 50  0001 L BNN "MANUFACTURER"
+	1    1950 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 5300 2850 5300
+Wire Wire Line
+	2850 5500 2850 5700
+Wire Wire Line
+	1200 5300 1200 5400
+Wire Wire Line
+	1450 5300 1200 5300
+Connection ~ 1200 5300
+Wire Wire Line
+	1450 5500 1450 5300
+Connection ~ 1450 5300
 $EndSCHEMATC
