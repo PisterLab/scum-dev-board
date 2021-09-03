@@ -3,5 +3,5 @@
   (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/SamacSys_Parts.lib)(options "")(descr ""))
   (lib (name S-85S1AB20-I6T1U)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/S-85S1AB20-I6T1U.lib)(options "")(descr ""))
   (lib (name BK-870)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/BK-870.lib)(options "")(descr ""))
-  (lib (name BH1000G)(type Legacy)(uri ${GITHUB_REPOS}/scum-dev-board/mccoy/downloaded_libs/BH1000G.lib)(options "")(descr ""))
+  (lib (name BH1000G)(type Legacy)(uri ${KIPRJMOD}/downloaded_libs/BH1000G.lib)(options "")(descr ""))
 )
