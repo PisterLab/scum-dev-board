@@ -1,0 +1,62 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +1.1V_REG
+D Power symbol creates a global label with name "+1.1V_REG"
+K power-flag battery
+$ENDCMP
+#
+$CMP +1.8V_REG
+D Power symbol creates a global label with name "+1.8V_REG"
+K power-flag battery
+$ENDCMP
+#
+$CMP +EXT_BAT
+D Power symbol creates a global label with name "+EXT_BAT"
+K power-flag battery
+$ENDCMP
+#
+$CMP +NRF_VDDD
+D Power symbol creates a global label with name "+NRF_VDDD"
+K power-flag battery
+$ENDCMP
+#
+$CMP +UART33
+D Power symbol creates a global label with name "+UART33"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VBAT
+D Power symbol creates a global label with name "+VBAT"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDD25
+D Power symbol creates a global label with name "+VDD25"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDAO
+D Power symbol creates a global label with name "+VDDAO"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDD
+D Power symbol creates a global label with name "+VDDD"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VDDIO
+D Power symbol creates a global label with name "+VDDIO"
+K power-flag battery
+$ENDCMP
+#
+$CMP +VUSB
+D Power symbol creates a global label with name "+VUSB"
+K power-flag battery
+$ENDCMP
+#
+$CMP LTC4123
+F https://www.analog.com/media/en/technical-documentation/data-sheets/4123fa.pdf
+$ENDCMP
+#
+#End Doc Library

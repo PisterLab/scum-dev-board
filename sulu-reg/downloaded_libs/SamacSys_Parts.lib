@@ -1,0 +1,315 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NE555DR
+#/6648/2/2.28/8/3/Integrated Circuit
+DEF NE555DR IC 0 30 Y Y 1 F N
+F0 "IC" 1000 700 50 H V L CNN
+F1 "NE555DR" 1000 600 50 H V L CNN
+F2 "SOIC127P600X175-8N" 1000 500 50 H I L CNN
+F3 "http://www.ti.com/lit/ds/symlink/ne555.pdf" 1000 400 50 H I L CNN
+F4 "Single Precision Timer" 1000 300 50 H I L CNN "Description"
+F5 "1.75" 1000 200 50 H I L CNN "Height"
+F6 "Texas Instruments" 1000 100 50 H I L CNN "Manufacturer_Name"
+F7 "NE555DR" 1000 0 50 H I L CNN "Manufacturer_Part_Number"
+F8 "1218414" 1000 -100 50 H I L CNN "RS Part Number"
+F9 "http://uk.rs-online.com/web/p/products/1218414" 1000 -200 50 H I L CNN "RS Price/Stock"
+F10 "NE555DR" 1000 -300 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/ne555dr/texas-instruments" 1000 -400 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X GND 1 600 -800 200 U 50 50 0 0 B
+X TRIG 2 0 0 200 R 50 50 0 0 B
+X OUT 3 0 -200 200 R 50 50 0 0 B
+X RESET 4 500 600 200 D 50 50 0 0 B
+X CONT 5 1200 -300 200 L 50 50 0 0 B
+X THRES 6 1200 -200 200 L 50 50 0 0 B
+X DISCH 7 1200 0 200 L 50 50 0 0 B
+X VCC 8 700 600 200 D 50 50 0 0 B
+P 5 0 1 6 200 400 1000 400 1000 -600 200 -600 200 400 N
+T 0 600 -100 50 0 0 1 "555" Normal 0 C C
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74AVC4TD245PW,118
+#/1019796/287758/2.47/16/2/Integrated Circuit
+DEF 74AVC4TD245PW,118 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "74AVC4TD245PW,118" 1150 200 50 H V L CNN
+F2 "SOP65P640X110-16N" 1150 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74AVC4TD245PW.pdf" 1150 0 50 H I L CNN
+F4 "74AVC4TD245PW - 4-bit dual supply translating transceiver with configurable voltage translation;3-state@en-us" 1150 -100 50 H I L CNN "Description"
+F5 "1.1" 1150 -200 50 H I L CNN "Height"
+F6 "Nexperia" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74AVC4TD245PW,118" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "74AVC4TD245PW,118" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/74avc4td245pw118/nexperia" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "771-74AVC4TD245PW118" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Nexperia/74AVC4TD245PW118?qs=vbj%2FKoHZRAgBf2UMQ6EFpA%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+X ~ 4 0 -300 200 R 50 50 0 0 P
+X ~ 5 0 -400 200 R 50 50 0 0 P
+X ~ 6 0 -500 200 R 50 50 0 0 P
+X ~ 7 0 -600 200 R 50 50 0 0 P
+X ~ 8 0 -700 200 R 50 50 0 0 P
+X ~ 16 1300 0 200 L 50 50 0 0 P
+X ~ 15 1300 -100 200 L 50 50 0 0 P
+X ~ 14 1300 -200 200 L 50 50 0 0 P
+X ~ 13 1300 -300 200 L 50 50 0 0 P
+X ~ 12 1300 -400 200 L 50 50 0 0 P
+X ~ 11 1300 -500 200 L 50 50 0 0 P
+X ~ 10 1300 -600 200 L 50 50 0 0 P
+X ~ 9 1300 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -800 200 -800 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ADT7302ARMZ
+#/577708/287758/2.47/8/0/Integrated Circuit
+DEF ADT7302ARMZ IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ADT7302ARMZ" 950 200 50 H V L CNN
+F2 "SOP65P490X110-8N" 950 100 50 H I L CNN
+F3 "" 950 0 50 H I L CNN
+F4 "Digital Temperature Sensor" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADT7302ARMZ" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ADT7302ARMZ" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/adt7302armz/analog-devices" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "584-ADT7302ARMZ" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADT7302ARMZ?qs=WIvQP4zGanhRdU0rZVc2KQ%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X DOUT 2 0 -100 200 R 50 50 0 0 P
+X CS~ 3 0 -200 200 R 50 50 0 0 P
+X SCLK 4 0 -300 200 R 50 50 0 0 P
+X VDD 5 1100 -300 200 L 50 50 0 0 P
+X DIN 6 1100 -200 200 L 50 50 0 0 P
+X GND 7 1100 -100 200 L 50 50 0 0 P
+X NC_2 8 1100 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model FT231XS-U
+#/794439/287758/2.47/20/3/Integrated Circuit
+DEF FT231XS-U IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "FT231XS-U" 1150 200 50 H V L CNN
+F2 "SOP64P599X175-20N" 1150 100 50 H I L CNN
+F3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT231X.pdf" 1150 0 50 H I L CNN
+F4 "Full Speed to Handshake USB UART IC" 1150 -100 50 H I L CNN "Description"
+F5 "1.753" 1150 -200 50 H I L CNN "Height"
+F6 "FTDI Chip" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "FT231XS-U" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "FT231XS-U" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ft231xs-u/ftdi-chip" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "895-FT231XS-U" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/FTDI/FT231XS-U?qs=Gp1Yz1mis3WFP7tMtj2Z9g%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X DTR# 1 0 0 200 R 50 50 0 0 P
+X RTS# 2 0 -100 200 R 50 50 0 0 P
+X VCCIO 3 0 -200 200 R 50 50 0 0 P
+X RXD 4 0 -300 200 R 50 50 0 0 P
+X RI# 5 0 -400 200 R 50 50 0 0 P
+X GND_1 6 0 -500 200 R 50 50 0 0 P
+X DSR# 7 0 -600 200 R 50 50 0 0 P
+X DCD# 8 0 -700 200 R 50 50 0 0 P
+X CTS# 9 0 -800 200 R 50 50 0 0 P
+X CBUS2 10 0 -900 200 R 50 50 0 0 P
+X TXD 20 1300 0 200 L 50 50 0 0 P
+X CBUS3 19 1300 -100 200 L 50 50 0 0 P
+X CBUS0 18 1300 -200 200 L 50 50 0 0 P
+X CBUS1 17 1300 -300 200 L 50 50 0 0 P
+X GND_2 16 1300 -400 200 L 50 50 0 0 P
+X VCC 15 1300 -500 200 L 50 50 0 0 P
+X RESET# 14 1300 -600 200 L 50 50 0 0 P
+X 3V3OUT 13 1300 -700 200 L 50 50 0 0 P
+X USBDM 12 1300 -800 200 L 50 50 0 0 P
+X USBDP 11 1300 -900 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -1000 200 -1000 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 47346-0001
+#/233052/287758/2.47/5/4/Connector
+DEF 47346-0001 J 0 30 Y Y 1 F N
+F0 "J" 550 900 50 H V L CNN
+F1 "47346-0001" 550 800 50 H V L CNN
+F2 "47346-0001" 550 700 50 H I L CNN
+F3 "http://www.molex.com/pdm_docs/sd/473460001_sd.pdf" 550 600 50 H I L CNN
+F4 "Micro USB B Receptacle Bottom Mount Assy Molex Right Angle SMT Type B Version 2.0 Micro USB Connector Socket, 30 V ac, 1A 47352 MICRO-USB" 550 500 50 H I L CNN "Description"
+F5 "" 550 400 50 H I L CNN "Height"
+F6 "Molex" 550 300 50 H I L CNN "Manufacturer_Name"
+F7 "47346-0001" 550 200 50 H I L CNN "Manufacturer_Part_Number"
+F8 "47346-0001" 550 100 50 H I L CNN "Arrow Part Number"
+F9 "" 550 0 50 H I L CNN "Arrow Price/Stock"
+F10 "538-47346-0001" 550 -100 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Molex/47346-0001?qs=c2CV6XM0DweJBWaSeyWeCw%3D%3D" 550 -200 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X VBUS 1 400 0 200 U 50 50 0 0 P
+X D- 2 300 0 200 U 50 50 0 0 P
+X D+ 3 200 0 200 U 50 50 0 0 P
+X ID 4 100 0 200 U 50 50 0 0 P
+X GND 5 0 0 200 U 50 50 0 0 P
+P 5 0 1 6 -100 700 500 700 500 200 -100 200 -100 700 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 74AVC1T45GS,132
+#/797656/287758/2.47/6/2/Integrated Circuit
+DEF 74AVC1T45GS,132 IC 0 30 Y Y 1 F N
+F0 "IC" 1150 300 50 H V L CNN
+F1 "74AVC1T45GS,132" 1150 200 50 H V L CNN
+F2 "74LVC1G3157GS132" 1150 100 50 H I L CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/74AVC1T45.pdf" 1150 0 50 H I L CNN
+F4 "74AVC1T45 - Dual-supply voltage level translator/transceiver; 3-state@en-us" 1150 -100 50 H I L CNN "Description"
+F5 "0.35" 1150 -200 50 H I L CNN "Height"
+F6 "Nexperia" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "74AVC1T45GS,132" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "74AVC1T45GS,132" 1150 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/74avc1t45gs132/nexperia" 1150 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "771-74AVC1T45GS132" 1150 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Nexperia/74AVC1T45GS132?qs=5C9Q4QJFsuMDv1O3E2QsWA%3D%3D" 1150 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 0 -100 200 R 50 50 0 0 P
+X ~ 3 0 -200 200 R 50 50 0 0 P
+X ~ 4 1300 -200 200 L 50 50 0 0 P
+X ~ 5 1300 -100 200 L 50 50 0 0 P
+X ~ 6 1300 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1100 100 1100 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model HZ0805E601R-10
+#/781526/287758/2.47/2/3/Ferrite Bead
+DEF HZ0805E601R-10 FB 0 30 Y Y 1 F N
+F0 "FB" 650 300 50 H V L CNN
+F1 "HZ0805E601R-10" 650 200 50 H V L CNN
+F2 "BEADC2012X90N" 650 100 50 H I L CNN
+F3 "https://assets.lairdtech.com/home/brandworld/files/Catalog_EMI%20FILTERING%20RF%200717.pdf" 650 0 50 H I L CNN
+F4 "FERRITE BEAD 600 OHM 0805 1LN" 650 -100 50 H I L CNN "Description"
+F5 "0.9" 650 -200 50 H I L CNN "Height"
+F6 "Laird-Signal Integrity Products" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "HZ0805E601R-10" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "HZ0805E601R-10" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model DDZ9678-7
+#/303172/287758/2.47/2/3/Zener Diode
+DEF DDZ9678-7 Z 0 30 Y Y 1 F N
+F0 "Z" 400 350 50 H V L CNN
+F1 "DDZ9678-7" 400 250 50 H V L CNN
+F2 "SOD3716X135N" 400 150 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/115/ds30410-30695.pdf" 400 50 50 H I L CNN
+F4 "Diode Zener 1.8V 5% 500mW 2Pin SOD123" 400 -50 50 H I L CNN "Description"
+F5 "1.35" 400 -150 50 H I L CNN "Height"
+F6 "Diodes Inc." 400 -250 50 H I L CNN "Manufacturer_Name"
+F7 "DDZ9678-7" 400 -350 50 H I L CNN "Manufacturer_Part_Number"
+F8 "DDZ9678-7" 400 -450 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ddz9678-7/diodes-incorporated" 400 -550 50 H I L CNN "Arrow Price/Stock"
+F10 "621-DDZ9678-7" 400 -650 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/DDZ9678-7?qs=ptj1V1atRAp2rXEOTrnLaA%3D%3D" 400 -750 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 80 200 -80 N
+P 2 0 1 6 200 80 240 100 N
+P 2 0 1 6 160 -100 200 -80 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 500 0 400 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 2986
+#/2015096/287758/2.47/3/4/Undefined or Miscellaneous
+DEF 2986 U 0 30 Y Y 1 F N
+F0 "U" 650 300 50 H V L CNN
+F1 "2986" 650 200 50 H V L CNN
+F2 "2986" 650 100 50 H I L CNN
+F3 "https://www.mouser.com/datasheet/2/215/Keystone_Electronics_04082019_2986-1551342.pdf" 650 0 50 H I L CNN
+F4 "Coin Cell Battery Holders 5.8 MM SMT BUTTON CELL RETAINER" 650 -100 50 H I L CNN "Description"
+F5 "2.92" 650 -200 50 H I L CNN "Height"
+F6 "Keystone Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "2986" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "2986" 650 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 650 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "534-2986" 650 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/2986?qs=u16ybLDytRZqKumx7EzKqw%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ADP2138ACBZ-1.8
+#/545077/287758/2.47/6/3/Integrated Circuit
+DEF ADP2138ACBZ-1.8 IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "ADP2138ACBZ-1.8" 950 200 50 H V L CNN
+F2 "BGA6C50P2X3_103X150X64" 950 100 50 H I L CNN
+F3 "http://www.analog.com/media/en/technical-documentation/data-sheets/ADP2138_2139.pdf" 950 0 50 H I L CNN
+F4 "ANALOG DEVICES - ADP2138ACBZ-1.8 - BUCK, 800MA, 1.8V, 6WLCSP" 950 -100 50 H I L CNN "Description"
+F5 "0.64" 950 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADP2138ACBZ-1.8" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "ADP2138ACBZ-1.8" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X VIN A1 0 0 200 R 50 50 0 0 P
+X EN A2 0 -100 200 R 50 50 0 0 P
+X SW B1 0 -200 200 R 50 50 0 0 P
+X MODE B2 1100 0 200 L 50 50 0 0 P
+X GND C1 1100 -100 200 L 50 50 0 0 P
+X VOUT C2 1100 -200 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model LD_MVSG-JGLH-46-1
+#/482091/287758/2.47/2/3/LED
+DEF LD_MVSG-JGLH-46-1 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "LD_MVSG-JGLH-46-1" 500 250 50 H V L BNN
+F2 "LEDM2218X140N" 500 150 50 H I L BNN
+F3 "https://dammedia.osram.info/media/resource/hires/osram-dam-6917470/LD%20MVSG_EN.pdf" 500 50 50 H I L BNN
+F4 "Osram Opto LD MVSG-JGLH-46-1, Mini TOPLED Series Blue LED, 465 nm,, Rectangle Lens SMD Package" 500 -50 50 H I L BNN "Description"
+F5 "1.4" 500 -150 50 H I L BNN "Height"
+F6 "OSRAM" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "LD MVSG-JGLH-46-1" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "LD MVSG-JGLH-46-1" 500 -450 50 H I L BNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/ldmvsg-jglh-46-1/osram-opto-semiconductors" 500 -550 50 H I L BNN "Arrow Price/Stock"
+F10 "720-LDMVSGJGLH461" 500 -650 50 H I L BNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LD-MVSG-JGLH-46-1?qs=znB0%2F8lYn%252BuYpqaPHtqGHw%3D%3D" 500 -750 50 H I L BNN "Mouser Price/Stock"
+DRAW
+X K 1 0 0 100 R 50 50 0 0 P
+X A 2 600 0 100 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+ENDDRAW
+ENDDEF
+#
+#End Library
+
