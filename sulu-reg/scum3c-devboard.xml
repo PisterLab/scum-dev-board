@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\polar\Documents\GitHub\scum-dev-board\mccoy\scum3c-devboard.sch</source>
+    <date>4/15/2021 5:35:48 PM</date>
+    <tool>Eeschema (5.1.6)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>SCuM PCB1</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>scum3c-devboard.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/scumsheet/" tstamps="/5F3B1D81/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>scumsheet.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3A8252</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3A8271</tstamp>
+    </comp>
+    <comp ref="U9AB1">
+      <value>ICM-20948</value>
+      <footprint>Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</footprint>
+      <datasheet>http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf</datasheet>
+      <libsource lib="Sensor_Motion" part="ICM-20948" description="InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>600CB116</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F3A8286</tstamp>
+    </comp>
+    <comp ref="JC1">
+      <value>Conn_01x01</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x01_Male" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60274902</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x04_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x04_Odd_Even" description="Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6081EBCB</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_02x10_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x10_Odd_Even" description="Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6076CDED</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x09_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x09_Odd_Even" description="Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60777233</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Clip</value>
+      <footprint>SCUM:BK-414_battery_clip</footprint>
+      <libsource lib="draft1library" part="Battery_Clip" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>60775F67</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3D6AD4</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3EBABE</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3ECFC2</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3ED367</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3ED5ED</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F40AC2A</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F40EBE3</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F40F3CB</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>NP</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F4188E4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>6085A679</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>scum3</value>
+      <footprint>SCUM:QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm</footprint>
+      <libsource lib="draft1library" part="scum3" description=""/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3B2246</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>NP</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/scumsheet/" tstamps="/5F3B1D81/"/>
+      <tstamp>5F3FB2CB</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x01_Male">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01_Male</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x04_Odd_Even">
+      <description>Generic connector, double row, 02x04, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x04_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x09_Odd_Even">
+      <description>Generic connector, double row, 02x09, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x09_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x10_Odd_Even">
+      <description>Generic connector, double row, 02x10, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x10_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Motion" part="ICM-20948">
+      <description>InvenSense 9-Axis Motion Sensor, Accelerometer, Gyroscope, Compass, I2C/SPI, QFN-24</description>
+      <docs>http://www.invensense.com/wp-content/uploads/2016/06/DS-000189-ICM-20948-v1.3.pdf</docs>
+      <footprints>
+        <fp>InvenSense?QFN*3x3mm*P0.4mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICM-20948</field>
+        <field name="Footprint">Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="NotConnected"/>
+        <pin num="2" name="NC" type="NotConnected"/>
+        <pin num="3" name="NC" type="NotConnected"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="NC" type="NotConnected"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="AUX_CL" type="output"/>
+        <pin num="8" name="VDDIO" type="power_in"/>
+        <pin num="9" name="SDO/AD0" type="BiDi"/>
+        <pin num="10" name="REGOUT" type="passive"/>
+        <pin num="11" name="FSYNC" type="input"/>
+        <pin num="12" name="INT1" type="output"/>
+        <pin num="13" name="VDD" type="power_in"/>
+        <pin num="14" name="NC" type="NotConnected"/>
+        <pin num="15" name="NC" type="NotConnected"/>
+        <pin num="16" name="NC" type="NotConnected"/>
+        <pin num="17" name="NC" type="NotConnected"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="RESV" type="NotConnected"/>
+        <pin num="20" name="GND" type="passive"/>
+        <pin num="21" name="AUX_DA" type="BiDi"/>
+        <pin num="22" name="~CS" type="input"/>
+        <pin num="23" name="SCL/SCLK" type="input"/>
+        <pin num="24" name="SDA/SDI" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="draft1library" part="Battery_Clip">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Clip</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+        <pin num="3" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="draft1library" part="scum3">
+      <fields>
+        <field name="Reference">U8</field>
+        <field name="Value">scum3</field>
+        <field name="Footprint">SCUM:QFN-100_EP_12x12_Pitch0.4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="NC" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="VBAT" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="IF_DBG_IN_QP" type="passive"/>
+        <pin num="7" name="IF_DBG_OUT_QP" type="passive"/>
+        <pin num="8" name="IF_DBG_IN_QN" type="passive"/>
+        <pin num="9" name="IF_DBG_OUT_QN" type="passive"/>
+        <pin num="10" name="VDD25" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="VDD_ALWAYSON_DISABLE" type="passive"/>
+        <pin num="13" name="IF_EXT_CLK" type="passive"/>
+        <pin num="14" name="RF_GND" type="passive"/>
+        <pin num="15" name="RF_IN" type="passive"/>
+        <pin num="16" name="RF_GND" type="passive"/>
+        <pin num="17" name="VBAT" type="passive"/>
+        <pin num="18" name="PA_LDO_OUTPUT" type="passive"/>
+        <pin num="19" name="STATIC_DIVIDER_OUTPUT" type="passive"/>
+        <pin num="20" name="MOD_IN" type="passive"/>
+        <pin num="21" name="MOD_CLK_IN" type="passive"/>
+        <pin num="22" name="LO_LDO_OUTPUT" type="passive"/>
+        <pin num="23" name="800mV_BANDGAP" type="passive"/>
+        <pin num="24" name="NC" type="passive"/>
+        <pin num="25" name="NC" type="passive"/>
+        <pin num="26" name="VBAT" type="power_in"/>
+        <pin num="27" name="GND" type="passive"/>
+        <pin num="28" name="GPIO0" type="BiDi"/>
+        <pin num="29" name="GPIO1" type="BiDi"/>
+        <pin num="30" name="GPIO2" type="BiDi"/>
+        <pin num="31" name="GPIO3" type="BiDi"/>
+        <pin num="32" name="GPIO4" type="BiDi"/>
+        <pin num="33" name="GPIO5" type="BiDi"/>
+        <pin num="34" name="GPIO6" type="BiDi"/>
+        <pin num="35" name="GPIO7" type="BiDi"/>
+        <pin num="36" name="VDDIO" type="power_in"/>
+        <pin num="37" name="GPIO8" type="BiDi"/>
+        <pin num="38" name="GPIO9" type="BiDi"/>
+        <pin num="39" name="GPIO10" type="BiDi"/>
+        <pin num="40" name="GPIO11" type="BiDi"/>
+        <pin num="41" name="GPIO12" type="BiDi"/>
+        <pin num="42" name="GPIO13" type="BiDi"/>
+        <pin num="43" name="GPIO14" type="BiDi"/>
+        <pin num="44" name="GPIO15" type="BiDi"/>
+        <pin num="45" name="GND" type="passive"/>
+        <pin num="46" name="RSTX" type="BiDi"/>
+        <pin num="47" name="RSRX" type="BiDi"/>
+        <pin num="48" name="3WB_CLK" type="BiDi"/>
+        <pin num="49" name="3WB_ENB" type="BiDi"/>
+        <pin num="50" name="3WB_DATA" type="BiDi"/>
+        <pin num="51" name="NC" type="passive"/>
+        <pin num="52" name="NC" type="passive"/>
+        <pin num="53" name="SENSOR_LDO_OUTPUT" type="passive"/>
+        <pin num="54" name="SENSOR_EXT_IN" type="passive"/>
+        <pin num="55" name="GND" type="passive"/>
+        <pin num="56" name="LF_CLK_EXT_IN" type="passive"/>
+        <pin num="57" name="GPO_ZERO" type="passive"/>
+        <pin num="58" name="GND" type="passive"/>
+        <pin num="59" name="VBAT" type="passive"/>
+        <pin num="60" name="HARD_RESET" type="passive"/>
+        <pin num="61" name="BOOT_SOURCE_SELECT" type="passive"/>
+        <pin num="62" name="VBAT" type="passive"/>
+        <pin num="63" name="ASC_PHI2" type="passive"/>
+        <pin num="64" name="ASC_PHI1" type="passive"/>
+        <pin num="65" name="ASC_OUT" type="passive"/>
+        <pin num="66" name="ASC_LOAD" type="passive"/>
+        <pin num="67" name="ASC_IN" type="passive"/>
+        <pin num="68" name="ASC_EXT_OVERRIDE" type="passive"/>
+        <pin num="69" name="GND" type="passive"/>
+        <pin num="70" name="AUX_LDO_OUTPUT" type="passive"/>
+        <pin num="71" name="VDDD_DISABLE" type="passive"/>
+        <pin num="72" name="VDDD_LDO_OUTPUT" type="passive"/>
+        <pin num="73" name="NC" type="passive"/>
+        <pin num="74" name="NC" type="passive"/>
+        <pin num="75" name="NC" type="passive"/>
+        <pin num="76" name="NC" type="passive"/>
+        <pin num="77" name="NC" type="passive"/>
+        <pin num="78" name="NC" type="passive"/>
+        <pin num="79" name="NC" type="passive"/>
+        <pin num="80" name="SOFT_RESET" type="passive"/>
+        <pin num="81" name="NC" type="passive"/>
+        <pin num="82" name="NC" type="passive"/>
+        <pin num="83" name="NC" type="passive"/>
+        <pin num="84" name="NC" type="passive"/>
+        <pin num="85" name="NC" type="passive"/>
+        <pin num="86" name="NC" type="passive"/>
+        <pin num="87" name="NC" type="passive"/>
+        <pin num="88" name="NC" type="passive"/>
+        <pin num="89" name="CLOCK_SELECT" type="passive"/>
+        <pin num="90" name="VDDD" type="passive"/>
+        <pin num="91" name="NC" type="passive"/>
+        <pin num="92" name="ALWAYSON_LDO" type="passive"/>
+        <pin num="93" name="NC" type="passive"/>
+        <pin num="94" name="NC" type="passive"/>
+        <pin num="95" name="NC" type="passive"/>
+        <pin num="96" name="NC" type="passive"/>
+        <pin num="97" name="NC" type="passive"/>
+        <pin num="98" name="NC" type="passive"/>
+        <pin num="99" name="NC" type="passive"/>
+        <pin num="100" name="NC" type="passive"/>
+        <pin num="101" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Sensor_Motion">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Sensor_Motion.lib</uri>
+    </library>
+    <library logical="draft1library">
+      <uri>C:\Users\polar\Documents\GitHub\scum-dev-board\mccoy/draft1lib/draft1library.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+VDDIO">
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U8" pin="36"/>
+    </net>
+    <net code="2" name="+VDDD">
+      <node ref="U8" pin="72"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="5"/>
+      <node ref="U8" pin="89"/>
+      <node ref="U8" pin="90"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="3" name="+VBAT">
+      <node ref="J2" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U8" pin="4"/>
+      <node ref="U8" pin="62"/>
+      <node ref="U8" pin="59"/>
+      <node ref="U8" pin="26"/>
+      <node ref="U8" pin="17"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U8" pin="101"/>
+      <node ref="U8" pin="11"/>
+      <node ref="U8" pin="14"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="U8" pin="27"/>
+      <node ref="U8" pin="69"/>
+      <node ref="U8" pin="58"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U8" pin="16"/>
+      <node ref="U9AB1" pin="11"/>
+      <node ref="U8" pin="45"/>
+      <node ref="U8" pin="5"/>
+      <node ref="U8" pin="55"/>
+      <node ref="U9AB1" pin="18"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U9AB1" pin="20"/>
+      <node ref="C27" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="J2" pin="10"/>
+      <node ref="J2" pin="6"/>
+      <node ref="BT1" pin="3"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J3" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="J3" pin="20"/>
+      <node ref="J3" pin="19"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="5" name="/GPIO10">
+      <node ref="U8" pin="39"/>
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="6" name="/GPIO5">
+      <node ref="J3" pin="13"/>
+      <node ref="U8" pin="33"/>
+    </net>
+    <net code="7" name="/GPIO8">
+      <node ref="J3" pin="4"/>
+      <node ref="U8" pin="37"/>
+    </net>
+    <net code="8" name="/GPIO9">
+      <node ref="U8" pin="38"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="9" name="/GPIO12">
+      <node ref="U9AB1" pin="24"/>
+      <node ref="J3" pin="12"/>
+      <node ref="U8" pin="41"/>
+    </net>
+    <net code="10" name="/GPIO13">
+      <node ref="J3" pin="14"/>
+      <node ref="U9AB1" pin="9"/>
+      <node ref="U8" pin="42"/>
+    </net>
+    <net code="11" name="/GPIO14">
+      <node ref="U9AB1" pin="23"/>
+      <node ref="U8" pin="43"/>
+      <node ref="J3" pin="16"/>
+    </net>
+    <net code="12" name="/GPO_ZERO">
+      <node ref="U8" pin="57"/>
+      <node ref="J2" pin="9"/>
+    </net>
+    <net code="13" name="/SENSOR_LDO_OUTPUT">
+      <node ref="U8" pin="53"/>
+      <node ref="J2" pin="13"/>
+    </net>
+    <net code="14" name="/HARD_RESET">
+      <node ref="J2" pin="18"/>
+      <node ref="U8" pin="60"/>
+    </net>
+    <net code="15" name="/RsTx">
+      <node ref="U8" pin="46"/>
+      <node ref="J2" pin="17"/>
+    </net>
+    <net code="16" name="/3WB_CLK">
+      <node ref="U8" pin="48"/>
+      <node ref="J2" pin="16"/>
+    </net>
+    <net code="17" name="/RsRx">
+      <node ref="U8" pin="47"/>
+      <node ref="J2" pin="15"/>
+    </net>
+    <net code="18" name="/3WB_ENB">
+      <node ref="J2" pin="14"/>
+      <node ref="U8" pin="49"/>
+    </net>
+    <net code="19" name="/3WB_DATA">
+      <node ref="U8" pin="50"/>
+      <node ref="J2" pin="12"/>
+    </net>
+    <net code="20" name="/SENSOR_EXT_IN">
+      <node ref="U8" pin="54"/>
+      <node ref="J2" pin="11"/>
+    </net>
+    <net code="21" name="/BOOT_SOURCE_SEL">
+      <node ref="J2" pin="8"/>
+      <node ref="U8" pin="61"/>
+    </net>
+    <net code="22" name="/GPIO6">
+      <node ref="J3" pin="15"/>
+      <node ref="U8" pin="34"/>
+    </net>
+    <net code="23" name="/IMU_VDD">
+      <node ref="J1" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U9AB1" pin="13"/>
+    </net>
+    <net code="24" name="/GPIO11">
+      <node ref="U8" pin="40"/>
+      <node ref="J3" pin="10"/>
+    </net>
+    <net code="25" name="/GPIO4">
+      <node ref="U8" pin="32"/>
+      <node ref="J3" pin="11"/>
+    </net>
+    <net code="26" name="/GPIO7">
+      <node ref="U8" pin="35"/>
+      <node ref="J3" pin="17"/>
+    </net>
+    <net code="27" name="/GPIO1">
+      <node ref="U8" pin="29"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="28" name="/GPIO0">
+      <node ref="J3" pin="3"/>
+      <node ref="U8" pin="28"/>
+    </net>
+    <net code="29" name="/GPIO2">
+      <node ref="U8" pin="30"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="32" name="/GPIO3">
+      <node ref="U8" pin="31"/>
+      <node ref="J3" pin="9"/>
+    </net>
+    <net code="33" name="Net-(C25-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="U9AB1" pin="10"/>
+    </net>
+    <net code="34" name="+VDDAO">
+      <node ref="C24" pin="1"/>
+      <node ref="U8" pin="92"/>
+    </net>
+    <net code="35" name="+VDD25">
+      <node ref="U8" pin="10"/>
+    </net>
+    <net code="36" name="Net-(U9AB1-Pad12)">
+      <node ref="U9AB1" pin="12"/>
+    </net>
+    <net code="37" name="/GPIO15">
+      <node ref="J3" pin="18"/>
+      <node ref="U8" pin="44"/>
+      <node ref="U9AB1" pin="22"/>
+    </net>
+    <net code="38" name="/IMU_VDDIO">
+      <node ref="C27" pin="1"/>
+      <node ref="U9AB1" pin="8"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="39" name="Net-(U9AB1-Pad1)">
+      <node ref="U9AB1" pin="1"/>
+    </net>
+    <net code="40" name="/ANTENNA">
+      <node ref="U8" pin="15"/>
+      <node ref="JC1" pin="1"/>
+    </net>
+    <net code="41" name="Net-(U9AB1-Pad21)">
+      <node ref="U9AB1" pin="21"/>
+    </net>
+    <net code="42" name="Net-(U9AB1-Pad14)">
+      <node ref="U9AB1" pin="14"/>
+    </net>
+    <net code="43" name="Net-(U9AB1-Pad15)">
+      <node ref="U9AB1" pin="15"/>
+    </net>
+    <net code="44" name="Net-(U9AB1-Pad16)">
+      <node ref="U9AB1" pin="16"/>
+    </net>
+    <net code="45" name="Net-(U9AB1-Pad17)">
+      <node ref="U9AB1" pin="17"/>
+    </net>
+    <net code="46" name="Net-(U9AB1-Pad19)">
+      <node ref="U9AB1" pin="19"/>
+    </net>
+    <net code="47" name="Net-(U9AB1-Pad2)">
+      <node ref="U9AB1" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U9AB1-Pad7)">
+      <node ref="U9AB1" pin="7"/>
+    </net>
+    <net code="49" name="Net-(U9AB1-Pad6)">
+      <node ref="U9AB1" pin="6"/>
+    </net>
+    <net code="50" name="Net-(U9AB1-Pad5)">
+      <node ref="U9AB1" pin="5"/>
+    </net>
+    <net code="51" name="Net-(U9AB1-Pad4)">
+      <node ref="U9AB1" pin="4"/>
+    </net>
+    <net code="52" name="Net-(U9AB1-Pad3)">
+      <node ref="U9AB1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(U8-Pad21)">
+      <node ref="U8" pin="21"/>
+    </net>
+    <net code="54" name="Net-(U8-Pad20)">
+      <node ref="U8" pin="20"/>
+    </net>
+    <net code="55" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U8-Pad19)">
+      <node ref="U8" pin="19"/>
+    </net>
+    <net code="57" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U8" pin="18"/>
+    </net>
+    <net code="58" name="Net-(U8-Pad13)">
+      <node ref="U8" pin="13"/>
+    </net>
+    <net code="59" name="Net-(U8-Pad12)">
+      <node ref="U8" pin="12"/>
+    </net>
+    <net code="60" name="Net-(U8-Pad100)">
+      <node ref="U8" pin="100"/>
+    </net>
+    <net code="61" name="Net-(U8-Pad1)">
+      <node ref="U8" pin="1"/>
+    </net>
+    <net code="62" name="Net-(C22-Pad1)">
+      <node ref="U8" pin="22"/>
+      <node ref="C22" pin="1"/>
+    </net>
+    <net code="63" name="Net-(U8-Pad3)">
+      <node ref="U8" pin="3"/>
+    </net>
+    <net code="64" name="Net-(U8-Pad25)">
+      <node ref="U8" pin="25"/>
+    </net>
+    <net code="65" name="Net-(U8-Pad24)">
+      <node ref="U8" pin="24"/>
+    </net>
+    <net code="66" name="Net-(U8-Pad23)">
+      <node ref="U8" pin="23"/>
+    </net>
+    <net code="67" name="Net-(U8-Pad82)">
+      <node ref="U8" pin="82"/>
+    </net>
+    <net code="68" name="Net-(U8-Pad9)">
+      <node ref="U8" pin="9"/>
+    </net>
+    <net code="69" name="Net-(U8-Pad88)">
+      <node ref="U8" pin="88"/>
+    </net>
+    <net code="70" name="Net-(U8-Pad87)">
+      <node ref="U8" pin="87"/>
+    </net>
+    <net code="71" name="Net-(U8-Pad86)">
+      <node ref="U8" pin="86"/>
+    </net>
+    <net code="72" name="Net-(U8-Pad85)">
+      <node ref="U8" pin="85"/>
+    </net>
+    <net code="73" name="Net-(U8-Pad84)">
+      <node ref="U8" pin="84"/>
+    </net>
+    <net code="74" name="Net-(U8-Pad83)">
+      <node ref="U8" pin="83"/>
+    </net>
+    <net code="75" name="Net-(U8-Pad91)">
+      <node ref="U8" pin="91"/>
+    </net>
+    <net code="76" name="Net-(U8-Pad81)">
+      <node ref="U8" pin="81"/>
+    </net>
+    <net code="77" name="Net-(U8-Pad80)">
+      <node ref="U8" pin="80"/>
+    </net>
+    <net code="78" name="Net-(U8-Pad8)">
+      <node ref="U8" pin="8"/>
+    </net>
+    <net code="79" name="Net-(U8-Pad79)">
+      <node ref="U8" pin="79"/>
+    </net>
+    <net code="80" name="Net-(U8-Pad78)">
+      <node ref="U8" pin="78"/>
+    </net>
+    <net code="81" name="Net-(U8-Pad77)">
+      <node ref="U8" pin="77"/>
+    </net>
+    <net code="82" name="Net-(U8-Pad76)">
+      <node ref="U8" pin="76"/>
+    </net>
+    <net code="83" name="Net-(U8-Pad75)">
+      <node ref="U8" pin="75"/>
+    </net>
+    <net code="84" name="Net-(U8-Pad6)">
+      <node ref="U8" pin="6"/>
+    </net>
+    <net code="85" name="Net-(U8-Pad7)">
+      <node ref="U8" pin="7"/>
+    </net>
+    <net code="86" name="Net-(U8-Pad74)">
+      <node ref="U8" pin="74"/>
+    </net>
+    <net code="87" name="Net-(U8-Pad99)">
+      <node ref="U8" pin="99"/>
+    </net>
+    <net code="88" name="Net-(U8-Pad98)">
+      <node ref="U8" pin="98"/>
+    </net>
+    <net code="89" name="Net-(U8-Pad97)">
+      <node ref="U8" pin="97"/>
+    </net>
+    <net code="90" name="Net-(U8-Pad96)">
+      <node ref="U8" pin="96"/>
+    </net>
+    <net code="91" name="Net-(U8-Pad95)">
+      <node ref="U8" pin="95"/>
+    </net>
+    <net code="92" name="Net-(U8-Pad94)">
+      <node ref="U8" pin="94"/>
+    </net>
+    <net code="93" name="Net-(U8-Pad93)">
+      <node ref="U8" pin="93"/>
+    </net>
+    <net code="94" name="Net-(U8-Pad56)">
+      <node ref="U8" pin="56"/>
+    </net>
+    <net code="95" name="Net-(U8-Pad52)">
+      <node ref="U8" pin="52"/>
+    </net>
+    <net code="96" name="Net-(U8-Pad51)">
+      <node ref="U8" pin="51"/>
+    </net>
+    <net code="97" name="Net-(U8-Pad65)">
+      <node ref="U8" pin="65"/>
+    </net>
+    <net code="98" name="Net-(U8-Pad73)">
+      <node ref="U8" pin="73"/>
+    </net>
+    <net code="99" name="Net-(U8-Pad68)">
+      <node ref="U8" pin="68"/>
+    </net>
+    <net code="100" name="Net-(U8-Pad67)">
+      <node ref="U8" pin="67"/>
+    </net>
+    <net code="101" name="Net-(U8-Pad66)">
+      <node ref="U8" pin="66"/>
+    </net>
+    <net code="102" name="Net-(U8-Pad64)">
+      <node ref="U8" pin="64"/>
+    </net>
+    <net code="103" name="Net-(U8-Pad63)">
+      <node ref="U8" pin="63"/>
+    </net>
+    <net code="104" name="Net-(R13-Pad1)">
+      <node ref="U8" pin="71"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="105" name="/scumsheet/AUX_LDO_OUTPUT">
+      <node ref="U8" pin="70"/>
+      <node ref="C20" pin="2"/>
+    </net>
+  </nets>
+</export>
