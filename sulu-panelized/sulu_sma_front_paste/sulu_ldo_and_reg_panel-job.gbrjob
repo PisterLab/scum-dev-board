@@ -1,0 +1,55 @@
+{
+  "Header":
+  {
+    "GenerationSoftware":
+    {
+      "Vendor":      "KiCad",
+      "Application": "Pcbnew",
+      "Version":     "(5.1.6)-1"
+    },
+    "CreationDate":  "2021-09-14T13:23:18-07:00"
+  },
+  "GeneralSpecs":
+  {
+    "ProjectId":
+    {
+      "Name": "sulu_ldo_and_reg_panel",
+      "GUID": "73756c75-5f6c-4646-9f5f-616e645f7265",
+      "Revision": "rev?"
+    },
+    "Size":
+    {
+      "X": 41.758,
+      "Y": 73.254
+    },
+    "LayerNumber": 2,
+    "BoardThickness":  1.600
+  },
+  "DesignRules":
+  [
+    {
+      "Layers": "Outer",
+      "PadToPad":  0.127,
+      "PadToTrack":  0.127,
+      "TrackToTrack":  0.127,
+      "MinLineWidth":  0.203,
+      "TrackToRegion":  0.127,
+      "RegionToRegion":  0.127
+    }
+  ],
+  "FilesAttributes":
+  [
+    {
+      "Path":  "sulu_ldo_and_reg_panel-F_Paste.gtp",
+      "FileFunction":  "SolderPaste,Top",
+      "FilePolarity":  "Positive"
+    }
+  ],
+  "MaterialStackup":
+  [
+    {
+      "Type":  "SolderPaste",
+      "Notes":  "Layer F.Paste"
+    }
+  ]
+}
