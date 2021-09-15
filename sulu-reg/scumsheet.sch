@@ -318,8 +318,6 @@ Wire Wire Line
 	4750 6500 4750 6050
 NoConn ~ 8000 3000
 NoConn ~ 8000 3300
-NoConn ~ 8000 3600
-NoConn ~ 8000 3750
 Text HLabel 6750 6050 3    50   BiDi ~ 0
 3WB_CLK
 Text HLabel 6900 6050 3    50   BiDi ~ 0
@@ -510,24 +508,24 @@ $EndComp
 $Comp
 L draft1library:through_hole J9
 U 1 1 60914928
-P 2250 2900
-F 0 "J9" H 2250 3100 50  0001 C CNN
-F 1 "through_hole" H 2250 3000 50  0001 C CNN
-F 2 "SCUM:through_hole" H 2250 2900 50  0001 C CNN
-F 3 "" H 2250 2900 50  0001 C CNN
-	1    2250 2900
-	-1   0    0    1   
+P 8000 3750
+F 0 "J9" H 8000 3950 50  0001 C CNN
+F 1 "through_hole" H 8000 3850 50  0001 C CNN
+F 2 "SCUM:through_hole" H 8000 3750 50  0001 C CNN
+F 3 "" H 8000 3750 50  0001 C CNN
+	1    8000 3750
+	1    0    0    -1  
 $EndComp
 $Comp
 L draft1library:through_hole J10
 U 1 1 60914AFA
-P 2250 3050
-F 0 "J10" H 2250 3250 50  0001 C CNN
-F 1 "through_hole" H 2250 3150 50  0001 C CNN
-F 2 "SCUM:through_hole" H 2250 3050 50  0001 C CNN
-F 3 "" H 2250 3050 50  0001 C CNN
-	1    2250 3050
-	-1   0    0    1   
+P 8000 3600
+F 0 "J10" H 8000 3800 50  0001 C CNN
+F 1 "through_hole" H 8000 3700 50  0001 C CNN
+F 2 "SCUM:through_hole" H 8000 3600 50  0001 C CNN
+F 3 "" H 8000 3600 50  0001 C CNN
+	1    8000 3600
+	1    0    0    -1  
 $EndComp
 $Comp
 L draft1library:through_hole J7
@@ -625,4 +623,6 @@ Wire Wire Line
 	5000 700  5000 800 
 Wire Wire Line
 	5000 1000 5000 1150
+NoConn ~ 2250 2900
+NoConn ~ 2250 3050
 $EndSCHEMATC

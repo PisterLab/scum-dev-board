@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GerberLayoutSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LoadedOutlines>
+    <string>C:\Users\polar\Documents\GitHub\scum-dev-board\sulu-ldo\gerber_ldo</string>
+    <string>C:\Users\polar\Documents\GitHub\scum-dev-board\sulu-reg\gerber_reg</string>
+  </LoadedOutlines>
+  <Instances>
+    <GerberInstance>
+      <Center>
+        <X>0</X>
+        <Y>0</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\polar\Documents\GitHub\scum-dev-board\sulu-ldo\gerber_ldo</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>0</X>
+        <Y>0</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>C:\Users\polar\Documents\GitHub\scum-dev-board\sulu-reg\gerber_reg</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+    <GerberInstance>
+      <Center>
+        <X>0</X>
+        <Y>0</Y>
+      </Center>
+      <Angle>0</Angle>
+      <GerberPath>???_negative</GerberPath>
+      <Generated>false</Generated>
+    </GerberInstance>
+  </Instances>
+  <Tabs />
+  <Width>341</Width>
+  <Height>222</Height>
+  <MarginBetweenBoards>1</MarginBetweenBoards>
+  <ConstructNegativePolygon>true</ConstructNegativePolygon>
+  <FillOffset>0</FillOffset>
+  <Smoothing>0</Smoothing>
+  <ExtraTabDrillDistance>0</ExtraTabDrillDistance>
+  <ClipToOutlines>true</ClipToOutlines>
+  <LastExportFolder />
+  <DoNotGenerateMouseBites>true</DoNotGenerateMouseBites>
+  <MergeFileTypes>false</MergeFileTypes>
+</GerberLayoutSet>
