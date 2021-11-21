@@ -5,7 +5,8 @@
 
 # Changelog
 ### Update 2021.11.19
-Replaced 2x5 header with 1x10 header for nRF interface.
+- added orientation dots for DC-DC converters and IMU
+- Replaced 2x5 header with 1x10 header for nRF interface.
 | nRF pin | Sulu pin        |
 |---------|-----------------|
 | P0.27   | VBAT            |
