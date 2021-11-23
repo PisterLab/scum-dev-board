@@ -961,7 +961,7 @@
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F35)
     (at 105.156 66.548)
     (path /5F3B1D81/6091065C)
-    (fp_text reference J16 (at -0.127 0.762) (layer F.SilkS)
+    (fp_text reference J16 (at 0.254 1.27) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
     )
     (fp_text value through_hole (at 0 0.3048) (layer F.Fab) hide
@@ -1026,7 +1026,7 @@
   (module SCUM:through_hole (layer F.Cu) (tedit 6088945B) (tstamp 60879F12)
     (at 104.902 68.58)
     (path /5F3B1D81/60914928)
-    (fp_text reference J9 (at 0.635 -0.381) (layer F.SilkS)
+    (fp_text reference J9 (at 0.762 0.762) (layer F.SilkS)
       (effects (font (size 0.254 0.254) (thickness 0.0508)))
     )
     (fp_text value through_hole (at 0 0.3048) (layer F.Fab) hide
