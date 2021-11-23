@@ -1,6 +1,9 @@
 # Changelog
+
+### Update 2021.11.23
+- Moved GND on 1x10 to match with nRF P4 in reverse orientation
 ### Update 2021.11.19
-- added orientation dots for DC-DC converters and IMU
+- Rdded orientation dots for DC-DC converters and IMU
 - Replaced 2x5 header with 1x10 header for nRF interface.
 
 | nRF pin | Sulu pin        |
