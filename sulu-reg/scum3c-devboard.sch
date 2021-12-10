@@ -437,7 +437,7 @@ External Connections
 Text Notes 9000 800  0    197  ~ 39
 Battery
 Text Notes 6400 7200 0    197  ~ 39
-McCoy PCB v1.1
+Sulu PCB v2.0
 Text Label 7950 3600 0    50   ~ 0
 HARD_RESET
 Text Label 7950 2350 0    50   ~ 0
