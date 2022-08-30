@@ -3282,7 +3282,7 @@
   (gr_text "EXT_BAT" (at 97.409 51.943) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-00006128be03)
     (effects (font (size 0.5 0.5) (thickness 0.1)))
   )
-  (gr_text "Sulu V2.0\nREG" (at 108.458 78.359) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000612a4cbc)
+  (gr_text "Sulu V2.1\nREG" (at 108.458 78.359) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000612a4cbc)
     (effects (font (size 0.762 0.762) (thickness 0.127)))
   )
   (gr_text "IMU\nVDD" (at 102.235 51.816) (layer "F.SilkS") (tstamp 00000000-0000-0000-0000-0000612ace80)
