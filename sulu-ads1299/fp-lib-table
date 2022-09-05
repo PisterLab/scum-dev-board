@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "SCUM")(type "KiCad")(uri "${KIPRJMOD}/SCUM.pretty")(options "")(descr ""))
+  (lib (name "downloaded_libs")(type "KiCad")(uri "${KIPRJMOD}/downloaded_libs.pretty")(options "")(descr ""))
+)
