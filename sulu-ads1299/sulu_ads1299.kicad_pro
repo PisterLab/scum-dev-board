@@ -37,10 +37,10 @@
           "height": 1.524,
           "width": 1.524
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.1016,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
+        "silk_text_size_h": 0.508,
+        "silk_text_size_v": 0.508,
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
@@ -402,6 +402,7 @@
         "nets": [
           "+1.1V_REG",
           "+1.8V_REG",
+          "+5V_REG",
           "+EXT_BAT",
           "+NRF_GND",
           "+NRF_VDDD",
