@@ -2110,7 +2110,7 @@
     (property "Reference" "R5" (id 0) (at 220.98 62.23 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "NP" (id 1) (at 223.52 62.23 90)
+    (property "Value" "NP" (id 1) (at 220.98 66.04 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 222.504 63.754 90)
