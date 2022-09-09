@@ -1,0 +1,31 @@
+### Module positions - created on Thu Sep  8 17:39:54 2022 ###
+### Printed by Pcbnew version (6.0.7)
+## Unit = mm, Angle = deg.
+## Side : All
+# Ref       Val         Package                                        PosX       PosY       Rot  Side
+C1          0.1uF       C_0402_1005Metric                           82.0650   -75.4380    0.0000  top
+C2          0.1uF       C_0402_1005Metric                           77.4700   -78.3360  -90.0000  top
+C3          0.1uF       C_0402_1005Metric                           79.2710   -75.4380  180.0000  top
+C4          NP          C_0402_1005Metric                           85.8520   -78.7400  180.0000  top
+C5          NP          C_0402_1005Metric                           85.8750   -74.6760  180.0000  top
+C6          NP          C_0402_1005Metric                          110.2360   -61.1910  -90.0000  top
+C7          NP          C_0402_1005Metric                          108.2040   -61.1910  -90.0000  top
+C8          NP          C_0402_1005Metric                          102.2350   -78.2090  -90.0000  top
+C9          NP          C_0402_1005Metric                          103.6320   -78.2550  -90.0000  top
+C10         NP          C_0402_1005Metric                           94.9960   -60.4290   90.0000  top
+C11         NP          C_0402_1005Metric                          106.9570   -66.5480  180.0000  top
+C12         NP          C_0402_1005Metric                           98.5520   -60.3480   90.0000  top
+C13         NP          C_0402_1005Metric                          100.4570   -60.3480   90.0000  top
+C_1.1_IN1   10_uF       C_0402_1005Metric                           83.3120   -60.2210   90.0000  top
+C_1.1_OUT1  100_uF      C_0402_1005Metric                           85.6210   -61.9760    0.0000  top
+C_1.8_IN1   10_uF       C_0402_1005Metric                           83.8200   -63.7770  -90.0000  top
+C_1.8_OUT1  100_uF      C_0402_1005Metric                           81.5110   -61.9760  180.0000  top
+L1          2.2_uH      L_Wuerth_MAPI-2010                          79.2480   -63.2830  -90.0000  top
+L2          2.2_uH      L_Wuerth_MAPI-2010                          87.8840   -60.7430   90.0000  top
+R1          NP          R_0402_1005Metric                          106.9570   -65.0240    0.0000  top
+R2          R_Small_US  R_0402_1005Metric                          109.7050   -63.2460  180.0000  top
+R3          R_Small_US  R_0402_1005Metric                          109.7050   -65.2780    0.0000  top
+R4          0_Ohm       R_0402_1005Metric                           96.7740   -60.4750  -90.0000  top
+U1          scum3       QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm    96.5200   -68.6380    0.0000  top
+U9AB1       ICM-20948   InvenSense_QFN-24_3x3mm_P0.4mm              80.6450   -78.4860  180.0000  top
+## End
