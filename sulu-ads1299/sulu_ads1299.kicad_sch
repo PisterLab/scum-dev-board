@@ -3356,7 +3356,7 @@
     (property "Reference" "C_1.8_OUT1" (id 0) (at 76.2 127 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100 uF" (id 1) (at 76.2 129.54 0)
+    (property "Value" "10 uF" (id 1) (at 76.2 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 73.66 128.27 0)
@@ -4809,7 +4809,7 @@
     (property "Reference" "C_1.1_OUT1" (id 0) (at 86.36 151.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100 uF" (id 1) (at 82.55 153.67 0)
+    (property "Value" "10 uF" (id 1) (at 82.55 153.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 73.66 152.4 0)
@@ -5720,7 +5720,7 @@
       (reference "C19") (unit 1) (value "1 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/aaa1ea39-05b9-470f-96c4-47e6546dd1a7/0e92b63d-334c-448f-b0b9-cc1ce2fc8846"
-      (reference "C20") (unit 1) (value "100 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C20") (unit 1) (value "100 uF") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/92ff44dd-0900-4c34-b591-aec056dec43d"
       (reference "C21") (unit 1) (value "NP") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -5756,13 +5756,13 @@
       (reference "C_1.1_IN1") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/e186cbc9-ff1d-4a1d-b6d3-0d2d490a6166"
-      (reference "C_1.1_OUT1") (unit 1) (value "100 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C_1.1_OUT1") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/c83e0efb-8ff7-4ab2-a267-ba3a7f486808"
       (reference "C_1.8_IN1") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/26283b0c-6f72-4ff5-aff6-0659166323ea"
-      (reference "C_1.8_OUT1") (unit 1) (value "100 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C_1.8_OUT1") (unit 1) (value "10 uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/83eea76e-5989-402c-8cbf-7dc61c857d33"
       (reference "J1") (unit 1) (value "73391-0060") (footprint "downloaded_libs:MOLEX_73391-0060")

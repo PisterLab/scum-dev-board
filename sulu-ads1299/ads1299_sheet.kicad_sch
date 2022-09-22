@@ -1129,7 +1129,7 @@
     (property "Value" "100 uF" (id 1) (at 214.63 146.0562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 212.09 144.78 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (id 2) (at 212.09 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 212.09 144.78 0)
