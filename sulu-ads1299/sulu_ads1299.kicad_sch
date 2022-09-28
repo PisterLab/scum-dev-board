@@ -4519,7 +4519,7 @@
     (property "Reference" "R3" (id 0) (at 82.55 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small_US" (id 1) (at 88.9 180.34 0)
+    (property "Value" "42.2K" (id 1) (at 88.9 180.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 86.36 180.34 0)
@@ -4736,7 +4736,7 @@
     (property "Reference" "R4" (id 0) (at 82.55 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R_Small_US" (id 1) (at 88.9 185.42 0)
+    (property "Value" "66.5K" (id 1) (at 88.9 185.42 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (id 2) (at 86.36 185.42 0)
@@ -5852,10 +5852,10 @@
       (reference "R2") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/c7fef5aa-b3b7-4efe-a94e-8d6c0a935e21"
-      (reference "R3") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R3") (unit 1) (value "42.2K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/d9905558-e40d-4b1c-b97e-ee26050d9f7f"
-      (reference "R4") (unit 1) (value "R_Small_US") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "66.5K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/8a75b756-b700-416a-92f1-b9f47be28c12"
       (reference "R5") (unit 1) (value "0 Ohm") (footprint "Resistor_SMD:R_0402_1005Metric")
