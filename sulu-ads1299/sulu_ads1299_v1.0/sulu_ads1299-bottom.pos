@@ -1,0 +1,9 @@
+### Module positions - created on Thu Sep 29 10:12:32 2022 ###
+### Printed by Pcbnew version (6.0.7)
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                               PosX       PosY       Rot  Side
+J3        Conn_01x10           PinSocket_1x10_P2.54mm_Vertical  -114.3000   -57.4040  180.0000  bottom
+J4        Conn_02x10_Odd_Even  PinSocket_2x10_P2.54mm_Vertical   -85.1200   -84.3480  -90.0000  bottom
+J5        Conn_02x11_Odd_Even  PinSocket_2x11_P2.54mm_Vertical   -84.4550   -57.0230  -90.0000  bottom
+## End
