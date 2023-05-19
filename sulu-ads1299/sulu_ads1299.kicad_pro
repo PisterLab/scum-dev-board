@@ -404,8 +404,6 @@
           "+1.8V_REG",
           "+5V_REG",
           "+EXT_BAT",
-          "+NRF_GND",
-          "+NRF_VDDD",
           "+VBAT",
           "+VDD25",
           "+VDDAO",

@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name "SCUM")(type "KiCad")(uri "${KIPRJMOD}/SCUM.pretty")(options "")(descr ""))
   (lib (name "downloaded_libs")(type "KiCad")(uri "${KIPRJMOD}/downloaded_libs.pretty")(options "")(descr ""))
+  (lib (name "Molex Connectors")(type "KiCad")(uri "${KIPRJMOD}/Connector_Molex.pretty")(options "")(descr ""))
+  (lib (name "Banana")(type "KiCad")(uri "${KIPRJMOD}/downloaded_libs/Banana.pretty")(options "")(descr ""))
 )
