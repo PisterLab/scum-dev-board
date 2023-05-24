@@ -39,9 +39,9 @@
         },
         "silk_line_width": 0.1016,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.508,
-        "silk_text_size_v": 0.508,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.254,
+        "silk_text_size_v": 0.254,
+        "silk_text_thickness": 0.075,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
