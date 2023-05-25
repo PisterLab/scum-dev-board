@@ -1,0 +1,70 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+AE1,FXP70.07.0053A,U.FL_Hirose_U.FL-R-SMT-1_Vertical,87.681,-61.1,180.0,top
+C1,3.3 uF,C_0402_1005Metric,100.965,-81.788,0.0,top
+C2,22 uF,C_0603_1608Metric,90.729,-61.849,90.0,top
+C3,22 uF,C_0603_1608Metric,95.555,-61.849,90.0,top
+C4,3.3 uF,C_0402_1005Metric,102.997,-81.786,0.0,top
+C5,3.3 uF,C_0402_1005Metric,105.029,-81.786,0.0,top
+C6,3.3 uF,C_0402_1005Metric,106.934,-81.788,0.0,top
+C7,22 uF,C_0402_1005Metric,91.567,-74.676,180.0,top
+C8,4.7 uF,C_0402_1005Metric,86.614,-71.718,-90.0,top
+C9,10 uF,C_0402_1005Metric,90.297,-66.675,180.0,top
+C10,10 uF,C_0402_1005Metric,87.757,-69.342,90.0,top
+C11,10 uF,C_0402_1005Metric,91.567,-75.692,0.0,top
+C12,10 uF,C_0402_1005Metric,93.345,-77.216,-90.0,top
+C13,1 uF,C_0402_1005Metric,86.614,-75.999,90.0,top
+C14,1 uF,C_0402_1005Metric,96.012,-77.216,-90.0,top
+C15,0.1 uF,C_0402_1005Metric,94.996,-77.216,-90.0,top
+C16,0.1 uF,C_0402_1005Metric,97.028,-69.342,0.0,top
+C17,1 uF,C_0402_1005Metric,95.631,-69.85,-90.0,top
+C18,0.1 uF,C_0402_1005Metric,111.572,-75.438,-90.0,top
+C19,10 uF,C_0402_1005Metric,112.588,-75.438,-90.0,top
+C20,1 uF,C_0402_1005Metric,112.649,-77.724,-90.0,top
+C21,0.1 uF,C_0402_1005Metric,111.633,-77.724,-90.0,top
+C22,1 uF,C_0402_1005Metric,112.08,-73.66,0.0,top
+C23,1 uF,C_0402_1005Metric,96.139,-74.041,-90.0,top
+C24,0.1 uF,C_0402_1005Metric,95.123,-74.041,-90.0,top
+C25,1 uF,C_0402_1005Metric,112.08,-70.612,0.0,top
+C26,100 uF,C_0805_2012Metric,112.842,-72.136,0.0,top
+C27,NP,C_0402_1005Metric,111.379,-54.991,0.0,top
+C28,NP,C_0402_1005Metric,90.325,-67.691,0.0,top
+C29,NP,C_0402_1005Metric,110.998,-58.166,-90.0,top
+C30,NP,C_0402_1005Metric,94.488,-65.659,-90.0,top
+C31,NP,C_0402_1005Metric,95.504,-65.659,-90.0,top
+J1,Conn_01x08,Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical,114.681,-62.865,90.0,top
+J2,Conn_01x02,JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,89.704,-85.36,90.0,top
+J3,Conn_02x05_Odd_Even,PinSocket_2x05_P2.54mm_Vertical_SMD,101.727,-89.027,-90.0,top
+J4,through_hole,through_hole,97.79,-51.816,0.0,top
+J5,through_hole,through_hole,106.426,-52.197,0.0,top
+J6,through_hole,through_hole,101.473,-52.07,0.0,top
+J8,through_hole,through_hole,96.774,-52.705,0.0,top
+J11,through_hole,through_hole,99.06,-51.943,0.0,top
+J16,through_hole,through_hole,111.125,-60.833,0.0,top
+J17,through_hole,through_hole,111.633,-67.437,0.0,top
+J20,through_hole,through_hole,96.266,-67.945,0.0,top
+L1,2.2 uH,L_0603_1608Metric,93.1165,-61.087,0.0,top
+L2,4.7 uH,L_Wuerth_MAPI-2010,92.71,-72.353,90.0,top
+L3,2.2 uH,L_Wuerth_MAPI-2010,92.837,-69.088,90.0,top
+R1,200,R_0402_1005Metric,100.457,-83.31,90.0,top
+R2,200,R_0402_1005Metric,101.473,-83.31,90.0,top
+R3,200,R_0402_1005Metric,102.489,-83.31,90.0,top
+R4,200,R_0402_1005Metric,103.505,-83.31,90.0,top
+R5,10K,R_0402_1005Metric,114.554,-82.931,180.0,top
+R6,10K,R_0402_1005Metric,114.554,-81.788,180.0,top
+R7,200,R_0402_1005Metric,104.521,-83.31,90.0,top
+R8,200,R_0402_1005Metric,105.537,-83.31,90.0,top
+R9,200,R_0402_1005Metric,106.553,-83.31,90.0,top
+R10,200,R_0402_1005Metric,107.569,-83.31,90.0,top
+R11,0,R_0402_1005Metric,110.363,-81.661,-90.0,top
+R12,0,R_0402_1005Metric,109.347,-81.661,-90.0,top
+R13,0 Ohm,R_0402_1005Metric,102.997,-52.705,0.0,top
+R14,NP,R_0402_1005Metric,111.379,-56.261,0.0,top
+SW1,SW_DIP_x02,SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin,113.157,-88.773,-90.0,top
+TP1,TestPoint,through_hole,112.903,-82.169,0.0,top
+TP2,TestPoint,through_hole,111.633,-82.169,0.0,top
+TP3,TestPoint,through_hole,110.49,-68.453,0.0,top
+U1,TPS62222DDCT,SOT-23-5,89.281,-72.353,0.0,top
+U2,S-85S1AB11-I6T1U,SOFL50P180X50-6N,89.9265,-69.469,180.0,top
+U3,LM2775DSG,WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias,88.773,-75.909,0.0,top
+U4,ADS1299_TQFP-64,TQFP-64_10x10mm_P0.5mm,103.632,-74.295,90.0,top
+U5,scum3,QFN-100_EP_12x12_Pitch0.4mm_Margin0.25mm,103.632,-60.325,0.0,top
