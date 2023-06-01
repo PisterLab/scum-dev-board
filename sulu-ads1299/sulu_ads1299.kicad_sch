@@ -2810,7 +2810,7 @@
     (uuid 1bb106ea-ac1b-46fa-8465-e7cc217a10a6)
     (property "Reference" "SW1" (id 0) (at 193.04 59.69 0))
     (property "Value" "SW_DIP_x02" (id 1) (at 193.04 62.23 0))
-    (property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin" (id 2) (at 193.04 69.85 0)
+    (property "Footprint" "eec:CK_Components-TDA02H0SB1-MFG" (id 2) (at 193.04 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 193.04 69.85 0)
@@ -3940,7 +3940,7 @@
     (uuid c3908c37-c7aa-4ce8-9ced-e52d8179e2ca)
     (property "Reference" "J3" (id 0) (at 125.73 163.83 0))
     (property "Value" "Conn_02x05_Odd_Even" (id 1) (at 125.73 166.37 0))
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD" (id 2) (at 124.46 175.26 0)
+    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD" (id 2) (at 124.46 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 124.46 175.26 0)
@@ -4948,7 +4948,7 @@
       (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")
     )
     (path "/c3908c37-c7aa-4ce8-9ced-e52d8179e2ca"
-      (reference "J3") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD")
+      (reference "J3") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical_SMD")
     )
     (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/103e8f34-79cf-4f47-9291-d2d2203a295a"
       (reference "J4") (unit 1) (value "through_hole") (footprint "SCUM:through_hole")
@@ -5023,7 +5023,7 @@
       (reference "R14") (unit 1) (value "NP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1bb106ea-ac1b-46fa-8465-e7cc217a10a6"
-      (reference "SW1") (unit 1) (value "SW_DIP_x02") (footprint "Button_Switch_SMD:SW_DIP_SPSTx02_Slide_6.7x6.64mm_W6.73mm_P2.54mm_LowProfile_JPin")
+      (reference "SW1") (unit 1) (value "SW_DIP_x02") (footprint "eec:CK_Components-TDA02H0SB1-MFG")
     )
     (path "/69394886-050d-4abd-af2a-a30cd096402c"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "SCUM:through_hole")
