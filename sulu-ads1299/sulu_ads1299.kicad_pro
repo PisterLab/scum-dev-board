@@ -39,13 +39,13 @@
         },
         "silk_line_width": 0.1016,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.508,
-        "silk_text_size_v": 0.508,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.254,
+        "silk_text_size_v": 0.254,
+        "silk_text_thickness": 0.075,
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -404,8 +404,6 @@
           "+1.8V_REG",
           "+5V_REG",
           "+EXT_BAT",
-          "+NRF_GND",
-          "+NRF_VDDD",
           "+VBAT",
           "+VDD25",
           "+VDDAO",
