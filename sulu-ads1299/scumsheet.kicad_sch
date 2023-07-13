@@ -787,6 +787,7 @@
     )
   )
 
+
   (junction (at 245.11 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 3b207f7b-542e-4073-92b9-b73458a2b2ee)
   )
@@ -1320,7 +1321,7 @@
   (symbol (lib_id "power:GND") (at 232.41 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3e132f23-410c-4ce5-8e0f-c92f90b7c313)
-    (property "Reference" "#PWR?" (id 0) (at 232.41 119.38 0)
+    (property "Reference" "#PWR01" (id 0) (at 232.41 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 234.95 116.84 0)
@@ -1443,7 +1444,7 @@
   (symbol (lib_id "Device:R_US") (at 232.41 106.68 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 59dbd52d-eaa1-4f9d-bb71-c0900f08ff23)
-    (property "Reference" "R?" (id 0) (at 229.87 107.95 90)
+    (property "Reference" "R15" (id 0) (at 229.87 107.95 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "NP" (id 1) (at 233.68 107.95 90)
