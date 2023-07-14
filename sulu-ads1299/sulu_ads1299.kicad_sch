@@ -2432,10 +2432,6 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 91f5ab8a-9033-46c7-967d-3b45ae3ba773)
   )
-  (label "+1.8V_SCUM" (at 176.53 43.18 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 92276734-a415-40b7-9ddf-52b6d4d51317)
-  )
   (label "SCUM_GPIO4" (at 232.41 76.2 270)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 92bf9811-48a9-472b-9992-1268e56ae149)
@@ -2559,6 +2555,10 @@
   (label "ADS_GPIO2" (at 139.7 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid f4cb32e9-dd6f-46f3-8010-d24350fa16ca)
+  )
+  (label "+1.8V_ADS" (at 176.53 43.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f55c06b9-907e-4206-94f3-6389604116dd)
   )
   (label "SCUM_GPIO14" (at 143.51 128.27 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4463,9 +4463,6 @@
     (path "/aa9d0bbe-3d97-4895-96ff-9751a6454acc"
       (reference "#FLG07") (unit 1) (value "PWR_FLAG") (footprint "")
     )
-    (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/3e132f23-410c-4ce5-8e0f-c92f90b7c313"
-      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
-    )
     (path "/0dcd86bf-94df-438f-a15a-b03787fe92a6"
       (reference "#PWR03") (unit 1) (value "GND") (footprint "")
     )
@@ -4850,9 +4847,6 @@
     (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/3bc4bfac-9d23-4bec-ab5f-78b1b15f9df7"
       (reference "J16") (unit 1) (value "through_hole") (footprint "SCUM:through_hole")
     )
-    (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/4ba82544-a1db-4898-96d3-bc5c8e39d339"
-      (reference "J17") (unit 1) (value "through_hole") (footprint "SCUM:through_hole")
-    )
     (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/b3a4ce07-043e-414d-9f6a-f264178ab753"
       (reference "J20") (unit 1) (value "through_hole") (footprint "SCUM:through_hole")
     )
@@ -4907,8 +4901,8 @@
     (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/f5e63e0b-2d4e-4af1-87e2-aeef8d2ed25a"
       (reference "R14") (unit 1) (value "NP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/59dbd52d-eaa1-4f9d-bb71-c0900f08ff23"
-      (reference "R15") (unit 1) (value "NP") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/1f92f92f-1391-4fc3-892c-7c652348c5b5/04c806ed-7196-4667-be22-85147aaf66e8"
+      (reference "RZ15") (unit 1) (value "0 Ohm") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1bb106ea-ac1b-46fa-8465-e7cc217a10a6"
       (reference "SW1") (unit 1) (value "SW_DIP_x02") (footprint "eec:CK_Components-TDA02H0SB1-MFG")
