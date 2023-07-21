@@ -1972,7 +1972,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 60f686d1-f9c7-4ffb-b45d-e74e309264dc)
   )
-  (text "Arc the connections to GND at SMA\nDe-cram the layout (make layout twice as big, move EXT_BAT and regulators to one side, move muxes left)\nAdd 4 screw holes for mounting"
+  (text "De-cram the layout (make layout twice as big, move EXT_BAT and regulators to one side, move muxes left)\nAdd 4 screw holes for mounting"
     (at 186.69 121.92 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 682ab7c0-efe0-4060-91d7-c29bb9b4e7df)
@@ -3516,8 +3516,8 @@
     )
   )
 
-  (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 128.27 144.78 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+  (symbol (lib_id "Connector_Generic:Conn_02x08_Odd_Even") (at 130.81 144.78 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ae40fb2-0623-4d58-a251-61c49e7d7b38)
     (property "Reference" "J3" (at 129.54 130.81 0)
       (effects (font (size 1.27 1.27)))
@@ -3525,10 +3525,10 @@
     (property "Value" "Conn_02x08_Odd_Even" (at 129.54 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" (at 128.27 144.78 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" (at 130.81 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 128.27 144.78 0)
+    (property "Datasheet" "~" (at 130.81 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a772fab6-95b2-4354-bfd1-eb8883f42332))
