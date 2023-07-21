@@ -793,6 +793,9 @@
   (junction (at 238.76 60.96) (diameter 0) (color 0 0 0 0)
     (uuid 92938902-3117-45b2-b07b-0815a9626765)
   )
+  (junction (at 252.73 60.96) (diameter 0) (color 0 0 0 0)
+    (uuid a633e861-ab50-4e6e-9753-5f6affde2ba2)
+  )
   (junction (at 132.08 17.78) (diameter 0) (color 0 0 0 0)
     (uuid c0601235-d621-40f8-a4b4-45dc3f5ec7ce)
   )
@@ -848,6 +851,10 @@
     (stroke (width 0) (type default))
     (uuid 0fe27455-4d70-4282-9a4c-d558f514ea72)
   )
+  (wire (pts (xy 209.55 102.87) (xy 212.09 102.87))
+    (stroke (width 0) (type default))
+    (uuid 129dc5b0-99f0-41fc-875b-4de7338d5d07)
+  )
   (wire (pts (xy 209.55 60.96) (xy 238.76 60.96))
     (stroke (width 0) (type default))
     (uuid 19680448-fbc6-4917-962f-2df5f566f14d)
@@ -855,6 +862,10 @@
   (wire (pts (xy 85.09 153.67) (xy 85.09 157.48))
     (stroke (width 0) (type default))
     (uuid 229f3ea7-3c36-4d88-a574-76018d10746f)
+  )
+  (wire (pts (xy 130.81 153.67) (xy 130.81 157.48))
+    (stroke (width 0) (type default))
+    (uuid 2cadb9f7-aa45-49ff-9d90-db33306f9b04)
   )
   (wire (pts (xy 130.81 15.24) (xy 132.08 15.24))
     (stroke (width 0) (type default))
@@ -884,25 +895,25 @@
     (stroke (width 0) (type default))
     (uuid 66d56142-10a2-40d6-b689-3ced251dbaa0)
   )
+  (wire (pts (xy 252.73 59.69) (xy 252.73 60.96))
+    (stroke (width 0) (type default))
+    (uuid 685bd577-1db7-4721-9c2b-d0079af6c7e7)
+  )
   (wire (pts (xy 50.8 130.81) (xy 63.5 130.81))
     (stroke (width 0) (type default))
     (uuid 90594185-1d13-4b6d-8c49-8d6fe9984280)
-  )
-  (wire (pts (xy 209.55 102.87) (xy 214.63 102.87))
-    (stroke (width 0) (type default))
-    (uuid 93b18a5c-2acb-47db-a0aa-c673ff4c0961)
   )
   (wire (pts (xy 238.76 66.04) (xy 245.11 66.04))
     (stroke (width 0) (type default))
     (uuid a02d5d6c-1ea8-4adc-86bb-8d806b73ef1a)
   )
-  (wire (pts (xy 130.81 153.67) (xy 130.81 158.75))
-    (stroke (width 0) (type default))
-    (uuid a498734a-b978-4e2b-989c-b9dd38ae5349)
-  )
   (wire (pts (xy 209.55 99.06) (xy 214.63 99.06))
     (stroke (width 0) (type default))
     (uuid a66b2463-8029-4f8a-b430-5f438fa644ee)
+  )
+  (wire (pts (xy 252.73 60.96) (xy 255.27 60.96))
+    (stroke (width 0) (type default))
+    (uuid b89c6b6e-b93e-4d6b-9f3e-6d7a7a97d4e8)
   )
   (wire (pts (xy 60.96 62.23) (xy 63.5 62.23))
     (stroke (width 0) (type default))
@@ -929,7 +940,7 @@
     (uuid ff0fed75-d137-4c7a-ae25-445dc98a289a)
   )
 
-  (text_box "Important note: if the 1.1 V regulator is discarded, the BOOT_SOURCE_SEL pin must be tied to the VDDD_LDO_OUTPUT pin if 3WB should work.\n"
+  (text_box "Important note: If the 1.1 V regulator is discarded, the BOOT_SOURCE_SEL pin must be tied to the VDDD_LDO_OUTPUT pin for 3WB programming to work."
     (at 219.71 81.28 0) (size 41.91 10.16)
     (stroke (width 0) (type default))
     (fill (type none))
@@ -937,11 +948,20 @@
     (uuid a717a668-d3ed-4395-ae7e-b36beaf0cebd)
   )
 
+  (label "VDDD_LDO_OUTPUT" (at 255.27 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7a5771a6-1a92-455d-a7cf-d1470c3ae009)
+  )
+  (label "VDDD_LDO_OUTPUT" (at 212.09 102.87 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 82852b32-78e9-42eb-a594-d551505c41e9)
+  )
+
   (hierarchical_label "GPIO13" (shape bidirectional) (at 153.67 153.67 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0105c195-6b54-4d6a-844d-1e38679054c4)
   )
-  (hierarchical_label "+1.8V_REG" (shape input) (at 130.81 158.75 270) (fields_autoplaced)
+  (hierarchical_label "+1.8V_REG" (shape input) (at 130.81 157.48 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0f5feee1-3271-4f6f-819c-5f8b8e2458a4)
   )
@@ -1041,11 +1061,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid c1c4bb5f-f2f8-4942-af17-524a1f2db227)
   )
-  (hierarchical_label "+1.1V_REG" (shape input) (at 214.63 102.87 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c7381eef-5dbc-47e9-8aa5-123099cd1077)
-  )
-  (hierarchical_label "+1.1V_REG" (shape input) (at 252.73 60.96 0) (fields_autoplaced)
+  (hierarchical_label "+1.1V_REG" (shape input) (at 252.73 59.69 90) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid caa7b57b-f457-45b2-bcae-07a8008bc510)
   )
@@ -1098,7 +1114,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 91.44 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 103e8f34-79cf-4f47-9291-d2d2203a295a)
-    (property "Reference" "J9" (at 86.36 29.21 0)
+    (property "Reference" "J12" (at 86.36 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 88.9 29.21 0)
@@ -1114,7 +1130,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J9") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1198,7 +1214,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 209.55 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bc4bfac-9d23-4bec-ab5f-78b1b15f9df7)
-    (property "Reference" "J12" (at 209.55 113.03 0)
+    (property "Reference" "J15" (at 209.55 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 209.55 115.57 0)
@@ -1214,7 +1230,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J12") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1448,7 +1464,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 209.55 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba82544-a1db-4898-96d3-bc5c8e39d339)
-    (property "Reference" "J13" (at 209.55 116.84 0)
+    (property "Reference" "J16" (at 209.55 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 209.55 119.38 0)
@@ -1464,19 +1480,19 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J13") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C_Small") (at 245.11 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ecf3bfd-335c-4665-8a7f-a662923c02e4)
-    (property "Reference" "C11" (at 247.65 62.2362 0)
+    (property "Reference" "C11" (at 246.38 62.23 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "NP" (at 247.65 64.7762 0)
+    (property "Value" "NP" (at 246.38 64.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 245.11 63.5 0)
@@ -1524,7 +1540,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 63.5 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5adceea1-6536-46e4-9ff0-fcc4ec0d2cc8)
-    (property "Reference" "J7" (at 63.5 63.5 0)
+    (property "Reference" "J10" (at 63.5 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 63.5 60.96 0)
@@ -1540,7 +1556,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J7") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1549,7 +1565,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 99.06 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5dbb6fbd-d7fb-4c87-b764-8df56736f528)
-    (property "Reference" "J10" (at 93.98 29.21 0)
+    (property "Reference" "J13" (at 93.98 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 96.52 29.21 0)
@@ -1565,7 +1581,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J10") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1676,7 +1692,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 63.5 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97cf8890-fa0f-4945-9698-47abcdaaaca6)
-    (property "Reference" "J6" (at 63.5 55.88 0)
+    (property "Reference" "J9" (at 63.5 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 63.5 53.34 0)
@@ -1692,7 +1708,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J6") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1752,7 +1768,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 63.5 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3a4ce07-043e-414d-9f6a-f264178ab753)
-    (property "Reference" "J8" (at 63.5 139.7 0)
+    (property "Reference" "J11" (at 63.5 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 63.5 137.16 0)
@@ -1768,7 +1784,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J8") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1980,7 +1996,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 106.68 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc2e67bc-2224-49b4-a2a4-18f692f02b03)
-    (property "Reference" "J11" (at 101.6 29.21 0)
+    (property "Reference" "J14" (at 101.6 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 104.14 29.21 0)
@@ -1996,7 +2012,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J11") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
