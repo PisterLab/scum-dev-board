@@ -851,7 +851,7 @@
     (stroke (width 0) (type default))
     (uuid 0fe27455-4d70-4282-9a4c-d558f514ea72)
   )
-  (wire (pts (xy 209.55 102.87) (xy 212.09 102.87))
+  (wire (pts (xy 209.55 102.87) (xy 228.6 102.87))
     (stroke (width 0) (type default))
     (uuid 129dc5b0-99f0-41fc-875b-4de7338d5d07)
   )
@@ -894,6 +894,10 @@
   (wire (pts (xy 238.76 60.96) (xy 245.11 60.96))
     (stroke (width 0) (type default))
     (uuid 66d56142-10a2-40d6-b689-3ced251dbaa0)
+  )
+  (wire (pts (xy 236.22 102.87) (xy 238.76 102.87))
+    (stroke (width 0) (type default))
+    (uuid 67e17474-ac2f-47f0-8446-2c20725cfd78)
   )
   (wire (pts (xy 252.73 59.69) (xy 252.73 60.96))
     (stroke (width 0) (type default))
@@ -948,11 +952,16 @@
     (uuid a717a668-d3ed-4395-ae7e-b36beaf0cebd)
   )
 
+  (text "Look at bond diagram" (at 76.2 19.05 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 07c48495-2dd0-440e-be8f-afa9c18d36ce)
+  )
+
   (label "VDDD_LDO_OUTPUT" (at 255.27 60.96 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7a5771a6-1a92-455d-a7cf-d1470c3ae009)
   )
-  (label "VDDD_LDO_OUTPUT" (at 212.09 102.87 0) (fields_autoplaced)
+  (label "VDDD_LDO_OUTPUT" (at 238.76 102.87 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 82852b32-78e9-42eb-a594-d551505c41e9)
   )
@@ -1114,7 +1123,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 91.44 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 103e8f34-79cf-4f47-9291-d2d2203a295a)
-    (property "Reference" "J13" (at 86.36 29.21 0)
+    (property "Reference" "J12" (at 86.36 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 88.9 29.21 0)
@@ -1130,7 +1139,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J13") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -1214,7 +1223,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 209.55 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3bc4bfac-9d23-4bec-ab5f-78b1b15f9df7)
-    (property "Reference" "J16" (at 209.55 113.03 0)
+    (property "Reference" "J15" (at 209.55 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 209.55 115.57 0)
@@ -1230,7 +1239,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J16") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
@@ -1464,7 +1473,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 209.55 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ba82544-a1db-4898-96d3-bc5c8e39d339)
-    (property "Reference" "J17" (at 209.55 116.84 0)
+    (property "Reference" "J16" (at 209.55 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 209.55 119.38 0)
@@ -1480,7 +1489,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J17") (unit 1)
+          (reference "J16") (unit 1)
         )
       )
     )
@@ -1540,7 +1549,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 63.5 58.42 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5adceea1-6536-46e4-9ff0-fcc4ec0d2cc8)
-    (property "Reference" "J11" (at 63.5 63.5 0)
+    (property "Reference" "J10" (at 63.5 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 63.5 60.96 0)
@@ -1556,7 +1565,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J11") (unit 1)
+          (reference "J10") (unit 1)
         )
       )
     )
@@ -1565,7 +1574,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 99.06 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5dbb6fbd-d7fb-4c87-b764-8df56736f528)
-    (property "Reference" "J14" (at 93.98 29.21 0)
+    (property "Reference" "J13" (at 93.98 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 96.52 29.21 0)
@@ -1581,7 +1590,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J14") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -1692,7 +1701,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 63.5 50.8 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 97cf8890-fa0f-4945-9698-47abcdaaaca6)
-    (property "Reference" "J10" (at 63.5 55.88 0)
+    (property "Reference" "J9" (at 63.5 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 63.5 53.34 0)
@@ -1708,7 +1717,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J10") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -1735,6 +1744,32 @@
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
           (reference "C7") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:R_US") (at 232.41 102.87 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a95ed95a-2137-4a33-abdb-dab795403176)
+    (property "Reference" "R3" (at 233.68 100.33 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "0 Ohm" (at 234.95 105.41 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 232.664 101.854 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 232.41 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4f52eae8-41ed-4a8e-a55b-ab2037a43ecd))
+    (pin "2" (uuid f3779954-8afe-4748-8bad-173c6faebff9))
+    (instances
+      (project "sulu_smartstake"
+        (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
+          (reference "R3") (unit 1)
         )
       )
     )
@@ -1768,7 +1803,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 63.5 134.62 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b3a4ce07-043e-414d-9f6a-f264178ab753)
-    (property "Reference" "J12" (at 63.5 139.7 0)
+    (property "Reference" "J11" (at 63.5 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 63.5 137.16 0)
@@ -1784,7 +1819,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J12") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -1996,7 +2031,7 @@
   (symbol (lib_id "draft1library:through_hole") (at 106.68 29.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc2e67bc-2224-49b4-a2a4-18f692f02b03)
-    (property "Reference" "J15" (at 101.6 29.21 0)
+    (property "Reference" "J14" (at 101.6 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "through_hole" (at 104.14 29.21 0)
@@ -2012,7 +2047,7 @@
     (instances
       (project "sulu_smartstake"
         (path "/def6aede-50f9-4865-b84d-079828465adb/1f92f92f-1391-4fc3-892c-7c652348c5b5"
-          (reference "J15") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
     )
