@@ -1,5 +1,10 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-D1,LED,LED_0805_2012Metric,83.566,-63.5,0.0,top
-J1,Conn_01x08,Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical,90.354,-53.525,0.0,top
-J2,Conn_02x04_Top_Bottom,PinHeader_2x04_P2.54mm_Vertical,90.18,-78.925,90.0,top
-R1,100,R_0402_1005Metric,86.362,-63.5,180.0,top
+D1,LED,LED_0805_2012Metric,90.932,-66.548,-90.0,top
+J1,Conn_01x08,Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical,99.137,-54.414,0.0,top
+J2,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,108.077,-67.833,180.0,top
+J3,Conn_02x04_Counter_Clockwise,PinHeader_2x04_P2.54mm_Vertical,96.764,-80.259,90.0,top
+J4,Conn_01x03,PinHeader_1x03_P2.54mm_Vertical,86.345,-54.61,90.0,top
+J5,Conn_01x02,PinHeader_1x02_P2.54mm_Vertical,87.62,-80.259,180.0,top
+J6,Conn_01x08,Molex_PicoBlade_53047-0810_1x08_P1.25mm_Vertical,73.972,-68.03,90.0,top
+J7,Conn_01x08,PinHeader_1x08_P2.54mm_Vertical,80.264,-67.833,180.0,top
+R1,300,R_0402_1005Metric,90.932,-69.596,90.0,top
