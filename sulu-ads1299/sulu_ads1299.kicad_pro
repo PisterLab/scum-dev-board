@@ -56,7 +56,12 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "footprint_type_mismatch|114198400|91821000|2362bd84-e5f4-43da-9177-7318b2be8a0e|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|109532000|57036000|cab6b36c-9510-4ad3-975f-2b270d7efff8|0c024d16-fcad-4b6c-9acf-48554dc5baba|F.Cu",
+        "text_height|85242400|67970400|9534ddd1-c856-4623-bca3-41c93cd3f5f7|00000000-0000-0000-0000-000000000000",
+        "text_height|94208600|67411600|b0cf6473-84ea-4e13-8242-0205bcfc5aba|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
