@@ -2622,165 +2622,6 @@
 				)
 			)
 		)
-		(symbol "Device:L_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 -2.032)
-					(mid 0.5058 -1.524)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 0.508)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 1.524)
-					(end 0 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R_Small_US"
 			(pin_numbers hide)
 			(pin_names
@@ -3084,53 +2925,42 @@
 				)
 			)
 		)
-		(symbol "S-85S1AB20-I6T1U:S-85S1AB11-I6T1U"
+		(symbol "Regulator_Linear:TLV71311PDBV"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 8.89 0)
+				(at -3.81 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "S-85S1AB11-I6T1U"
-				(at -12.7 -10.16 0)
+			(property "Value" "TLV71311PDBV"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOFL50P180X50-6N"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "downloaded_libs/S85S1A_E.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv713p.pdf"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3138,50 +2968,37 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.50 mm"
+			(property "Description" "150mA Low Dropout Voltage Regulator, Fixed Output 1.1V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "ABLIC U.S.A. Inc."
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.4_00"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "S-85S1AB11-I6T1U_0_0"
+			(symbol "TLV71311PDBV_0_1"
 				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 7.62)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3190,163 +3007,136 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "TLV71311PDBV_1_1"
 				(pin power_in line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "VOUT"
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "VSS"
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "SW"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "PVSS"
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "VIN"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 			)
 		)
-		(symbol "S-85S1AB20-I6T1U:S-85S1AB18-I6T1U"
+		(symbol "Regulator_Linear:TLV71318PDBV"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U"
-				(at -12.7 8.89 0)
+				(at -3.81 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "S-85S1AB18-I6T1U"
-				(at -12.7 -10.16 0)
+			(property "Value" "TLV71318PDBV"
+				(at 0 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
+					(justify left)
 				)
 			)
-			(property "Footprint" "SOFL50P180X50-6N"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 8.255 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "downloaded_libs/S85S1A_E.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv713p.pdf"
+				(at 0 1.27 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3354,50 +3144,37 @@
 					(hide yes)
 				)
 			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.50 mm"
+			(property "Description" "150mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "MANUFACTURER" "ABLIC U.S.A. Inc."
+			(property "ki_keywords" "LDO Regulator Fixed Positive"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "PARTREV" "1.4_00"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left bottom)
 					(hide yes)
 				)
 			)
-			(property "STANDARD" "IPC 7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(symbol "S-85S1AB18-I6T1U_0_0"
+			(symbol "TLV71318PDBV_0_1"
 				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 7.62)
+					(start -5.08 4.445)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3406,110 +3183,94 @@
 						(type background)
 					)
 				)
+			)
+			(symbol "TLV71318PDBV_1_1"
 				(pin power_in line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "VOUT"
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "IN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
 				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "VSS"
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 17.78 2.54 180)
-					(length 5.08)
-					(name "SW"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin power_in line
-					(at 17.78 -2.54 180)
-					(length 5.08)
-					(name "PVSS"
+				(pin no_connect line
+					(at 5.08 0 180)
+					(length 2.54) hide
+					(name "NC"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "VIN"
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "OUT"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 2.54 0)
-					(length 5.08)
-					(name "EN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -5742,28 +5503,22 @@
 		(uuid "05b2c8d5-6235-4a94-a8c9-e3e78255491d")
 	)
 	(junction
-		(at 76.2 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07c56a4b-6f4b-4d40-9989-dcfdde7e3c7b")
-	)
-	(junction
-		(at 30.48 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d0b64f6-06b4-4cb2-aa57-230f4fdb02a0")
-	)
-	(junction
-		(at 71.12 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "145c8d68-a2c3-4415-9759-e9c5633f0cb7")
-	)
-	(junction
 		(at 229.87 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18b6c6ac-ccea-4a5d-becc-3d9a7f64a653")
+	)
+	(junction
+		(at 45.72 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1909ffe8-89fb-40ed-9736-72252a5b7140")
+	)
+	(junction
+		(at 30.48 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22a997d8-1531-4ea2-9de0-e52abe3b1bcd")
 	)
 	(junction
 		(at 116.84 20.32)
@@ -5772,28 +5527,22 @@
 		(uuid "2bc59e6e-6641-4086-b17b-96df192f0d09")
 	)
 	(junction
-		(at 30.48 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "51807976-1cc2-45fb-aab4-9596788d2fc7")
-	)
-	(junction
 		(at 140.97 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5831af25-bb5f-4fb3-9aac-9e9bdd4fbc32")
 	)
 	(junction
-		(at 76.2 120.65)
+		(at 76.2 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71826740-7fed-45ea-9a0a-b3c81bc63b4e")
+		(uuid "5fa21199-04eb-46b9-a002-2e5660be8d9d")
 	)
 	(junction
-		(at 76.2 118.11)
+		(at 76.2 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a61e1d63-6741-4c3d-ae7e-51cb2afc0052")
+		(uuid "779ac64c-1092-4a3c-889e-3c4c0def6c36")
 	)
 	(junction
 		(at 222.25 52.07)
@@ -5802,40 +5551,22 @@
 		(uuid "afb03f5b-f6ed-410e-bee2-a0ebb221d1a4")
 	)
 	(junction
-		(at 30.48 110.49)
+		(at 31.75 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d41f8c22-5016-4a6a-9100-6e5addc33460")
-	)
-	(junction
-		(at 76.2 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddac8e37-76f4-4ff1-8c57-af6d4cd1356b")
-	)
-	(junction
-		(at 76.2 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f04981a0-e42e-436a-a385-20bb6cc2a576")
-	)
-	(junction
-		(at 76.2 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1b12c94-410b-4d30-900a-52bb106cadc7")
-	)
-	(junction
-		(at 71.12 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f33cf23a-ca7f-4e24-b708-3b73a6df49d6")
+		(uuid "c4708911-3e4d-4c16-96be-a347af3b362f")
 	)
 	(junction
 		(at 222.25 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9770d46-17c6-40b7-849b-3577012cb2ea")
+	)
+	(junction
+		(at 45.72 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdd95890-a7d8-4c53-b900-97880a3a7a20")
 	)
 	(no_connect
 		(at 33.02 74.93)
@@ -5861,23 +5592,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 137.16) (xy 71.12 134.62)
+			(xy 60.96 110.49) (xy 76.2 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c139604-1879-4679-81f0-d4e971f57de2")
-	)
-	(wire
-		(pts
-			(xy 71.12 113.03) (xy 71.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b61be36-e610-4eb7-aa53-7a6e54172412")
+		(uuid "0f096711-a96b-4255-b960-f56d2cd06fba")
 	)
 	(wire
 		(pts
@@ -5901,33 +5622,13 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 120.65) (xy 76.2 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f51704e-2923-4ba0-929a-a10c7e705c35")
-	)
-	(wire
-		(pts
-			(xy 76.2 142.24) (xy 76.2 139.7)
+			(xy 76.2 139.7) (xy 76.2 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "31d0b316-8f7a-46ae-b8bf-35e24ae6a361")
-	)
-	(wire
-		(pts
-			(xy 66.04 142.24) (xy 76.2 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d70c324-3a6d-47d4-9acb-9da816535aca")
 	)
 	(wire
 		(pts
@@ -5941,13 +5642,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 134.62) (xy 71.12 134.62)
+			(xy 30.48 110.49) (xy 45.72 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48c8415b-a2bf-4803-9d45-0a02efad916f")
+		(uuid "5081a5b6-da53-44a5-acca-532c70009fa8")
 	)
 	(wire
 		(pts
@@ -5958,16 +5659,6 @@
 			(type default)
 		)
 		(uuid "50f36b58-3e19-47c2-8ce0-481da83f26aa")
-	)
-	(wire
-		(pts
-			(xy 71.12 134.62) (xy 76.2 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "588e3b34-5a6b-4093-ba83-f8846841d33d")
 	)
 	(wire
 		(pts
@@ -6021,16 +5712,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 120.65) (xy 76.2 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68dec06b-0972-4510-8581-bff8aa90f40d")
-	)
-	(wire
-		(pts
 			(xy 48.26 43.18) (xy 55.88 43.18)
 		)
 		(stroke
@@ -6081,7 +5762,17 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 118.11) (xy 76.2 115.57)
+			(xy 31.75 134.62) (xy 31.75 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d647758-16e0-4a55-ac93-a10284545cb6")
+	)
+	(wire
+		(pts
+			(xy 76.2 115.57) (xy 76.2 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6098,16 +5789,6 @@
 			(type default)
 		)
 		(uuid "94651ee8-fb71-4eb2-889b-ff2cbaa7fe5c")
-	)
-	(wire
-		(pts
-			(xy 76.2 110.49) (xy 71.12 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b40b1f5-b6dd-4e70-8125-6844f502881d")
 	)
 	(wire
 		(pts
@@ -6128,6 +5809,16 @@
 			(type default)
 		)
 		(uuid "a39b711a-c899-4278-8011-70b95506b45f")
+	)
+	(wire
+		(pts
+			(xy 31.75 134.62) (xy 45.72 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9ce73e3-1499-42fe-9434-e1cebcba4cc8")
 	)
 	(wire
 		(pts
@@ -6161,26 +5852,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 142.24) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9bfe089-4a91-4fe4-81de-537c9f7baa29")
-	)
-	(wire
-		(pts
-			(xy 66.04 144.78) (xy 76.2 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d258c86a-d944-4dc6-bc05-76fdefb5cbb4")
-	)
-	(wire
-		(pts
 			(xy 58.42 72.39) (xy 59.69 72.39)
 		)
 		(stroke
@@ -6188,26 +5859,6 @@
 			(type default)
 		)
 		(uuid "d5b6db4b-c203-44bf-884f-ee4cb456469b")
-	)
-	(wire
-		(pts
-			(xy 66.04 118.11) (xy 76.2 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d97e9670-5e61-462c-9e91-3ce923fc2979")
-	)
-	(wire
-		(pts
-			(xy 71.12 110.49) (xy 66.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daf894ab-d7aa-491c-b10f-1554d347dce9")
 	)
 	(wire
 		(pts
@@ -6231,7 +5882,17 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 134.62) (xy 30.48 137.16)
+			(xy 45.72 110.49) (xy 45.72 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3e9fd69-2570-4c12-8978-e9c3adf1f0f5")
+	)
+	(wire
+		(pts
+			(xy 31.75 133.35) (xy 31.75 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6248,6 +5909,26 @@
 			(type default)
 		)
 		(uuid "fb78e2a2-57cb-4ddd-b558-045ef4fea0ab")
+	)
+	(wire
+		(pts
+			(xy 60.96 134.62) (xy 76.2 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8a012a-fc61-45b4-9594-89384ac4d37e")
+	)
+	(wire
+		(pts
+			(xy 45.72 134.62) (xy 45.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef342f6-ce87-4ab8-8b0a-187f7e3ea3e5")
 	)
 	(text "SCuM"
 		(exclude_from_sim no)
@@ -6506,7 +6187,7 @@
 		(uuid "31417a05-5ceb-4171-a431-e169217cec7b")
 	)
 	(label "1.1V_IN"
-		(at 30.48 134.62 180)
+		(at 31.75 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12777,7 +12458,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100 uF"
+		(property "Value" "10 uF"
 			(at 78.5368 111.887 0)
 			(effects
 				(font
@@ -12829,76 +12510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 68.58 113.03 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00006129713d")
-		(property "Reference" "L1"
-			(at 66.04 111.76 90)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2 uH"
-			(at 66.04 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-2010"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aff05a50-20e4-499e-90b7-8204817911ac")
-		)
-		(pin "2"
-			(uuid "edb29b88-9f21-42f6-aae2-e922987b3858")
-		)
-		(instances
-			(project "scum3c-devboard"
-				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 30.48 115.57 0)
 		(mirror y)
@@ -12918,7 +12529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "1 uF"
 			(at 28.1432 116.713 0)
 			(effects
 				(font
@@ -12971,7 +12582,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 30.48 142.24 0)
+		(at 31.75 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12979,7 +12590,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000612acbdb")
 		(property "Reference" "#PWR0118"
-			(at 30.48 148.59 0)
+			(at 31.75 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12988,7 +12599,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 30.607 145.4912 90)
+			(at 31.877 144.2212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12997,7 +12608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 142.24 0)
+			(at 31.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13006,7 +12617,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 142.24 0)
+			(at 31.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13015,7 +12626,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 142.24 0)
+			(at 31.75 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13055,7 +12666,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100 uF"
+		(property "Value" "10 uF"
 			(at 85.09 135.89 0)
 			(effects
 				(font
@@ -13107,78 +12718,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 68.58 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000612acbe7")
-		(property "Reference" "L2"
-			(at 66.04 135.89 90)
-			(effects
-				(font
-					(size 2.032 2.032)
-					(bold yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2 uH"
-			(at 66.04 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_Wuerth_MAPI-2010"
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b24e197-73c1-4bc6-8ce6-2f62a1e2b3c9")
-		)
-		(pin "2"
-			(uuid "a4872958-3d49-4eed-8c72-8ff492db191e")
-		)
-		(instances
-			(project "scum3c-devboard"
-				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
-					(reference "L2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
-		(at 30.48 139.7 0)
+		(at 31.75 138.43 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13187,7 +12728,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000612acbed")
 		(property "Reference" "C_1.1_IN1"
-			(at 25.4 144.78 0)
+			(at 26.67 143.51 0)
 			(effects
 				(font
 					(size 3.81 3.81)
@@ -13196,8 +12737,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 uF"
-			(at 28.1432 140.843 0)
+		(property "Value" "1 uF"
+			(at 29.4132 139.573 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,7 +12747,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 30.48 139.7 0)
+			(at 31.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13215,7 +12756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 139.7 0)
+			(at 31.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13224,7 +12765,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 30.48 139.7 0)
+			(at 31.75 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14267,250 +13808,6 @@
 		)
 	)
 	(symbol
-		(lib_id "S-85S1AB20-I6T1U:S-85S1AB11-I6T1U")
-		(at 48.26 139.7 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000613ee865")
-		(property "Reference" "U3"
-			(at 48.26 127 0)
-			(effects
-				(font
-					(size 3.048 3.048)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "S-85S1AB11-I6T1U"
-			(at 48.26 130.1496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "downloaded_libs:SOFL50P180X50-6N"
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "downloaded_libs/S85S1A_E.pdf"
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.50 mm"
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "ABLIC U.S.A. Inc."
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.4_00"
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 48.26 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7aa7f01-0b95-4d07-af79-13225b02a49a")
-		)
-		(pin "2"
-			(uuid "87476cd9-e5b9-4ef0-a521-ff8028f8a455")
-		)
-		(pin "3"
-			(uuid "29ee6de6-2179-41c9-aef4-75378fa96f8b")
-		)
-		(pin "4"
-			(uuid "e405a5cc-c70b-4f0d-889c-e2e36a7c65c4")
-		)
-		(pin "5"
-			(uuid "288a5415-a241-4ba2-9da3-878616e9f1a0")
-		)
-		(pin "6"
-			(uuid "f75f419c-b44c-4ea6-8c9d-89425225b7ec")
-		)
-		(instances
-			(project "scum3c-devboard"
-				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "S-85S1AB20-I6T1U:S-85S1AB18-I6T1U")
-		(at 48.26 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000613eff3d")
-		(property "Reference" "U2"
-			(at 48.26 102.87 0)
-			(effects
-				(font
-					(size 3.048 3.048)
-					(bold yes)
-				)
-			)
-		)
-		(property "Value" "S-85S1AB18-I6T1U"
-			(at 48.26 106.0196 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "downloaded_libs:SOFL50P180X50-6N"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "downloaded_libs/S85S1A_E.pdf"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.50 mm"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "ABLIC U.S.A. Inc."
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "1.4_00"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC 7351B"
-			(at 48.26 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "35c0f85e-3b45-4ad4-9a94-16198eb4f0b3")
-		)
-		(pin "2"
-			(uuid "d71d00dc-e2d2-41f6-af57-40276e5af499")
-		)
-		(pin "3"
-			(uuid "2e83f0db-e62d-4368-a739-3be01f484ea4")
-		)
-		(pin "4"
-			(uuid "6caaf9c7-75ba-4358-949a-e4bb24099a71")
-		)
-		(pin "5"
-			(uuid "e73188dc-b4a0-41d1-9d4a-0b3b98b27958")
-		)
-		(pin "6"
-			(uuid "7ac53cc5-338a-4866-9077-c1287852fedb")
-		)
-		(instances
-			(project "scum3c-devboard"
-				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 30.48 118.11 0)
 		(unit 1)
@@ -14995,6 +14292,295 @@
 			(project "scum3c-devboard"
 				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV71311PDBV")
+		(at 53.34 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5387c595-b1d6-4f1f-86e0-e8c44a2a28df")
+		(property "Reference" "U3"
+			(at 53.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74311PDBV"
+			(at 53.34 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 53.34 128.905 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv743p.pdf"
+			(at 53.34 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 1.1V, SOT-23-5"
+			(at 53.34 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "7e9d1352-3637-4935-b0a2-d110cf891e6f")
+		)
+		(pin "5"
+			(uuid "f35e163d-956f-4466-ae37-0b427a407170")
+		)
+		(pin "1"
+			(uuid "8cd13f17-a12f-4b90-b273-d8e9451563af")
+		)
+		(pin "2"
+			(uuid "0d23e9b4-9153-4868-a551-b9a4ad8a7993")
+		)
+		(pin "3"
+			(uuid "52ec0acc-58fc-4cb1-9a30-185592c5b795")
+		)
+		(instances
+			(project ""
+				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b552c82-43d3-41fc-95de-19c5b37f2ab7")
+		(property "Reference" "#PWR022"
+			(at 53.34 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.213 148.0312 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c971e95-955e-47f0-9db8-0b25a5370691")
+		)
+		(instances
+			(project "scum3c-devboard"
+				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV71318PDBV")
+		(at 53.34 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf410759-cd28-40d6-8260-bce4be3231ba")
+		(property "Reference" "U2"
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV74318PDBV"
+			(at 53.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 53.34 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv743p.pdf"
+			(at 53.34 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA Low Dropout Voltage Regulator, Fixed Output 1.8V, SOT-23-5"
+			(at 53.34 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e574ee4-f515-4e2c-b154-00c5ac3a1bbe")
+		)
+		(pin "2"
+			(uuid "0fa56685-53c1-489c-90c5-107b1736d9b6")
+		)
+		(pin "3"
+			(uuid "6a2353a3-5b31-41b2-ad1e-f62eea1468dc")
+		)
+		(pin "5"
+			(uuid "837ab826-8721-4876-b810-7fe120a3abf4")
+		)
+		(pin "4"
+			(uuid "31cd3674-0384-4db9-822d-044324d68daa")
+		)
+		(instances
+			(project ""
+				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 120.65 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f01a6070-c381-42e6-8a9b-88ced280e836")
+		(property "Reference" "#PWR020"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.213 123.9012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cc6d974-bba0-4ef5-b133-f90a940f2b24")
+		)
+		(instances
+			(project "scum3c-devboard"
+				(path "/1dcf76f1-660c-437c-b7e8-f2339f7fc721"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
