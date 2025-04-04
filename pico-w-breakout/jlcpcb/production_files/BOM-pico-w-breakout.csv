@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC
+Conn_01x03,J6,PinSocket_1x03_P2.54mm_Vertical,C146243
+Conn_01x03,J5,PinHeader_1x03_P2.54mm_Vertical,C49257
+Conn_01x20,"J1,J4",PinHeader_1x20_P2.54mm_Vertical,C50981
+Conn_01x20,"J2,J3",PinSocket_1x20_P2.54mm_Vertical,C50984
