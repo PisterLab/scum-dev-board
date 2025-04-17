@@ -10593,8 +10593,8 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "GND"
-		(at 73.4 58.2 0)
+	(gr_text "AGND"
+		(at 73.7 58.2 0)
 		(layer "B.SilkS")
 		(uuid "dfb341b1-ad2f-4bb1-a011-fd03a9ffb355")
 		(effects
@@ -10929,7 +10929,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "GND"
+	(gr_text "AGND"
 		(at 78 58.2 0)
 		(layer "F.SilkS")
 		(uuid "61e2c74d-fa79-4e8c-8d04-9a5df94b12f0")
